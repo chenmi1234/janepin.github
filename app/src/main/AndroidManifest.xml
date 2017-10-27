@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="com.lianpos.activity.MakeActivity"></activity>
+        <activity android:name="com.lianpos.activity.com.lianpos.devfoucs.homepage.MakeActivity"></activity>
     </application>
 
 </manifest>
