@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\drawable\\tab_item_message_img_selector.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_dynamic_img_selector.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable\\tab_item_dynamic_img_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_main_normal.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_main_normal.png"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\layout\\fragment_idcard.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_view_circle.png.flat",
-        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable-hdpi\\icon_view_circle.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_message_select.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_message_select.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_view_circle.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable-hdpi\\icon_view_circle.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
@@ -56,16 +60,28 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_title_txt_sel.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable\\main_title_txt_sel.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_person_normal.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_person_normal.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_title_txt_sel.xml.flat",
-        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable\\main_title_txt_sel.xml"
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_person_select.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_person_select.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_person_img_selector.xml.flat",
@@ -74,6 +90,10 @@
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_idcard.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\layout\\fragment_idcard.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_view_circle.png.flat",
@@ -94,6 +114,14 @@
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_message.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_make_select.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_make_select.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_main_select.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_main_select.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_person_normal.png.flat",
@@ -140,6 +168,10 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable\\main_title_txt_sel.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_title_txt_sel.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable\\main_title_txt_sel.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
@@ -160,6 +192,10 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable\\tab_item_message_img_selector.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_message_normal.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_message_normal.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
@@ -170,6 +206,10 @@
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_main_img_selector.xml.flat",
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\drawable\\tab_item_main_img_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle.xml.flat",
@@ -204,12 +244,20 @@
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\drawable\\shape_circle.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tabitem_txt_sel.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable\\tabitem_txt_sel.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_message_normal.png.flat",
@@ -222,6 +270,10 @@
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_person_normal.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_person_normal.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_main_img_selector.xml.flat",
@@ -256,6 +308,10 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_dynamic_select.png"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_make.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\layout\\activity_make.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_message.xml.flat",
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\layout\\fragment_message.xml"
     },
@@ -272,6 +328,14 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dynamic.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\menu\\main.xml"
     },
@@ -284,8 +348,16 @@
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_main_select.png"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_message.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\layout\\fragment_message.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_idcard.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\layout\\fragment_idcard.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_main_normal.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_main_normal.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_make.xml.flat",
@@ -294,6 +366,14 @@
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_person_img_selector.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable\\tab_item_person_img_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_person.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\layout\\fragment_person.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_dynamic_normal.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_dynamic_normal.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
@@ -360,6 +440,10 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_person_select.png"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable\\shape_circle.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
@@ -408,8 +492,16 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_make_select.png"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_message_img_selector.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable\\tab_item_message_img_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_view_circle.png.flat",
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\drawable-hdpi\\icon_view_circle.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_main_img_selector.xml.flat",
@@ -418,6 +510,10 @@
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_message_select.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_message_select.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tabitem_txt_sel.xml.flat",
@@ -436,6 +532,10 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_dynamic_select.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_dynamic_select.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dynamic.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
     },
@@ -444,8 +544,16 @@
         "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_dynamic_normal.png"
     },
     {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_view_circle.png.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable-hdpi\\icon_view_circle.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_person.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\layout\\fragment_person.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_main_img_selector.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable\\tab_item_main_img_selector.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_idcard.xml.flat",
@@ -458,6 +566,14 @@
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_person_img_selector.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\drawable\\tab_item_person_img_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_item_person_img_selector.xml.flat",
+        "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\drawable\\tab_item_person_img_selector.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_make_select.png.flat",
