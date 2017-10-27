@@ -1,6 +1,393 @@
 {
     "logs": [
         {
+            "outputFile": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "206",
+                        "endColumns": "58",
+                        "endOffsets": "260"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "309"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "200",
+                        "endColumns": "58",
+                        "endOffsets": "254"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,2,8,7,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "118,57,308,248,185",
+                        "endColumns": "59,59,58,58,55",
+                        "endOffsets": "173,112,362,302,236"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,115,175,234,293",
+                        "endColumns": "59,59,58,58,55",
+                        "endOffsets": "110,170,229,288,344"
+                    }
+                },
+                {
+                    "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "192,525",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "484,682"
+                    },
+                    "to": {
+                        "startLines": "18,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "865,1156",
+                        "endLines": "24,27",
+                        "endColumns": "12,12",
+                        "endOffsets": "1151,1311"
+                    }
+                },
+                {
+                    "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "92,151,214",
+                        "endColumns": "57,55,58",
+                        "endOffsets": "145,202,268"
+                    },
+                    "to": {
+                        "startLines": "7,8,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "349,407,463",
+                        "endColumns": "57,55,58",
+                        "endOffsets": "402,458,517"
+                    }
+                },
+                {
+                    "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,8,5,9,7,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "108,59,260,162,301,222,338,378",
+                        "endColumns": "52,47,39,52,35,36,38,36",
+                        "endOffsets": "156,102,295,210,332,254,372,410"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "522,575,623,663,716,752,789,828",
+                        "endColumns": "52,47,39,52,35,36,38,36",
+                        "endOffsets": "570,618,658,711,747,784,823,860"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "227",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "431"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "256"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "220",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "421"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "256"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "89,147,208",
+                        "endColumns": "57,55,58",
+                        "endOffsets": "142,198,262"
+                    },
+                    "to": {
+                        "startLines": "7,8,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "349,407,463",
+                        "endColumns": "57,55,58",
+                        "endOffsets": "402,458,517"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,8,5,9,7,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "104,56,252,157,292,215,328,367",
+                        "endColumns": "52,47,39,52,35,36,38,36",
+                        "endOffsets": "152,99,287,205,323,247,362,399"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "522,575,623,663,716,752,789,828",
+                        "endColumns": "52,47,39,52,35,36,38,36",
+                        "endOffsets": "570,618,658,711,747,784,823,860"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "18,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "865,1156",
+                        "endLines": "24,27",
+                        "endColumns": "12,12",
+                        "endOffsets": "1151,1311"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,2,8,7,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "115,55,300,241,180",
+                        "endColumns": "59,59,58,58,55",
+                        "endOffsets": "170,110,354,295,231"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,115,175,234,293",
+                        "endColumns": "59,59,58,58,55",
+                        "endOffsets": "110,170,229,288,344"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "183",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "317"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "200",
+                        "endColumns": "58",
+                        "endOffsets": "254"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,2,8,7,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "115,55,300,241,180",
+                        "endColumns": "59,59,58,58,55",
+                        "endOffsets": "170,110,354,295,231"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,115,175,234,293",
+                        "endColumns": "59,59,58,58,55",
+                        "endOffsets": "110,170,229,288,344"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,8,5,9,7,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "104,56,252,157,292,215,328,367",
+                        "endColumns": "52,47,39,52,35,36,38,36",
+                        "endOffsets": "152,99,287,205,323,247,362,399"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "522,575,623,663,716,752,789,828",
+                        "endColumns": "52,47,39,52,35,36,38,36",
+                        "endOffsets": "570,618,658,711,747,784,823,860"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "18,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "865,1156",
+                        "endLines": "24,27",
+                        "endColumns": "12,12",
+                        "endOffsets": "1151,1311"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "89,147,208",
+                        "endColumns": "57,55,58",
+                        "endOffsets": "142,198,262"
+                    },
+                    "to": {
+                        "startLines": "7,8,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "349,407,463",
+                        "endColumns": "57,55,58",
+                        "endOffsets": "402,458,517"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
             "map": [
                 {
@@ -95,30 +482,6 @@
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\values-v11\\styles.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "177",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "309"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "187"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
@@ -354,56 +717,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "200",
-                        "endColumns": "58",
-                        "endOffsets": "254"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "58",
-                        "endOffsets": "109"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "10",
-                        "endColumns": "12",
-                        "endOffsets": "421"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "256"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
@@ -448,81 +765,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3,4,6",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "89,147,208",
-                        "endColumns": "57,55,58",
-                        "endOffsets": "142,198,262"
-                    },
-                    "to": {
-                        "startLines": "7,8,9",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "349,407,463",
-                        "endColumns": "57,55,58",
-                        "endOffsets": "402,458,517"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,8,5,9,7,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "104,56,252,157,292,215,328,367",
-                        "endColumns": "52,47,39,52,35,36,38,36",
-                        "endOffsets": "152,99,287,205,323,247,362,399"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "522,575,623,663,716,752,789,828",
-                        "endColumns": "52,47,39,52,35,36,38,36",
-                        "endOffsets": "570,618,658,711,747,784,823,860"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,510",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,665"
-                    },
-                    "to": {
-                        "startLines": "18,25",
-                        "startColumns": "4,4",
-                        "startOffsets": "865,1156",
-                        "endLines": "24,27",
-                        "endColumns": "12,12",
-                        "endOffsets": "1151,1311"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "3,2,8,7,5",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "115,55,300,241,180",
-                        "endColumns": "59,59,58,58,55",
-                        "endOffsets": "170,110,354,295,231"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,115,175,234,293",
-                        "endColumns": "59,59,58,58,55",
-                        "endOffsets": "110,170,229,288,344"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
             "map": [
                 {
@@ -542,103 +784,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "256"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "200",
-                        "endColumns": "58",
-                        "endOffsets": "254"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "58",
-                        "endOffsets": "109"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "3,2,8,7,5",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "115,55,300,241,180",
-                        "endColumns": "59,59,58,58,55",
-                        "endOffsets": "170,110,354,295,231"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,115,175,234,293",
-                        "endColumns": "59,59,58,58,55",
-                        "endOffsets": "110,170,229,288,344"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,8,5,9,7,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "104,56,252,157,292,215,328,367",
-                        "endColumns": "52,47,39,52,35,36,38,36",
-                        "endOffsets": "152,99,287,205,323,247,362,399"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "522,575,623,663,716,752,789,828",
-                        "endColumns": "52,47,39,52,35,36,38,36",
-                        "endOffsets": "570,618,658,711,747,784,823,860"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,510",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,665"
-                    },
-                    "to": {
-                        "startLines": "18,25",
-                        "startColumns": "4,4",
-                        "startOffsets": "865,1156",
-                        "endLines": "24,27",
-                        "endColumns": "12,12",
-                        "endOffsets": "1151,1311"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3,4,6",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "89,147,208",
-                        "endColumns": "57,55,58",
-                        "endOffsets": "142,198,262"
-                    },
-                    "to": {
-                        "startLines": "7,8,9",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "349,407,463",
-                        "endColumns": "57,55,58",
-                        "endOffsets": "402,458,517"
                     }
                 }
             ]
