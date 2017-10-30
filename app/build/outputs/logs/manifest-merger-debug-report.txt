@@ -61,7 +61,7 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:22:27-74
-activity#com.lianpos.activity.MakeActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:26:9-79
+activity#com.lianpos.activity.com.lianpos.devfoucs.homepage.MakeActivity
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:26:9-109
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:26:19-67
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:26:19-97
