@@ -1,4 +1,4 @@
-package com.lianpos.devfoucs.reportform;
+package com.lianpos.devfoucs.reportform.activity;
 
 /**
  * 个人资料

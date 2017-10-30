@@ -1,4 +1,4 @@
-package com.lianpos.devfoucs.idcard;
+package com.lianpos.devfoucs.idcard.activity;
 
 /**
  * 身份卡操作类
