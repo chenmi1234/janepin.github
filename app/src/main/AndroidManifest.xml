@@ -25,6 +25,7 @@
         <activity android:name="com.lianpos.devfoucs.homepage.activity.MakeActivity"></activity>
         <activity android:name="com.lianpos.activity.MainActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.login.activity.RegisterInfoActivity"></activity>
     </application>
 
 </manifest>

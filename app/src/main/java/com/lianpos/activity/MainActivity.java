@@ -3,6 +3,7 @@ package com.lianpos.activity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -54,6 +55,14 @@ public class MainActivity extends FragmentActivity {
         ivHome.setOnClickListener(tabClickListener);
         tvMessage.setOnClickListener(tabClickListener);
         tvPerson.setOnClickListener(tabClickListener);
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
     private OnClickListener tabClickListener = new OnClickListener() {
