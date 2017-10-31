@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Oct 31 14:19:10 CST 2017
+#Tue Oct 31 14:25:07 CST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=E\:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml

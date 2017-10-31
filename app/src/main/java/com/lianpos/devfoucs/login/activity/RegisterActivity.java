@@ -161,7 +161,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                     oneButtonDialog.setYesOnclickListener(new OneButtonDialog.onYesOnclickListener() {
                         @Override
                         public void onYesClick() {
-
+                            oneButtonDialog.dismiss();
                         }
                     });
                     oneButtonDialog.show();
