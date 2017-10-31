@@ -87,12 +87,14 @@
             android:textSize="18dp" />
 
         <RelativeLayout
+            android:id="@+id/choose_sex_layout"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp">
 
             <TextView
+                android:id="@+id/sex_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="男"
@@ -136,12 +138,14 @@
             android:textSize="18dp" />
 
         <RelativeLayout
+            android:id="@+id/choose_birday_layout"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp">
 
             <TextView
+                android:id="@+id/briday_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1900-01-01"

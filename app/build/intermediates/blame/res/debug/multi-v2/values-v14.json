@@ -1,56 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\Desktop\\TextViewDemo-master\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "10",
-                        "endColumns": "12",
-                        "endOffsets": "421"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "256"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSyatem\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "10",
-                        "endColumns": "12",
-                        "endOffsets": "421"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "256"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\c506a40ae6409c65205066f3d6bb4362\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "4,11,12,13,19,27,28,29,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "239,694,765,848,1258,1854,1974,2037,2191,2254",
+                        "endLines": "8,11,12,18,24,27,28,31,32,33",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "510,760,843,1253,1675,1969,2032,2186,2249,2381"
+                    },
+                    "to": {
+                        "startLines": "6,11,12,13,19,25,26,27,30,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "261,537,608,691,1101,1523,1643,1706,1860,1923",
+                        "endLines": "10,11,12,18,24,25,26,29,30,31",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "532,603,686,1096,1518,1638,1701,1855,1918,2050"
+                    }
+                },
                 {
                     "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
@@ -60,78 +31,6 @@
                         "endLines": "10",
                         "endColumns": "12",
                         "endOffsets": "431"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "256"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\JanePinSystem\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "10",
-                        "endColumns": "12",
-                        "endOffsets": "421"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "256"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "E:\\AndroidProject\\janepin.github\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
-            "map": [
-                {
-                    "source": "E:\\AndroidProject\\janepin.github\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "227",
-                        "endLines": "10",
-                        "endColumns": "12",
-                        "endOffsets": "431"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "256"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\TextViewDemo-master\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "10",
-                        "endColumns": "12",
-                        "endOffsets": "421"
                     },
                     "to": {
                         "startLines": "2",

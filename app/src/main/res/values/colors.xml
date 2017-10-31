@@ -7,4 +7,8 @@
     
     <color name="main_title_text_select">#78ffffff</color>
     <color name="main_title_text_normal">#ffffffff</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
 </resources>
