@@ -1,5 +1,6 @@
 package com.lianpos.devfoucs.login.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
@@ -41,7 +43,7 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_register_area);
         init();
     }
 
@@ -120,6 +122,9 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
             case R.id.area_choose:
                 break;
             case R.id.immediate_registration:
+                Intent intent1 = new Intent();
+                intent1.setClass(RegisterAreaActivity.this, MainActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.register_back:
                 finish();
