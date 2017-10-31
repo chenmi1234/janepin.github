@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:drawableTop="@drawable/tab_item_dynamic_img_selector"
+            android:drawableTop="@drawable/tab_item_home_img_selector"
             android:drawablePadding="@dimen/main_tab_item_image_and_text"
             android:focusable="true"
             android:gravity="center"
