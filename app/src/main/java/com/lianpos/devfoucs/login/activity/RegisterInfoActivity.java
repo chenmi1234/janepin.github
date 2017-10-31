@@ -127,7 +127,7 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
                 break;
             case R.id.next_button:
                 Intent intent1 = new Intent();
-                intent1.setClass(RegisterInfoActivity.this, LoginActivity.class);
+                intent1.setClass(RegisterInfoActivity.this, RegisterAreaActivity.class);
                 startActivity(intent1);
                 break;
             case R.id.register_back:

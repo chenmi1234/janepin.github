@@ -1,15 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\c506a40ae6409c65205066f3d6bb4362\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\59d8b50aea8041161b979fde3dfe9bf5\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:4:5-35
 		INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml
@@ -49,7 +49,7 @@ INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:8
 		INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml
 		INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml
 application
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:13:5-31:19
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:13:5-32:19
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\c506a40ae6409c65205066f3d6bb4362\AndroidManifest.xml:22:5-20
@@ -98,3 +98,7 @@ activity#com.lianpos.devfoucs.login.activity.RegisterInfoActivity
 ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:30:9-102
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:30:19-90
+activity#com.lianpos.devfoucs.login.activity.RegisterAreaActivity
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:31:9-102
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:31:19-90

@@ -28,6 +28,7 @@
         <activity android:name="com.lianpos.activity.MainActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterInfoActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.login.activity.RegisterAreaActivity"></activity>
     </application>
 
 </manifest>
