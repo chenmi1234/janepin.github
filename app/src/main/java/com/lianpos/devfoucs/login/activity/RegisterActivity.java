@@ -1,5 +1,6 @@
 package com.lianpos.devfoucs.login.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.view.OneButtonDialog;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 
@@ -42,6 +44,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     private ImageView register_back;
     // 注册账号message
     private TextView registerPhoneMessage;
+    // 一个按钮的dialog
+    private OneButtonDialog oneButtonDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +66,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     /**
      * 初始化控件
      */
+    @SuppressLint("WrongViewCast")
     private void initActivity() {
         // 手机号输入（账号）
         register_phone_editText = (EditText) findViewById(R.id.register_phone_editText);
@@ -151,9 +156,20 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
             case R.id.deleteQrpwdImg:
                 break;
             case R.id.next_button:
-                Intent intent1 = new Intent();
-                intent1.setClass(RegisterActivity.this, RegisterInfoActivity.class);
-                startActivity(intent1);
+                if (register_phone_editText.getText().toString().isEmpty()){
+                    oneButtonDialog = new OneButtonDialog(RegisterActivity.this);
+                    oneButtonDialog.setYesOnclickListener(new OneButtonDialog.onYesOnclickListener() {
+                        @Override
+                        public void onYesClick() {
+
+                        }
+                    });
+                    oneButtonDialog.show();
+                }else{
+                    Intent intent1 = new Intent();
+                    intent1.setClass(RegisterActivity.this, RegisterInfoActivity.class);
+                    startActivity(intent1);
+                }
                 break;
             case R.id.register_back:
                 finish();

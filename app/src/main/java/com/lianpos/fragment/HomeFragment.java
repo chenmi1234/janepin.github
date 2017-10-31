@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import com.lianpos.activity.R;
 
 /**
- * 消息
+ * 首页
  * @author wangshuai
  * @create time 2017/10/27
  */
