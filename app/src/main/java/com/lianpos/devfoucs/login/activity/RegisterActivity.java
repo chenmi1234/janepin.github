@@ -3,20 +3,15 @@ package com.lianpos.devfoucs.login.activity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.method.HideReturnsTransformationMethod;
-import android.text.method.PasswordTransformationMethod;
-import android.text.method.TransformationMethod;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.view.OneButtonDialog;
+import com.lianpos.devfoucs.view.OneButtonWarningDialog;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 
@@ -45,7 +40,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     // 注册账号message
     private TextView registerPhoneMessage;
     // 一个按钮的dialog
-    private OneButtonDialog oneButtonDialog;
+    private OneButtonWarningDialog oneButtonDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -157,8 +152,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 break;
             case R.id.next_button:
                 if (register_phone_editText.getText().toString().isEmpty()){
-                    oneButtonDialog = new OneButtonDialog(RegisterActivity.this);
-                    oneButtonDialog.setYesOnclickListener(new OneButtonDialog.onYesOnclickListener() {
+                    oneButtonDialog = new OneButtonWarningDialog(RegisterActivity.this);
+                    oneButtonDialog.setYesOnclickListener(new OneButtonWarningDialog.onYesOnclickListener() {
                         @Override
                         public void onYesClick() {
                             oneButtonDialog.dismiss();

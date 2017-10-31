@@ -14,7 +14,7 @@ import com.lianpos.activity.R;
  * Created by wangshuai on 2017/10/31 0031.
  */
 
-public class OneButtonDialog extends Dialog {
+public class OneButtonWarningDialog extends Dialog {
 
     private Button yes;//确定按钮
     private TextView messageTv;//消息提示文本
@@ -33,14 +33,14 @@ public class OneButtonDialog extends Dialog {
         this.yesOnclickListener = onYesOnclickListener;
     }
 
-    public OneButtonDialog(Context context) {
+    public OneButtonWarningDialog(Context context) {
         super(context, R.style.MyDialog);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_layout);
+        setContentView(R.layout.dialog_warning_layout);
         //按空白处不能取消动画
         setCanceledOnTouchOutside(false);
 

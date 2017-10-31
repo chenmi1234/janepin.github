@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.view.OneButtonSuccessDialog;
+import com.lianpos.devfoucs.view.OneButtonWarningDialog;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 
@@ -39,6 +41,8 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
     private ImageView register_back;
     // 手机号check
     private TextView registerPhoneMessage;
+    // 一个按钮的dialog
+    private OneButtonSuccessDialog oneButtonDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,9 +126,17 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
             case R.id.area_choose:
                 break;
             case R.id.immediate_registration:
-                Intent intent1 = new Intent();
-                intent1.setClass(RegisterAreaActivity.this, MainActivity.class);
-                startActivity(intent1);
+
+                oneButtonDialog = new OneButtonSuccessDialog(RegisterAreaActivity.this);
+                oneButtonDialog.setYesOnclickListener(new OneButtonSuccessDialog.onYesOnclickListener() {
+                    @Override
+                    public void onYesClick() {
+                        Intent intent1 = new Intent();
+                        intent1.setClass(RegisterAreaActivity.this, MainActivity.class);
+                        startActivity(intent1);
+                    }
+                });
+                oneButtonDialog.show();
                 break;
             case R.id.register_back:
                 finish();
