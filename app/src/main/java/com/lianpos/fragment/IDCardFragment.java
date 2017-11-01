@@ -15,7 +15,7 @@ import com.lianpos.devfoucs.login.activity.RegisterActivity;
 import com.lianpos.util.JumpUtil;
 
 /**
- * 消息
+ * 身份卡
  *
  * @author wangshuai
  * @create time 2017/10/27

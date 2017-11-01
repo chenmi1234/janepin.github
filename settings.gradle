@@ -1,1 +1,1 @@
-include ':app', ':mypicker'
+include ':app', ':mypicker', ':indexlib'
