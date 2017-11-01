@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="身份卡"
-            android:textColor="#333333"
+            android:textColor="#ffffff"
             android:textSize="20dp" />
     </RelativeLayout>
 

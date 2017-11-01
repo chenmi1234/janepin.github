@@ -54,7 +54,8 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
                 Toast.makeText(mContext, "pos:" + position, Toast.LENGTH_SHORT).show();
             }
         });
-//        holder.avatar.setImageResource(R.drawable.bb01);
+        holder.avatar.setText("18842535353");
+        holder.tvSupermarket.setText("十七超市");
     }
 
     @Override
@@ -64,13 +65,15 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView tvCity;
-//        ImageView avatar;
+        TextView avatar;
+        TextView tvSupermarket;
         View content;
 
         public ViewHolder(View itemView) {
             super(itemView);
             tvCity = (TextView) itemView.findViewById(R.id.tvCity);
-//            avatar = (ImageView) itemView.findViewById(R.id.ivAvatar);
+            tvSupermarket = (TextView) itemView.findViewById(R.id.tvSupermarket);
+            avatar = (TextView) itemView.findViewById(R.id.tvPhone);
             content = itemView.findViewById(R.id.content);
         }
     }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/add_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/begin_cancel_order"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:paddingBottom="8.0dip"
+        android:paddingTop="8.0dip"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/tjhy"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_weight="1.0"
+        android:background="#cccccc" />
+
+    <ImageView
+        android:id="@+id/begin_assignment_order"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:paddingBottom="8.0dip"
+        android:paddingTop="8.0dip"
+        android:src="@mipmap/sys"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_weight="1.0"
+        android:background="#cccccc" />
+
+    <ImageView
+        android:id="@+id/begin_same_driver"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:paddingBottom="8.0dip"
+        android:paddingTop="8.0dip"
+        android:src="@mipmap/yq"/>
+
+</LinearLayout>

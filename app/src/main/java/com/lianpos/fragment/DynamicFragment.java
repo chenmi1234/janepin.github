@@ -1,5 +1,7 @@
 package com.lianpos.fragment;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -7,12 +9,14 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.adapter.CityAdapter;
 import com.lianpos.devfoucs.contacts.decoration.DividerItemDecoration;
 import com.lianpos.devfoucs.contacts.model.CityBean;
+import com.lianpos.devfoucs.contacts.ui.AddFriendPop;
 import com.mcxtzhang.indexlib.IndexBar.widget.IndexBar;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 import com.mcxtzhang.swipemenulib.SwipeMenuLayout;
@@ -33,7 +37,7 @@ public class DynamicFragment extends Fragment {
     private SwipeDelMenuAdapter mAdapter;
     private LinearLayoutManager mManager;
     private List<CityBean> mDatas = new ArrayList<>();
-
+    private ImageView addFriend;
     private SuspensionDecoration mDecoration;
 
     /**
@@ -48,11 +52,19 @@ public class DynamicFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_dynamic, null);
+        final View rootView = inflater.inflate(R.layout.fragment_dynamic, null);
         mRv = (RecyclerView) rootView.findViewById(R.id.rv);
         mRv.setLayoutManager(mManager = new LinearLayoutManager(getActivity()));
 
+        addFriend = (ImageView) rootView.findViewById(R.id.begin_menu);
+        addFriend.setOnClickListener(new View.OnClickListener(){
 
+            @Override
+            public void onClick(View v) {
+                AddFriendPop popWindow = new AddFriendPop(getActivity());
+                popWindow.showPopupWindow(rootView.findViewById(R.id.begin_menu));
+            }
+        });
         mAdapter = new SwipeDelMenuAdapter(this, mDatas);
         mRv.setAdapter(mAdapter);
         mRv.addItemDecoration(mDecoration = new SuspensionDecoration(getActivity(), mDatas));
@@ -83,11 +95,6 @@ public class DynamicFragment extends Fragment {
             public void run() {
                 mDatas = new ArrayList<>();
                 //微信的头部 也是可以右侧IndexBar导航索引的，
-                // 但是它不需要被ItemDecoration设一个标题titile
-//                mDatas.add((CityBean) new CityBean("新的朋友").setTop(true).setBaseIndexTag(INDEX_STRING_TOP));
-//                mDatas.add((CityBean) new CityBean("群聊").setTop(true).setBaseIndexTag(INDEX_STRING_TOP));
-//                mDatas.add((CityBean) new CityBean("标签").setTop(true).setBaseIndexTag(INDEX_STRING_TOP));
-//                mDatas.add((CityBean) new CityBean("公众号").setTop(true).setBaseIndexTag(INDEX_STRING_TOP));
                 for (int i = 0; i < data.length; i++) {
                     CityBean cityBean = new CityBean();
                     cityBean.setCity(data[i]);//设置城市名称
@@ -129,16 +136,24 @@ public class DynamicFragment extends Fragment {
             holder.itemView.findViewById(R.id.btnDel).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    ((SwipeMenuLayout) holder.itemView).quickClose();
-                    mDatas.remove(holder.getAdapterPosition());
-                    mIndexBar.setmPressedShowTextView(mTvSideBarHint)//设置HintTextView
-                            .setNeedRealIndex(true)//设置需要真实的索引
-                            .setmLayoutManager(mManager)//设置RecyclerView的LayoutManager
-                            .setmSourceDatas(mDatas)//设置数据
-                            .invalidate();
-                    notifyDataSetChanged();
+//                    ((SwipeMenuLayout) holder.itemView).quickClose();
+//                    mDatas.remove(holder.getAdapterPosition());
+//                    mIndexBar.setmPressedShowTextView(mTvSideBarHint)//设置HintTextView
+//                            .setNeedRealIndex(true)//设置需要真实的索引
+//                            .setmLayoutManager(mManager)//设置RecyclerView的LayoutManager
+//                            .setmSourceDatas(mDatas)//设置数据
+//                            .invalidate();
+                    callPhone("18842669964");
+//                    notifyDataSetChanged();
                 }
             });
         }
+    }
+
+    public void callPhone(String str) {
+        Intent intent=new Intent();
+        intent.setAction(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:" + str));
+        startActivity(intent);
     }
 }
