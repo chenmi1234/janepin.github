@@ -1728,6 +1728,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_inquiry_sheet_item.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\activity_inquiry_sheet_item.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable\\abc_dialog_material_background.xml"
     },
