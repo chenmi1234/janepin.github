@@ -1,38 +1,48 @@
 package com.lianpos.fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.login.activity.LoginActivity;
-import com.lianpos.devfoucs.login.activity.RegisterAreaActivity;
 
 /**
  * 个人中心
+ *
  * @author wangshuai
  * @create time 2017/10/27
  */
-public class PersonFragment extends Fragment {
+public class PersonFragment extends Fragment implements View.OnClickListener {
 
-	private TextView toLoginPage;
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_person, null);
+        init();
+        return rootView;
+    }
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-		View rootView = inflater.inflate(R.layout.fragment_person, null);
-		toLoginPage = (TextView) rootView.findViewById(R.id.toLoginPage);
-		toLoginPage.setOnClickListener(new View.OnClickListener(){
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(getActivity(), LoginActivity.class);
-				startActivity(intent);
-			}
-		});
-		return rootView;
-	}
+    private void init() {
+        // 初始化id
+        initID();
+        // 初始化点击事件
+        initOnClick();
+    }
+
+    // 初始化id
+    private void initID() {
+    }
+
+    // 初始化点击事件
+    private void initOnClick() {
+    }
+
+    @Override
+    public void onClick(View v) {
+//		switch (v.getId()) {
+//			case R.id.inquiry_sheet_back:
+//				break;
+//		}
+    }
 }
