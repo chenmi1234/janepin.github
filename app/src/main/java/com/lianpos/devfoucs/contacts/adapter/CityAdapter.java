@@ -15,8 +15,8 @@ import com.lianpos.devfoucs.contacts.model.CityBean;
 import java.util.List;
 
 /**
- * Created by zhangxutong .
- * Date: 16/08/28
+ * Created by wangshuai .
+ * Date: 17/11/02
  */
 
 public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {

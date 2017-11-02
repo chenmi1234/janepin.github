@@ -5,8 +5,8 @@ import android.view.ViewGroup;
 
 /**
  * 通用的RecyclerView 的ItemClickListener，包含点击和长按
- * Created by zhangxutong .
- * Date: 16/03/11
+ * Created by wangshuai .
+ * Date: 17/11/2
  */
 public interface OnItemClickListener<T>
 {

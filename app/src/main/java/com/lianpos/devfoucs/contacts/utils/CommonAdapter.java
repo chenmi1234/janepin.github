@@ -11,8 +11,8 @@ import java.util.List;
 
 /**
  * 通用的RecyclerView 的Adapter
- * Created by zhangxutong .
- * Date: 16/03/11
+ * Created by wangshuai .
+ * Date: 17/11/2
  */
 public abstract class CommonAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
     protected Context mContext;
@@ -97,13 +97,12 @@ public abstract class CommonAdapter<T> extends RecyclerView.Adapter<ViewHolder> 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.updatePosition(position);
-        //add by zhangxutong 2016 08 05 begin 点击事件为了兼容HeaderView FooterView 的Adapter，所以在OnBindViewHolder里，其实性能没有onCreate好
+        //点击事件为了兼容HeaderView FooterView 的Adapter，所以在OnBindViewHolder里，其实性能没有onCreate好
         setListener(position, holder);
-        //add by zhangxutong 2016 08 05 end
         convert(holder, mDatas.get(position));
     }
 
-    //add by zhangxutong 2016 08 05 begin 点击事件为了兼容HeaderView FooterView 的Adapter，所以在OnBindViewHolder里，其实性能没有onCreate好
+    //点击事件为了兼容HeaderView FooterView 的Adapter，所以在OnBindViewHolder里，其实性能没有onCreate好
     protected void setListener(final int position, final ViewHolder viewHolder) {
         if (!isEnabled(getItemViewType(position))) return;
         viewHolder.getConvertView().setOnClickListener(new View.OnClickListener() {
