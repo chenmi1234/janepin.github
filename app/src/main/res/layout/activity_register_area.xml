@@ -42,9 +42,8 @@
                 android:layout_height="40dp"
                 android:background="@null"
                 android:hint="请输入企业名称"
-                android:inputType="number"
-                android:maxLength="11"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
         </RelativeLayout>
@@ -83,11 +82,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="@null"
-                android:digits="@string/filter_vcode"
                 android:hint="请输入供货商姓名"
-                android:inputType="textPassword"
-                android:maxLength="16"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
         </RelativeLayout>
@@ -127,11 +124,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="@null"
-                android:digits="@string/filter_vcode"
                 android:hint="请输入企业电话"
-                android:inputType="textPassword"
-                android:maxLength="16"
+                android:inputType="number"
+                android:maxLength="11"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
         </RelativeLayout>
@@ -232,9 +229,8 @@
                 android:layout_height="40dp"
                 android:background="@null"
                 android:hint="请输入详细地址"
-                android:inputType="number"
-                android:maxLength="11"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
         </RelativeLayout>
@@ -266,15 +262,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
-        <CheckBox
-            android:id="@+id/cb"
+
+        <TextView
+            android:id="@+id/agreement"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="false"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:layout_alignParentBottom="true"
-            android:text="同意《简销用户服务协议》"></CheckBox>
+            android:text="默认同意《简销用户服务协议》"/>
     </RelativeLayout>
 
 </LinearLayout>

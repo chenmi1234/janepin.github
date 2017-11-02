@@ -6,6 +6,7 @@ INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-19:12
 MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\b7dbe7aff9ff3137ca20a9afbfc85415\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\4ee1b3498970b7c26589b925640fa68f\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\09962ade2b5d4c2a4db88056ab067c42\AndroidManifest.xml:17:1-27:12
@@ -13,9 +14,9 @@ MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Admin
 MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\a390dc4ee7ca4e8fa9c106bc74025b18\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\75ae70645952dbe7361866aa91c9daa7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\7a5fec77209679862b3fc4c1e1f12600\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\022d1ae624624272459557583340554a\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1a34a4216b0f8306f1747447fa166b09\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9d7c1b7fb570a3acd6f94d29084cb5a7\AndroidManifest.xml:17:1-27:12
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-39:12
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-39:12
@@ -44,6 +45,8 @@ MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermedi
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\b7dbe7aff9ff3137ca20a9afbfc85415\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\b7dbe7aff9ff3137ca20a9afbfc85415\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\4ee1b3498970b7c26589b925640fa68f\AndroidManifest.xml:21:5-23:78
@@ -58,12 +61,12 @@ MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\
 MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\75ae70645952dbe7361866aa91c9daa7\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\7a5fec77209679862b3fc4c1e1f12600\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\7a5fec77209679862b3fc4c1e1f12600\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\022d1ae624624272459557583340554a\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\022d1ae624624272459557583340554a\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1a34a4216b0f8306f1747447fa166b09\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1a34a4216b0f8306f1747447fa166b09\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9d7c1b7fb570a3acd6f94d29084cb5a7\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9d7c1b7fb570a3acd6f94d29084cb5a7\AndroidManifest.xml:21:5-23:58
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:8:5-11:44
@@ -88,6 +91,8 @@ MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermedi
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-17:19
 MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\b7dbe7aff9ff3137ca20a9afbfc85415\AndroidManifest.xml:11:5-20
 MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\b7dbe7aff9ff3137ca20a9afbfc85415\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\4ee1b3498970b7c26589b925640fa68f\AndroidManifest.xml:25:5-20
@@ -100,12 +105,12 @@ MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Admini
 MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\a390dc4ee7ca4e8fa9c106bc74025b18\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\7a5fec77209679862b3fc4c1e1f12600\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\7a5fec77209679862b3fc4c1e1f12600\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\022d1ae624624272459557583340554a\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\022d1ae624624272459557583340554a\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1a34a4216b0f8306f1747447fa166b09\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1a34a4216b0f8306f1747447fa166b09\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5f7dda6acdbbb09c8b8021a8d75fad98\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9d7c1b7fb570a3acd6f94d29084cb5a7\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9d7c1b7fb570a3acd6f94d29084cb5a7\AndroidManifest.xml:25:5-20
 	android:supportsRtl
@@ -160,3 +165,7 @@ activity#com.lianpos.devfoucs.homepage.activity.InquirySheetActivity
 ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:36:9-105
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:36:19-93
+activity#com.lljjcoder.citylist.CityListSelectActivity
+ADDED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-16:20
+	android:name
+		ADDED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:19-79

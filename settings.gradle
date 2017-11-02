@@ -1,1 +1,1 @@
-include ':app', ':mypicker', ':indexlib'
+include ':app', ':mypicker', ':indexlib', ':citypickerview'

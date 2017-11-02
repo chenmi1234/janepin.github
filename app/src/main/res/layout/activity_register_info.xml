@@ -44,6 +44,7 @@
                 android:hint="请输入姓名"
                 android:maxLength="3"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
             <LinearLayout
@@ -80,9 +81,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:text="性別"
-            android:layout_gravity="center_vertical"
             android:textColor="#333333"
             android:textSize="18dp" />
 
@@ -97,17 +98,17 @@
                 android:id="@+id/sex_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="男"
                 android:layout_centerVertical="true"
+                android:text="男"
                 android:textColor="#333333"
-                android:textSize="18dp"/>
+                android:textSize="18dp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@mipmap/many"/>
+                android:src="@mipmap/many" />
 
 
         </RelativeLayout>
@@ -131,9 +132,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:text="生日"
-            android:layout_gravity="center_vertical"
             android:textColor="#333333"
             android:textSize="18dp" />
 
@@ -148,17 +149,17 @@
                 android:id="@+id/briday_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1900-01-01"
                 android:layout_centerVertical="true"
+                android:text="1900-01-01"
                 android:textColor="#333333"
-                android:textSize="18dp"/>
+                android:textSize="18dp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@mipmap/many"/>
+                android:src="@mipmap/many" />
 
 
         </RelativeLayout>

@@ -35,6 +35,8 @@
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterInfoActivity" />
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterAreaActivity" />
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetActivity" />
+        <activity android:name="com.lljjcoder.citylist.CityListSelectActivity" >
+        </activity>
     </application>
 
 </manifest>

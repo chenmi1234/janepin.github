@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_city_swipe.xml.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\item_city_swipe.xml"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_city_swipe.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\item_city_swipe.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
@@ -72,20 +72,20 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\information.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_lxr01.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\lxr01.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\anim\\abc_popup_exit.xml"
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_xjd.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\xjd.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
@@ -100,20 +100,20 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\lxr01.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sy01.png.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\sy01.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meituan_iten_header_item_bg.xml.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\meituan_iten_header_item_bg.xml"
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sy01.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\sy01.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bb02.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\bb02.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meituan_iten_header_item_bg.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\meituan_iten_header_item_bg.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -144,24 +144,28 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\printer.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_test_wheel_bg.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\test_wheel_bg.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -184,16 +188,16 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-xhdpi\\sfk02.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_city.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\item_city.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_city.xml.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\item_city.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_fdj.png.flat",
@@ -208,16 +212,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_bottom.xml.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\mypicker\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_bottom.xml"
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_bottom.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\mypicker\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_bottom.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
@@ -228,12 +232,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_no_available.png.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\no_available.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_no_available.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\no_available.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
@@ -264,12 +268,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_yq.png.flat",
@@ -334,6 +338,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_city_list_select.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_city_list_select.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -412,16 +420,16 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\tjhy.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bcak02.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\bcak02.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_message.xml.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\fragment_message.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bcak02.png.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\bcak02.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -432,12 +440,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_changea_pssword.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\changea_pssword.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_view_list_nav_layout.xml.flat",
@@ -486,6 +494,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_bb02.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\bb02.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_normal.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\edittext_normal.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
@@ -584,6 +596,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_bar_icon_normal.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\search_bar_icon_normal.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -616,6 +632,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_sortlistview_item.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\sortlistview_item.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\anim\\abc_fade_in.xml"
     },
@@ -634,6 +654,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wheel_val.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\wheel_val.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -796,6 +820,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_message_normal.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_focused.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\edittext_focused.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -822,6 +850,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_fdj.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\fdj.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_close.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\input_close.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
@@ -1064,6 +1096,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_alarm_ui.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_alarm_ui.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_sfk02.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-mdpi\\sfk02.png"
     },
@@ -1168,12 +1204,16 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\visible.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_wd.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\wd.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_bb.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\bb.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_wd.png.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\wd.png"
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_bg.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\edittext_bg.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -1532,12 +1572,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_inquiry_sheet.xml.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\activity_inquiry_sheet.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_free_list.png.flat",
@@ -1616,6 +1656,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-hdpi\\icon_view_circle.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cityitem_click.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\cityitem_click.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_add_bg.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\add_bg.png"
     },
@@ -1688,6 +1732,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\shape_side_bar_bg.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_draw13.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_draw13.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_personal_data.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\personal_data.png"
     },
@@ -1736,6 +1784,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\many.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bar_back.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\bar_back.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_picker_date.xml.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\mypicker\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_picker_date.xml"
     },
@@ -1760,6 +1812,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_push_bottom_in.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\anim\\push_bottom_in.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
@@ -1772,16 +1828,16 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\reload.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_inquiry_sheet_item.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\activity_inquiry_sheet_item.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_inquiry_sheet_item.xml.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\activity_inquiry_sheet_item.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
@@ -1864,12 +1920,12 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\warning01.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bcak02.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\bcak02.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2072,6 +2128,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-xhdpi\\lxr02.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wheel_bg.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\wheel_bg.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_tab_dynamic_normal.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-hdpi\\icon_tab_dynamic_normal.png"
     },
@@ -2154,6 +2214,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_draw15.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_draw15.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bcak01.png.flat",
@@ -2280,6 +2344,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\bcak.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_draw1.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_draw1.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sfl.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\sfl.png"
     },
@@ -2304,8 +2372,16 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_push_bottom_out.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\anim\\push_bottom_out.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\4ee1b3498970b7c26589b925640fa68f\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sidebar_background.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\sidebar_background.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2322,6 +2398,14 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sy01.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-xhdpi\\sy01.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_text.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\drawable\\circle_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_pop_citypicker.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\citypickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\pop_citypicker.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sfk01.png.flat",

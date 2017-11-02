@@ -45,6 +45,7 @@
                 android:inputType="number"
                 android:maxLength="11"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
             <LinearLayout
@@ -111,6 +112,7 @@
                 android:inputType="textPassword"
                 android:maxLength="16"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
             <LinearLayout
@@ -179,6 +181,7 @@
                 android:inputType="textPassword"
                 android:maxLength="16"
                 android:singleLine="true"
+                android:textColor="#333333"
                 android:textColorHint="#cccccc" />
 
             <LinearLayout
