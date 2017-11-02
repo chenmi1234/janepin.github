@@ -21,19 +21,10 @@ import com.lianpos.util.JumpUtil;
  * @create time 2017/10/27
  */
 public class IDCardFragment extends Fragment {
-	private TextView idcard_text;
-	private JumpUtil jumpUtil;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 		View rootView = inflater.inflate(R.layout.fragment_idcard, null);
-		idcard_text = (TextView) rootView.findViewById(R.id.idcard_text);
-		idcard_text.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				jumpUtil.jumpFun(getActivity(), RegisterActivity.class);
-			}
-		});
 		return rootView;
 	}
 }
