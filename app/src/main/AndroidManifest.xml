@@ -33,6 +33,7 @@
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterInfoActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterAreaActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetActivity"></activity>
     </application>
 
 </manifest>
