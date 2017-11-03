@@ -1,6 +1,7 @@
 package com.lianpos.fragment;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -24,6 +25,8 @@ import com.mcxtzhang.swipemenulib.SwipeMenuLayout;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.app.Activity.RESULT_OK;
+
 /**
  * 联系人
  *
@@ -39,6 +42,10 @@ public class DynamicFragment extends Fragment {
     private List<CityBean> mDatas = new ArrayList<>();
     private ImageView addFriend;
     private SuspensionDecoration mDecoration;
+    private TextView title;
+    private static final String DECODED_CONTENT_KEY = "codedContent";
+    private static final String DECODED_BITMAP_KEY = "codedBitmap";
+    private static final int REQUEST_CODE_SCAN = 0x0000;
 
     /**
      * 右侧边栏导航区域
@@ -79,6 +86,18 @@ public class DynamicFragment extends Fragment {
 
         //模拟线上加载数据
         initDatas(getResources().getStringArray(R.array.provinces));
+
+        title = (TextView) rootView.findViewById(R.id.title);
+
+
+        Intent intert=getActivity().getIntent();
+        String request = intert.getStringExtra("codedContent");
+        if (request == null){
+            title.setText("联系人");
+        }else{
+            title.setText(request);
+        }
+
         return rootView;
     }
 
@@ -156,4 +175,21 @@ public class DynamicFragment extends Fragment {
         intent.setData(Uri.parse("tel:" + str));
         startActivity(intent);
     }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        // 扫描二维码/条码回传
+        if (requestCode == REQUEST_CODE_SCAN && resultCode == RESULT_OK) {
+            if (data != null) {
+
+                String content = data.getStringExtra(DECODED_CONTENT_KEY);
+                Bitmap bitmap = data.getParcelableExtra(DECODED_BITMAP_KEY);
+
+                title.setText("解码结果： \n" + content);
+
+            }
+        }
+    }
+
 }

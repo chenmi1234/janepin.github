@@ -2,6 +2,8 @@ package com.lianpos.devfoucs.contacts.ui;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +12,9 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.PopupWindow;
 
 import com.lianpos.activity.R;
+import com.lianpos.zxing.android.CaptureActivity;
+
+import static android.app.Activity.RESULT_OK;
 
 /**
  * 添加好友
@@ -19,7 +24,8 @@ import com.lianpos.activity.R;
  */
 public class AddFriendPop extends PopupWindow implements OnClickListener {
     private View conentView;
-
+    private static final String DECODED_CONTENT_KEY = "codedContent";
+    private static final String DECODED_BITMAP_KEY = "codedBitmap";
     public AddFriendPop(final Activity context) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         conentView = inflater.inflate(R.layout.begin_order_popup, null);
@@ -36,6 +42,8 @@ public class AddFriendPop extends PopupWindow implements OnClickListener {
         conentView.findViewById(R.id.begin_assignment_order).setOnClickListener(this);
         conentView.findViewById(R.id.begin_same_driver).setOnClickListener(this);
     }
+
+    private static final int REQUEST_CODE_SCAN = 0x0000;
 
     /**
      * PopupWindow
@@ -58,6 +66,9 @@ public class AddFriendPop extends PopupWindow implements OnClickListener {
                 break;
             case R.id.begin_assignment_order:
                 AddFriendPop.this.dismiss();
+                Intent intent=new Intent();
+                intent.setClass(v.getContext(), CaptureActivity.class);
+                ((Activity) v.getContext()).startActivityForResult(intent,REQUEST_CODE_SCAN);
                 break;
             case R.id.begin_same_driver:
                 AddFriendPop.this.dismiss();
@@ -66,4 +77,5 @@ public class AddFriendPop extends PopupWindow implements OnClickListener {
                 break;
         }
     }
+
 }

@@ -3,6 +3,7 @@ package com.lianpos.devfoucs.login.activity;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -54,6 +55,9 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private TextView passwordMessage;
     // 注册
     private TextView registerText;
+    private static final String DECODED_CONTENT_KEY = "codedContent";
+    private static final String DECODED_BITMAP_KEY = "codedBitmap";
+    private static final int REQUEST_CODE_SCAN = 0x0000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -187,4 +191,5 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 break;
         }
     }
+
 }

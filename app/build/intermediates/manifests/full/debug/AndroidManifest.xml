@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.textviewdemo"
+    package="com.example.janepin"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="14"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
 
     <application
         android:allowBackup="true"
@@ -35,6 +39,11 @@
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterInfoActivity" />
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterAreaActivity" />
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetActivity" />
+        <activity
+            android:name="com.lianpos.zxing.android.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
         <activity android:name="com.lljjcoder.citylist.CityListSelectActivity" >
         </activity>
     </application>

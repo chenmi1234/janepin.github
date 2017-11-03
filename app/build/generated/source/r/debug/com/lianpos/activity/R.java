@@ -1867,70 +1867,81 @@ public final class R {
     public static final int color_text_01=0x7f05002d;
     public static final int color_text_02=0x7f05002e;
     public static final int color_text_03=0x7f05002f;
-    public static final int dim_foreground_disabled_material_dark=0x7f050030;
-    public static final int dim_foreground_disabled_material_light=0x7f050031;
-    public static final int dim_foreground_material_dark=0x7f050032;
-    public static final int dim_foreground_material_light=0x7f050033;
-    public static final int foreground_material_dark=0x7f050034;
-    public static final int foreground_material_light=0x7f050035;
-    public static final int highlighted_text_material_dark=0x7f050036;
-    public static final int highlighted_text_material_light=0x7f050037;
-    public static final int hint_foreground_material_dark=0x7f050038;
-    public static final int hint_foreground_material_light=0x7f050039;
-    public static final int indicator_color=0x7f05003a;
-    public static final int input_stock=0x7f05003b;
-    public static final int liji_c_blue=0x7f05003c;
-    public static final int liji_material_blue_500=0x7f05003d;
-    public static final int liji_material_blue_700=0x7f05003e;
-    public static final int liji_material_red_500=0x7f05003f;
-    public static final int liji_material_red_700=0x7f050040;
-    public static final int location_circle_bg=0x7f050041;
-    public static final int main_tab_item_text_normal=0x7f050042;
-    public static final int main_tab_item_text_select=0x7f050043;
-    public static final int main_title_text_normal=0x7f050044;
-    public static final int main_title_text_select=0x7f050045;
-    public static final int material_blue_grey_800=0x7f050046;
-    public static final int material_blue_grey_900=0x7f050047;
-    public static final int material_blue_grey_950=0x7f050048;
-    public static final int material_deep_teal_200=0x7f050049;
-    public static final int material_deep_teal_500=0x7f05004a;
-    public static final int material_grey_100=0x7f05004b;
-    public static final int material_grey_300=0x7f05004c;
-    public static final int material_grey_50=0x7f05004d;
-    public static final int material_grey_600=0x7f05004e;
-    public static final int material_grey_800=0x7f05004f;
-    public static final int material_grey_850=0x7f050050;
-    public static final int material_grey_900=0x7f050051;
-    public static final int partTranslucent=0x7f050052;
-    public static final int primary_dark_material_dark=0x7f050053;
-    public static final int primary_dark_material_light=0x7f050054;
-    public static final int primary_material_dark=0x7f050055;
-    public static final int primary_material_light=0x7f050056;
-    public static final int primary_text_default_material_dark=0x7f050057;
-    public static final int primary_text_default_material_light=0x7f050058;
-    public static final int primary_text_disabled_material_dark=0x7f050059;
-    public static final int primary_text_disabled_material_light=0x7f05005a;
-    public static final int province_line_border=0x7f05005b;
-    public static final int ripple_material_dark=0x7f05005c;
-    public static final int ripple_material_light=0x7f05005d;
-    public static final int secondary_text_default_material_dark=0x7f05005e;
-    public static final int secondary_text_default_material_light=0x7f05005f;
-    public static final int secondary_text_disabled_material_dark=0x7f050060;
-    public static final int secondary_text_disabled_material_light=0x7f050061;
-    public static final int sort_catagory=0x7f050062;
-    public static final int split_line_bootom_color=0x7f050063;
-    public static final int split_line_color=0x7f050064;
-    public static final int switch_thumb_disabled_material_dark=0x7f050065;
-    public static final int switch_thumb_disabled_material_light=0x7f050066;
-    public static final int switch_thumb_material_dark=0x7f050067;
-    public static final int switch_thumb_material_light=0x7f050068;
-    public static final int switch_thumb_normal_material_dark=0x7f050069;
-    public static final int switch_thumb_normal_material_light=0x7f05006a;
-    public static final int tab_item_background=0x7f05006b;
-    public static final int tabs_click=0x7f05006c;
-    public static final int text_color_02=0x7f05006d;
-    public static final int transparent_background=0x7f05006e;
-    public static final int white=0x7f05006f;
+    public static final int contents_text=0x7f050030;
+    public static final int dim_foreground_disabled_material_dark=0x7f050031;
+    public static final int dim_foreground_disabled_material_light=0x7f050032;
+    public static final int dim_foreground_material_dark=0x7f050033;
+    public static final int dim_foreground_material_light=0x7f050034;
+    public static final int encode_view=0x7f050035;
+    public static final int foreground_material_dark=0x7f050036;
+    public static final int foreground_material_light=0x7f050037;
+    public static final int highlighted_text_material_dark=0x7f050038;
+    public static final int highlighted_text_material_light=0x7f050039;
+    public static final int hint_foreground_material_dark=0x7f05003a;
+    public static final int hint_foreground_material_light=0x7f05003b;
+    public static final int indicator_color=0x7f05003c;
+    public static final int input_stock=0x7f05003d;
+    public static final int liji_c_blue=0x7f05003e;
+    public static final int liji_material_blue_500=0x7f05003f;
+    public static final int liji_material_blue_700=0x7f050040;
+    public static final int liji_material_red_500=0x7f050041;
+    public static final int liji_material_red_700=0x7f050042;
+    public static final int location_circle_bg=0x7f050043;
+    public static final int main_tab_item_text_normal=0x7f050044;
+    public static final int main_tab_item_text_select=0x7f050045;
+    public static final int main_title_text_normal=0x7f050046;
+    public static final int main_title_text_select=0x7f050047;
+    public static final int material_blue_grey_800=0x7f050048;
+    public static final int material_blue_grey_900=0x7f050049;
+    public static final int material_blue_grey_950=0x7f05004a;
+    public static final int material_deep_teal_200=0x7f05004b;
+    public static final int material_deep_teal_500=0x7f05004c;
+    public static final int material_grey_100=0x7f05004d;
+    public static final int material_grey_300=0x7f05004e;
+    public static final int material_grey_50=0x7f05004f;
+    public static final int material_grey_600=0x7f050050;
+    public static final int material_grey_800=0x7f050051;
+    public static final int material_grey_850=0x7f050052;
+    public static final int material_grey_900=0x7f050053;
+    public static final int partTranslucent=0x7f050054;
+    public static final int possible_result_points=0x7f050055;
+    public static final int primary_dark_material_dark=0x7f050056;
+    public static final int primary_dark_material_light=0x7f050057;
+    public static final int primary_material_dark=0x7f050058;
+    public static final int primary_material_light=0x7f050059;
+    public static final int primary_text_default_material_dark=0x7f05005a;
+    public static final int primary_text_default_material_light=0x7f05005b;
+    public static final int primary_text_disabled_material_dark=0x7f05005c;
+    public static final int primary_text_disabled_material_light=0x7f05005d;
+    public static final int province_line_border=0x7f05005e;
+    public static final int result_minor_text=0x7f05005f;
+    public static final int result_points=0x7f050060;
+    public static final int result_text=0x7f050061;
+    public static final int result_view=0x7f050062;
+    public static final int ripple_material_dark=0x7f050063;
+    public static final int ripple_material_light=0x7f050064;
+    public static final int secondary_text_default_material_dark=0x7f050065;
+    public static final int secondary_text_default_material_light=0x7f050066;
+    public static final int secondary_text_disabled_material_dark=0x7f050067;
+    public static final int secondary_text_disabled_material_light=0x7f050068;
+    public static final int sort_catagory=0x7f050069;
+    public static final int split_line_bootom_color=0x7f05006a;
+    public static final int split_line_color=0x7f05006b;
+    public static final int status_text=0x7f05006c;
+    public static final int switch_thumb_disabled_material_dark=0x7f05006d;
+    public static final int switch_thumb_disabled_material_light=0x7f05006e;
+    public static final int switch_thumb_material_dark=0x7f05006f;
+    public static final int switch_thumb_material_light=0x7f050070;
+    public static final int switch_thumb_normal_material_dark=0x7f050071;
+    public static final int switch_thumb_normal_material_light=0x7f050072;
+    public static final int tab_item_background=0x7f050073;
+    public static final int tabs_click=0x7f050074;
+    public static final int text_color_02=0x7f050075;
+    public static final int transparent=0x7f050076;
+    public static final int transparent_background=0x7f050077;
+    public static final int viewfinder_laser=0x7f050078;
+    public static final int viewfinder_mask=0x7f050079;
+    public static final int white=0x7f05007a;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -2009,16 +2020,18 @@ public final class R {
     public static final int activity_vertical_margin=0x7f060049;
     public static final int disabled_alpha_material_dark=0x7f06004a;
     public static final int disabled_alpha_material_light=0x7f06004b;
-    public static final int highlight_alpha_material_colored=0x7f06004c;
-    public static final int highlight_alpha_material_dark=0x7f06004d;
-    public static final int highlight_alpha_material_light=0x7f06004e;
-    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f06004f;
-    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f060050;
-    public static final int item_touch_helper_swipe_escape_velocity=0x7f060051;
-    public static final int main_tab_item_image_and_text=0x7f060052;
-    public static final int notification_large_icon_height=0x7f060053;
-    public static final int notification_large_icon_width=0x7f060054;
-    public static final int notification_subtext_size=0x7f060055;
+    public static final int half_padding=0x7f06004c;
+    public static final int highlight_alpha_material_colored=0x7f06004d;
+    public static final int highlight_alpha_material_dark=0x7f06004e;
+    public static final int highlight_alpha_material_light=0x7f06004f;
+    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f060050;
+    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f060051;
+    public static final int item_touch_helper_swipe_escape_velocity=0x7f060052;
+    public static final int main_tab_item_image_and_text=0x7f060053;
+    public static final int notification_large_icon_height=0x7f060054;
+    public static final int notification_large_icon_width=0x7f060055;
+    public static final int notification_subtext_size=0x7f060056;
+    public static final int standard_padding=0x7f060057;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f070000;
@@ -2110,253 +2123,284 @@ public final class R {
     public static final int bg_draw1=0x7f070056;
     public static final int bg_draw13=0x7f070057;
     public static final int bg_draw15=0x7f070058;
-    public static final int circle_text=0x7f070059;
-    public static final int cityitem_click=0x7f07005a;
-    public static final int edittext_bg=0x7f07005b;
-    public static final int edittext_focused=0x7f07005c;
-    public static final int edittext_normal=0x7f07005d;
-    public static final int ic_launcher=0x7f07005e;
-    public static final int icon_tab_dynamic_normal=0x7f07005f;
-    public static final int icon_tab_dynamic_select=0x7f070060;
-    public static final int icon_tab_main_normal=0x7f070061;
-    public static final int icon_tab_main_select=0x7f070062;
-    public static final int icon_tab_make_select=0x7f070063;
-    public static final int icon_tab_message_normal=0x7f070064;
-    public static final int icon_tab_message_select=0x7f070065;
-    public static final int icon_tab_person_normal=0x7f070066;
-    public static final int icon_tab_person_select=0x7f070067;
-    public static final int icon_view_circle=0x7f070068;
-    public static final int input_close=0x7f070069;
-    public static final int lxr01=0x7f07006a;
-    public static final int lxr02=0x7f07006b;
-    public static final int main_title_txt_sel=0x7f07006c;
-    public static final int meituan_iten_header_item_bg=0x7f07006d;
-    public static final int notification_template_icon_bg=0x7f07006e;
-    public static final int search_bar_icon_normal=0x7f07006f;
-    public static final int sfk01=0x7f070070;
-    public static final int sfk02=0x7f070071;
-    public static final int shape_angle_red=0x7f070072;
-    public static final int shape_circle=0x7f070073;
-    public static final int shape_radius=0x7f070074;
-    public static final int shape_radius_gray=0x7f070075;
-    public static final int shape_radius_green=0x7f070076;
-    public static final int shape_side_bar_bg=0x7f070077;
-    public static final int sidebar_background=0x7f070078;
-    public static final int sy01=0x7f070079;
-    public static final int sy02=0x7f07007a;
-    public static final int tab_item_dynamic_img_selector=0x7f07007b;
-    public static final int tab_item_home_img_selector=0x7f07007c;
-    public static final int tab_item_main_img_selector=0x7f07007d;
-    public static final int tab_item_message_img_selector=0x7f07007e;
-    public static final int tab_item_person_img_selector=0x7f07007f;
-    public static final int tabitem_txt_sel=0x7f070080;
-    public static final int test_wheel_bg=0x7f070081;
-    public static final int wd01=0x7f070082;
-    public static final int wd02=0x7f070083;
-    public static final int wheel_bg=0x7f070084;
-    public static final int wheel_val=0x7f070085;
+    public static final int btn_back_normal=0x7f070059;
+    public static final int btn_back_press=0x7f07005a;
+    public static final int circle_text=0x7f07005b;
+    public static final int cityitem_click=0x7f07005c;
+    public static final int edittext_bg=0x7f07005d;
+    public static final int edittext_focused=0x7f07005e;
+    public static final int edittext_normal=0x7f07005f;
+    public static final int ic_launcher=0x7f070060;
+    public static final int icon_tab_dynamic_normal=0x7f070061;
+    public static final int icon_tab_dynamic_select=0x7f070062;
+    public static final int icon_tab_main_normal=0x7f070063;
+    public static final int icon_tab_main_select=0x7f070064;
+    public static final int icon_tab_make_select=0x7f070065;
+    public static final int icon_tab_message_normal=0x7f070066;
+    public static final int icon_tab_message_select=0x7f070067;
+    public static final int icon_tab_person_normal=0x7f070068;
+    public static final int icon_tab_person_select=0x7f070069;
+    public static final int icon_view_circle=0x7f07006a;
+    public static final int input_close=0x7f07006b;
+    public static final int lxr01=0x7f07006c;
+    public static final int lxr02=0x7f07006d;
+    public static final int main_title_txt_sel=0x7f07006e;
+    public static final int meituan_iten_header_item_bg=0x7f07006f;
+    public static final int notification_template_icon_bg=0x7f070070;
+    public static final int scan_light=0x7f070071;
+    public static final int search_bar_icon_normal=0x7f070072;
+    public static final int selector_capture_back=0x7f070073;
+    public static final int selector_main_button=0x7f070074;
+    public static final int sfk01=0x7f070075;
+    public static final int sfk02=0x7f070076;
+    public static final int shape_angle_red=0x7f070077;
+    public static final int shape_circle=0x7f070078;
+    public static final int shape_main_button=0x7f070079;
+    public static final int shape_main_edit=0x7f07007a;
+    public static final int shape_main_imageview=0x7f07007b;
+    public static final int shape_main_title=0x7f07007c;
+    public static final int shape_radius=0x7f07007d;
+    public static final int shape_radius_gray=0x7f07007e;
+    public static final int shape_radius_green=0x7f07007f;
+    public static final int shape_side_bar_bg=0x7f070080;
+    public static final int sidebar_background=0x7f070081;
+    public static final int sy01=0x7f070082;
+    public static final int sy02=0x7f070083;
+    public static final int tab_item_dynamic_img_selector=0x7f070084;
+    public static final int tab_item_home_img_selector=0x7f070085;
+    public static final int tab_item_main_img_selector=0x7f070086;
+    public static final int tab_item_message_img_selector=0x7f070087;
+    public static final int tab_item_person_img_selector=0x7f070088;
+    public static final int tabitem_txt_sel=0x7f070089;
+    public static final int test_wheel_bg=0x7f07008a;
+    public static final int wd01=0x7f07008b;
+    public static final int wd02=0x7f07008c;
+    public static final int wheel_bg=0x7f07008d;
+    public static final int wheel_val=0x7f07008e;
   }
   public static final class id {
-    public static final int action0=0x7f080000;
-    public static final int action_bar=0x7f080001;
-    public static final int action_bar_activity_content=0x7f080002;
-    public static final int action_bar_container=0x7f080003;
-    public static final int action_bar_root=0x7f080004;
-    public static final int action_bar_spinner=0x7f080005;
-    public static final int action_bar_subtitle=0x7f080006;
-    public static final int action_bar_title=0x7f080007;
-    public static final int action_context_bar=0x7f080008;
-    public static final int action_divider=0x7f080009;
-    public static final int action_menu_divider=0x7f08000a;
-    public static final int action_menu_presenter=0x7f08000b;
-    public static final int action_mode_bar=0x7f08000c;
-    public static final int action_mode_bar_stub=0x7f08000d;
-    public static final int action_mode_close_button=0x7f08000e;
-    public static final int action_settings=0x7f08000f;
-    public static final int activity_chooser_view_content=0x7f080010;
-    public static final int add=0x7f080011;
-    public static final int agreement=0x7f080012;
-    public static final int alertTitle=0x7f080013;
-    public static final int always=0x7f080014;
-    public static final int area_choose=0x7f080015;
-    public static final int area_text=0x7f080016;
-    public static final int begin_assignment_order=0x7f080017;
-    public static final int begin_cancel_order=0x7f080018;
-    public static final int begin_menu=0x7f080019;
-    public static final int begin_same_driver=0x7f08001a;
-    public static final int beginning=0x7f08001b;
-    public static final int billing=0x7f08001c;
-    public static final int boss_phone=0x7f08001d;
-    public static final int bottom=0x7f08001e;
-    public static final int briday_text=0x7f08001f;
-    public static final int btnDel=0x7f080020;
-    public static final int buttonPanel=0x7f080021;
-    public static final int cancel_action=0x7f080022;
-    public static final int catalog=0x7f080023;
-    public static final int checkbox=0x7f080024;
-    public static final int choose_birday_layout=0x7f080025;
-    public static final int choose_sex_layout=0x7f080026;
-    public static final int chronometer=0x7f080027;
-    public static final int cityInputText=0x7f080028;
-    public static final int collapseActionView=0x7f080029;
-    public static final int content=0x7f08002a;
-    public static final int contentPanel=0x7f08002b;
-    public static final int country_lvcountry=0x7f08002c;
-    public static final int currentCity=0x7f08002d;
-    public static final int currentCityTag=0x7f08002e;
-    public static final int custom=0x7f08002f;
-    public static final int customPanel=0x7f080030;
-    public static final int decor_content_parent=0x7f080031;
-    public static final int default_activity_button=0x7f080032;
-    public static final int deleteImg=0x7f080033;
-    public static final int deleteNameImg=0x7f080034;
-    public static final int deleteQrpwdImg=0x7f080035;
-    public static final int detailed_address=0x7f080036;
-    public static final int dialog=0x7f080037;
-    public static final int disableHome=0x7f080038;
-    public static final int edit_query=0x7f080039;
-    public static final int end=0x7f08003a;
-    public static final int end_padder=0x7f08003b;
-    public static final int enterprise_name=0x7f08003c;
-    public static final int expand_activities_button=0x7f08003d;
-    public static final int expanded_menu=0x7f08003e;
-    public static final int home=0x7f08003f;
-    public static final int homeAsUp=0x7f080040;
-    public static final int icon=0x7f080041;
-    public static final int id_city=0x7f080042;
-    public static final int id_district=0x7f080043;
-    public static final int id_province=0x7f080044;
-    public static final int ifRoom=0x7f080045;
-    public static final int image=0x7f080046;
-    public static final int imageView=0x7f080047;
-    public static final int imgBack=0x7f080048;
-    public static final int immediate_registration=0x7f080049;
-    public static final int indexBar=0x7f08004a;
-    public static final int info=0x7f08004b;
-    public static final int inquiry_sheet=0x7f08004c;
-    public static final int inquiry_sheet_back=0x7f08004d;
-    public static final int inventory=0x7f08004e;
-    public static final int item_touch_helper_previous_elevation=0x7f08004f;
-    public static final int ivAvatar=0x7f080050;
-    public static final int iv_make=0x7f080051;
-    public static final int iv_shape_circle=0x7f080052;
-    public static final int line1=0x7f080053;
-    public static final int line3=0x7f080054;
-    public static final int listMode=0x7f080055;
-    public static final int list_item=0x7f080056;
-    public static final int list_view=0x7f080057;
-    public static final int ll_root=0x7f080058;
-    public static final int ll_title=0x7f080059;
-    public static final int ll_title_background=0x7f08005a;
-    public static final int localCity=0x7f08005b;
-    public static final int localCityTag=0x7f08005c;
-    public static final int login_button=0x7f08005d;
-    public static final int loop_area=0x7f08005e;
-    public static final int loop_city=0x7f08005f;
-    public static final int loop_data=0x7f080060;
-    public static final int loop_day=0x7f080061;
-    public static final int loop_hour=0x7f080062;
-    public static final int loop_min=0x7f080063;
-    public static final int loop_month=0x7f080064;
-    public static final int loop_year=0x7f080065;
-    public static final int main_container=0x7f080066;
-    public static final int makeMoney=0x7f080067;
-    public static final int media_actions=0x7f080068;
-    public static final int message=0x7f080069;
-    public static final int middle=0x7f08006a;
-    public static final int multiply=0x7f08006b;
-    public static final int never=0x7f08006c;
-    public static final int next_button=0x7f08006d;
-    public static final int none=0x7f08006e;
-    public static final int normal=0x7f08006f;
-    public static final int noticeText=0x7f080070;
-    public static final int parentPanel=0x7f080071;
-    public static final int passwordMessage=0x7f080072;
-    public static final int password_editText=0x7f080073;
-    public static final int phoneMessage=0x7f080074;
-    public static final int phone_edittext=0x7f080075;
-    public static final int progress_circular=0x7f080076;
-    public static final int progress_horizontal=0x7f080077;
-    public static final int pwdDeleteImg=0x7f080078;
-    public static final int radio=0x7f080079;
-    public static final int registerPasswordMessage=0x7f08007a;
-    public static final int registerPhoneMessage=0x7f08007b;
-    public static final int registerQRPasswordMessage=0x7f08007c;
-    public static final int registerText=0x7f08007d;
-    public static final int register_back=0x7f08007e;
-    public static final int register_name_editText=0x7f08007f;
-    public static final int register_password_editText=0x7f080080;
-    public static final int register_phone_editText=0x7f080081;
-    public static final int register_pwd_editText=0x7f080082;
-    public static final int rl_bottom=0x7f080083;
-    public static final int rl_title=0x7f080084;
-    public static final int rv=0x7f080085;
-    public static final int screen=0x7f080086;
-    public static final int scrollIndicatorDown=0x7f080087;
-    public static final int scrollIndicatorUp=0x7f080088;
-    public static final int scrollView=0x7f080089;
-    public static final int search_badge=0x7f08008a;
-    public static final int search_bar=0x7f08008b;
-    public static final int search_button=0x7f08008c;
-    public static final int search_close_btn=0x7f08008d;
-    public static final int search_edit_frame=0x7f08008e;
-    public static final int search_go_btn=0x7f08008f;
-    public static final int search_mag_icon=0x7f080090;
-    public static final int search_plate=0x7f080091;
-    public static final int search_src_text=0x7f080092;
-    public static final int search_voice_btn=0x7f080093;
-    public static final int select_dialog_listview=0x7f080094;
-    public static final int sex_text=0x7f080095;
-    public static final int shopName=0x7f080096;
-    public static final int shortcut=0x7f080097;
-    public static final int showCustom=0x7f080098;
-    public static final int showHome=0x7f080099;
-    public static final int showTitle=0x7f08009a;
-    public static final int sidrbar=0x7f08009b;
-    public static final int spacer=0x7f08009c;
-    public static final int split_action_bar=0x7f08009d;
-    public static final int src_atop=0x7f08009e;
-    public static final int src_in=0x7f08009f;
-    public static final int src_over=0x7f0800a0;
-    public static final int status_bar_latest_event_content=0x7f0800a1;
-    public static final int submenuarrow=0x7f0800a2;
-    public static final int submit_area=0x7f0800a3;
-    public static final int supplier_name=0x7f0800a4;
-    public static final int tabMode=0x7f0800a5;
-    public static final int text=0x7f0800a6;
-    public static final int text2=0x7f0800a7;
-    public static final int textSpacerNoButtons=0x7f0800a8;
-    public static final int time=0x7f0800a9;
-    public static final int title=0x7f0800aa;
-    public static final int title_template=0x7f0800ab;
-    public static final int top=0x7f0800ac;
-    public static final int topPanel=0x7f0800ad;
-    public static final int tvCity=0x7f0800ae;
-    public static final int tvPhone=0x7f0800af;
-    public static final int tvSideBarHint=0x7f0800b0;
-    public static final int tvSupermarket=0x7f0800b1;
-    public static final int tv_cancel=0x7f0800b2;
-    public static final int tv_confirm=0x7f0800b3;
-    public static final int tv_dynamic=0x7f0800b4;
-    public static final int tv_follow=0x7f0800b5;
-    public static final int tv_location=0x7f0800b6;
-    public static final int tv_main=0x7f0800b7;
-    public static final int tv_message=0x7f0800b8;
-    public static final int tv_person=0x7f0800b9;
-    public static final int tv_recommend=0x7f0800ba;
-    public static final int tv_title=0x7f0800bb;
-    public static final int tx_finish=0x7f0800bc;
-    public static final int tx_title=0x7f0800bd;
-    public static final int tx_unit=0x7f0800be;
-    public static final int up=0x7f0800bf;
-    public static final int useLogo=0x7f0800c0;
-    public static final int view_empty=0x7f0800c1;
-    public static final int view_line=0x7f0800c2;
-    public static final int viewpager_home=0x7f0800c3;
-    public static final int warningImage=0x7f0800c4;
-    public static final int withText=0x7f0800c5;
-    public static final int wrap_content=0x7f0800c6;
-    public static final int yesButton=0x7f0800c7;
+    public static final int about_version_code=0x7f080000;
+    public static final int action0=0x7f080001;
+    public static final int action_bar=0x7f080002;
+    public static final int action_bar_activity_content=0x7f080003;
+    public static final int action_bar_container=0x7f080004;
+    public static final int action_bar_root=0x7f080005;
+    public static final int action_bar_spinner=0x7f080006;
+    public static final int action_bar_subtitle=0x7f080007;
+    public static final int action_bar_title=0x7f080008;
+    public static final int action_context_bar=0x7f080009;
+    public static final int action_divider=0x7f08000a;
+    public static final int action_menu_divider=0x7f08000b;
+    public static final int action_menu_presenter=0x7f08000c;
+    public static final int action_mode_bar=0x7f08000d;
+    public static final int action_mode_bar_stub=0x7f08000e;
+    public static final int action_mode_close_button=0x7f08000f;
+    public static final int action_settings=0x7f080010;
+    public static final int activity_chooser_view_content=0x7f080011;
+    public static final int activity_main=0x7f080012;
+    public static final int add=0x7f080013;
+    public static final int agreement=0x7f080014;
+    public static final int alertTitle=0x7f080015;
+    public static final int always=0x7f080016;
+    public static final int area_choose=0x7f080017;
+    public static final int area_text=0x7f080018;
+    public static final int auto_focus=0x7f080019;
+    public static final int begin_assignment_order=0x7f08001a;
+    public static final int begin_cancel_order=0x7f08001b;
+    public static final int begin_menu=0x7f08001c;
+    public static final int begin_same_driver=0x7f08001d;
+    public static final int beginning=0x7f08001e;
+    public static final int billing=0x7f08001f;
+    public static final int boss_phone=0x7f080020;
+    public static final int bottom=0x7f080021;
+    public static final int briday_text=0x7f080022;
+    public static final int btnDel=0x7f080023;
+    public static final int buttonPanel=0x7f080024;
+    public static final int cancel_action=0x7f080025;
+    public static final int capture_imageview_back=0x7f080026;
+    public static final int catalog=0x7f080027;
+    public static final int checkbox=0x7f080028;
+    public static final int choose_birday_layout=0x7f080029;
+    public static final int choose_sex_layout=0x7f08002a;
+    public static final int chronometer=0x7f08002b;
+    public static final int cityInputText=0x7f08002c;
+    public static final int collapseActionView=0x7f08002d;
+    public static final int content=0x7f08002e;
+    public static final int contentPanel=0x7f08002f;
+    public static final int country_lvcountry=0x7f080030;
+    public static final int currentCity=0x7f080031;
+    public static final int currentCityTag=0x7f080032;
+    public static final int custom=0x7f080033;
+    public static final int customPanel=0x7f080034;
+    public static final int decode=0x7f080035;
+    public static final int decode_failed=0x7f080036;
+    public static final int decode_succeeded=0x7f080037;
+    public static final int decor_content_parent=0x7f080038;
+    public static final int default_activity_button=0x7f080039;
+    public static final int deleteImg=0x7f08003a;
+    public static final int deleteNameImg=0x7f08003b;
+    public static final int deleteQrpwdImg=0x7f08003c;
+    public static final int detailed_address=0x7f08003d;
+    public static final int dialog=0x7f08003e;
+    public static final int disableHome=0x7f08003f;
+    public static final int edit_query=0x7f080040;
+    public static final int encode_failed=0x7f080041;
+    public static final int encode_succeeded=0x7f080042;
+    public static final int end=0x7f080043;
+    public static final int end_padder=0x7f080044;
+    public static final int enterprise_name=0x7f080045;
+    public static final int expand_activities_button=0x7f080046;
+    public static final int expanded_menu=0x7f080047;
+    public static final int gridview=0x7f080048;
+    public static final int home=0x7f080049;
+    public static final int homeAsUp=0x7f08004a;
+    public static final int icon=0x7f08004b;
+    public static final int id_city=0x7f08004c;
+    public static final int id_district=0x7f08004d;
+    public static final int id_province=0x7f08004e;
+    public static final int ifRoom=0x7f08004f;
+    public static final int image=0x7f080050;
+    public static final int imageView=0x7f080051;
+    public static final int imgBack=0x7f080052;
+    public static final int immediate_registration=0x7f080053;
+    public static final int indexBar=0x7f080054;
+    public static final int info=0x7f080055;
+    public static final int inquiry_sheet=0x7f080056;
+    public static final int inquiry_sheet_back=0x7f080057;
+    public static final int inventory=0x7f080058;
+    public static final int item_touch_helper_previous_elevation=0x7f080059;
+    public static final int ivAvatar=0x7f08005a;
+    public static final int iv_make=0x7f08005b;
+    public static final int iv_shape_circle=0x7f08005c;
+    public static final int launch_product_query=0x7f08005d;
+    public static final int line1=0x7f08005e;
+    public static final int line3=0x7f08005f;
+    public static final int listMode=0x7f080060;
+    public static final int list_item=0x7f080061;
+    public static final int list_view=0x7f080062;
+    public static final int ll_root=0x7f080063;
+    public static final int ll_title=0x7f080064;
+    public static final int ll_title_background=0x7f080065;
+    public static final int localCity=0x7f080066;
+    public static final int localCityTag=0x7f080067;
+    public static final int login_button=0x7f080068;
+    public static final int loop_area=0x7f080069;
+    public static final int loop_city=0x7f08006a;
+    public static final int loop_data=0x7f08006b;
+    public static final int loop_day=0x7f08006c;
+    public static final int loop_hour=0x7f08006d;
+    public static final int loop_min=0x7f08006e;
+    public static final int loop_month=0x7f08006f;
+    public static final int loop_year=0x7f080070;
+    public static final int main_container=0x7f080071;
+    public static final int makeMoney=0x7f080072;
+    public static final int media_actions=0x7f080073;
+    public static final int message=0x7f080074;
+    public static final int middle=0x7f080075;
+    public static final int multiply=0x7f080076;
+    public static final int never=0x7f080077;
+    public static final int next_button=0x7f080078;
+    public static final int none=0x7f080079;
+    public static final int normal=0x7f08007a;
+    public static final int noticeText=0x7f08007b;
+    public static final int parentPanel=0x7f08007c;
+    public static final int passwordMessage=0x7f08007d;
+    public static final int password_editText=0x7f08007e;
+    public static final int phoneMessage=0x7f08007f;
+    public static final int phone_edittext=0x7f080080;
+    public static final int preview_view=0x7f080081;
+    public static final int progress_circular=0x7f080082;
+    public static final int progress_horizontal=0x7f080083;
+    public static final int pwdDeleteImg=0x7f080084;
+    public static final int quit=0x7f080085;
+    public static final int radio=0x7f080086;
+    public static final int registerPasswordMessage=0x7f080087;
+    public static final int registerPhoneMessage=0x7f080088;
+    public static final int registerQRPasswordMessage=0x7f080089;
+    public static final int registerText=0x7f08008a;
+    public static final int register_back=0x7f08008b;
+    public static final int register_name_editText=0x7f08008c;
+    public static final int register_password_editText=0x7f08008d;
+    public static final int register_phone_editText=0x7f08008e;
+    public static final int register_pwd_editText=0x7f08008f;
+    public static final int restart_preview=0x7f080090;
+    public static final int resultTv=0x7f080091;
+    public static final int return_scan_result=0x7f080092;
+    public static final int rl_bottom=0x7f080093;
+    public static final int rl_title=0x7f080094;
+    public static final int rv=0x7f080095;
+    public static final int scanBtn=0x7f080096;
+    public static final int screen=0x7f080097;
+    public static final int scrollIndicatorDown=0x7f080098;
+    public static final int scrollIndicatorUp=0x7f080099;
+    public static final int scrollView=0x7f08009a;
+    public static final int search_badge=0x7f08009b;
+    public static final int search_bar=0x7f08009c;
+    public static final int search_book_contents_failed=0x7f08009d;
+    public static final int search_book_contents_succeeded=0x7f08009e;
+    public static final int search_button=0x7f08009f;
+    public static final int search_close_btn=0x7f0800a0;
+    public static final int search_edit_frame=0x7f0800a1;
+    public static final int search_go_btn=0x7f0800a2;
+    public static final int search_mag_icon=0x7f0800a3;
+    public static final int search_plate=0x7f0800a4;
+    public static final int search_src_text=0x7f0800a5;
+    public static final int search_voice_btn=0x7f0800a6;
+    public static final int select_dialog_listview=0x7f0800a7;
+    public static final int sex_text=0x7f0800a8;
+    public static final int shopName=0x7f0800a9;
+    public static final int shortcut=0x7f0800aa;
+    public static final int showCustom=0x7f0800ab;
+    public static final int showHome=0x7f0800ac;
+    public static final int showTitle=0x7f0800ad;
+    public static final int sidrbar=0x7f0800ae;
+    public static final int spacer=0x7f0800af;
+    public static final int split=0x7f0800b0;
+    public static final int split_action_bar=0x7f0800b1;
+    public static final int src_atop=0x7f0800b2;
+    public static final int src_in=0x7f0800b3;
+    public static final int src_over=0x7f0800b4;
+    public static final int status_bar_latest_event_content=0x7f0800b5;
+    public static final int submenuarrow=0x7f0800b6;
+    public static final int submit_area=0x7f0800b7;
+    public static final int supplier_name=0x7f0800b8;
+    public static final int tabMode=0x7f0800b9;
+    public static final int text=0x7f0800ba;
+    public static final int text2=0x7f0800bb;
+    public static final int textSpacerNoButtons=0x7f0800bc;
+    public static final int time=0x7f0800bd;
+    public static final int title=0x7f0800be;
+    public static final int title_template=0x7f0800bf;
+    public static final int top=0x7f0800c0;
+    public static final int topPanel=0x7f0800c1;
+    public static final int tvCity=0x7f0800c2;
+    public static final int tvPhone=0x7f0800c3;
+    public static final int tvSideBarHint=0x7f0800c4;
+    public static final int tvSupermarket=0x7f0800c5;
+    public static final int tv_cancel=0x7f0800c6;
+    public static final int tv_confirm=0x7f0800c7;
+    public static final int tv_dynamic=0x7f0800c8;
+    public static final int tv_follow=0x7f0800c9;
+    public static final int tv_location=0x7f0800ca;
+    public static final int tv_main=0x7f0800cb;
+    public static final int tv_message=0x7f0800cc;
+    public static final int tv_person=0x7f0800cd;
+    public static final int tv_recommend=0x7f0800ce;
+    public static final int tv_title=0x7f0800cf;
+    public static final int tx_finish=0x7f0800d0;
+    public static final int tx_title=0x7f0800d1;
+    public static final int tx_unit=0x7f0800d2;
+    public static final int up=0x7f0800d3;
+    public static final int useLogo=0x7f0800d4;
+    public static final int view_empty=0x7f0800d5;
+    public static final int view_line=0x7f0800d6;
+    public static final int viewfinder_view=0x7f0800d7;
+    public static final int viewpager_home=0x7f0800d8;
+    public static final int warningImage=0x7f0800d9;
+    public static final int webview=0x7f0800da;
+    public static final int withText=0x7f0800db;
+    public static final int wrap_content=0x7f0800dc;
+    public static final int yesButton=0x7f0800dd;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -2392,43 +2436,45 @@ public final class R {
     public static final int abc_search_view=0x7f0a0018;
     public static final int abc_select_dialog_material=0x7f0a0019;
     public static final int activity_city_list_select=0x7f0a001a;
-    public static final int activity_inquiry_sheet=0x7f0a001b;
-    public static final int activity_inquiry_sheet_item=0x7f0a001c;
-    public static final int activity_login=0x7f0a001d;
-    public static final int activity_main=0x7f0a001e;
-    public static final int activity_make=0x7f0a001f;
-    public static final int activity_register=0x7f0a0020;
-    public static final int activity_register_area=0x7f0a0021;
-    public static final int activity_register_info=0x7f0a0022;
-    public static final int begin_order_popup=0x7f0a0023;
-    public static final int dialog_alarm_ui=0x7f0a0024;
-    public static final int dialog_success_layout=0x7f0a0025;
-    public static final int dialog_warning_layout=0x7f0a0026;
-    public static final int fragment_dynamic=0x7f0a0027;
-    public static final int fragment_idcard=0x7f0a0028;
-    public static final int fragment_main=0x7f0a0029;
-    public static final int fragment_message=0x7f0a002a;
-    public static final int fragment_person=0x7f0a002b;
-    public static final int item_city=0x7f0a002c;
-    public static final int item_city_swipe=0x7f0a002d;
-    public static final int layout_picker_data=0x7f0a002e;
-    public static final int layout_picker_date=0x7f0a002f;
-    public static final int layout_picker_region=0x7f0a0030;
-    public static final int layout_picker_time=0x7f0a0031;
-    public static final int notification_media_action=0x7f0a0032;
-    public static final int notification_media_cancel_action=0x7f0a0033;
-    public static final int notification_template_big_media=0x7f0a0034;
-    public static final int notification_template_big_media_narrow=0x7f0a0035;
-    public static final int notification_template_lines=0x7f0a0036;
-    public static final int notification_template_media=0x7f0a0037;
-    public static final int notification_template_part_chronometer=0x7f0a0038;
-    public static final int notification_template_part_time=0x7f0a0039;
-    public static final int pop_citypicker=0x7f0a003a;
-    public static final int select_dialog_item_material=0x7f0a003b;
-    public static final int select_dialog_multichoice_material=0x7f0a003c;
-    public static final int select_dialog_singlechoice_material=0x7f0a003d;
-    public static final int sortlistview_item=0x7f0a003e;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a003f;
+    public static final int activity_ewm=0x7f0a001b;
+    public static final int activity_inquiry_sheet=0x7f0a001c;
+    public static final int activity_inquiry_sheet_item=0x7f0a001d;
+    public static final int activity_login=0x7f0a001e;
+    public static final int activity_main=0x7f0a001f;
+    public static final int activity_make=0x7f0a0020;
+    public static final int activity_register=0x7f0a0021;
+    public static final int activity_register_area=0x7f0a0022;
+    public static final int activity_register_info=0x7f0a0023;
+    public static final int begin_order_popup=0x7f0a0024;
+    public static final int capture=0x7f0a0025;
+    public static final int dialog_alarm_ui=0x7f0a0026;
+    public static final int dialog_success_layout=0x7f0a0027;
+    public static final int dialog_warning_layout=0x7f0a0028;
+    public static final int fragment_dynamic=0x7f0a0029;
+    public static final int fragment_idcard=0x7f0a002a;
+    public static final int fragment_main=0x7f0a002b;
+    public static final int fragment_message=0x7f0a002c;
+    public static final int fragment_person=0x7f0a002d;
+    public static final int item_city=0x7f0a002e;
+    public static final int item_city_swipe=0x7f0a002f;
+    public static final int layout_picker_data=0x7f0a0030;
+    public static final int layout_picker_date=0x7f0a0031;
+    public static final int layout_picker_region=0x7f0a0032;
+    public static final int layout_picker_time=0x7f0a0033;
+    public static final int notification_media_action=0x7f0a0034;
+    public static final int notification_media_cancel_action=0x7f0a0035;
+    public static final int notification_template_big_media=0x7f0a0036;
+    public static final int notification_template_big_media_narrow=0x7f0a0037;
+    public static final int notification_template_lines=0x7f0a0038;
+    public static final int notification_template_media=0x7f0a0039;
+    public static final int notification_template_part_chronometer=0x7f0a003a;
+    public static final int notification_template_part_time=0x7f0a003b;
+    public static final int pop_citypicker=0x7f0a003c;
+    public static final int select_dialog_item_material=0x7f0a003d;
+    public static final int select_dialog_multichoice_material=0x7f0a003e;
+    public static final int select_dialog_singlechoice_material=0x7f0a003f;
+    public static final int sortlistview_item=0x7f0a0040;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a0041;
   }
   public static final class menu {
     public static final int main=0x7f0b0000;
@@ -2491,397 +2537,427 @@ public final class R {
     public static final int xjd=0x7f0c0036;
     public static final int yq=0x7f0c0037;
   }
+  public static final class raw {
+    public static final int beep=0x7f0d0000;
+  }
   public static final class string {
-    public static final int abc_action_bar_home_description=0x7f0d0000;
-    public static final int abc_action_bar_home_description_format=0x7f0d0001;
-    public static final int abc_action_bar_home_subtitle_description_format=0x7f0d0002;
-    public static final int abc_action_bar_up_description=0x7f0d0003;
-    public static final int abc_action_menu_overflow_description=0x7f0d0004;
-    public static final int abc_action_mode_done=0x7f0d0005;
-    public static final int abc_activity_chooser_view_see_all=0x7f0d0006;
-    public static final int abc_activitychooserview_choose_application=0x7f0d0007;
-    public static final int abc_capital_off=0x7f0d0008;
-    public static final int abc_capital_on=0x7f0d0009;
-    public static final int abc_font_family_body_1_material=0x7f0d000a;
-    public static final int abc_font_family_body_2_material=0x7f0d000b;
-    public static final int abc_font_family_button_material=0x7f0d000c;
-    public static final int abc_font_family_caption_material=0x7f0d000d;
-    public static final int abc_font_family_display_1_material=0x7f0d000e;
-    public static final int abc_font_family_display_2_material=0x7f0d000f;
-    public static final int abc_font_family_display_3_material=0x7f0d0010;
-    public static final int abc_font_family_display_4_material=0x7f0d0011;
-    public static final int abc_font_family_headline_material=0x7f0d0012;
-    public static final int abc_font_family_menu_material=0x7f0d0013;
-    public static final int abc_font_family_subhead_material=0x7f0d0014;
-    public static final int abc_font_family_title_material=0x7f0d0015;
-    public static final int abc_search_hint=0x7f0d0016;
-    public static final int abc_searchview_description_clear=0x7f0d0017;
-    public static final int abc_searchview_description_query=0x7f0d0018;
-    public static final int abc_searchview_description_search=0x7f0d0019;
-    public static final int abc_searchview_description_submit=0x7f0d001a;
-    public static final int abc_searchview_description_voice=0x7f0d001b;
-    public static final int abc_shareactionprovider_share_with=0x7f0d001c;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0d001d;
-    public static final int abc_toolbar_collapse_description=0x7f0d001e;
-    public static final int action_settings=0x7f0d001f;
-    public static final int app_name=0x7f0d0020;
-    public static final int dynamic=0x7f0d0021;
-    public static final int filter_vcode=0x7f0d0022;
-    public static final int hello_world=0x7f0d0023;
-    public static final int home=0x7f0d0024;
-    public static final int main=0x7f0d0025;
-    public static final int message=0x7f0d0026;
-    public static final int person=0x7f0d0027;
-    public static final int search_menu_title=0x7f0d0028;
-    public static final int status_bar_notification_info_overflow=0x7f0d0029;
-    public static final int timepicker_day=0x7f0d002a;
-    public static final int timepicker_finish=0x7f0d002b;
-    public static final int timepicker_hour=0x7f0d002c;
-    public static final int timepicker_min=0x7f0d002d;
-    public static final int timepicker_month=0x7f0d002e;
-    public static final int timepicker_title=0x7f0d002f;
-    public static final int timepicker_title_default=0x7f0d0030;
-    public static final int timepicker_year=0x7f0d0031;
+    public static final int abc_action_bar_home_description=0x7f0e0000;
+    public static final int abc_action_bar_home_description_format=0x7f0e0001;
+    public static final int abc_action_bar_home_subtitle_description_format=0x7f0e0002;
+    public static final int abc_action_bar_up_description=0x7f0e0003;
+    public static final int abc_action_menu_overflow_description=0x7f0e0004;
+    public static final int abc_action_mode_done=0x7f0e0005;
+    public static final int abc_activity_chooser_view_see_all=0x7f0e0006;
+    public static final int abc_activitychooserview_choose_application=0x7f0e0007;
+    public static final int abc_capital_off=0x7f0e0008;
+    public static final int abc_capital_on=0x7f0e0009;
+    public static final int abc_font_family_body_1_material=0x7f0e000a;
+    public static final int abc_font_family_body_2_material=0x7f0e000b;
+    public static final int abc_font_family_button_material=0x7f0e000c;
+    public static final int abc_font_family_caption_material=0x7f0e000d;
+    public static final int abc_font_family_display_1_material=0x7f0e000e;
+    public static final int abc_font_family_display_2_material=0x7f0e000f;
+    public static final int abc_font_family_display_3_material=0x7f0e0010;
+    public static final int abc_font_family_display_4_material=0x7f0e0011;
+    public static final int abc_font_family_headline_material=0x7f0e0012;
+    public static final int abc_font_family_menu_material=0x7f0e0013;
+    public static final int abc_font_family_subhead_material=0x7f0e0014;
+    public static final int abc_font_family_title_material=0x7f0e0015;
+    public static final int abc_search_hint=0x7f0e0016;
+    public static final int abc_searchview_description_clear=0x7f0e0017;
+    public static final int abc_searchview_description_query=0x7f0e0018;
+    public static final int abc_searchview_description_search=0x7f0e0019;
+    public static final int abc_searchview_description_submit=0x7f0e001a;
+    public static final int abc_searchview_description_voice=0x7f0e001b;
+    public static final int abc_shareactionprovider_share_with=0x7f0e001c;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0e001d;
+    public static final int abc_toolbar_collapse_description=0x7f0e001e;
+    public static final int action_settings=0x7f0e001f;
+    public static final int app_name=0x7f0e0020;
+    public static final int button_ok=0x7f0e0021;
+    public static final int contents_contact=0x7f0e0022;
+    public static final int contents_email=0x7f0e0023;
+    public static final int contents_location=0x7f0e0024;
+    public static final int contents_phone=0x7f0e0025;
+    public static final int contents_sms=0x7f0e0026;
+    public static final int contents_text=0x7f0e0027;
+    public static final int dynamic=0x7f0e0028;
+    public static final int filter_vcode=0x7f0e0029;
+    public static final int hello_world=0x7f0e002a;
+    public static final int home=0x7f0e002b;
+    public static final int main=0x7f0e002c;
+    public static final int message=0x7f0e002d;
+    public static final int msg_bulk_mode_scanned=0x7f0e002e;
+    public static final int msg_camera_framework_bug=0x7f0e002f;
+    public static final int person=0x7f0e0030;
+    public static final int preferences_actions_title=0x7f0e0031;
+    public static final int preferences_copy_to_clipboard_title=0x7f0e0032;
+    public static final int preferences_decode_1D_title=0x7f0e0033;
+    public static final int preferences_decode_Data_Matrix_title=0x7f0e0034;
+    public static final int preferences_decode_QR_title=0x7f0e0035;
+    public static final int preferences_play_beep=0x7f0e0036;
+    public static final int preferences_play_beep_title=0x7f0e0037;
+    public static final int preferences_remember_duplicates_summary=0x7f0e0038;
+    public static final int preferences_remember_duplicates_title=0x7f0e0039;
+    public static final int preferences_scanning_title=0x7f0e003a;
+    public static final int preferences_supplemental_summary=0x7f0e003b;
+    public static final int preferences_supplemental_title=0x7f0e003c;
+    public static final int preferences_vibrate=0x7f0e003d;
+    public static final int preferences_vibrate_title=0x7f0e003e;
+    public static final int preview_msg=0x7f0e003f;
+    public static final int scan_text=0x7f0e0040;
+    public static final int search_menu_title=0x7f0e0041;
+    public static final int status_bar_notification_info_overflow=0x7f0e0042;
+    public static final int timepicker_day=0x7f0e0043;
+    public static final int timepicker_finish=0x7f0e0044;
+    public static final int timepicker_hour=0x7f0e0045;
+    public static final int timepicker_min=0x7f0e0046;
+    public static final int timepicker_month=0x7f0e0047;
+    public static final int timepicker_title=0x7f0e0048;
+    public static final int timepicker_title_default=0x7f0e0049;
+    public static final int timepicker_year=0x7f0e004a;
+    public static final int viewfinderview_status_text1=0x7f0e004b;
+    public static final int viewfinderview_status_text2=0x7f0e004c;
   }
   public static final class style {
-    public static final int AlertDialog_AppCompat=0x7f0e0000;
-    public static final int AlertDialog_AppCompat_Light=0x7f0e0001;
-    public static final int AnimBottom=0x7f0e0002;
-    public static final int Animation_AppCompat_Dialog=0x7f0e0003;
-    public static final int Animation_AppCompat_DropDownUp=0x7f0e0004;
-    public static final int Animation_Bottom_Rising=0x7f0e0005;
-    public static final int AppBaseTheme=0x7f0e0006;
-    public static final int AppTheme=0x7f0e0007;
-    public static final int Base_AlertDialog_AppCompat=0x7f0e0008;
-    public static final int Base_AlertDialog_AppCompat_Light=0x7f0e0009;
-    public static final int Base_Animation_AppCompat_Dialog=0x7f0e000a;
-    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0e000b;
-    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0e000d;
-    public static final int Base_DialogWindowTitle_AppCompat=0x7f0e000c;
-    public static final int Base_TextAppearance_AppCompat=0x7f0e000e;
-    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0e000f;
-    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0e0010;
-    public static final int Base_TextAppearance_AppCompat_Button=0x7f0e0011;
-    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0e0012;
-    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0e0013;
-    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0e0014;
-    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0e0015;
-    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0e0016;
-    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0e0017;
-    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0e0018;
-    public static final int Base_TextAppearance_AppCompat_Large=0x7f0e0019;
-    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0e001a;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0e001b;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0e001c;
-    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0e001d;
-    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0e001e;
-    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0e001f;
-    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0e0020;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0e0021;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0e0022;
-    public static final int Base_TextAppearance_AppCompat_Small=0x7f0e0023;
-    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0e0024;
-    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0e0025;
-    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0e0026;
-    public static final int Base_TextAppearance_AppCompat_Title=0x7f0e0027;
-    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0e0028;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0e0029;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0e002a;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0e002b;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0e002c;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0e002d;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0e002e;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0e002f;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0e0030;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0e0031;
-    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0e0032;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0e0033;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0e0034;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0e0035;
-    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0e0036;
-    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0e0037;
-    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0e0038;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0e0039;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0e003a;
-    public static final int Base_ThemeOverlay_AppCompat=0x7f0e0049;
-    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0e004a;
-    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0e004b;
-    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0e004c;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0e004d;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0e004e;
-    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0e004f;
-    public static final int Base_Theme_AppCompat=0x7f0e003b;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0e003c;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0e003d;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0e0041;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0e003e;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0e003f;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0e0040;
-    public static final int Base_Theme_AppCompat_Light=0x7f0e0042;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0e0043;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0e0044;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0e0048;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0e0045;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0e0046;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0e0047;
-    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0e0052;
-    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0e0050;
-    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0e0051;
-    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0e0053;
-    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0e0054;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0e0059;
-    public static final int Base_V21_Theme_AppCompat=0x7f0e0055;
-    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0e0056;
-    public static final int Base_V21_Theme_AppCompat_Light=0x7f0e0057;
-    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0e0058;
-    public static final int Base_V22_Theme_AppCompat=0x7f0e005a;
-    public static final int Base_V22_Theme_AppCompat_Light=0x7f0e005b;
-    public static final int Base_V23_Theme_AppCompat=0x7f0e005c;
-    public static final int Base_V23_Theme_AppCompat_Light=0x7f0e005d;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0e0062;
-    public static final int Base_V7_Theme_AppCompat=0x7f0e005e;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0e005f;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0e0060;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0e0061;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0e0063;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0e0064;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0e0065;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0e0066;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0e0067;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0e0068;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0e0069;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0e006a;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0e006b;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0e006c;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0e006d;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0e006e;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0e006f;
-    public static final int Base_Widget_AppCompat_Button=0x7f0e0070;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0e0076;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0e0077;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0e0071;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0e0072;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0e0073;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0e0074;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0e0075;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0e0078;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0e0079;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0e007a;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0e007b;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0e007c;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0e007d;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0e007e;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0e007f;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0e0080;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0e0081;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0e0082;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0e0083;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0e0084;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0e0085;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0e0086;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0e0087;
-    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0e0088;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0e0089;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0e008a;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0e008b;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0e008c;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0e008d;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0e008e;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0e008f;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0e0090;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0e0091;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0e0092;
-    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0e0093;
-    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0e0094;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0e0095;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0e0096;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0e0097;
-    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0e0098;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0e0099;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0e009a;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0e009b;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0e009c;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0e009d;
-    public static final int MyDialog=0x7f0e009e;
-    public static final int Platform_AppCompat=0x7f0e009f;
-    public static final int Platform_AppCompat_Light=0x7f0e00a0;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0e00a1;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0e00a2;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0e00a3;
-    public static final int Platform_V11_AppCompat=0x7f0e00a4;
-    public static final int Platform_V11_AppCompat_Light=0x7f0e00a5;
-    public static final int Platform_V14_AppCompat=0x7f0e00a6;
-    public static final int Platform_V14_AppCompat_Light=0x7f0e00a7;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0e00a8;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0e00a9;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0e00aa;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0e00ab;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0e00ac;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0e00ad;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0e00ae;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0e00b4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0e00af;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0e00b0;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0e00b1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0e00b2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0e00b3;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0e00b5;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0e00b6;
-    public static final int TextAppearance_AppCompat=0x7f0e00b7;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0e00b8;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0e00b9;
-    public static final int TextAppearance_AppCompat_Button=0x7f0e00ba;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0e00bb;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0e00bc;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0e00bd;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0e00be;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0e00bf;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0e00c0;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0e00c1;
-    public static final int TextAppearance_AppCompat_Large=0x7f0e00c2;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0e00c3;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0e00c4;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0e00c5;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0e00c6;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0e00c7;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0e00c8;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0e00c9;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0e00ca;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0e00cb;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0e00cc;
-    public static final int TextAppearance_AppCompat_Small=0x7f0e00cd;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0e00ce;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0e00cf;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0e00d0;
-    public static final int TextAppearance_AppCompat_Title=0x7f0e00d1;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0e00d2;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0e00d3;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0e00d4;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0e00d5;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0e00d6;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0e00d7;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0e00d8;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0e00d9;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0e00da;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0e00db;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0e00dc;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0e00dd;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0e00de;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0e00df;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0e00e0;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0e00e1;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0e00e2;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0e00e3;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f0e00e4;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0e00e5;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0e00e6;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0e00e7;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0e00e8;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0e00e9;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0e00ea;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0e00eb;
-    public static final int ThemeOverlay_AppCompat=0x7f0e0103;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0e0104;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0e0105;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0e0106;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0e0107;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0e0108;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0e0109;
-    public static final int Theme_AppCompat=0x7f0e00ec;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0e00ed;
-    public static final int Theme_AppCompat_DayNight=0x7f0e00ee;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0e00ef;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0e00f0;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0e00f3;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0e00f1;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0e00f2;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0e00f4;
-    public static final int Theme_AppCompat_Dialog=0x7f0e00f5;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0e00f8;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0e00f6;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0e00f7;
-    public static final int Theme_AppCompat_Light=0x7f0e00f9;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0e00fa;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0e00fb;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0e00fe;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0e00fc;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0e00fd;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0e00ff;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0e0100;
-    public static final int Theme_Light_NoTitle_Dialog=0x7f0e0101;
-    public static final int Theme_Light_NoTitle_NoShadow_Dialog=0x7f0e0102;
-    public static final int Widget_AppCompat_ActionBar=0x7f0e010a;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0e010b;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0e010c;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0e010d;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0e010e;
-    public static final int Widget_AppCompat_ActionButton=0x7f0e010f;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0e0110;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0e0111;
-    public static final int Widget_AppCompat_ActionMode=0x7f0e0112;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0e0113;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0e0114;
-    public static final int Widget_AppCompat_Button=0x7f0e0115;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0e011b;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0e011c;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0e0116;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0e0117;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0e0118;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0e0119;
-    public static final int Widget_AppCompat_Button_Small=0x7f0e011a;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0e011d;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0e011e;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0e011f;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0e0120;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0e0121;
-    public static final int Widget_AppCompat_EditText=0x7f0e0122;
-    public static final int Widget_AppCompat_ImageButton=0x7f0e0123;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0e0124;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0e0125;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0e0126;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0e0127;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0e0128;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0e0129;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0e012a;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0e012b;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0e012c;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0e012d;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0e012e;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0e012f;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0e0130;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0e0131;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0e0132;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0e0133;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0e0134;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0e0135;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0e0136;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0e0137;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0e0138;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0e0139;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0e013a;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0e013b;
-    public static final int Widget_AppCompat_ListView=0x7f0e013c;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0e013d;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0e013e;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0e013f;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0e0140;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0e0141;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0e0142;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0e0143;
-    public static final int Widget_AppCompat_RatingBar=0x7f0e0144;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0e0145;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0e0146;
-    public static final int Widget_AppCompat_SearchView=0x7f0e0147;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0e0148;
-    public static final int Widget_AppCompat_SeekBar=0x7f0e0149;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0e014a;
-    public static final int Widget_AppCompat_Spinner=0x7f0e014b;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0e014c;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0e014d;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0e014e;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0e014f;
-    public static final int Widget_AppCompat_Toolbar=0x7f0e0150;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0e0151;
+    public static final int AlertDialog_AppCompat=0x7f0f0000;
+    public static final int AlertDialog_AppCompat_Light=0x7f0f0001;
+    public static final int AnimBottom=0x7f0f0002;
+    public static final int Animation_AppCompat_Dialog=0x7f0f0003;
+    public static final int Animation_AppCompat_DropDownUp=0x7f0f0004;
+    public static final int Animation_Bottom_Rising=0x7f0f0005;
+    public static final int AppBaseTheme=0x7f0f0006;
+    public static final int AppTheme=0x7f0f0007;
+    public static final int Base_AlertDialog_AppCompat=0x7f0f0008;
+    public static final int Base_AlertDialog_AppCompat_Light=0x7f0f0009;
+    public static final int Base_Animation_AppCompat_Dialog=0x7f0f000a;
+    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0f000b;
+    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0f000d;
+    public static final int Base_DialogWindowTitle_AppCompat=0x7f0f000c;
+    public static final int Base_TextAppearance_AppCompat=0x7f0f000e;
+    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0f000f;
+    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0f0010;
+    public static final int Base_TextAppearance_AppCompat_Button=0x7f0f0011;
+    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0f0012;
+    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0f0013;
+    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0f0014;
+    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0f0015;
+    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0f0016;
+    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0f0017;
+    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0f0018;
+    public static final int Base_TextAppearance_AppCompat_Large=0x7f0f0019;
+    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0f001a;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f001b;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f001c;
+    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0f001d;
+    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0f001e;
+    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0f001f;
+    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0f0020;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f0021;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0f0022;
+    public static final int Base_TextAppearance_AppCompat_Small=0x7f0f0023;
+    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0f0024;
+    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0f0025;
+    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0f0026;
+    public static final int Base_TextAppearance_AppCompat_Title=0x7f0f0027;
+    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0f0028;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f0029;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f002a;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f002b;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f002c;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f002d;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f002e;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f002f;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0f0030;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f0031;
+    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f0032;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f0033;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f0034;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f0035;
+    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0f0036;
+    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f0037;
+    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f0038;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f0039;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f003a;
+    public static final int Base_ThemeOverlay_AppCompat=0x7f0f0049;
+    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0f004a;
+    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0f004b;
+    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f004c;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0f004d;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f004e;
+    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0f004f;
+    public static final int Base_Theme_AppCompat=0x7f0f003b;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0f003c;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0f003d;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0f0041;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0f003e;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0f003f;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0f0040;
+    public static final int Base_Theme_AppCompat_Light=0x7f0f0042;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0f0043;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0f0044;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0f0048;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0f0045;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0f0046;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f0047;
+    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0f0052;
+    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0f0050;
+    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0f0051;
+    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0f0053;
+    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0f0054;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0f0059;
+    public static final int Base_V21_Theme_AppCompat=0x7f0f0055;
+    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0f0056;
+    public static final int Base_V21_Theme_AppCompat_Light=0x7f0f0057;
+    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0f0058;
+    public static final int Base_V22_Theme_AppCompat=0x7f0f005a;
+    public static final int Base_V22_Theme_AppCompat_Light=0x7f0f005b;
+    public static final int Base_V23_Theme_AppCompat=0x7f0f005c;
+    public static final int Base_V23_Theme_AppCompat_Light=0x7f0f005d;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0f0062;
+    public static final int Base_V7_Theme_AppCompat=0x7f0f005e;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0f005f;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0f0060;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0f0061;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0f0063;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0f0064;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0f0065;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0f0066;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0f0067;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0f0068;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0f0069;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0f006a;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0f006b;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0f006c;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0f006d;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0f006e;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0f006f;
+    public static final int Base_Widget_AppCompat_Button=0x7f0f0070;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0f0076;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f0077;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0f0071;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0f0072;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f0073;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0f0074;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0f0075;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0f0078;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0f0079;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0f007a;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0f007b;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0f007c;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0f007d;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0f007e;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0f007f;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0f0080;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0f0081;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f0082;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0f0083;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f0084;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0f0085;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0f0086;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f0087;
+    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0f0088;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0f0089;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0f008a;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0f008b;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0f008c;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0f008d;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0f008e;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0f008f;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0f0090;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0f0091;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0f0092;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0f0093;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0f0094;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0f0095;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0f0096;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0f0097;
+    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0f0098;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0f0099;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0f009a;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0f009b;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0f009c;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f009d;
+    public static final int MyDialog=0x7f0f009e;
+    public static final int Platform_AppCompat=0x7f0f009f;
+    public static final int Platform_AppCompat_Light=0x7f0f00a0;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00a1;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00a2;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00a3;
+    public static final int Platform_V11_AppCompat=0x7f0f00a4;
+    public static final int Platform_V11_AppCompat_Light=0x7f0f00a5;
+    public static final int Platform_V14_AppCompat=0x7f0f00a6;
+    public static final int Platform_V14_AppCompat_Light=0x7f0f00a7;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00a8;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00a9;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00aa;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00ab;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00ac;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00ad;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00ae;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00b4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00af;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00b0;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00b1;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00b2;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00b3;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00b5;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00b6;
+    public static final int TextAppearance_AppCompat=0x7f0f00b7;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0f00b8;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0f00b9;
+    public static final int TextAppearance_AppCompat_Button=0x7f0f00ba;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0f00bb;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0f00bc;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0f00bd;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0f00be;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0f00bf;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0f00c0;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00c1;
+    public static final int TextAppearance_AppCompat_Large=0x7f0f00c2;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00c3;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00c4;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00c5;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00c6;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00c7;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0f00c8;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00c9;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0f00ca;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00cb;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00cc;
+    public static final int TextAppearance_AppCompat_Small=0x7f0f00cd;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00ce;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00cf;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00d0;
+    public static final int TextAppearance_AppCompat_Title=0x7f0f00d1;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f00d2;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f00d3;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f00d4;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f00d5;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f00d6;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f00d7;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f00d8;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f00d9;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f00da;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f00db;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f00dc;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f00dd;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f00de;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f00df;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f00e0;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f00e1;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f00e2;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f00e3;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0f00e4;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0f00e5;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0f00e6;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0f00e7;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0f00e8;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f00e9;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f00ea;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f00eb;
+    public static final int ThemeOverlay_AppCompat=0x7f0f0103;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f0104;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f0105;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f0106;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f0107;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f0108;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0f0109;
+    public static final int Theme_AppCompat=0x7f0f00ec;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0f00ed;
+    public static final int Theme_AppCompat_DayNight=0x7f0f00ee;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f00ef;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f00f0;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f00f3;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f00f1;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f00f2;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f00f4;
+    public static final int Theme_AppCompat_Dialog=0x7f0f00f5;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f00f8;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f00f6;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f00f7;
+    public static final int Theme_AppCompat_Light=0x7f0f00f9;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f00fa;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0f00fb;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f00fe;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f00fc;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f00fd;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f00ff;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0f0100;
+    public static final int Theme_Light_NoTitle_Dialog=0x7f0f0101;
+    public static final int Theme_Light_NoTitle_NoShadow_Dialog=0x7f0f0102;
+    public static final int Widget_AppCompat_ActionBar=0x7f0f010a;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f010b;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f010c;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f010d;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f010e;
+    public static final int Widget_AppCompat_ActionButton=0x7f0f010f;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0110;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0111;
+    public static final int Widget_AppCompat_ActionMode=0x7f0f0112;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f0113;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f0114;
+    public static final int Widget_AppCompat_Button=0x7f0f0115;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0f011b;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f011c;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0f0116;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f0117;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f0118;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0f0119;
+    public static final int Widget_AppCompat_Button_Small=0x7f0f011a;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f011d;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f011e;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f011f;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0120;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0121;
+    public static final int Widget_AppCompat_EditText=0x7f0f0122;
+    public static final int Widget_AppCompat_ImageButton=0x7f0f0123;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f0124;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f0125;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f0126;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f0127;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f0128;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f0129;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f012a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f012b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f012c;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f012d;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f012e;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f012f;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f0130;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f0131;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f0132;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f0133;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f0134;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f0135;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f0136;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f0137;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0f0138;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f0139;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0f013a;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f013b;
+    public static final int Widget_AppCompat_ListView=0x7f0f013c;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f013d;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0f013e;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0f013f;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f0140;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0f0141;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0f0142;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f0143;
+    public static final int Widget_AppCompat_RatingBar=0x7f0f0144;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f0145;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f0146;
+    public static final int Widget_AppCompat_SearchView=0x7f0f0147;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f0148;
+    public static final int Widget_AppCompat_SeekBar=0x7f0f0149;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f014a;
+    public static final int Widget_AppCompat_Spinner=0x7f0f014b;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f014c;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f014d;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f014e;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f014f;
+    public static final int Widget_AppCompat_Toolbar=0x7f0f0150;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f0151;
   }
   public static final class styleable {
     /**
@@ -2891,35 +2967,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.example.textviewdemo:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.textviewdemo:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.textviewdemo:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.textviewdemo:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.textviewdemo:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.textviewdemo:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.textviewdemo:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.textviewdemo:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.textviewdemo:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.textviewdemo:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.example.textviewdemo:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.example.textviewdemo:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.example.textviewdemo:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.example.textviewdemo:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.textviewdemo:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.textviewdemo:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.example.textviewdemo:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.example.textviewdemo:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.textviewdemo:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.example.textviewdemo:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.example.textviewdemo:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.example.textviewdemo:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.example.textviewdemo:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.textviewdemo:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.textviewdemo:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.example.textviewdemo:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.textviewdemo:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.example.textviewdemo:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.textviewdemo:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.example.janepin:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.janepin:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.janepin:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.janepin:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.janepin:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.janepin:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.janepin:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.janepin:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.janepin:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.janepin:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.example.janepin:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.example.janepin:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.example.janepin:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.example.janepin:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.janepin:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.janepin:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.example.janepin:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.example.janepin:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.janepin:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.example.janepin:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.example.janepin:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.example.janepin:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.example.janepin:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.janepin:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.janepin:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.example.janepin:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.janepin:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.example.janepin:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.janepin:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3005,7 +3081,7 @@ public final class R {
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3013,11 +3089,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:background
+     * @attr name com.example.janepin:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3028,11 +3104,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:backgroundSplit
+     * @attr name com.example.janepin:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3043,11 +3119,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:backgroundStacked
+     * @attr name com.example.janepin:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3056,11 +3132,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetEnd
+     * @attr name com.example.janepin:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3069,11 +3145,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetEndWithActions
+     * @attr name com.example.janepin:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3082,11 +3158,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetLeft
+     * @attr name com.example.janepin:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3095,11 +3171,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetRight
+     * @attr name com.example.janepin:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3108,11 +3184,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetStart
+     * @attr name com.example.janepin:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3121,11 +3197,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetStartWithNavigation
+     * @attr name com.example.janepin:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3133,11 +3209,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:customNavigationLayout
+     * @attr name com.example.janepin:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3155,11 +3231,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:displayOptions
+     * @attr name com.example.janepin:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3167,11 +3243,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:divider
+     * @attr name com.example.janepin:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3180,11 +3256,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:elevation
+     * @attr name com.example.janepin:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3193,21 +3269,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:height
+     * @attr name com.example.janepin:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:hideOnContentScroll
+     * @attr name com.example.janepin:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3215,11 +3291,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:homeAsUpIndicator
+     * @attr name com.example.janepin:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3227,11 +3303,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:homeLayout
+     * @attr name com.example.janepin:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3239,11 +3315,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:icon
+     * @attr name com.example.janepin:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3251,11 +3327,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:indeterminateProgressStyle
+     * @attr name com.example.janepin:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3264,11 +3340,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:itemPadding
+     * @attr name com.example.janepin:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3276,11 +3352,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:logo
+     * @attr name com.example.janepin:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3294,11 +3370,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:navigationMode
+     * @attr name com.example.janepin:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3306,11 +3382,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:popupTheme
+     * @attr name com.example.janepin:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3319,11 +3395,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:progressBarPadding
+     * @attr name com.example.janepin:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3331,21 +3407,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:progressBarStyle
+     * @attr name com.example.janepin:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:subtitle
+     * @attr name com.example.janepin:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3353,21 +3429,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:subtitleTextStyle
+     * @attr name com.example.janepin:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:title
+     * @attr name com.example.janepin:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3375,7 +3451,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:titleTextStyle
+     * @attr name com.example.janepin:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -3414,12 +3490,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.example.textviewdemo:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.textviewdemo:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.textviewdemo:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.example.textviewdemo:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.textviewdemo:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.textviewdemo:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.example.janepin:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.janepin:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.janepin:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.example.janepin:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.janepin:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.janepin:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -3433,7 +3509,7 @@ public final class R {
         0x7f0300bf, 0x7f0300e1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3441,11 +3517,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:background
+     * @attr name com.example.janepin:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3456,11 +3532,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:backgroundSplit
+     * @attr name com.example.janepin:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3468,11 +3544,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:closeItemLayout
+     * @attr name com.example.janepin:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3481,11 +3557,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:height
+     * @attr name com.example.janepin:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3493,11 +3569,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:subtitleTextStyle
+     * @attr name com.example.janepin:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3505,7 +3581,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:titleTextStyle
+     * @attr name com.example.janepin:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -3515,8 +3591,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.textviewdemo:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.textviewdemo:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.janepin:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.janepin:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -3525,7 +3601,7 @@ public final class R {
         0x7f03006e, 0x7f03007b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3533,17 +3609,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:expandActivityOverflowButtonDrawable
+     * @attr name com.example.janepin:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:initialActivityCount
+     * @attr name com.example.janepin:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -3554,11 +3630,11 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.textviewdemo:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.textviewdemo:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.example.textviewdemo:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.textviewdemo:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.textviewdemo:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.janepin:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.janepin:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.example.janepin:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.janepin:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.janepin:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -3584,7 +3660,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3592,11 +3668,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonPanelSideLayout
+     * @attr name com.example.janepin:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3604,11 +3680,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:listItemLayout
+     * @attr name com.example.janepin:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3616,11 +3692,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:listLayout
+     * @attr name com.example.janepin:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3628,11 +3704,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:multiChoiceItemLayout
+     * @attr name com.example.janepin:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3640,7 +3716,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:singleChoiceItemLayout
+     * @attr name com.example.janepin:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=5;
     /**
@@ -3651,7 +3727,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.textviewdemo:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.janepin:srcCompat}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -3675,7 +3751,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3683,7 +3759,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:srcCompat
+     * @attr name com.example.janepin:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -3694,9 +3770,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.textviewdemo:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.textviewdemo:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.textviewdemo:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.janepin:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.janepin:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.janepin:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -3719,7 +3795,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3727,22 +3803,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:tickMark
+     * @attr name com.example.janepin:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:tickMarkTint
+     * @attr name com.example.janepin:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3759,7 +3835,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:tickMarkTintMode
+     * @attr name com.example.janepin:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -3899,7 +3975,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.textviewdemo:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.janepin:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_textAllCaps
@@ -3920,7 +3996,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3930,7 +4006,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:textAllCaps
+     * @attr name com.example.janepin:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
     /**
@@ -3942,119 +4018,119 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.textviewdemo:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.textviewdemo:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.textviewdemo:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.textviewdemo:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.textviewdemo:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.textviewdemo:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.textviewdemo:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.textviewdemo:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.textviewdemo:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.textviewdemo:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.textviewdemo:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.textviewdemo:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.textviewdemo:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.textviewdemo:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.textviewdemo:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.textviewdemo:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.textviewdemo:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.textviewdemo:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.textviewdemo:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.textviewdemo:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.textviewdemo:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.textviewdemo:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.textviewdemo:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.textviewdemo:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.textviewdemo:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.textviewdemo:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.textviewdemo:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.textviewdemo:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.textviewdemo:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.textviewdemo:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.textviewdemo:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.textviewdemo:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.textviewdemo:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.textviewdemo:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.textviewdemo:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.textviewdemo:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.textviewdemo:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.textviewdemo:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.textviewdemo:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.textviewdemo:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.textviewdemo:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.textviewdemo:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.textviewdemo:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.textviewdemo:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.textviewdemo:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.textviewdemo:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.textviewdemo:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.textviewdemo:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.textviewdemo:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.textviewdemo:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.textviewdemo:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.textviewdemo:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.textviewdemo:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.textviewdemo:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.textviewdemo:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.textviewdemo:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.textviewdemo:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.textviewdemo:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.textviewdemo:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.textviewdemo:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.textviewdemo:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.textviewdemo:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.textviewdemo:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.textviewdemo:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.textviewdemo:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.textviewdemo:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.textviewdemo:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.textviewdemo:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.textviewdemo:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.textviewdemo:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.textviewdemo:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.textviewdemo:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.textviewdemo:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.textviewdemo:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.textviewdemo:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.textviewdemo:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.textviewdemo:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.textviewdemo:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.textviewdemo:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.textviewdemo:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.textviewdemo:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.textviewdemo:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.textviewdemo:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.textviewdemo:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.textviewdemo:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.textviewdemo:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.textviewdemo:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.textviewdemo:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.textviewdemo:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.textviewdemo:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.textviewdemo:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.textviewdemo:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.textviewdemo:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.textviewdemo:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.textviewdemo:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.textviewdemo:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.textviewdemo:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.textviewdemo:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.textviewdemo:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.textviewdemo:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.textviewdemo:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.textviewdemo:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.textviewdemo:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.textviewdemo:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.textviewdemo:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.textviewdemo:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.textviewdemo:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.textviewdemo:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.textviewdemo:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.textviewdemo:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.textviewdemo:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.textviewdemo:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.textviewdemo:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.janepin:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.janepin:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.janepin:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.janepin:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.janepin:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.janepin:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.janepin:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.janepin:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.janepin:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.janepin:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.janepin:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.janepin:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.janepin:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.janepin:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.janepin:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.janepin:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.janepin:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.janepin:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.janepin:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.janepin:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.janepin:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.janepin:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.janepin:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.janepin:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.janepin:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.janepin:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.janepin:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.janepin:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.janepin:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.janepin:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.janepin:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.janepin:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.janepin:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.janepin:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.janepin:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.janepin:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.janepin:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.janepin:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.janepin:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.janepin:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.janepin:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.janepin:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.janepin:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.janepin:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.janepin:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.janepin:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.janepin:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.janepin:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.janepin:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.janepin:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.janepin:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.janepin:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.janepin:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.janepin:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.janepin:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.janepin:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.janepin:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.janepin:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.janepin:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.janepin:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.janepin:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.janepin:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.janepin:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.janepin:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.janepin:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.janepin:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.janepin:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.janepin:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.janepin:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.janepin:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.janepin:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.janepin:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.janepin:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.janepin:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.janepin:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.janepin:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.janepin:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.janepin:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.janepin:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.janepin:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.janepin:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.janepin:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.janepin:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.janepin:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.janepin:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.janepin:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.janepin:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.janepin:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.janepin:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.janepin:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.janepin:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.janepin:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.janepin:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.janepin:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.janepin:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.janepin:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.janepin:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.janepin:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.janepin:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.janepin:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.janepin:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.janepin:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.janepin:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.janepin:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.janepin:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.janepin:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.janepin:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.janepin:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.janepin:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.janepin:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.janepin:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.janepin:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.janepin:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -4204,7 +4280,7 @@ public final class R {
         0x7f0300ef, 0x7f0300f0, 0x7f0300f1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4212,11 +4288,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarDivider
+     * @attr name com.example.janepin:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4224,11 +4300,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarItemBackground
+     * @attr name com.example.janepin:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4236,11 +4312,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarPopupTheme
+     * @attr name com.example.janepin:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4257,11 +4333,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:actionBarSize
+     * @attr name com.example.janepin:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4269,11 +4345,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarSplitStyle
+     * @attr name com.example.janepin:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4281,11 +4357,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarStyle
+     * @attr name com.example.janepin:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4293,11 +4369,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarTabBarStyle
+     * @attr name com.example.janepin:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4305,11 +4381,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarTabStyle
+     * @attr name com.example.janepin:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4317,11 +4393,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarTabTextStyle
+     * @attr name com.example.janepin:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4329,11 +4405,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarTheme
+     * @attr name com.example.janepin:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4341,11 +4417,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionBarWidgetTheme
+     * @attr name com.example.janepin:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4353,11 +4429,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionButtonStyle
+     * @attr name com.example.janepin:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4365,11 +4441,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionDropDownStyle
+     * @attr name com.example.janepin:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4377,11 +4453,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionMenuTextAppearance
+     * @attr name com.example.janepin:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4392,11 +4468,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionMenuTextColor
+     * @attr name com.example.janepin:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4404,11 +4480,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeBackground
+     * @attr name com.example.janepin:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4416,11 +4492,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeCloseButtonStyle
+     * @attr name com.example.janepin:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4428,11 +4504,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeCloseDrawable
+     * @attr name com.example.janepin:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4440,11 +4516,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeCopyDrawable
+     * @attr name com.example.janepin:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4452,11 +4528,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeCutDrawable
+     * @attr name com.example.janepin:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4464,11 +4540,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeFindDrawable
+     * @attr name com.example.janepin:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4476,11 +4552,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModePasteDrawable
+     * @attr name com.example.janepin:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4488,11 +4564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModePopupWindowStyle
+     * @attr name com.example.janepin:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4500,11 +4576,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeSelectAllDrawable
+     * @attr name com.example.janepin:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4512,11 +4588,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeShareDrawable
+     * @attr name com.example.janepin:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4524,11 +4600,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeSplitBackground
+     * @attr name com.example.janepin:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4536,11 +4612,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeStyle
+     * @attr name com.example.janepin:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4548,11 +4624,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionModeWebSearchDrawable
+     * @attr name com.example.janepin:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4560,11 +4636,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionOverflowButtonStyle
+     * @attr name com.example.janepin:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4572,11 +4648,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionOverflowMenuStyle
+     * @attr name com.example.janepin:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4584,11 +4660,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:activityChooserViewStyle
+     * @attr name com.example.janepin:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4596,21 +4672,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:alertDialogButtonGroupStyle
+     * @attr name com.example.janepin:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:alertDialogCenterButtons
+     * @attr name com.example.janepin:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4618,11 +4694,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:alertDialogStyle
+     * @attr name com.example.janepin:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4630,7 +4706,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:alertDialogTheme
+     * @attr name com.example.janepin:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -4656,7 +4732,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowIsFloating=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4664,11 +4740,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:autoCompleteTextViewStyle
+     * @attr name com.example.janepin:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4676,11 +4752,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:borderlessButtonStyle
+     * @attr name com.example.janepin:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4688,11 +4764,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonBarButtonStyle
+     * @attr name com.example.janepin:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4700,11 +4776,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonBarNegativeButtonStyle
+     * @attr name com.example.janepin:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4712,11 +4788,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonBarNeutralButtonStyle
+     * @attr name com.example.janepin:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4724,11 +4800,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonBarPositiveButtonStyle
+     * @attr name com.example.janepin:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4736,11 +4812,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonBarStyle
+     * @attr name com.example.janepin:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4748,11 +4824,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonStyle
+     * @attr name com.example.janepin:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4760,11 +4836,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonStyleSmall
+     * @attr name com.example.janepin:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4772,11 +4848,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:checkboxStyle
+     * @attr name com.example.janepin:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4784,110 +4860,110 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:checkedTextViewStyle
+     * @attr name com.example.janepin:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorAccent
+     * @attr name com.example.janepin:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorBackgroundFloating
+     * @attr name com.example.janepin:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorButtonNormal
+     * @attr name com.example.janepin:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorControlActivated
+     * @attr name com.example.janepin:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorControlHighlight
+     * @attr name com.example.janepin:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorControlNormal
+     * @attr name com.example.janepin:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorPrimary
+     * @attr name com.example.janepin:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorPrimaryDark
+     * @attr name com.example.janepin:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:colorSwitchThumbNormal
+     * @attr name com.example.janepin:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4895,11 +4971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:controlBackground
+     * @attr name com.example.janepin:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4908,11 +4984,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:dialogPreferredPadding
+     * @attr name com.example.janepin:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4920,11 +4996,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:dialogTheme
+     * @attr name com.example.janepin:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4932,11 +5008,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:dividerHorizontal
+     * @attr name com.example.janepin:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4944,11 +5020,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:dividerVertical
+     * @attr name com.example.janepin:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4956,11 +5032,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:dropDownListViewStyle
+     * @attr name com.example.janepin:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4969,11 +5045,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:dropdownListPreferredItemHeight
+     * @attr name com.example.janepin:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4981,11 +5057,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:editTextBackground
+     * @attr name com.example.janepin:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4996,11 +5072,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:editTextColor
+     * @attr name com.example.janepin:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5008,11 +5084,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:editTextStyle
+     * @attr name com.example.janepin:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5020,11 +5096,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:homeAsUpIndicator
+     * @attr name com.example.janepin:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5032,11 +5108,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:imageButtonStyle
+     * @attr name com.example.janepin:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5044,11 +5120,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:listChoiceBackgroundIndicator
+     * @attr name com.example.janepin:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5056,11 +5132,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:listDividerAlertDialog
+     * @attr name com.example.janepin:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5068,11 +5144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:listMenuViewStyle
+     * @attr name com.example.janepin:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5080,11 +5156,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:listPopupWindowStyle
+     * @attr name com.example.janepin:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5093,11 +5169,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:listPreferredItemHeight
+     * @attr name com.example.janepin:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5106,11 +5182,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:listPreferredItemHeightLarge
+     * @attr name com.example.janepin:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5119,11 +5195,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:listPreferredItemHeightSmall
+     * @attr name com.example.janepin:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5132,11 +5208,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:listPreferredItemPaddingLeft
+     * @attr name com.example.janepin:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5145,11 +5221,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:listPreferredItemPaddingRight
+     * @attr name com.example.janepin:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5157,11 +5233,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:panelBackground
+     * @attr name com.example.janepin:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5169,11 +5245,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:panelMenuListTheme
+     * @attr name com.example.janepin:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=79;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5182,11 +5258,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:panelMenuListWidth
+     * @attr name com.example.janepin:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=80;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5194,11 +5270,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:popupMenuStyle
+     * @attr name com.example.janepin:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=81;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5206,11 +5282,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:popupWindowStyle
+     * @attr name com.example.janepin:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5218,11 +5294,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:radioButtonStyle
+     * @attr name com.example.janepin:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5230,11 +5306,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:ratingBarStyle
+     * @attr name com.example.janepin:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5242,11 +5318,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:ratingBarStyleIndicator
+     * @attr name com.example.janepin:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=85;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5254,11 +5330,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:ratingBarStyleSmall
+     * @attr name com.example.janepin:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=86;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5266,11 +5342,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:searchViewStyle
+     * @attr name com.example.janepin:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=87;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5278,11 +5354,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:seekBarStyle
+     * @attr name com.example.janepin:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5290,11 +5366,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:selectableItemBackground
+     * @attr name com.example.janepin:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=89;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5302,11 +5378,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:selectableItemBackgroundBorderless
+     * @attr name com.example.janepin:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=90;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5314,11 +5390,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:spinnerDropDownItemStyle
+     * @attr name com.example.janepin:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=91;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5326,11 +5402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:spinnerStyle
+     * @attr name com.example.janepin:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5338,11 +5414,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:switchStyle
+     * @attr name com.example.janepin:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5350,11 +5426,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:textAppearanceLargePopupMenu
+     * @attr name com.example.janepin:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=94;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5362,11 +5438,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:textAppearanceListItem
+     * @attr name com.example.janepin:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=95;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5374,11 +5450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:textAppearanceListItemSmall
+     * @attr name com.example.janepin:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=96;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5386,11 +5462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:textAppearancePopupMenuHeader
+     * @attr name com.example.janepin:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=97;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5398,11 +5474,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:textAppearanceSearchResultSubtitle
+     * @attr name com.example.janepin:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=98;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5410,11 +5486,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:textAppearanceSearchResultTitle
+     * @attr name com.example.janepin:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=99;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5422,11 +5498,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:textAppearanceSmallPopupMenu
+     * @attr name com.example.janepin:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=100;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5437,11 +5513,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:textColorAlertDialogListItem
+     * @attr name com.example.janepin:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=101;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5452,11 +5528,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:textColorSearchUrl
+     * @attr name com.example.janepin:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=102;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5464,11 +5540,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:toolbarNavigationButtonStyle
+     * @attr name com.example.janepin:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=103;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5476,41 +5552,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:toolbarStyle
+     * @attr name com.example.janepin:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=104;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:windowActionBar
+     * @attr name com.example.janepin:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=105;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:windowActionBarOverlay
+     * @attr name com.example.janepin:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=106;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:windowActionModeOverlay
+     * @attr name com.example.janepin:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=107;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5523,11 +5599,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.textviewdemo:windowFixedHeightMajor
+     * @attr name com.example.janepin:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=108;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5540,11 +5616,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.textviewdemo:windowFixedHeightMinor
+     * @attr name com.example.janepin:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5557,11 +5633,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.textviewdemo:windowFixedWidthMajor
+     * @attr name com.example.janepin:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=110;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5574,11 +5650,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.textviewdemo:windowFixedWidthMinor
+     * @attr name com.example.janepin:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=111;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5591,11 +5667,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.textviewdemo:windowMinWidthMajor
+     * @attr name com.example.janepin:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5608,17 +5684,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.textviewdemo:windowMinWidthMinor
+     * @attr name com.example.janepin:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:windowNoTitle
+     * @attr name com.example.janepin:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=114;
     /**
@@ -5628,7 +5704,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.textviewdemo:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.janepin:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -5636,13 +5712,13 @@ public final class R {
         0x7f030026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:allowStacking
+     * @attr name com.example.janepin:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -5652,14 +5728,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_text_cancel_color com.example.textviewdemo:citypicker_text_cancel_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_text_confirm_color com.example.textviewdemo:citypicker_text_confirm_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_title_action_size com.example.textviewdemo:citypicker_title_action_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_title_background com.example.textviewdemo:citypicker_title_background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_title_text_size com.example.textviewdemo:citypicker_title_text_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_color com.example.textviewdemo:citypicker_wheel_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_color com.example.textviewdemo:citypicker_wheel_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_size com.example.textviewdemo:citypicker_wheel_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_text_cancel_color com.example.janepin:citypicker_text_cancel_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_text_confirm_color com.example.janepin:citypicker_text_confirm_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_title_action_size com.example.janepin:citypicker_title_action_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_title_background com.example.janepin:citypicker_title_background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_title_text_size com.example.janepin:citypicker_title_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_color com.example.janepin:citypicker_wheel_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_color com.example.janepin:citypicker_wheel_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_size com.example.janepin:citypicker_wheel_text_size}</code></td><td></td></tr>
      * </table>
      * @see #CityPickerView_citypicker_text_cancel_color
      * @see #CityPickerView_citypicker_text_confirm_color
@@ -5675,29 +5751,29 @@ public final class R {
         0x7f030043, 0x7f030044, 0x7f030045, 0x7f030046
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_text_cancel_color}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_text_cancel_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:citypicker_text_cancel_color
+     * @attr name com.example.janepin:citypicker_text_cancel_color
      */
     public static final int CityPickerView_citypicker_text_cancel_color=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_text_confirm_color}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_text_confirm_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:citypicker_text_confirm_color
+     * @attr name com.example.janepin:citypicker_text_confirm_color
      */
     public static final int CityPickerView_citypicker_text_confirm_color=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_title_action_size}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_title_action_size}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5706,22 +5782,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:citypicker_title_action_size
+     * @attr name com.example.janepin:citypicker_title_action_size
      */
     public static final int CityPickerView_citypicker_title_action_size=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_title_background}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_title_background}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:citypicker_title_background
+     * @attr name com.example.janepin:citypicker_title_background
      */
     public static final int CityPickerView_citypicker_title_background=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_title_text_size}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_title_text_size}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5730,33 +5806,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:citypicker_title_text_size
+     * @attr name com.example.janepin:citypicker_title_text_size
      */
     public static final int CityPickerView_citypicker_title_text_size=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_wheel_color}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_wheel_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:citypicker_wheel_color
+     * @attr name com.example.janepin:citypicker_wheel_color
      */
     public static final int CityPickerView_citypicker_wheel_color=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_wheel_text_color}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_wheel_text_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:citypicker_wheel_text_color
+     * @attr name com.example.janepin:citypicker_wheel_text_color
      */
     public static final int CityPickerView_citypicker_wheel_text_color=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#citypicker_wheel_text_size}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_wheel_text_size}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5765,7 +5841,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:citypicker_wheel_text_size
+     * @attr name com.example.janepin:citypicker_wheel_text_size
      */
     public static final int CityPickerView_citypicker_wheel_text_size=7;
     /**
@@ -5777,7 +5853,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.textviewdemo:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.janepin:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -5787,12 +5863,12 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f030027
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.textviewdemo:alpha
+     * @attr name com.example.janepin:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -5823,8 +5899,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.textviewdemo:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.textviewdemo:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.janepin:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.janepin:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -5846,18 +5922,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:buttonTint
+     * @attr name com.example.janepin:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5873,7 +5949,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:buttonTintMode
+     * @attr name com.example.janepin:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -5883,14 +5959,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.textviewdemo:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.textviewdemo:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.textviewdemo:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.textviewdemo:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.textviewdemo:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.textviewdemo:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.textviewdemo:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.textviewdemo:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.janepin:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.janepin:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.janepin:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.janepin:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.janepin:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.janepin:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.janepin:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.janepin:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -5906,7 +5982,7 @@ public final class R {
         0x7f030066, 0x7f03006f, 0x7f0300b3, 0x7f0300d1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5915,11 +5991,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:arrowHeadLength
+     * @attr name com.example.janepin:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5928,11 +6004,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:arrowShaftLength
+     * @attr name com.example.janepin:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5941,22 +6017,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:barLength
+     * @attr name com.example.janepin:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:color
+     * @attr name com.example.janepin:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5965,11 +6041,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:drawableSize
+     * @attr name com.example.janepin:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5978,21 +6054,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:gapBetweenBars
+     * @attr name com.example.janepin:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:spinBars
+     * @attr name com.example.janepin:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6001,7 +6077,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:thickness
+     * @attr name com.example.janepin:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -6011,8 +6087,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #IndexBar_indexBarPressBackground com.example.textviewdemo:indexBarPressBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IndexBar_indexBarTextSize com.example.textviewdemo:indexBarTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IndexBar_indexBarPressBackground com.example.janepin:indexBarPressBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IndexBar_indexBarTextSize com.example.janepin:indexBarTextSize}</code></td><td></td></tr>
      * </table>
      * @see #IndexBar_indexBarPressBackground
      * @see #IndexBar_indexBarTextSize
@@ -6021,18 +6097,18 @@ public final class R {
         0x7f030079, 0x7f03007a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#indexBarPressBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#indexBarPressBackground}
      * attribute's value can be found in the {@link #IndexBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:indexBarPressBackground
+     * @attr name com.example.janepin:indexBarPressBackground
      */
     public static final int IndexBar_indexBarPressBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#indexBarTextSize}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#indexBarTextSize}
      * attribute's value can be found in the {@link #IndexBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6041,7 +6117,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:indexBarTextSize
+     * @attr name com.example.janepin:indexBarTextSize
      */
     public static final int IndexBar_indexBarTextSize=1;
     /**
@@ -6056,10 +6132,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.textviewdemo:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.textviewdemo:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.textviewdemo:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.textviewdemo:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.janepin:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.janepin:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.janepin:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.janepin:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -6255,7 +6331,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6263,11 +6339,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:divider
+     * @attr name com.example.janepin:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6276,21 +6352,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:dividerPadding
+     * @attr name com.example.janepin:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:measureWithLargestChild
+     * @attr name com.example.janepin:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6305,7 +6381,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:showDividers
+     * @attr name com.example.janepin:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -6473,10 +6549,10 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.example.textviewdemo:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.textviewdemo:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.textviewdemo:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.example.textviewdemo:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.example.janepin:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.janepin:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.janepin:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.example.janepin:showAsAction}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -6504,7 +6580,7 @@ public final class R {
         0x7f0300ae
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6512,27 +6588,27 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:actionLayout
+     * @attr name com.example.janepin:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:actionProviderClass
+     * @attr name com.example.janepin:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:actionViewClass
+     * @attr name com.example.janepin:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -6678,7 +6754,7 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6694,7 +6770,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:showAsAction
+     * @attr name com.example.janepin:showAsAction
      */
     public static final int MenuItem_showAsAction=16;
     /**
@@ -6711,8 +6787,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.textviewdemo:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.textviewdemo:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.janepin:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.janepin:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -6817,17 +6893,17 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:preserveIconSpacing
+     * @attr name com.example.janepin:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6835,7 +6911,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:subMenuArrow
+     * @attr name com.example.janepin:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -6847,7 +6923,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.textviewdemo:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.janepin:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -6863,7 +6939,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.textviewdemo:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.janepin:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -6871,13 +6947,13 @@ public final class R {
         0x7f0300b9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:state_above_anchor
+     * @attr name com.example.janepin:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -6908,13 +6984,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:overlapAnchor
+     * @attr name com.example.janepin:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -6926,10 +7002,10 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.textviewdemo:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.textviewdemo:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.example.textviewdemo:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.textviewdemo:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.janepin:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.janepin:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.example.janepin:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.janepin:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -6978,42 +7054,42 @@ public final class R {
      */
     public static final int RecyclerView_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:layoutManager
+     * @attr name com.example.janepin:layoutManager
      */
     public static final int RecyclerView_layoutManager=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:reverseLayout
+     * @attr name com.example.janepin:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.textviewdemo:spanCount
+     * @attr name com.example.janepin:spanCount
      */
     public static final int RecyclerView_spanCount=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:stackFromEnd
+     * @attr name com.example.janepin:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=5;
     /**
@@ -7027,19 +7103,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.example.textviewdemo:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.example.textviewdemo:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.textviewdemo:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.example.textviewdemo:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.textviewdemo:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.example.textviewdemo:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.example.textviewdemo:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.example.textviewdemo:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.textviewdemo:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.example.textviewdemo:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.example.textviewdemo:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.textviewdemo:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.example.textviewdemo:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.example.janepin:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.example.janepin:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.janepin:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.example.janepin:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.janepin:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.example.janepin:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.example.janepin:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.example.janepin:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.janepin:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.example.janepin:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.example.janepin:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.janepin:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.example.janepin:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -7168,7 +7244,7 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7176,11 +7252,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:closeIcon
+     * @attr name com.example.janepin:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7188,21 +7264,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:commitIcon
+     * @attr name com.example.janepin:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:defaultQueryHint
+     * @attr name com.example.janepin:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7210,21 +7286,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:goIcon
+     * @attr name com.example.janepin:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:iconifiedByDefault
+     * @attr name com.example.janepin:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7232,11 +7308,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:layout
+     * @attr name com.example.janepin:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7244,21 +7320,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:queryBackground
+     * @attr name com.example.janepin:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:queryHint
+     * @attr name com.example.janepin:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7266,11 +7342,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:searchHintIcon
+     * @attr name com.example.janepin:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7278,11 +7354,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:searchIcon
+     * @attr name com.example.janepin:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7290,11 +7366,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:submitBackground
+     * @attr name com.example.janepin:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7302,11 +7378,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:suggestionRowLayout
+     * @attr name com.example.janepin:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7314,7 +7390,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:voiceIcon
+     * @attr name com.example.janepin:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -7328,7 +7404,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.example.textviewdemo:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.example.janepin:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -7403,7 +7479,7 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7411,7 +7487,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:popupTheme
+     * @attr name com.example.janepin:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -7421,9 +7497,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SwipeMenuLayout_ios com.example.textviewdemo:ios}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwipeMenuLayout_leftSwipe com.example.textviewdemo:leftSwipe}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwipeMenuLayout_swipeEnable com.example.textviewdemo:swipeEnable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwipeMenuLayout_ios com.example.janepin:ios}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwipeMenuLayout_leftSwipe com.example.janepin:leftSwipe}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwipeMenuLayout_swipeEnable com.example.janepin:swipeEnable}</code></td><td></td></tr>
      * </table>
      * @see #SwipeMenuLayout_ios
      * @see #SwipeMenuLayout_leftSwipe
@@ -7433,33 +7509,33 @@ public final class R {
         0x7f03007c, 0x7f030081, 0x7f0300c1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#ios}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ios}
      * attribute's value can be found in the {@link #SwipeMenuLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:ios
+     * @attr name com.example.janepin:ios
      */
     public static final int SwipeMenuLayout_ios=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#leftSwipe}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#leftSwipe}
      * attribute's value can be found in the {@link #SwipeMenuLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:leftSwipe
+     * @attr name com.example.janepin:leftSwipe
      */
     public static final int SwipeMenuLayout_leftSwipe=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#swipeEnable}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#swipeEnable}
      * attribute's value can be found in the {@link #SwipeMenuLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:swipeEnable
+     * @attr name com.example.janepin:swipeEnable
      */
     public static final int SwipeMenuLayout_swipeEnable=2;
     /**
@@ -7472,17 +7548,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.example.textviewdemo:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.textviewdemo:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.textviewdemo:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.textviewdemo:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.textviewdemo:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.textviewdemo:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.textviewdemo:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.textviewdemo:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.example.textviewdemo:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.textviewdemo:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.textviewdemo:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.example.janepin:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.janepin:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.janepin:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.janepin:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.janepin:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.janepin:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.janepin:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.janepin:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.example.janepin:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.janepin:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.janepin:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -7538,27 +7614,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:showText
+     * @attr name com.example.janepin:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:splitTrack
+     * @attr name com.example.janepin:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7567,11 +7643,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:switchMinWidth
+     * @attr name com.example.janepin:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7580,11 +7656,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:switchPadding
+     * @attr name com.example.janepin:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7592,11 +7668,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:switchTextAppearance
+     * @attr name com.example.janepin:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7605,22 +7681,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:thumbTextPadding
+     * @attr name com.example.janepin:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:thumbTint
+     * @attr name com.example.janepin:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7637,11 +7713,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:thumbTintMode
+     * @attr name com.example.janepin:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7649,22 +7725,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:track
+     * @attr name com.example.janepin:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:trackTint
+     * @attr name com.example.janepin:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7681,7 +7757,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:trackTintMode
+     * @attr name com.example.janepin:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -7699,7 +7775,7 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.textviewdemo:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.janepin:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -7820,7 +7896,7 @@ public final class R {
      */
     public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7830,7 +7906,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.textviewdemo:textAllCaps
+     * @attr name com.example.janepin:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=8;
     /**
@@ -7842,33 +7918,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.textviewdemo:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.textviewdemo:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.textviewdemo:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.textviewdemo:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.textviewdemo:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.textviewdemo:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.textviewdemo:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.textviewdemo:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.textviewdemo:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.example.textviewdemo:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.example.textviewdemo:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.textviewdemo:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.textviewdemo:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.textviewdemo:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.example.textviewdemo:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.example.textviewdemo:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.textviewdemo:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.textviewdemo:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.example.textviewdemo:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.example.textviewdemo:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.textviewdemo:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.textviewdemo:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.textviewdemo:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.textviewdemo:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.example.textviewdemo:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.textviewdemo:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.textviewdemo:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.janepin:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.janepin:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.janepin:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.janepin:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.janepin:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.janepin:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.janepin:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.janepin:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.janepin:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.example.janepin:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.example.janepin:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.janepin:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.janepin:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.janepin:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.example.janepin:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.example.janepin:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.janepin:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.janepin:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.example.janepin:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.example.janepin:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.janepin:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.janepin:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.janepin:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.janepin:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.example.janepin:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.janepin:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.janepin:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -7953,7 +8029,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7966,21 +8042,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:buttonGravity
+     * @attr name com.example.janepin:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:collapseContentDescription
+     * @attr name com.example.janepin:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7988,11 +8064,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:collapseIcon
+     * @attr name com.example.janepin:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8001,11 +8077,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetEnd
+     * @attr name com.example.janepin:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8014,11 +8090,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetEndWithActions
+     * @attr name com.example.janepin:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8027,11 +8103,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetLeft
+     * @attr name com.example.janepin:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8040,11 +8116,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetRight
+     * @attr name com.example.janepin:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8053,11 +8129,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetStart
+     * @attr name com.example.janepin:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8066,11 +8142,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:contentInsetStartWithNavigation
+     * @attr name com.example.janepin:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8078,21 +8154,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:logo
+     * @attr name com.example.janepin:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:logoDescription
+     * @attr name com.example.janepin:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8101,21 +8177,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:maxButtonHeight
+     * @attr name com.example.janepin:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:navigationContentDescription
+     * @attr name com.example.janepin:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8123,11 +8199,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:navigationIcon
+     * @attr name com.example.janepin:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8135,21 +8211,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:popupTheme
+     * @attr name com.example.janepin:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:subtitle
+     * @attr name com.example.janepin:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8157,32 +8233,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:subtitleTextAppearance
+     * @attr name com.example.janepin:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:subtitleTextColor
+     * @attr name com.example.janepin:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.textviewdemo:title
+     * @attr name com.example.janepin:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8191,11 +8267,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:titleMargin
+     * @attr name com.example.janepin:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8204,11 +8280,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:titleMarginBottom
+     * @attr name com.example.janepin:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8217,11 +8293,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:titleMarginEnd
+     * @attr name com.example.janepin:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8230,11 +8306,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:titleMarginStart
+     * @attr name com.example.janepin:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8243,11 +8319,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:titleMarginTop
+     * @attr name com.example.janepin:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8256,11 +8332,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:titleMargins
+     * @attr name com.example.janepin:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8268,18 +8344,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:titleTextAppearance
+     * @attr name com.example.janepin:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:titleTextColor
+     * @attr name com.example.janepin:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -8291,9 +8367,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.example.textviewdemo:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.example.textviewdemo:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.example.textviewdemo:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.example.janepin:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.example.janepin:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.example.janepin:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -8313,8 +8389,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.textviewdemo:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.textviewdemo:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.janepin:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.janepin:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -8339,18 +8415,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.textviewdemo:backgroundTint
+     * @attr name com.example.janepin:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8366,7 +8442,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.textviewdemo:backgroundTintMode
+     * @attr name com.example.janepin:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -8446,7 +8522,7 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8455,11 +8531,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:paddingEnd
+     * @attr name com.example.janepin:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8468,11 +8544,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.textviewdemo:paddingStart
+     * @attr name com.example.janepin:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.textviewdemo.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8480,7 +8556,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.textviewdemo:theme
+     * @attr name com.example.janepin:theme
      */
     public static final int View_theme=4;
   }

@@ -5,12 +5,16 @@
     android:versionCode="1"
     android:versionName="1.0">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="18"
         tools:overrideLibrary="mypicker" />
-
-    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -30,10 +34,17 @@
         <activity
             android:name="com.lianpos.activity.MainActivity"
             android:windowSoftInputMode="adjustPan"></activity>
+
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterActivity"></activity>
+
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterInfoActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterAreaActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetActivity"></activity>
+        <activity
+            android:name="com.lianpos.zxing.android.CaptureActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
