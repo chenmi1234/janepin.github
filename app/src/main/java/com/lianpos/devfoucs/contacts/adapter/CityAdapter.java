@@ -41,7 +41,7 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
 
     @Override
     public CityAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ViewHolder(mInflater.inflate(R.layout.item_city, parent, false));
+        return new ViewHolder(mInflater.inflate(R.layout.item_city_link, parent, false));
     }
 
     @Override

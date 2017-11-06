@@ -23,7 +23,7 @@
         android:testOnly="true"
         android:theme="@style/AppBaseTheme" >
         <activity
-            android:name="com.lianpos.devfoucs.login.activity.LoginActivity"
+            android:name="com.lianpos.activity.WelcomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,9 +36,14 @@
             android:name="com.lianpos.activity.MainActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterActivity" />
+        <activity android:name="com.lianpos.devfoucs.login.activity.LoginActivity" />
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterInfoActivity" />
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterAreaActivity" />
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetActivity" />
+        <activity android:name="com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity" />
+        <activity
+            android:name="com.lianpos.devfoucs.linkman.ui.LinkManActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.lianpos.zxing.android.CaptureActivity"
             android:screenOrientation="portrait"

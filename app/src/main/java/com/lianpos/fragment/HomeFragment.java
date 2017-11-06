@@ -10,8 +10,8 @@ import android.widget.ImageView;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.activity.InquirySheetActivity;
-import com.lianpos.devfoucs.login.activity.RegisterActivity;
-import com.lianpos.devfoucs.login.activity.RegisterInfoActivity;
+import com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity;
+import com.lianpos.devfoucs.linkman.ui.LinkManActivity;
 
 /**
  * 首页
@@ -66,8 +66,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.billing:
+                Intent billingIntent = new Intent();
+                billingIntent.setClass(getActivity(), LinkManActivity.class);
+                startActivity(billingIntent);
                 break;
             case R.id.makeMoney:
+                Intent intent = new Intent();
+                intent.setClass(getActivity(), MakeMoneyActivity.class);
+                startActivity(intent);
                 break;
             case R.id.inventory:
                 break;

@@ -3,6 +3,7 @@ package com.lianpos.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.KeyEvent;
 import android.view.View;
@@ -14,8 +15,6 @@ import com.lianpos.fragment.HomeFragment;
 import com.lianpos.fragment.IDCardFragment;
 import com.lianpos.fragment.MessageFragment;
 import com.lianpos.fragment.PersonFragment;
-
-import java.util.Objects;
 
 /**
  * 对fragment的切换,底部图标颜色的切换
@@ -61,7 +60,9 @@ public class MainActivity extends FragmentActivity {
             }
         } else {
             if (num1.equals("2")) {
-                changeFragment(R.id.tv_dynamic);
+                changeSelect(R.id.tv_dynamic);//改变图标跟文字颜色的选中
+                changeFragment(R.id.tv_dynamic);//fragment的切换
+                currentId = R.id.tv_dynamic;
             }
         }
         tvMain.setOnClickListener(tabClickListener);
@@ -69,7 +70,6 @@ public class MainActivity extends FragmentActivity {
         ivHome.setOnClickListener(tabClickListener);
         tvMessage.setOnClickListener(tabClickListener);
         tvPerson.setOnClickListener(tabClickListener);
-
     }
 
     @Override
