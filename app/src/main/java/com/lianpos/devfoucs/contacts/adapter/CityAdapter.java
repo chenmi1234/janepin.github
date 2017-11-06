@@ -1,6 +1,7 @@
 package com.lianpos.devfoucs.contacts.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,10 @@ import android.widget.Toast;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.model.CityBean;
+import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
+import com.lianpos.devfoucs.linkman.ui.LinkManActivity;
+import com.lianpos.devfoucs.login.activity.LoginActivity;
+import com.lianpos.devfoucs.login.activity.RegisterActivity;
 
 import java.util.List;
 
@@ -51,7 +56,9 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
         holder.content.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, "pos:" + position, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                intent.setClass(mContext, IWantBillingActivity.class);
+                mContext.startActivity(intent);
             }
         });
         holder.avatar.setText("18842535353");

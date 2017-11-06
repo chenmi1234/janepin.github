@@ -119,19 +119,4 @@ public class LinkManActivity extends AppCompatActivity {
         }, 500);
     }
 
-    /**
-     * 更新数据源
-     *
-     * @param view
-     */
-    public void updateDatas(View view) {
-        for (int i = 0; i < 5; i++) {
-            mDatas.add(new CityBean("东京"));
-            mDatas.add(new CityBean("大阪"));
-        }
-
-        mIndexBar.setmSourceDatas(mDatas)
-                .invalidate();
-        mAdapter.notifyDataSetChanged();
-    }
 }

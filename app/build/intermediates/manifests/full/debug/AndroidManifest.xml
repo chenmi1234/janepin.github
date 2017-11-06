@@ -41,6 +41,8 @@
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterAreaActivity" />
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetActivity" />
         <activity android:name="com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity" />
+        <activity android:name="com.lianpos.devfoucs.homepage.activity.IWantBillingActivity" />
+        <activity android:name="com.lianpos.devfoucs.reportform.activity.ReportForm" />
         <activity
             android:name="com.lianpos.devfoucs.linkman.ui.LinkManActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
