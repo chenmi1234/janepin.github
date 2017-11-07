@@ -2,6 +2,7 @@ package com.lianpos.devfoucs.reportform.activity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.lianpos.activity.R;
 import com.lianpos.firebase.BaseActivity;
@@ -13,10 +14,12 @@ import com.lianpos.firebase.BaseActivity;
 
 public class ReportForm extends BaseActivity implements View.OnClickListener {
 
+    private ImageView zl_back;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_enterprise_information);
+        setContentView(R.layout.activity_person_zl);
         init();
     }
 
@@ -31,21 +34,23 @@ public class ReportForm extends BaseActivity implements View.OnClickListener {
      * 初始化控件
      */
     private void initActivity() {
+        zl_back = (ImageView) findViewById(R.id.zl_back);
     }
 
     /**
      * 初始化点击事件
      */
     private void initEvent() {
+        zl_back.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-//        switch (v.getId()) {
-//            case R.id.registerText:
-//
-//                break;
-//        }
+        switch (v.getId()) {
+            case R.id.zl_back:
+                finish();
+                break;
+        }
     }
 
 }

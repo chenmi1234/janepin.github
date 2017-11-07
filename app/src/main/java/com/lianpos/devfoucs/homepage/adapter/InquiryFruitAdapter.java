@@ -1,61 +1,88 @@
 package com.lianpos.devfoucs.homepage.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.homepage.model.InquryFruit;
+import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 询价单适配器
  * Created by wangshuai on 2017/11/2 0002.
  */
 
-public class InquiryFruitAdapter extends ArrayAdapter<InquryFruit> {
+public class InquiryFruitAdapter extends BaseAdapter {
 
-    private int resourceId;
-
-    public InquiryFruitAdapter(Context context, int textViewResourceId,
-                               List objects) {
-        super(context, textViewResourceId, objects);
-        resourceId = textViewResourceId;
+    private List<Map<String, Object>> data;
+    private LayoutInflater layoutInflater;
+    private Context context;
+    public InquiryFruitAdapter(Context context,List<Map<String, Object>> data){
+        this.context=context;
+        this.data=data;
+        this.layoutInflater=LayoutInflater.from(context);
     }
-
-    /*  由系统调用，获取一个View对象，作为ListView的条目，屏幕上能显示多少个条目，getView方法就会被调用多少次
-     *  position：代表该条目在整个ListView中所处的位置，从0开始
+    /**
+     * 组件集合，对应list.xml中的控件
+     * @author Administrator
+     */
+    public final class Zujian{
+        public TextView title;
+        public TextView info;
+        public RelativeLayout inquiryContent;
+    }
+    @Override
+    public int getCount() {
+        return data.size();
+    }
+    /**
+     * 获得某一位置的数据
      */
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        //重写适配器的getItem()方法
-        InquryFruit fruit = getItem(position);
-        View view;
-        ViewHolder viewHolder;
-        if (convertView == null) { //若没有缓存布局，则加载
-            //首先获取布局填充器，然后使用布局填充器填充布局文件
-            view = LayoutInflater.from(getContext()).inflate(resourceId, null);
-            viewHolder = new ViewHolder();
-            //存储子项布局中子控件对象
-            viewHolder.fruitName = (TextView) view.findViewById(R.id.shopName);
-            // 将内部类对象存储到View对象中
-            view.setTag(viewHolder);
-        } else { //若有缓存布局，则直接用缓存（利用的是缓存的布局，利用的不是缓存布局中的数据）
-            view = convertView;
-            viewHolder = (ViewHolder) view.getTag();
-        }
-        viewHolder.fruitName.setText(fruit.getName());
-        return view;
+    public Object getItem(int position) {
+        return data.get(position);
+    }
+    /**
+     * 获得唯一标识
+     */
+    @Override
+    public long getItemId(int position) {
+        return position;
     }
 
-    //内部类，用于存储ListView子项布局中的控件对象
-    class ViewHolder {
-        // 超市名称
-        TextView fruitName;
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        Zujian zujian=null;
+        if(convertView==null){
+            zujian=new Zujian();
+            //获得组件，实例化组件
+            convertView=layoutInflater.inflate(R.layout.activity_inquiry_sheet_item, null);
+            zujian.title=(TextView)convertView.findViewById(R.id.shopName);
+            zujian.info=(TextView)convertView.findViewById(R.id.phoneNumber);
+            zujian.inquiryContent = (RelativeLayout)convertView.findViewById(R.id.inquiryContent);
+            convertView.setTag(zujian);
+        }else{
+            zujian=(Zujian)convertView.getTag();
+        }
+        //绑定数据
+        zujian.title.setText((String)data.get(position).get("title"));
+        zujian.info.setText((String)data.get(position).get("info"));
+        zujian.inquiryContent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(context, IWantBillingActivity.class);
+                context.startActivity(intent);
+            }
+        });
+        return convertView;
     }
 
 }

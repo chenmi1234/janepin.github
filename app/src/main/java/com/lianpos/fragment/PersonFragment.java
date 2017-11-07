@@ -14,6 +14,7 @@ import com.lianpos.devfoucs.login.activity.LoginActivity;
 import com.lianpos.devfoucs.login.activity.RegisterActivity;
 import com.lianpos.devfoucs.reportform.activity.EnterpriseInformation;
 import com.lianpos.devfoucs.reportform.activity.ModifyPassword;
+import com.lianpos.devfoucs.reportform.activity.PrinterActivity;
 import com.lianpos.devfoucs.reportform.activity.ReportForm;
 
 /**
@@ -24,7 +25,7 @@ import com.lianpos.devfoucs.reportform.activity.ReportForm;
  */
 public class PersonFragment extends Fragment implements View.OnClickListener {
 
-    private RelativeLayout person_zl,modifyPassword,enterprise_informtion,loginout;
+    private RelativeLayout person_zl,modifyPassword,enterprise_informtion,printer_layout,loginout;
     View rootView;
 
     @Override
@@ -46,6 +47,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
         person_zl = (RelativeLayout)rootView.findViewById(R.id.person_zl);
         modifyPassword = (RelativeLayout)rootView.findViewById(R.id.modify_password);
         enterprise_informtion = (RelativeLayout)rootView.findViewById(R.id.enterprise_informtion);
+        printer_layout = (RelativeLayout)rootView.findViewById(R.id.printer_layout);
         loginout = (RelativeLayout)rootView.findViewById(R.id.loginout);
     }
 
@@ -54,6 +56,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
         person_zl.setOnClickListener(this);
         modifyPassword.setOnClickListener(this);
         enterprise_informtion.setOnClickListener(this);
+        printer_layout.setOnClickListener(this);
         loginout.setOnClickListener(this);
     }
 
@@ -74,6 +77,11 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
                 Intent intent2 = new Intent();
                 intent2.setClass(getContext(), EnterpriseInformation.class);
                 startActivity(intent2);
+                break;
+            case R.id.printer_layout:
+                Intent printer = new Intent();
+                printer.setClass(getContext(), PrinterActivity.class);
+                startActivity(printer);
                 break;
             case R.id.loginout:
                 Intent intent3 = new Intent();

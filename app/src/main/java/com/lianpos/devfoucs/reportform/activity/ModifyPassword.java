@@ -15,8 +15,8 @@ import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 
 /**
- * 个人资料
- * Created by wangshuai on 2017/11/06 .
+ * 修改密码
+ * Created by wangshuai on 2017/11/07
  */
 
 public class ModifyPassword extends BaseActivity implements View.OnClickListener {

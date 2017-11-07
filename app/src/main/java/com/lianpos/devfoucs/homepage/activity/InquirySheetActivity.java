@@ -1,20 +1,21 @@
 package com.lianpos.devfoucs.homepage.activity;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.homepage.adapter.InquiryFruitAdapter;
 import com.lianpos.devfoucs.homepage.model.InquryFruit;
 import com.lianpos.firebase.BaseActivity;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 询价单
@@ -27,57 +28,17 @@ public class InquirySheetActivity extends BaseActivity implements View.OnClickLi
     private ImageView inquiry_sheet_back;
     // 询价单list
     private ListView listView;
-    private List<InquryFruit> inquryList = new ArrayList<InquryFruit>();
+    private InquiryFruitAdapter mAdapter;
+    private List<InquryFruit> mDatas = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inquiry_sheet);
         init();
-        getData();
-        listView.setAdapter(new BaseAdapter() {
-            //返回多少条记录
-            @Override
-            public int getCount() {
-                // TODO Auto-generated method stub
-                return inquryList.size();
-            }
+        List<Map<String, Object>> list=getData();
+        listView.setAdapter(new InquiryFruitAdapter(this, list));
 
-            //每一个item项，返回一次界面
-            @Override
-            public View getView(int position, View convertView, ViewGroup parent) {
-                View view = null;
-                //布局不变，数据变
-
-                //如果缓存为空，我们生成新的布局作为1个item
-                if (convertView == null) {
-                    LayoutInflater inflater = InquirySheetActivity.this.getLayoutInflater();
-                    //因为getView()返回的对象，adapter会自动赋给ListView
-                    view = inflater.inflate(R.layout.activity_inquiry_sheet_item, null);
-                } else {
-                    view = convertView;
-                }
-                InquryFruit m = inquryList.get(position);
-                TextView tv_userName = (TextView) view.findViewById(R.id.shopName);
-                tv_userName.setText(m.getName());
-                tv_userName.setTextSize(15);
-
-                return view;
-            }
-
-            @Override
-            public Object getItem(int position) {
-                // TODO Auto-generated method stub
-                return null;
-            }
-
-            @Override
-            public long getItemId(int position) {
-                // TODO Auto-generated method stub
-                return 0;
-            }
-
-        });
     }
 
     private void init() {
@@ -107,15 +68,14 @@ public class InquirySheetActivity extends BaseActivity implements View.OnClickLi
         }
     }
 
-    private List<InquryFruit> getData() {
-
-        for (int i = 1; i < 10; i++) {
-            //添加数据
-            InquryFruit m = new InquryFruit();
-            m.setName("洋洋超市");
-            inquryList.add(m);
+    public List<Map<String, Object>> getData(){
+        List<Map<String, Object>> list=new ArrayList<Map<String,Object>>();
+        for (int i = 0; i < 10; i++) {
+            Map<String, Object> map=new HashMap<String, Object>();
+            map.put("title", "达达超市"+i);
+            map.put("info", "1884444333"+i);
+            list.add(map);
         }
-
-        return inquryList;
+        return list;
     }
 }
