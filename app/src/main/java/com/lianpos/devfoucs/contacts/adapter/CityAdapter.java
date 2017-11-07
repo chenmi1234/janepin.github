@@ -28,6 +28,7 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
     protected Context mContext;
     protected List<CityBean> mDatas;
     protected LayoutInflater mInflater;
+    public OnRecyclerViewLongItemClickListener mOnLongItemClickListener = null;//长按
 
     public CityAdapter(Context mContext, List<CityBean> mDatas) {
         this.mContext = mContext;
@@ -56,9 +57,15 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
         holder.content.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(mContext, IWantBillingActivity.class);
-                mContext.startActivity(intent);
+            }
+        });
+        holder.content.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                if (mOnLongItemClickListener != null) {
+                    mOnLongItemClickListener.onLongItemClick(v, position);
+                }
+                return true;
             }
         });
         holder.avatar.setText("18842535353");
@@ -83,5 +90,13 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
             avatar = (TextView) itemView.findViewById(R.id.tvPhone);
             content = itemView.findViewById(R.id.content);
         }
+    }
+
+    public interface OnRecyclerViewLongItemClickListener {
+        void onLongItemClick(View view, int position);
+    }
+
+    public void setOnLongItemClickListener(OnRecyclerViewLongItemClickListener listener) {
+        this.mOnLongItemClickListener = listener;
     }
 }

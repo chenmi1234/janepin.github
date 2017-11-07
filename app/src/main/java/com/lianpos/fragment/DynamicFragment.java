@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.adapter.CityAdapter;
@@ -79,6 +80,14 @@ public class DynamicFragment extends Fragment {
         //mRv.addItemDecoration(new TitleItemDecoration2(this,mDatas));
         mRv.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
 
+        mAdapter.setOnLongItemClickListener(new CityAdapter.OnRecyclerViewLongItemClickListener() {
+            @Override
+            public void onLongItemClick(View view, int position) {
+                Toast.makeText(getActivity().getApplicationContext(), "删除了一条DATA", Toast.LENGTH_SHORT).show();
+                mDatas.remove(position);
+                mAdapter.notifyDataSetChanged();
+            }
+        });
 
         //使用indexBar
         mTvSideBarHint = (TextView) rootView.findViewById(R.id.tvSideBarHint);//HintTextView

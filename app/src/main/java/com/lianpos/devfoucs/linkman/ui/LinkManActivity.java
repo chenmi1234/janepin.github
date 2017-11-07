@@ -13,6 +13,7 @@ import com.lianpos.devfoucs.contacts.adapter.CityAdapter;
 import com.lianpos.devfoucs.contacts.decoration.DividerItemDecoration;
 import com.lianpos.devfoucs.contacts.model.CityBean;
 import com.lianpos.devfoucs.contacts.ui.AddFriendPop;
+import com.lianpos.devfoucs.linkman.adapter.LinkManAdapter;
 import com.mcxtzhang.indexlib.IndexBar.widget.IndexBar;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 
@@ -28,7 +29,7 @@ import java.util.List;
 
 public class LinkManActivity extends AppCompatActivity {
     private RecyclerView mRv;
-    private CityAdapter mAdapter;
+    private LinkManAdapter mAdapter;
     private LinearLayoutManager mManager;
     private List<CityBean> mDatas = new ArrayList<>();
     private ImageView addFriend;
@@ -53,7 +54,7 @@ public class LinkManActivity extends AppCompatActivity {
         mRv = (RecyclerView) findViewById(R.id.rv);
         mRv.setLayoutManager(mManager = new LinearLayoutManager(this));
 
-        mAdapter = new CityAdapter(this, mDatas);
+        mAdapter = new LinkManAdapter(this, mDatas);
         mRv.setAdapter(mAdapter);
         mRv.addItemDecoration(mDecoration = new SuspensionDecoration(this, mDatas));
         //如果add两个，那么按照先后顺序，依次渲染。
