@@ -11,6 +11,8 @@ import android.widget.RelativeLayout;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.login.activity.LoginActivity;
 import com.lianpos.devfoucs.login.activity.RegisterActivity;
+import com.lianpos.devfoucs.reportform.activity.EnterpriseInformation;
+import com.lianpos.devfoucs.reportform.activity.ModifyPassword;
 import com.lianpos.devfoucs.reportform.activity.ReportForm;
 
 /**
@@ -21,7 +23,7 @@ import com.lianpos.devfoucs.reportform.activity.ReportForm;
  */
 public class PersonFragment extends Fragment implements View.OnClickListener {
 
-    private RelativeLayout person_zl;
+    private RelativeLayout person_zl,modifyPassword,enterprise_informtion;
     View rootView;
 
     @Override
@@ -41,11 +43,15 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
     // 初始化id
     private void initID() {
         person_zl = (RelativeLayout)rootView.findViewById(R.id.person_zl);
+        modifyPassword = (RelativeLayout)rootView.findViewById(R.id.modify_password);
+        enterprise_informtion = (RelativeLayout)rootView.findViewById(R.id.enterprise_informtion);
     }
 
     // 初始化点击事件
     private void initOnClick() {
         person_zl.setOnClickListener(this);
+        modifyPassword.setOnClickListener(this);
+        enterprise_informtion.setOnClickListener(this);
     }
 
     @Override
@@ -56,6 +62,16 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
                 intent.setClass(getContext(), ReportForm.class);
                 startActivity(intent);
 				break;
+            case R.id.modify_password:
+                Intent intent1 = new Intent();
+                intent1.setClass(getContext(), ModifyPassword.class);
+                startActivity(intent1);
+                break;
+            case R.id.enterprise_informtion:
+                Intent intent2 = new Intent();
+                intent2.setClass(getContext(), EnterpriseInformation.class);
+                startActivity(intent2);
+                break;
 		}
     }
 }

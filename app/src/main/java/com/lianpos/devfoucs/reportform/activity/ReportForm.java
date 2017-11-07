@@ -16,7 +16,7 @@ public class ReportForm extends BaseActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_person_zl);
+        setContentView(R.layout.activity_enterprise_information);
         init();
     }
 

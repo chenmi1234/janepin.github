@@ -130,6 +130,7 @@
                 android:background="#cccccc" />
 
             <RelativeLayout
+                android:id="@+id/modify_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#ffffff">
@@ -171,6 +172,7 @@
                 android:background="#cccccc" />
 
             <RelativeLayout
+                android:id="@+id/enterprise_informtion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#ffffff">
