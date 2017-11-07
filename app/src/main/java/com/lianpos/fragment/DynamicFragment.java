@@ -64,7 +64,7 @@ public class DynamicFragment extends Fragment {
         mRv.setLayoutManager(mManager = new LinearLayoutManager(getActivity()));
 
         addFriend = (ImageView) rootView.findViewById(R.id.begin_menu);
-        addFriend.setOnClickListener(new View.OnClickListener(){
+        addFriend.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -88,15 +88,7 @@ public class DynamicFragment extends Fragment {
         initDatas(getResources().getStringArray(R.array.provinces));
 
         title = (TextView) rootView.findViewById(R.id.title);
-
-
-        Intent intert=getActivity().getIntent();
-        String request = intert.getStringExtra("codedContent");
-        if (request == null){
-            title.setText("联系人");
-        }else{
-            title.setText(request);
-        }
+        title.setText("联系人");
 
         return rootView;
     }
@@ -170,7 +162,7 @@ public class DynamicFragment extends Fragment {
     }
 
     public void callPhone(String str) {
-        Intent intent=new Intent();
+        Intent intent = new Intent();
         intent.setAction(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:" + str));
         startActivity(intent);

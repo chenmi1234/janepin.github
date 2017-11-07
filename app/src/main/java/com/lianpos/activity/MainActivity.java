@@ -45,25 +45,14 @@ public class MainActivity extends FragmentActivity {
         ivHome = (TextView) findViewById(R.id.iv_make);
         ivHome.setSelected(true);//首页默认选中
 
-        Intent intert = getIntent();
-        String num1 = intert.getStringExtra("page");
-
-        if (num1 == null) {
-            /**
-             * 默认加载首页
-             */
-            if (homeFragment == null) {//如果为空先添加进来.不为空直接显示
-                homeFragment = new HomeFragment();
-                getSupportFragmentManager().beginTransaction().add(R.id.main_container, homeFragment).commit();
-            } else {
-                getSupportFragmentManager().beginTransaction().show(homeFragment);
-            }
+        /**
+         * 默认加载首页
+         */
+        if (homeFragment == null) {//如果为空先添加进来.不为空直接显示
+            homeFragment = new HomeFragment();
+            getSupportFragmentManager().beginTransaction().add(R.id.main_container, homeFragment).commit();
         } else {
-            if (num1.equals("2")) {
-                changeSelect(R.id.tv_dynamic);//改变图标跟文字颜色的选中
-                changeFragment(R.id.tv_dynamic);//fragment的切换
-                currentId = R.id.tv_dynamic;
-            }
+            getSupportFragmentManager().beginTransaction().show(homeFragment);
         }
         tvMain.setOnClickListener(tabClickListener);
         tvDynamic.setOnClickListener(tabClickListener);

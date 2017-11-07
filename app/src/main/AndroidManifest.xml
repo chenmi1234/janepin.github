@@ -46,6 +46,8 @@
         <activity android:name="com.lianpos.devfoucs.reportform.activity.ModifyPassword"></activity>
         <activity android:name="com.lianpos.devfoucs.reportform.activity.EditerAreaActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.reportform.activity.EnterpriseInformation"></activity>
+        <activity android:name="com.lianpos.devfoucs.contacts.ui.AddFriendActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.contacts.ui.AddPhoneNmbActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.linkman.ui.LinkManActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity

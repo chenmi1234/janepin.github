@@ -12,6 +12,7 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.PopupWindow;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity;
 import com.lianpos.zxing.android.CaptureActivity;
 
 import static android.app.Activity.RESULT_OK;
@@ -63,6 +64,9 @@ public class AddFriendPop extends PopupWindow implements OnClickListener {
         switch (v.getId()) {
             case R.id.begin_cancel_order:
                 AddFriendPop.this.dismiss();
+                Intent addFriend=new Intent();
+                addFriend.setClass(v.getContext(), AddPhoneNmbActivity.class);
+                v.getContext().startActivity(addFriend);
                 break;
             case R.id.begin_assignment_order:
                 AddFriendPop.this.dismiss();
@@ -72,6 +76,9 @@ public class AddFriendPop extends PopupWindow implements OnClickListener {
                 break;
             case R.id.begin_same_driver:
                 AddFriendPop.this.dismiss();
+                Intent invitation = new Intent();
+                invitation.setClass(v.getContext(), MakeMoneyActivity.class);
+                v.getContext().startActivity(invitation);
                 break;
             default:
                 break;

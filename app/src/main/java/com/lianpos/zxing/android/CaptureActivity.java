@@ -21,6 +21,7 @@ import com.google.zxing.DecodeHintType;
 import com.google.zxing.Result;
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.contacts.ui.AddFriendActivity;
 import com.lianpos.devfoucs.login.activity.LoginActivity;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.zxing.view.ViewfinderView;
@@ -191,7 +192,7 @@ public final class CaptureActivity extends BaseActivity implements
             Toast.makeText(this, "扫描成功", Toast.LENGTH_SHORT).show();
 
             Intent intent = getIntent();
-            intent.setClass(CaptureActivity.this,MainActivity.class);
+            intent.setClass(CaptureActivity.this,AddFriendActivity.class);
             intent.putExtra("codedContent", rawResult.getText());
             intent.putExtra("codedBitmap", barcode);
             intent.putExtra("page","2");

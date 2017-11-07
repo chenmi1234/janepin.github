@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
+import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.login.activity.LoginActivity;
 import com.lianpos.devfoucs.login.activity.RegisterActivity;
@@ -23,7 +24,7 @@ import com.lianpos.devfoucs.reportform.activity.ReportForm;
  */
 public class PersonFragment extends Fragment implements View.OnClickListener {
 
-    private RelativeLayout person_zl,modifyPassword,enterprise_informtion;
+    private RelativeLayout person_zl,modifyPassword,enterprise_informtion,loginout;
     View rootView;
 
     @Override
@@ -45,6 +46,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
         person_zl = (RelativeLayout)rootView.findViewById(R.id.person_zl);
         modifyPassword = (RelativeLayout)rootView.findViewById(R.id.modify_password);
         enterprise_informtion = (RelativeLayout)rootView.findViewById(R.id.enterprise_informtion);
+        loginout = (RelativeLayout)rootView.findViewById(R.id.loginout);
     }
 
     // 初始化点击事件
@@ -52,6 +54,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
         person_zl.setOnClickListener(this);
         modifyPassword.setOnClickListener(this);
         enterprise_informtion.setOnClickListener(this);
+        loginout.setOnClickListener(this);
     }
 
     @Override
@@ -71,6 +74,12 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
                 Intent intent2 = new Intent();
                 intent2.setClass(getContext(), EnterpriseInformation.class);
                 startActivity(intent2);
+                break;
+            case R.id.loginout:
+                Intent intent3 = new Intent();
+                intent3.setClass(getContext(), LoginActivity.class);
+                startActivity(intent3);
+                getActivity().onBackPressed();
                 break;
 		}
     }
