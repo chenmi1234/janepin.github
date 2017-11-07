@@ -76,6 +76,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.inventory:
+                Intent pandianIntent = new Intent();
+                pandianIntent.setClass(getActivity(), LinkManActivity.class);
+                startActivity(pandianIntent);
                 break;
             case R.id.inquiry_sheet:
                 Intent intent1 = new Intent();
