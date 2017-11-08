@@ -34,6 +34,13 @@
         <activity
             android:name="com.lianpos.activity.MainActivity"
             android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.lianpos.devfoucs.linkman.ui.LinkManActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name="com.lianpos.zxing.android.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
 
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.LoginActivity"></activity>
@@ -49,13 +56,8 @@
         <activity android:name="com.lianpos.devfoucs.reportform.activity.EnterpriseInformation"></activity>
         <activity android:name="com.lianpos.devfoucs.contacts.ui.AddFriendActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.contacts.ui.AddPhoneNmbActivity"></activity>
-        <activity android:name="com.lianpos.devfoucs.linkman.ui.LinkManActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity
-            android:name="com.lianpos.zxing.android.CaptureActivity"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait" >
-        </activity>
+        <activity android:name="com.lianpos.devfoucs.shoppingcart.MerchantActivity"></activity>
+
     </application>
 
 </manifest>

@@ -19,9 +19,9 @@ import com.lianpos.devfoucs.contacts.adapter.CityAdapter;
 import com.lianpos.devfoucs.contacts.decoration.DividerItemDecoration;
 import com.lianpos.devfoucs.contacts.model.CityBean;
 import com.lianpos.devfoucs.contacts.ui.AddFriendPop;
+import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
 import com.mcxtzhang.indexlib.IndexBar.widget.IndexBar;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
-import com.mcxtzhang.swipemenulib.SwipeMenuLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,6 +47,8 @@ public class DynamicFragment extends Fragment {
     private static final String DECODED_CONTENT_KEY = "codedContent";
     private static final String DECODED_BITMAP_KEY = "codedBitmap";
     private static final int REQUEST_CODE_SCAN = 0x0000;
+    // 两个按钮的dialog
+    private TwoButtonWarningDialog twoButtonDialog;
 
     /**
      * 右侧边栏导航区域
@@ -82,10 +84,24 @@ public class DynamicFragment extends Fragment {
 
         mAdapter.setOnLongItemClickListener(new CityAdapter.OnRecyclerViewLongItemClickListener() {
             @Override
-            public void onLongItemClick(View view, int position) {
-                Toast.makeText(getActivity().getApplicationContext(), "删除了一条DATA", Toast.LENGTH_SHORT).show();
-                mDatas.remove(position);
-                mAdapter.notifyDataSetChanged();
+            public void onLongItemClick(View view, final int position) {
+                twoButtonDialog = new TwoButtonWarningDialog(getActivity());
+                twoButtonDialog.setYesOnclickListener(new TwoButtonWarningDialog.onYesOnclickListener() {
+                    @Override
+                    public void onYesClick() {
+                        mDatas.remove(position);
+                        mAdapter.notifyDataSetChanged();
+                        twoButtonDialog.dismiss();
+                    }
+                });
+                twoButtonDialog.setNoOnclickListener(new TwoButtonWarningDialog.onNoOnclickListener() {
+                    @Override
+                    public void onNoClick() {
+                        twoButtonDialog.dismiss();
+                    }
+                });
+                twoButtonDialog.show();
+
             }
         });
 
