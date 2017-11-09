@@ -57,7 +57,8 @@
         <activity android:name="com.lianpos.devfoucs.contacts.ui.AddFriendActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.contacts.ui.AddPhoneNmbActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.shoppingcart.MerchantActivity"></activity>
-
+        <activity android:name="com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.shoppingcart.activity.ChooseListView"></activity>
     </application>
 
 </manifest>

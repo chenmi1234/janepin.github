@@ -1,5 +1,6 @@
 package com.lianpos.devfoucs.shoppingcart;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -9,10 +10,13 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.devfoucs.shoppingcart.fragment.ProductsFragment;
 
 import java.util.ArrayList;
@@ -22,47 +26,20 @@ import java.util.ArrayList;
  * 小区商家商家详情
  */
 public class MerchantActivity extends FragmentActivity {
-    private RadioGroup discount_layout;
-    /**
-     * 团优惠
-     */
-    private RadioButton group_rb;
-    /**
-     * 优惠活动
-     */
-//    private RadioButton preferential_rb;
-    /**
-     * 优惠券
-     */
-//    private RadioButton coupon_rb;
-    /**
-     * 下划线标记
-     */
+    // 下划线标记
     private View group_line;
-    /**
-     * 服务产品
-     */
+    // 服务产品
     private ProductsFragment productsFragment;
-    /**
-     * 商家信息
-     */
-//    private BusinessFragment businessFragment;
-    /**
-     * 商家评论
-     */
-//    private BusinessCommentListFragment businessCommentListFragment;
-
-    private ViewPager pager;
-
     //上门服务Fragment
     private ArrayList<Fragment> fragments;
-
-    /**
-     * 标题名集合
-     */
+    //返回键
+    private ImageView merchant_back;
+    //新增商品
+    private TextView addShopping;
+    //标题名集合
     private RadioButton[] titleText = null;
-
-//    private Commercial commercial;
+    private ViewPager pager;
+    private RadioGroup discount_layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,25 +50,28 @@ public class MerchantActivity extends FragmentActivity {
 
     private void initView() {
         pager = (ViewPager) findViewById(R.id.pager);
+        merchant_back = (ImageView) findViewById(R.id.merchant_back);
+        merchant_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+        addShopping = (TextView) findViewById(R.id.addShopping);
+        addShopping.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(MerchantActivity.this,IncreaseCommodityActivity.class);
+                startActivity(intent);
+            }
+        });
         discount_layout = (RadioGroup) findViewById(R.id.discount_layout);
-        group_rb = (RadioButton) findViewById(R.id.group_rb);
-//        preferential_rb = (RadioButton) findViewById(R.id.preferential_rb);
-//        coupon_rb = (RadioButton) findViewById(R.id.coupon_rb);
         group_line = findViewById(R.id.group_line);
-//        preferential_line = findViewById(R.id.preferential_line);
-//        coupon_line = findViewById(R.id.coupon_line);
-
-//        titleText = new RadioButton[]{group_rb, preferential_rb, coupon_rb};
         discount_layout.setOnCheckedChangeListener(listener);
-
         fragments = new ArrayList<Fragment>();
         productsFragment = new ProductsFragment();
-//        businessFragment = new BusinessFragment();
-//        businessCommentListFragment = new BusinessCommentListFragment();
         fragments.add(productsFragment);
-//        fragments.add(businessFragment);
-//        fragments.add(businessCommentListFragment);
-
         MyFragmentPagerAdapter fragmentPagerAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager(), fragments);
         pager.setAdapter(fragmentPagerAdapter);
         fragmentPagerAdapter.setFragments(fragments);
@@ -108,12 +88,6 @@ public class MerchantActivity extends FragmentActivity {
                 case R.id.group_rb:
                     pager.setCurrentItem(0);
                     break;
-//                case R.id.preferential_rb:
-//                    pager.setCurrentItem(1);
-//                    break;
-//                case R.id.coupon_rb:
-//                    pager.setCurrentItem(2);
-//                    break;
             }
         }
     };
@@ -128,19 +102,7 @@ public class MerchantActivity extends FragmentActivity {
         switch (position) {
             case 0:
                 group_line.setVisibility(View.VISIBLE);
-//                preferential_line.setVisibility(View.INVISIBLE);
-//                coupon_line.setVisibility(View.INVISIBLE);
                 break;
-//            case 1:
-//                group_line.setVisibility(View.INVISIBLE);
-//                preferential_line.setVisibility(View.VISIBLE);
-//                coupon_line.setVisibility(View.INVISIBLE);
-//                break;
-//            case 2:
-//                group_line.setVisibility(View.INVISIBLE);
-//                preferential_line.setVisibility(View.INVISIBLE);
-//                coupon_line.setVisibility(View.VISIBLE);
-//                break;
         }
     }
 

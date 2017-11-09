@@ -9,6 +9,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#DD3302">
+        <ImageView
+            android:id="@+id/merchant_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/bcak01" />
 
         <RadioGroup
             android:id="@+id/discount_layout"
@@ -32,6 +39,17 @@
 
 
         </RadioGroup>
+
+        <TextView
+            android:id="@+id/addShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增商品"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"/>
 
     </RelativeLayout>
 

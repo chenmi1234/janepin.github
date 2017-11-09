@@ -23,6 +23,7 @@ import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.ui.AddFriendActivity;
 import com.lianpos.devfoucs.login.activity.LoginActivity;
+import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.zxing.view.ViewfinderView;
 import com.lianpos.zxing.camera.CameraManager;
@@ -192,12 +193,31 @@ public final class CaptureActivity extends BaseActivity implements
             Toast.makeText(this, "扫描成功", Toast.LENGTH_SHORT).show();
 
             Intent intent = getIntent();
-            intent.setClass(CaptureActivity.this,AddFriendActivity.class);
-            intent.putExtra("codedContent", rawResult.getText());
-            intent.putExtra("codedBitmap", barcode);
-            intent.putExtra("page","2");
-            setResult(RESULT_OK, intent);
-            startActivity(intent);
+            String tiaozhuan = intent.getStringExtra("commodity");
+            String chaifen = intent.getStringExtra("increase");
+
+            if (tiaozhuan != null){
+                if (tiaozhuan.equals("shop")){
+                    intent.setClass(CaptureActivity.this,IncreaseCommodityActivity.class);
+                    intent.putExtra("codedContent", rawResult.getText());
+                    intent.putExtra("page","2");
+                    startActivity(intent);
+                }
+            }else if (chaifen != null){
+                if(chaifen.equals("chaifen")){
+                    intent.setClass(CaptureActivity.this,IncreaseCommodityActivity.class);
+                    intent.putExtra("shopTiao", rawResult.getText());
+                    intent.putExtra("zhuan","3");
+                    startActivity(intent);
+                }
+            }else{
+                intent.setClass(CaptureActivity.this,AddFriendActivity.class);
+                intent.putExtra("codedContent", rawResult.getText());
+                intent.putExtra("codedBitmap", barcode);
+                intent.putExtra("page","2");
+                setResult(RESULT_OK, intent);
+                startActivity(intent);
+            }
             finish();
         }
 

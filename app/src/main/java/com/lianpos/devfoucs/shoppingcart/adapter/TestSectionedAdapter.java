@@ -21,7 +21,7 @@ import java.util.List;
 
 public class TestSectionedAdapter extends SectionedBaseAdapter {
 
-	List<ProductType> pruductCagests;
+    List<ProductType> pruductCagests;
     private HolderClickListener mHolderClickListener;
     private Context context;
     private LayoutInflater mInflater;
@@ -36,11 +36,11 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
     }
 
 
-    public TestSectionedAdapter(Context context, List<ProductType> pruductCagests){
-		this.context = context;
-		this.pruductCagests = pruductCagests;
-		mInflater = LayoutInflater.from(context);
-	}
+    public TestSectionedAdapter(Context context, List<ProductType> pruductCagests) {
+        this.context = context;
+        this.pruductCagests = pruductCagests;
+        mInflater = LayoutInflater.from(context);
+    }
 
     @Override
     public Object getItem(int section, int position) {
@@ -91,12 +91,12 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
                 int num = product.getNumber();
                 num++;
                 product.setNumber(num);
-                viewHolder.shoppingNum.setText(product.getNumber()+"");
+                viewHolder.shoppingNum.setText(product.getNumber() + "");
                 if (callBackListener != null) {
                     callBackListener.updateProduct(product, "1");
                 } else {
                 }
-                if(mHolderClickListener!=null){
+                if (mHolderClickListener != null) {
                     int[] start_location = new int[2];
                     viewHolder.shoppingNum.getLocationInWindow(start_location);//获取点击商品图片的位置
                     Drawable drawable = context.getResources().getDrawable(R.drawable.adddetail);//复制一个新的商品图标
@@ -112,7 +112,7 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
                 if (num > 0) {
                     num--;
                     product.setNumber(num);
-                    viewHolder.shoppingNum.setText(product.getNumber()+"");
+                    viewHolder.shoppingNum.setText(product.getNumber() + "");
                     if (callBackListener != null) {
                         callBackListener.updateProduct(product, "2");
                     } else {
@@ -121,7 +121,7 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
             }
         });
 
-        viewHolder.mainitem_layout.setOnClickListener(new View.OnClickListener(){
+        viewHolder.mainitem_layout.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -129,7 +129,21 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
                 addCommodityDialog.setYesOnclickListener(new AddCommodityDialog.onYesOnclickListener() {
                     @Override
                     public void onYesClick() {
-
+                        int num = product.getNumber();
+                        num++;
+                        product.setNumber(num);
+                        viewHolder.shoppingNum.setText(product.getNumber() + "");
+                        if (callBackListener != null) {
+                            callBackListener.updateProduct(product, "1");
+                        } else {
+                        }
+                        if (mHolderClickListener != null) {
+                            int[] start_location = new int[2];
+                            viewHolder.shoppingNum.getLocationInWindow(start_location);//获取点击商品图片的位置
+//                            Drawable drawable = context.getResources().getDrawable(R.drawable.adddetail);//复制一个新的商品图标
+//                            //TODO:解决方案，先监听到左边ListView的Item中，然后在开始动画添加
+//                            mHolderClickListener.onHolderClick(drawable, start_location);
+                        }
                     }
                 });
                 addCommodityDialog.setNoOnclickListener(new AddCommodityDialog.onNoOnclickListener() {
@@ -186,13 +200,14 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
         public RelativeLayout mainitem_layout;
     }
 
-    public void SetOnSetHolderClickListener(HolderClickListener holderClickListener){
+    public void SetOnSetHolderClickListener(HolderClickListener holderClickListener) {
         this.mHolderClickListener = holderClickListener;
     }
-    public interface HolderClickListener{
+
+    public interface HolderClickListener {
         public void onHolderClick(Drawable drawable, int[] start_location);
     }
-    
+
 
     @Override
     public View getSectionHeaderView(int section, View convertView, ViewGroup parent) {

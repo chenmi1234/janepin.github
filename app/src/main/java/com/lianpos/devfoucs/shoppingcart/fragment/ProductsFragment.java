@@ -366,9 +366,9 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
             shopNum = shopNum + pro.getNumber();
         }
         if(shopNum>0){
-            shoppingNum.setVisibility(View.VISIBLE);
+            shoppingNum.setVisibility(View.GONE);
         }else {
-            shoppingNum.setVisibility(View.VISIBLE);
+            shoppingNum.setVisibility(View.GONE);
         }
         if(sum>0){
             shoppingPrise.setVisibility(View.VISIBLE);
@@ -532,7 +532,6 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
 
                 ObjectAnimator.ofFloat(shopping_cart, "translationY", 0, 4, -2, 0).setDuration(400).start();
                 ObjectAnimator.ofFloat(shoppingNum, "translationY", 0, 4, -2, 0).setDuration(400).start();
-
             }
 
             @Override

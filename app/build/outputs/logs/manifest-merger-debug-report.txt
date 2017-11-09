@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-63:12
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-19:12
@@ -18,9 +18,9 @@ MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\
 MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\022d1ae624624272459557583340554a\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1a34a4216b0f8306f1747447fa166b09\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9d7c1b7fb570a3acd6f94d29084cb5a7\AndroidManifest.xml:17:1-27:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:4:5-35
 		INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml
@@ -102,7 +102,7 @@ INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:1
 		INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml
 		INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml
 application
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:19:5-61:19
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:19:5-62:19
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
@@ -239,6 +239,14 @@ activity#com.lianpos.devfoucs.shoppingcart.MerchantActivity
 ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:59:9-96
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:59:19-84
+activity#com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:60:9-114
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:60:19-102
+activity#com.lianpos.devfoucs.shoppingcart.activity.ChooseListView
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:61:9-103
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:61:19-91
 activity#com.lljjcoder.citylist.CityListSelectActivity
 ADDED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-16:20
 	android:name
