@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
+import com.lianpos.devfoucs.homepage.activity.InquirySheetListActivity;
 
 import java.util.List;
 import java.util.Map;
@@ -78,7 +79,7 @@ public class InquiryFruitAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(context, IWantBillingActivity.class);
+                intent.setClass(context, InquirySheetListActivity.class);
                 context.startActivity(intent);
             }
         });

@@ -59,6 +59,7 @@
         <activity android:name="com.lianpos.devfoucs.shoppingcart.MerchantActivity" />
         <activity android:name="com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity" />
         <activity android:name="com.lianpos.devfoucs.shoppingcart.activity.ChooseListView" />
+        <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetListActivity" />
         <activity android:name="com.lljjcoder.citylist.CityListSelectActivity" >
         </activity>
     </application>
