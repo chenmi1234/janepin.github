@@ -1,5 +1,7 @@
 package com.lianpos.devfoucs.homepage.activity;
 
+import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -8,13 +10,18 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.adapter.InquirySheetListAdapter;
+import com.lianpos.devfoucs.login.activity.LoginActivity;
+import com.lianpos.devfoucs.shoppingcart.activity.ChooseListView;
 import com.lianpos.devfoucs.shoppingcart.view.PinnedHeaderListView;
 import com.lianpos.firebase.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * 询价列表
@@ -29,6 +36,7 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
     private ListView inquiry_listview;
     List<String> list = new ArrayList<String>();
     private TextView shopNumber;
+    private RelativeLayout confirm_send_layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +62,7 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         inquiry_sheet_cancel = (RelativeLayout) findViewById(R.id.inquiry_sheet_cancel);
         inquiry_listview = (ListView) findViewById(R.id.inquiry_listview);
         shopNumber = (TextView) findViewById(R.id.shopNumber);
+        confirm_send_layout = (RelativeLayout) findViewById(R.id.confirm_send_layout);
     }
 
     /**
@@ -62,6 +71,7 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
     private void initClick() {
         inquiry_sheet_list_back.setOnClickListener(this);
         inquiry_sheet_cancel.setOnClickListener(this);
+        confirm_send_layout.setOnClickListener(this);
     }
 
     /**
@@ -75,7 +85,9 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         inquiry_listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                Intent intent = new Intent();
+                intent.setClass(InquirySheetListActivity.this, InquiryEditerActyvity.class);
+                startActivity(intent);
             }
         });
     }
@@ -89,6 +101,25 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
                 break;
             case R.id.inquiry_sheet_cancel:
                 finish();
+                break;
+            case R.id.confirm_send_layout:
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+                builder.setTitle("发送成功！");
+                builder.setMessage("2秒后自动关闭！");
+                builder.setCancelable(true);
+                final AlertDialog dlg = builder.create();
+                dlg.show();
+                final Timer t = new Timer();
+                t.schedule(new TimerTask() {
+                    public void run() {
+                        Intent intent1 = new Intent();
+                        intent1.setClass(InquirySheetListActivity.this, MainActivity.class);
+                        startActivity(intent1);
+                        finish();
+                        dlg.dismiss();
+                        t.cancel();
+                    }
+                }, 2000);
                 break;
         }
     }

@@ -48,7 +48,7 @@
     </string-array>
 
     <string-array name="spingzt">
-        <item>不赠送</item>
+        <item>正常</item>
         <item>赠送</item>
     </string-array>
 </resources>
