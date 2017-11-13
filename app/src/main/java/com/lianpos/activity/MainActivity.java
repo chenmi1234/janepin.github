@@ -9,6 +9,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lianpos.fragment.DynamicFragment;
 import com.lianpos.fragment.HomeFragment;
@@ -29,6 +30,7 @@ public class MainActivity extends FragmentActivity {
     private HomeFragment homeFragment;
     private MessageFragment messageFragment;
     private PersonFragment personFragment;
+    private long mExitTime;
 
     private int currentId = R.id.iv_make;// 当前选中id,默认是主页
     private TextView tvMain, tvDynamic, ivHome, tvMessage, tvPerson;//底部5个TextView
@@ -59,14 +61,6 @@ public class MainActivity extends FragmentActivity {
         ivHome.setOnClickListener(tabClickListener);
         tvMessage.setOnClickListener(tabClickListener);
         tvPerson.setOnClickListener(tabClickListener);
-    }
-
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK) {
-            return true;
-        }
-        return super.onKeyDown(keyCode, event);
     }
 
     private OnClickListener tabClickListener = new OnClickListener() {
@@ -182,5 +176,20 @@ public class MainActivity extends FragmentActivity {
                 tvPerson.setSelected(true);
                 break;
         }
+    }
+
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if ((System.currentTimeMillis() - mExitTime) > 2000) {
+                Object mHelperUtils;
+                Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();
+                mExitTime = System.currentTimeMillis();
+
+            } else {
+                finish();
+            }
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 }

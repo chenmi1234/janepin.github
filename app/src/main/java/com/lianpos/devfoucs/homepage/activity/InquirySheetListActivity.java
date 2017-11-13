@@ -125,17 +125,17 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
     }
 
     private void getData() {
-        list.add("1");
-        list.add("12");
-        list.add("郑明亮");
-        list.add("1234");
-        list.add("12345");
-        list.add("123456");
-        list.add("1");
-        list.add("12");
-        list.add("郑明亮");
-        list.add("1234");
-        list.add("12345");
-        list.add("123456");
+        list.add("可口可乐");
+        list.add("哇哈哈");
+        list.add("康师傅");
+        list.add("养乐多");
+        list.add("优益C");
+        list.add("雀巢咖啡");
+        list.add("好多鱼饼干");
+        list.add("德芙巧克力");
+        list.add("旺旺");
+        list.add("三只松鼠杏仁");
+        list.add("香蕉雪糕");
+        list.add("哈尔滨啤酒");
     }
 }

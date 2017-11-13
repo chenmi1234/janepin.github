@@ -15,6 +15,7 @@ import com.example.liangmutian.mypicker.DataPickerDialog;
 import com.example.liangmutian.mypicker.DatePickerDialog;
 import com.example.liangmutian.mypicker.DateUtil;
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.view.OneButtonWarningDialog;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 
@@ -45,6 +46,8 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
     private List<String> list = new ArrayList<>();
     // 性别 生日
     private TextView sex_text, briday_text;
+    // 一个按钮的dialog
+    private OneButtonWarningDialog oneButtonDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,9 +129,20 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
             case R.id.deleteNameImg:
                 break;
             case R.id.next_button:
-                Intent intent1 = new Intent();
-                intent1.setClass(RegisterInfoActivity.this, RegisterAreaActivity.class);
-                startActivity(intent1);
+                if (register_name_editText.getText().toString().isEmpty()){
+                    oneButtonDialog = new OneButtonWarningDialog(RegisterInfoActivity.this);
+                    oneButtonDialog.setYesOnclickListener(new OneButtonWarningDialog.onYesOnclickListener() {
+                        @Override
+                        public void onYesClick() {
+                            oneButtonDialog.dismiss();
+                        }
+                    });
+                    oneButtonDialog.show();
+                }else{
+                    Intent intent1 = new Intent();
+                    intent1.setClass(RegisterInfoActivity.this, RegisterAreaActivity.class);
+                    startActivity(intent1);
+                }
                 break;
             case R.id.register_back:
                 finish();

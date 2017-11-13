@@ -55,6 +55,8 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
     private TextView registerPhoneMessage;
     // 一个按钮的dialog
     private OneButtonSuccessDialog oneButtonDialog;
+    // 一个按钮的dialog
+    private OneButtonWarningDialog onewarnButtonDialog;
     // 用户协议
     private TextView agreement;
 
@@ -178,16 +180,31 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                 break;
             case R.id.immediate_registration:
 
-                oneButtonDialog = new OneButtonSuccessDialog(RegisterAreaActivity.this);
-                oneButtonDialog.setYesOnclickListener(new OneButtonSuccessDialog.onYesOnclickListener() {
-                    @Override
-                    public void onYesClick() {
-                        Intent intent1 = new Intent();
-                        intent1.setClass(RegisterAreaActivity.this, MainActivity.class);
-                        startActivity(intent1);
-                    }
-                });
-                oneButtonDialog.show();
+                if (enterprise_name.getText().toString().isEmpty() || supplier_name.getText().toString().isEmpty() || boss_phone.getText().toString().isEmpty() || area_text.getText().equals("请选择") || detailed_address.getText().toString().isEmpty()){
+                    onewarnButtonDialog = new OneButtonWarningDialog(RegisterAreaActivity.this);
+                    onewarnButtonDialog.setYesOnclickListener(new OneButtonWarningDialog.onYesOnclickListener() {
+                        @Override
+                        public void onYesClick() {
+                            onewarnButtonDialog.dismiss();
+                        }
+                    });
+                    onewarnButtonDialog.show();
+                }else if(!CheckInforUtils.isMobile(boss_phone.getText().toString())) {
+                    registerPhoneMessage.setVisibility(View.VISIBLE);
+                    registerPhoneMessage.setText("请输入正确的手机号");
+                }else{
+                    registerPhoneMessage.setVisibility(View.GONE);
+                    oneButtonDialog = new OneButtonSuccessDialog(RegisterAreaActivity.this);
+                    oneButtonDialog.setYesOnclickListener(new OneButtonSuccessDialog.onYesOnclickListener() {
+                        @Override
+                        public void onYesClick() {
+                            Intent intent1 = new Intent();
+                            intent1.setClass(RegisterAreaActivity.this, LoginActivity.class);
+                            startActivity(intent1);
+                        }
+                    });
+                    oneButtonDialog.show();
+                }
                 break;
             case R.id.register_back:
                 finish();

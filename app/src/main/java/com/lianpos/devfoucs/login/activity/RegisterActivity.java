@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
@@ -28,11 +29,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     // 确认密码输入
     private EditText register_pwd_editText;
     // 手机号删除
-    private ImageView deleteImg;
-    // 密码删除
-    private ImageView pwdDeleteImg;
-    // 确认密码删除
-    private ImageView deleteQrpwdImg;
+    private LinearLayout deleteImg;
     // 下一步
     private Button next_button;
     // 返回
@@ -41,6 +38,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     private TextView registerPhoneMessage;
     // 一个按钮的dialog
     private OneButtonWarningDialog oneButtonDialog;
+    // 确认密码message
+    private TextView password_confirm_message;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,17 +69,14 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         // 确认密码输入
         register_pwd_editText = (EditText) findViewById(R.id.register_pwd_editText);
         // 手机号删除
-        deleteImg = (ImageView) findViewById(R.id.deleteImg);
-        // 密码删除
-        pwdDeleteImg = (ImageView) findViewById(R.id.pwdDeleteImg);
-        // 确认密码删除
-        deleteQrpwdImg = (ImageView) findViewById(R.id.deleteQrpwdImg);
+        deleteImg = (LinearLayout) findViewById(R.id.deleteImg);
         // 下一步
         next_button = (Button) findViewById(R.id.next_button);
         // 返回
         register_back = (ImageView) findViewById(R.id.register_back);
         // 注册账号message
         registerPhoneMessage = (TextView) findViewById(R.id.registerPhoneMessage);
+        password_confirm_message = (TextView) findViewById(R.id.password_confirm_message);
     }
 
     /**
@@ -89,14 +85,11 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     private void initEvent() {
         // 手机号删除
         deleteImg.setOnClickListener(this);
-        // 密码删除
-        pwdDeleteImg.setOnClickListener(this);
-        // 确认密码删除
-        deleteQrpwdImg.setOnClickListener(this);
         // 下一步
         next_button.setOnClickListener(this);
         // 返回
         register_back.setOnClickListener(this);
+        password_confirm_message.setOnClickListener(this);
     }
 
     /**
@@ -139,19 +132,15 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 return false;
             }
         });
+
+        deleteImg.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.deleteImg:
-                break;
-            case R.id.pwdDeleteImg:
-                break;
-            case R.id.deleteQrpwdImg:
-                break;
             case R.id.next_button:
-                if (register_phone_editText.getText().toString().isEmpty()){
+                if (register_phone_editText.getText().toString().isEmpty() || register_password_editText.getText().toString().isEmpty() || register_pwd_editText.getText().toString().isEmpty()) {
                     oneButtonDialog = new OneButtonWarningDialog(RegisterActivity.this);
                     oneButtonDialog.setYesOnclickListener(new OneButtonWarningDialog.onYesOnclickListener() {
                         @Override
@@ -160,7 +149,14 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                         }
                     });
                     oneButtonDialog.show();
-                }else{
+                } else if (!register_password_editText.getText().toString().equals(register_pwd_editText.getText().toString())) {
+                    password_confirm_message.setVisibility(View.VISIBLE);
+                } else if (!CheckInforUtils.isMobile(register_phone_editText.getText().toString())) {
+                    registerPhoneMessage.setVisibility(View.VISIBLE);
+                    registerPhoneMessage.setText("请输入正确的手机号");
+                } else {
+                    password_confirm_message.setVisibility(View.GONE);
+                    registerPhoneMessage.setVisibility(View.GONE);
                     Intent intent1 = new Intent();
                     intent1.setClass(RegisterActivity.this, RegisterInfoActivity.class);
                     startActivity(intent1);
@@ -168,6 +164,9 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 break;
             case R.id.register_back:
                 finish();
+                break;
+            case R.id.deleteImg:
+                register_phone_editText.setText("");
                 break;
         }
     }
