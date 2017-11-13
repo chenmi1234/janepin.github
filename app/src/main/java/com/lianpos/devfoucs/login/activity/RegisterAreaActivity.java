@@ -201,6 +201,7 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                             Intent intent1 = new Intent();
                             intent1.setClass(RegisterAreaActivity.this, LoginActivity.class);
                             startActivity(intent1);
+                            finish();
                         }
                     });
                     oneButtonDialog.show();

@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,6 +27,7 @@ import com.lianpos.devfoucs.login.view.PassWordDisplay;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 import com.lianpos.util.JumpUtil;
+import com.lianpos.util.NetUtil;
 
 import org.w3c.dom.Text;
 
@@ -59,11 +61,20 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private static final String DECODED_BITMAP_KEY = "codedBitmap";
     private static final int REQUEST_CODE_SCAN = 0x0000;
 
+    private RelativeLayout wifi_layout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         init();
+        //启动时判断网络状态
+        boolean netConnect = this.isNetConnect();
+        if (netConnect){
+            wifi_layout.setVisibility(View.GONE);
+        }else {
+            wifi_layout.setVisibility(View.VISIBLE);
+        }
     }
 
     private void init() {
@@ -95,6 +106,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         passwordMessage = (TextView) findViewById(R.id.passwordMessage);
         // 注册
         registerText = (TextView) findViewById(R.id.registerText);
+        wifi_layout = (RelativeLayout) findViewById(R.id.wifi_layout);
     }
 
     /**
@@ -170,18 +182,23 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 password_editText.setSelection(index);
                 break;
             case R.id.login_button:
-                if (phone_edittext.getText().toString().isEmpty() || password_editText.getText().toString().isEmpty()){
-                    Toast toast = Toast.makeText(getApplicationContext(), "请输入账号或密码", Toast.LENGTH_SHORT);
-                    toast.show();
-                }else{
-                    if (CheckInforUtils.isMobile(phone_edittext.getText().toString())) {
-                        Intent intent1 = new Intent();
-                        intent1.setClass(LoginActivity.this, MainActivity.class);
-                        startActivity(intent1);
-                    } else {
-                        Toast toast = Toast.makeText(getApplicationContext(), "请输入正确的手机号", Toast.LENGTH_SHORT);
+
+                if (wifi_layout.getVisibility() == View.GONE){
+                    if (phone_edittext.getText().toString().isEmpty() || password_editText.getText().toString().isEmpty()){
+                        Toast toast = Toast.makeText(getApplicationContext(), "请输入账号或密码", Toast.LENGTH_SHORT);
                         toast.show();
+                    }else{
+                        if (CheckInforUtils.isMobile(phone_edittext.getText().toString())) {
+                            Intent intent1 = new Intent();
+                            intent1.setClass(LoginActivity.this, MainActivity.class);
+                            startActivity(intent1);
+                        } else {
+                            Toast toast = Toast.makeText(getApplicationContext(), "请输入正确的手机号", Toast.LENGTH_SHORT);
+                            toast.show();
+                        }
                     }
+                }else{
+                    setWifi4();
                 }
                 break;
             case R.id.registerText:
@@ -192,4 +209,41 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         }
     }
 
+
+    private void setWifi4() {
+        Intent i = new Intent();
+        if (android.os.Build.VERSION.SDK_INT >= 11) {
+            //Honeycomb
+            i.setClassName("com.android.settings", "com.android.settings.Settings$WifiSettingsActivity");
+        } else {
+            //other versions
+            i.setClassName("com.android.settings"
+                    , "com.android.settings.wifi.WifiSettings");
+        }
+        startActivity(i);
+    }
+
+    private void setWifi3() {
+        startActivity(new Intent(android.provider.Settings.ACTION_WIFI_SETTINGS));
+    }
+
+    private void setWifi2() {
+        Intent intent = new Intent();
+        intent.setAction("android.net.wifi.PICK_WIFI_NETWORK");
+        startActivity(intent);
+    }
+
+    private void setWifi1() {
+        Intent wifiSettingsIntent = new Intent("android.settings.WIFI_SETTINGS");
+        startActivity(wifiSettingsIntent);
+    }
+    @Override
+    public void onNetChange(int netMobile) {
+        super.onNetChange(netMobile);        //网络状态变化时的操作
+        if (netMobile== NetUtil.NETWORK_NONE){
+            wifi_layout.setVisibility(View.VISIBLE);
+        }else {
+            wifi_layout.setVisibility(View.GONE);
+        }
+    }
 }

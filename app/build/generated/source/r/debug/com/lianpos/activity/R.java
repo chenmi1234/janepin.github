@@ -2845,10 +2845,11 @@ public final class R {
     public static final int viewpager_home=0x7f08012e;
     public static final int warningImage=0x7f08012f;
     public static final int webview=0x7f080130;
-    public static final int withText=0x7f080131;
-    public static final int wrap_content=0x7f080132;
-    public static final int yesButton=0x7f080133;
-    public static final int zl_back=0x7f080134;
+    public static final int wifi_layout=0x7f080131;
+    public static final int withText=0x7f080132;
+    public static final int wrap_content=0x7f080133;
+    public static final int yesButton=0x7f080134;
+    public static final int zl_back=0x7f080135;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
