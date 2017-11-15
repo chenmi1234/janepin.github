@@ -38,6 +38,7 @@ public class InquiryFruitAdapter extends BaseAdapter {
         public TextView title;
         public TextView info;
         public RelativeLayout inquiryContent;
+        public TextView inquiryNumber;
     }
     @Override
     public int getCount() {
@@ -68,6 +69,7 @@ public class InquiryFruitAdapter extends BaseAdapter {
             zujian.title=(TextView)convertView.findViewById(R.id.shopName);
             zujian.info=(TextView)convertView.findViewById(R.id.phoneNumber);
             zujian.inquiryContent = (RelativeLayout)convertView.findViewById(R.id.inquiryContent);
+            zujian.inquiryNumber = (TextView)convertView.findViewById(R.id.inquiryNumber);
             convertView.setTag(zujian);
         }else{
             zujian=(Zujian)convertView.getTag();
@@ -75,10 +77,15 @@ public class InquiryFruitAdapter extends BaseAdapter {
         //绑定数据
         zujian.title.setText((String)data.get(position).get("title"));
         zujian.info.setText((String)data.get(position).get("info"));
+        zujian.inquiryNumber.setText((String)data.get(position).get("inquiryNumber"));
+        final Zujian finalZujian = zujian;
         zujian.inquiryContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
+                intent.putExtra("shopName",finalZujian.title.getText().toString());
+                intent.putExtra("shopPhone",finalZujian.info.getText().toString());
+                intent.putExtra("inquiryNumber",finalZujian.inquiryNumber.getText().toString());
                 intent.setClass(context, InquirySheetListActivity.class);
                 context.startActivity(intent);
             }

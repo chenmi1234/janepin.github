@@ -74,6 +74,7 @@ public class InquirySheetActivity extends BaseActivity implements View.OnClickLi
             Map<String, Object> map=new HashMap<String, Object>();
             map.put("title", "达达超市"+i);
             map.put("info", "1884444333"+i);
+            map.put("inquiryNumber", "20171111111"+i);
             list.add(map);
         }
         return list;

@@ -18,6 +18,8 @@ import com.lianpos.devfoucs.shoppingcart.activity.ChooseListView;
 import com.lianpos.devfoucs.shoppingcart.view.PinnedHeaderListView;
 import com.lianpos.firebase.BaseActivity;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
@@ -37,11 +39,19 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
     List<String> list = new ArrayList<String>();
     private TextView shopNumber;
     private RelativeLayout confirm_send_layout;
+    String shopNameStr,shopPhoneStr,inquiryNumber;
+    private TextView inquiry_shopName;
+    private TextView inquiry_shopPhone;
+    private TextView inquiry_shopNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inquiry_list);
+        Intent intent = getIntent();
+        shopNameStr = intent.getStringExtra("shopName");
+        shopPhoneStr = intent.getStringExtra("shopPhone");
+        inquiryNumber = intent.getStringExtra("inquiryNumber");
         init();
     }
 
@@ -63,6 +73,9 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         inquiry_listview = (ListView) findViewById(R.id.inquiry_listview);
         shopNumber = (TextView) findViewById(R.id.shopNumber);
         confirm_send_layout = (RelativeLayout) findViewById(R.id.confirm_send_layout);
+        inquiry_shopName = (TextView) findViewById(R.id.inquiry_shopName);
+        inquiry_shopPhone = (TextView) findViewById(R.id.inquiry_shopPhone);
+        inquiry_shopNumber = (TextView) findViewById(R.id.inquiryNumber);
     }
 
     /**
@@ -90,6 +103,10 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
                 startActivity(intent);
             }
         });
+
+        inquiry_shopName.setText(shopNameStr);
+        inquiry_shopPhone.setText(shopPhoneStr);
+        inquiry_shopNumber.setText(inquiryNumber);
     }
 
 

@@ -16,11 +16,14 @@ import com.example.liangmutian.mypicker.DatePickerDialog;
 import com.example.liangmutian.mypicker.DateUtil;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.view.OneButtonWarningDialog;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
-import com.lianpos.util.CheckInforUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * Description:注册
@@ -48,6 +51,7 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
     private TextView sex_text, briday_text;
     // 一个按钮的dialog
     private OneButtonWarningDialog oneButtonDialog;
+    Realm realm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,6 +125,22 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
                 return false;
             }
         });
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        register_name_editText.setText("");
+        String showName = "";
+        String showPaw = "";
+        String showConPaw = "";
+        for (JanePinBean guest : guests) {
+            showName = guest.PhoneNumber;
+            showPaw = guest.Psw;
+            showConPaw = guest.ConPsw;
+        }
+        register_name_editText.setText(showName);
+        sex_text.setText(showPaw);
+        briday_text.setText(showConPaw);
     }
 
     @Override
@@ -129,7 +149,7 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
             case R.id.deleteNameImg:
                 break;
             case R.id.next_button:
-                if (register_name_editText.getText().toString().isEmpty()){
+                if (register_name_editText.getText().toString().isEmpty()) {
                     oneButtonDialog = new OneButtonWarningDialog(RegisterInfoActivity.this);
                     oneButtonDialog.setYesOnclickListener(new OneButtonWarningDialog.onYesOnclickListener() {
                         @Override
@@ -138,7 +158,7 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
                         }
                     });
                     oneButtonDialog.show();
-                }else{
+                } else {
                     Intent intent1 = new Intent();
                     intent1.setClass(RegisterInfoActivity.this, RegisterAreaActivity.class);
                     startActivity(intent1);

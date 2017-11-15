@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.lianpos.util.NetBroadcastReceiver;
 import com.lianpos.util.NetUtil;
@@ -13,7 +14,7 @@ import com.lianpos.util.NetUtil;
  * Created by wangshuai on 2017/10/27 .
  */
 
-public abstract class BaseActivity extends Activity implements NetBroadcastReceiver.NetEvevt {
+public abstract class BaseActivity extends AppCompatActivity implements NetBroadcastReceiver.NetEvevt {
 
     public static NetBroadcastReceiver.NetEvevt evevt;
     /**
@@ -39,7 +40,6 @@ public abstract class BaseActivity extends Activity implements NetBroadcastRecei
             System.out.println("inspectNet:连接移动数据");
         } else if (netMobile == NetUtil.NETWORK_NONE) {
             System.out.println("inspectNet:当前没有网络");
-
         }
         return isNetConnect();
 

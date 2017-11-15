@@ -1,6 +1,5 @@
 package com.lianpos.devfoucs.login.activity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -13,8 +12,12 @@ import android.widget.TextView;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.view.OneButtonWarningDialog;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
+
+import butterknife.ButterKnife;
+import io.realm.Realm;
 
 /**
  * Description:注册
@@ -40,11 +43,15 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     private OneButtonWarningDialog oneButtonDialog;
     // 确认密码message
     private TextView password_confirm_message;
+    private Realm realm = null;
+    private int number = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        ButterKnife.bind(this);
+        realm = Realm.getDefaultInstance();
         init();
     }
 
@@ -60,7 +67,6 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     /**
      * 初始化控件
      */
-    @SuppressLint("WrongViewCast")
     private void initActivity() {
         // 手机号输入（账号）
         register_phone_editText = (EditText) findViewById(R.id.register_phone_editText);
@@ -157,6 +163,13 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 } else {
                     password_confirm_message.setVisibility(View.GONE);
                     registerPhoneMessage.setVisibility(View.GONE);
+                    number = number + 1;
+                    realm.beginTransaction();
+                    JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                    janePinBean.PhoneNumber = register_phone_editText.getText().toString();
+                    janePinBean.Psw = register_password_editText.getText().toString();
+                    janePinBean.ConPsw = register_pwd_editText.getText().toString();
+                    realm.commitTransaction();
                     Intent intent1 = new Intent();
                     intent1.setClass(RegisterActivity.this, RegisterInfoActivity.class);
                     startActivity(intent1);

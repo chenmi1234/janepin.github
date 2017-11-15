@@ -19,10 +19,11 @@
         tools:overrideLibrary="mypicker" />
 
     <application
+        android:name="com.lianpos.db.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:theme="@style/AppBaseTheme">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"  >
         <activity
             android:name="com.lianpos.activity.WelcomeActivity"
             android:label="@string/app_name">
