@@ -5,68 +5,81 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ListAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.homepage.bean.InquirySheetBean;
 
 import java.util.List;
 
+import io.realm.Realm;
+
 /**
  * 询价单列表适配器
- * Created by wangshuai on 2017/11/10 0010.
+ * Created by wangshuai on 2017/11/16 0010.
  */
 
-public class InquirySheetListAdapter extends BaseAdapter implements ListAdapter {
-    private List<String> data;
-    private int layout;
-    private Context context;
-    private TextView tv = null;
+public class InquirySheetListAdapter extends BaseAdapter {
+    private LayoutInflater mInflater;
+    private List<InquirySheetBean> mDatas;
+    private Realm realm = null;
+    private Context mContext;
 
-    public InquirySheetListAdapter(List<String> data, int layout, Context context) {
-        this.data = data;
-        this.layout = layout;
-        this.context = context;
+
+    //MyAdapter需要一个Context，通过Context获得Layout.inflater，然后通过inflater加载item的布局
+    public InquirySheetListAdapter(Context context, List<InquirySheetBean> datas) {
+        this.mContext = context;
+        mInflater = LayoutInflater.from(context);
+        mDatas = datas;
     }
 
+    //返回数据集的长度
     @Override
     public int getCount() {
-        return data.size();
+        return mDatas.size();
     }
 
     @Override
-    public Object getItem(int arg0) {
-        return data.get(arg0);
+    public Object getItem(int position) {
+        return mDatas.get(position);
     }
 
     @Override
-    public long getItemId(int arg0) {
-        return arg0;
+    public long getItemId(int position) {
+        return position;
     }
 
+    //这个方法才是重点，我们要为它编写一个ViewHolder
     @Override
-    public View getView(int arg0, View view, ViewGroup arg2) {
-        if (view == null) {
-            view = LayoutInflater.from(context).inflate(layout, null);
-            tv = (TextView) view.findViewById(R.id.shopName);
-
-            view.setTag(new ObjectClass(tv));
-
-        } else {
-            ObjectClass objectclass = (ObjectClass) view.getTag();
-            tv = objectclass.text;
-
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder holder = null;
+        if (convertView == null) {
+            convertView = mInflater.inflate(R.layout.activity_inquiry_listview_item, parent, false); //加载布局
+            holder = new ViewHolder();
+            holder.inquiry_sheet_item_layout = (LinearLayout) convertView.findViewById(R.id.inquiry_sheet_item_layout);
+            holder.itemShopNameTv = (TextView) convertView.findViewById(R.id.itemShopName);
+            holder.shopTiaomaTv = (TextView) convertView.findViewById(R.id.shopTiaoma);
+            holder.shopDanweiTv = (TextView) convertView.findViewById(R.id.shopDanwei);
+            convertView.setTag(holder);
+        } else {   //else里面说明，convertView已经被复用了，说明convertView中已经设置过tag了，即holder
+            holder = (ViewHolder) convertView.getTag();
         }
-        tv.setText(data.get(arg0));
-        return view;
+
+        InquirySheetBean bean = mDatas.get(position);
+        holder.itemShopNameTv.setText(bean.getItemShopName());
+        holder.shopTiaomaTv.setText(bean.getShopTiaoma());
+        holder.shopDanweiTv.setText(bean.getShopDanwei());
+
+        return convertView;
     }
 
-    private final class ObjectClass {
-
-        TextView text = null;
-
-        public ObjectClass(TextView text) {
-            this.text = text;
-        }
+    //这个ViewHolder只能服务于当前这个特定的adapter，因为ViewHolder里会指定item的控件，不同的ListView，item可能不同，所以ViewHolder写成一个私有的类
+    public class ViewHolder {
+        LinearLayout inquiry_sheet_item_layout;
+        TextView itemShopNameTv;
+        TextView shopTiaomaTv;
+        TextView shopDanweiTv;
     }
+
 }

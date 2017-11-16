@@ -15,4 +15,12 @@ public class JanePinBean extends RealmObject {
     public String Psw;
     //确认密码
     public String ConPsw;
+    //询价单 商品条码
+    public String InquiryShopNumber;
+    //询价单 商品名称
+    public String InquiryShopName;
+    //询价单 基本单位
+    public String InquiryShopUnit;
+    //询价单 批发价
+    public String InquiryShopTrade;
 }

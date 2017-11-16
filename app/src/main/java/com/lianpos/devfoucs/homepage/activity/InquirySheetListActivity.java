@@ -13,17 +13,17 @@ import android.widget.TextView;
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.adapter.InquirySheetListAdapter;
-import com.lianpos.devfoucs.login.activity.LoginActivity;
-import com.lianpos.devfoucs.shoppingcart.activity.ChooseListView;
-import com.lianpos.devfoucs.shoppingcart.view.PinnedHeaderListView;
+import com.lianpos.devfoucs.homepage.bean.InquirySheetBean;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import butterknife.ButterKnife;
+import io.realm.Realm;
 
 /**
  * 询价列表
@@ -39,20 +39,27 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
     List<String> list = new ArrayList<String>();
     private TextView shopNumber;
     private RelativeLayout confirm_send_layout;
-    String shopNameStr,shopPhoneStr,inquiryNumber;
+    String shopNameStr, shopPhoneStr, inquiryNumber;
     private TextView inquiry_shopName;
     private TextView inquiry_shopPhone;
     private TextView inquiry_shopNumber;
+    private TextView shopTiaoma;
+    private Realm realm = null;
+    private List<InquirySheetBean> mDatas;
+    private InquirySheetListAdapter mAdapter;
+    String shopTiaomaStr, itemShopNameStr, shopDanweiStr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inquiry_list);
-        Intent intent = getIntent();
-        shopNameStr = intent.getStringExtra("shopName");
-        shopPhoneStr = intent.getStringExtra("shopPhone");
-        inquiryNumber = intent.getStringExtra("inquiryNumber");
+        ButterKnife.bind(this);
+        realm = Realm.getDefaultInstance();
         init();
+        Intent intent = getIntent();
+        inquiry_shopName.setText(intent.getStringExtra("shopName"));
+        inquiry_shopPhone.setText(intent.getStringExtra("shopPhone"));
+        inquiry_shopNumber.setText(intent.getStringExtra("inquiryNumber"));
     }
 
     /**
@@ -61,7 +68,7 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
     private void init() {
         initID();
         initClick();
-        funRealization();
+        initData();
     }
 
     /**
@@ -76,6 +83,7 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         inquiry_shopName = (TextView) findViewById(R.id.inquiry_shopName);
         inquiry_shopPhone = (TextView) findViewById(R.id.inquiry_shopPhone);
         inquiry_shopNumber = (TextView) findViewById(R.id.inquiryNumber);
+        shopTiaoma = (TextView) findViewById(R.id.shopTiaoma);
     }
 
     /**
@@ -86,29 +94,6 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         inquiry_sheet_cancel.setOnClickListener(this);
         confirm_send_layout.setOnClickListener(this);
     }
-
-    /**
-     * 方法实现
-     */
-    private void funRealization() {
-        getData();
-        inquiry_listview.setAdapter(new InquirySheetListAdapter(list, R.layout.activity_inquiry_listview_item,
-                InquirySheetListActivity.this));
-        shopNumber.setText(list.size() + "");
-        inquiry_listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent();
-                intent.setClass(InquirySheetListActivity.this, InquiryEditerActyvity.class);
-                startActivity(intent);
-            }
-        });
-
-        inquiry_shopName.setText(shopNameStr);
-        inquiry_shopPhone.setText(shopPhoneStr);
-        inquiry_shopNumber.setText(inquiryNumber);
-    }
-
 
     @Override
     public void onClick(View v) {
@@ -141,18 +126,53 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         }
     }
 
-    private void getData() {
-        list.add("可口可乐");
-        list.add("哇哈哈");
-        list.add("康师傅");
-        list.add("养乐多");
-        list.add("优益C");
-        list.add("雀巢咖啡");
-        list.add("好多鱼饼干");
-        list.add("德芙巧克力");
-        list.add("旺旺");
-        list.add("三只松鼠杏仁");
-        list.add("香蕉雪糕");
-        list.add("哈尔滨啤酒");
+    //方法；初始化Data
+    private void initData() {
+        mDatas = new ArrayList<InquirySheetBean>();
+
+        //将数据装到集合中去
+        InquirySheetBean bean = new InquirySheetBean("6911112223999", "可口可乐", "瓶");
+        mDatas.add(bean);
+
+        bean = new InquirySheetBean("6911112223000", "三只松鼠杏仁", "箱");
+        mDatas.add(bean);
+
+        bean = new InquirySheetBean("6911112223111", "哈尔滨啤酒", "瓶");
+        mDatas.add(bean);
+
+        bean = new InquirySheetBean("6911112223222", "香蕉雪糕", "个");
+        mDatas.add(bean);
+
+        //为数据绑定适配器
+        mAdapter = new InquirySheetListAdapter(this, mDatas);
+
+        inquiry_listview.setAdapter(mAdapter);
+
+        shopNumber.setText(mDatas.size()+"");
+
+        inquiry_listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View convertView, int position, long id) {
+                TextView itemShopNameTv = (TextView) convertView.findViewById(R.id.itemShopName);
+                TextView shopTiaomaTv = (TextView) convertView.findViewById(R.id.shopTiaoma);
+                TextView shopDanweiTv = (TextView) convertView.findViewById(R.id.shopDanwei);
+
+                shopTiaomaStr = itemShopNameTv.getText().toString();
+                itemShopNameStr = shopTiaomaTv.getText().toString();
+                shopDanweiStr = shopDanweiTv.getText().toString();
+
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.InquiryShopNumber = shopTiaomaStr;
+                janePinBean.InquiryShopName = itemShopNameStr;
+                janePinBean.InquiryShopUnit = shopDanweiStr;
+                realm.commitTransaction();
+
+                Intent intent = new Intent();
+                intent.setClass(InquirySheetListActivity.this, InquiryEditerActyvity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -44,7 +44,6 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     // 确认密码message
     private TextView password_confirm_message;
     private Realm realm = null;
-    private int number = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -163,7 +162,6 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
                 } else {
                     password_confirm_message.setVisibility(View.GONE);
                     registerPhoneMessage.setVisibility(View.GONE);
-                    number = number + 1;
                     realm.beginTransaction();
                     JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
                     janePinBean.PhoneNumber = register_phone_editText.getText().toString();

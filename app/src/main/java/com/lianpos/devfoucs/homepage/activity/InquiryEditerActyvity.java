@@ -10,7 +10,11 @@ import android.widget.TextView;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.shoppingcart.activity.ChooseListView;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * 编辑
@@ -24,6 +28,9 @@ public class InquiryEditerActyvity extends BaseActivity implements View.OnClickL
     private RelativeLayout basic_unit_layout;
     //保存按钮
     private TextView editter_save;
+    Realm realm;
+    //条形码  商品名称
+    private TextView shopNumber_text,shopName_text,shopDanwei_text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +44,8 @@ public class InquiryEditerActyvity extends BaseActivity implements View.OnClickL
         initActivity();
         // 初始化点击事件
         initEvent();
+        //数据获取方法
+        dataFun();
     }
 
     /**
@@ -46,6 +55,9 @@ public class InquiryEditerActyvity extends BaseActivity implements View.OnClickL
         editter_back = (ImageView) findViewById(R.id.editter_back);
         basic_unit_layout = (RelativeLayout) findViewById(R.id.basic_unit_layout);
         editter_save = (TextView) findViewById(R.id.editter_save);
+        shopNumber_text = (TextView) findViewById(R.id.shopNumber_text);
+        shopName_text = (TextView) findViewById(R.id.shopName_text);
+        shopDanwei_text = (TextView) findViewById(R.id.shopDanwei_text);
     }
 
     /**
@@ -55,6 +67,25 @@ public class InquiryEditerActyvity extends BaseActivity implements View.OnClickL
         editter_back.setOnClickListener(this);
         basic_unit_layout.setOnClickListener(this);
         editter_save.setOnClickListener(this);
+    }
+
+    private void dataFun(){
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        shopNumber_text.setText("");
+        String showNumber = "";
+        String showName = "";
+        String showDanwei = "";
+        for (JanePinBean guest : guests) {
+            showNumber = guest.InquiryShopNumber;
+            showName = guest.InquiryShopName;
+            showDanwei = guest.InquiryShopUnit;
+        }
+        shopNumber_text.setText(showNumber);
+        shopName_text.setText(showName);
+        shopDanwei_text.setText(showDanwei);
     }
 
     @Override

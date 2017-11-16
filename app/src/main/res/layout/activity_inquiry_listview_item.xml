@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:id="@+id/inquiry_sheet_item_layout"
     android:paddingBottom="15dp">
 
     <RelativeLayout
@@ -18,17 +19,18 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/shopName"
+                android:id="@+id/itemShopName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="可口可乐"
+                android:text="1111"
                 android:textColor="#333333"
                 android:textSize="14dp" />
 
             <TextView
+                android:id="@+id/shopTiaoma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="69888877776666"
+                android:text="33333333333333"
                 android:layout_marginTop="5dp"
                 android:textColor="#cccccc"
                 android:textSize="12dp" />
@@ -55,9 +57,10 @@
                 android:textSize="14dp" />
 
             <TextView
+                android:id="@+id/shopDanwei"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="瓶"
+                android:text="箱"
                 android:textColor="#333333"
                 android:textSize="14dp" />
         </LinearLayout>
@@ -99,7 +102,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="23.22"
+                    android:text="0.00"
                     android:textColor="#333333"
                     android:textSize="14dp" />
             </LinearLayout>
