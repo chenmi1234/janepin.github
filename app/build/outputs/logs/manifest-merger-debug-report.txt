@@ -186,11 +186,11 @@ ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:40:9
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:41:13-75
 activity#com.lianpos.zxing.android.CaptureActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:44:9-47:72
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:44:9-47:81
 	android:screenOrientation
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:46:13-49
 	android:theme
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:47:13-60
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:47:13-69
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:45:13-69
 activity#com.lianpos.devfoucs.shoppingcart.MerchantActivity

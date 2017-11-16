@@ -45,7 +45,7 @@
         <activity
             android:name="com.lianpos.zxing.android.CaptureActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.lianpos.devfoucs.shoppingcart.MerchantActivity"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
