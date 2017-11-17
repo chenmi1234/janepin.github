@@ -1204,92 +1204,365 @@ public final class R {
      */
     public static final int progressBarStyle=0x7f0300a0;
     /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int qrcv_animTime=0x7f0300a1;
+    /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int queryBackground=0x7f0300a1;
-    /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f0300a2;
+    public static final int qrcv_barCodeTipText=0x7f0300a2;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_barcodeRectHeight=0x7f0300a3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int qrcv_borderColor=0x7f0300a4;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_borderSize=0x7f0300a5;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int qrcv_cornerColor=0x7f0300a6;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_cornerLength=0x7f0300a7;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_cornerSize=0x7f0300a8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f0300a3;
+    public static final int qrcv_customGridScanLineDrawable=0x7f0300a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f0300a4;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int ratingBarStyleIndicator=0x7f0300a5;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int ratingBarStyleSmall=0x7f0300a6;
+    public static final int qrcv_customScanLineDrawable=0x7f0300aa;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f0300a7;
+    public static final int qrcv_isBarcode=0x7f0300ab;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isCenterVertical=0x7f0300ac;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isOnlyDecodeScanBoxArea=0x7f0300ad;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isScanLineReverse=0x7f0300ae;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isShowDefaultGridScanLineDrawable=0x7f0300af;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isShowDefaultScanLineDrawable=0x7f0300b0;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isShowTipBackground=0x7f0300b1;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isShowTipTextAsSingleLine=0x7f0300b2;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int qrcv_isTipTextBelowRect=0x7f0300b3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int qrcv_maskColor=0x7f0300b4;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int qrcv_qrCodeTipText=0x7f0300b5;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_rectWidth=0x7f0300b6;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int qrcv_scanLineColor=0x7f0300b7;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_scanLineMargin=0x7f0300b8;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_scanLineSize=0x7f0300b9;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int qrcv_tipBackgroundColor=0x7f0300ba;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int qrcv_tipTextColor=0x7f0300bb;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_tipTextMargin=0x7f0300bc;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_tipTextSize=0x7f0300bd;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_toolbarHeight=0x7f0300be;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int qrcv_topOffset=0x7f0300bf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0300a8;
+    public static final int queryBackground=0x7f0300c0;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int queryHint=0x7f0300c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0300a9;
+    public static final int radioButtonStyle=0x7f0300c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0300aa;
+    public static final int ratingBarStyle=0x7f0300c3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0300ab;
+    public static final int ratingBarStyleIndicator=0x7f0300c4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0300ac;
+    public static final int ratingBarStyleSmall=0x7f0300c5;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int reverseLayout=0x7f0300c6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0300ad;
+    public static final int searchHintIcon=0x7f0300c7;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int searchIcon=0x7f0300c8;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int searchViewStyle=0x7f0300c9;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int seekBarStyle=0x7f0300ca;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int selectableItemBackground=0x7f0300cb;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int selectableItemBackgroundBorderless=0x7f0300cc;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1304,7 +1577,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0300ae;
+    public static final int showAsAction=0x7f0300cd;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1318,115 +1591,115 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0300af;
+    public static final int showDividers=0x7f0300ce;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0300b0;
+    public static final int showText=0x7f0300cf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f0300b1;
+    public static final int singleChoiceItemLayout=0x7f0300d0;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f0300b2;
+    public static final int spanCount=0x7f0300d1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0300b3;
+    public static final int spinBars=0x7f0300d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0300b4;
+    public static final int spinnerDropDownItemStyle=0x7f0300d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0300b5;
+    public static final int spinnerStyle=0x7f0300d4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0300b6;
+    public static final int splitTrack=0x7f0300d5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0300b7;
+    public static final int srcCompat=0x7f0300d6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f0300b8;
+    public static final int stackFromEnd=0x7f0300d7;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0300b9;
+    public static final int state_above_anchor=0x7f0300d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0300ba;
+    public static final int subMenuArrow=0x7f0300d9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0300bb;
+    public static final int submitBackground=0x7f0300da;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0300bc;
+    public static final int subtitle=0x7f0300db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0300bd;
+    public static final int subtitleTextAppearance=0x7f0300dc;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0300be;
+    public static final int subtitleTextColor=0x7f0300dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0300bf;
+    public static final int subtitleTextStyle=0x7f0300de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0300c0;
+    public static final int suggestionRowLayout=0x7f0300df;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int swipeEnable=0x7f0300c1;
+    public static final int swipeEnable=0x7f0300e0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1434,7 +1707,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0300c2;
+    public static final int switchMinWidth=0x7f0300e1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1442,21 +1715,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0300c3;
+    public static final int switchPadding=0x7f0300e2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0300c4;
+    public static final int switchStyle=0x7f0300e3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0300c5;
+    public static final int switchTextAppearance=0x7f0300e4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1465,66 +1738,56 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0300c6;
+    public static final int textAllCaps=0x7f0300e5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0300c7;
+    public static final int textAppearanceLargePopupMenu=0x7f0300e6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0300c8;
+    public static final int textAppearanceListItem=0x7f0300e7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0300c9;
+    public static final int textAppearanceListItemSmall=0x7f0300e8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0300ca;
+    public static final int textAppearancePopupMenuHeader=0x7f0300e9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0300cb;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0300ea;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0300cc;
+    public static final int textAppearanceSearchResultTitle=0x7f0300eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0300cd;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f0300ce;
+    public static final int textAppearanceSmallPopupMenu=0x7f0300ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1534,14 +1797,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0300cf;
+    public static final int textColorAlertDialogListItem=0x7f0300ed;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0300ee;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0300d0;
+    public static final int theme=0x7f0300ef;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1549,7 +1822,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0300d1;
+    public static final int thickness=0x7f0300f0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1557,13 +1830,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0300d2;
+    public static final int thumbTextPadding=0x7f0300f1;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f0300d3;
+    public static final int thumbTint=0x7f0300f2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1579,20 +1852,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f0300d4;
+    public static final int thumbTintMode=0x7f0300f3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f0300d5;
+    public static final int tickMark=0x7f0300f4;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f0300d6;
+    public static final int tickMarkTint=0x7f0300f5;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1608,12 +1881,12 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f0300d7;
+    public static final int tickMarkTintMode=0x7f0300f6;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f0300d8;
+    public static final int title=0x7f0300f7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1621,7 +1894,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f0300d9;
+    public static final int titleMargin=0x7f0300f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1629,7 +1902,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f0300da;
+    public static final int titleMarginBottom=0x7f0300f9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1637,7 +1910,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f0300db;
+    public static final int titleMarginEnd=0x7f0300fa;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1645,7 +1918,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f0300dc;
+    public static final int titleMarginStart=0x7f0300fb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1653,7 +1926,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f0300dd;
+    public static final int titleMarginTop=0x7f0300fc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1661,54 +1934,54 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f0300de;
+    public static final int titleMargins=0x7f0300fd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f0300df;
+    public static final int titleTextAppearance=0x7f0300fe;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f0300e0;
+    public static final int titleTextColor=0x7f0300ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f0300e1;
+    public static final int titleTextStyle=0x7f030100;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f0300e2;
+    public static final int toolbarNavigationButtonStyle=0x7f030101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f0300e3;
+    public static final int toolbarStyle=0x7f030102;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f0300e4;
+    public static final int track=0x7f030103;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f0300e5;
+    public static final int trackTint=0x7f030104;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1724,29 +1997,29 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f0300e6;
+    public static final int trackTintMode=0x7f030105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f0300e7;
+    public static final int voiceIcon=0x7f030106;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f0300e8;
+    public static final int windowActionBar=0x7f030107;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f0300e9;
+    public static final int windowActionBarOverlay=0x7f030108;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f0300ea;
+    public static final int windowActionModeOverlay=0x7f030109;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1758,7 +2031,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f0300eb;
+    public static final int windowFixedHeightMajor=0x7f03010a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1770,7 +2043,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f0300ec;
+    public static final int windowFixedHeightMinor=0x7f03010b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1782,7 +2055,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f0300ed;
+    public static final int windowFixedWidthMajor=0x7f03010c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1794,7 +2067,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f0300ee;
+    public static final int windowFixedWidthMinor=0x7f03010d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1806,7 +2079,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f0300ef;
+    public static final int windowMinWidthMajor=0x7f03010e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1818,12 +2091,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f0300f0;
+    public static final int windowMinWidthMinor=0x7f03010f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f0300f1;
+    public static final int windowNoTitle=0x7f030110;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -2860,6 +3133,7 @@ public final class R {
     public static final int wrap_content=0x7f08013d;
     public static final int yesButton=0x7f08013e;
     public static final int zl_back=0x7f08013f;
+    public static final int zxingview=0x7f080140;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -2919,46 +3193,47 @@ public final class R {
     public static final int activity_register=0x7f0a0030;
     public static final int activity_register_area=0x7f0a0031;
     public static final int activity_register_info=0x7f0a0032;
-    public static final int activity_want_billing=0x7f0a0033;
-    public static final int activity_welcome=0x7f0a0034;
-    public static final int begin_order_popup=0x7f0a0035;
-    public static final int capture=0x7f0a0036;
-    public static final int categorize_item=0x7f0a0037;
-    public static final int dialog_add_commodity_layout=0x7f0a0038;
-    public static final int dialog_alarm_ui=0x7f0a0039;
-    public static final int dialog_success_layout=0x7f0a003a;
-    public static final int dialog_two_warning_layout=0x7f0a003b;
-    public static final int dialog_warning_layout=0x7f0a003c;
-    public static final int fragment_classify=0x7f0a003d;
-    public static final int fragment_dynamic=0x7f0a003e;
-    public static final int fragment_idcard=0x7f0a003f;
-    public static final int fragment_main=0x7f0a0040;
-    public static final int fragment_message=0x7f0a0041;
-    public static final int fragment_person=0x7f0a0042;
-    public static final int header_item=0x7f0a0043;
-    public static final int item_city=0x7f0a0044;
-    public static final int item_city_link=0x7f0a0045;
-    public static final int item_city_swipe=0x7f0a0046;
-    public static final int layout_picker_data=0x7f0a0047;
-    public static final int layout_picker_date=0x7f0a0048;
-    public static final int layout_picker_region=0x7f0a0049;
-    public static final int layout_picker_time=0x7f0a004a;
-    public static final int notification_media_action=0x7f0a004b;
-    public static final int notification_media_cancel_action=0x7f0a004c;
-    public static final int notification_template_big_media=0x7f0a004d;
-    public static final int notification_template_big_media_narrow=0x7f0a004e;
-    public static final int notification_template_lines=0x7f0a004f;
-    public static final int notification_template_media=0x7f0a0050;
-    public static final int notification_template_part_chronometer=0x7f0a0051;
-    public static final int notification_template_part_time=0x7f0a0052;
-    public static final int pop_citypicker=0x7f0a0053;
-    public static final int product_item=0x7f0a0054;
-    public static final int select_dialog_item_material=0x7f0a0055;
-    public static final int select_dialog_multichoice_material=0x7f0a0056;
-    public static final int select_dialog_singlechoice_material=0x7f0a0057;
-    public static final int sortlistview_item=0x7f0a0058;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a0059;
-    public static final int trade_widget=0x7f0a005a;
+    public static final int activity_scanning=0x7f0a0033;
+    public static final int activity_want_billing=0x7f0a0034;
+    public static final int activity_welcome=0x7f0a0035;
+    public static final int begin_order_popup=0x7f0a0036;
+    public static final int capture=0x7f0a0037;
+    public static final int categorize_item=0x7f0a0038;
+    public static final int dialog_add_commodity_layout=0x7f0a0039;
+    public static final int dialog_alarm_ui=0x7f0a003a;
+    public static final int dialog_success_layout=0x7f0a003b;
+    public static final int dialog_two_warning_layout=0x7f0a003c;
+    public static final int dialog_warning_layout=0x7f0a003d;
+    public static final int fragment_classify=0x7f0a003e;
+    public static final int fragment_dynamic=0x7f0a003f;
+    public static final int fragment_idcard=0x7f0a0040;
+    public static final int fragment_main=0x7f0a0041;
+    public static final int fragment_message=0x7f0a0042;
+    public static final int fragment_person=0x7f0a0043;
+    public static final int header_item=0x7f0a0044;
+    public static final int item_city=0x7f0a0045;
+    public static final int item_city_link=0x7f0a0046;
+    public static final int item_city_swipe=0x7f0a0047;
+    public static final int layout_picker_data=0x7f0a0048;
+    public static final int layout_picker_date=0x7f0a0049;
+    public static final int layout_picker_region=0x7f0a004a;
+    public static final int layout_picker_time=0x7f0a004b;
+    public static final int notification_media_action=0x7f0a004c;
+    public static final int notification_media_cancel_action=0x7f0a004d;
+    public static final int notification_template_big_media=0x7f0a004e;
+    public static final int notification_template_big_media_narrow=0x7f0a004f;
+    public static final int notification_template_lines=0x7f0a0050;
+    public static final int notification_template_media=0x7f0a0051;
+    public static final int notification_template_part_chronometer=0x7f0a0052;
+    public static final int notification_template_part_time=0x7f0a0053;
+    public static final int pop_citypicker=0x7f0a0054;
+    public static final int product_item=0x7f0a0055;
+    public static final int select_dialog_item_material=0x7f0a0056;
+    public static final int select_dialog_multichoice_material=0x7f0a0057;
+    public static final int select_dialog_singlechoice_material=0x7f0a0058;
+    public static final int sortlistview_item=0x7f0a0059;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a005a;
+    public static final int trade_widget=0x7f0a005b;
   }
   public static final class menu {
     public static final int main=0x7f0b0000;
@@ -3012,28 +3287,30 @@ public final class R {
     public static final int sales_list01=0x7f0c002d;
     public static final int sales_list02=0x7f0c002e;
     public static final int scan=0x7f0c002f;
-    public static final int scan_s=0x7f0c0030;
-    public static final int sfk01=0x7f0c0031;
-    public static final int sfk02=0x7f0c0032;
-    public static final int sfl=0x7f0c0033;
-    public static final int sp=0x7f0c0034;
-    public static final int swipeleft=0x7f0c0035;
-    public static final int swiperight=0x7f0c0036;
-    public static final int sy=0x7f0c0037;
-    public static final int sy01=0x7f0c0038;
-    public static final int sy02=0x7f0c0039;
-    public static final int sys=0x7f0c003a;
-    public static final int tjhy=0x7f0c003b;
-    public static final int visible=0x7f0c003c;
-    public static final int warning=0x7f0c003d;
-    public static final int warning01=0x7f0c003e;
-    public static final int wd=0x7f0c003f;
-    public static final int wd01=0x7f0c0040;
-    public static final int wd02=0x7f0c0041;
-    public static final int welcome=0x7f0c0042;
-    public static final int wyzq=0x7f0c0043;
-    public static final int xjd=0x7f0c0044;
-    public static final int yq=0x7f0c0045;
+    public static final int scan_grid_line=0x7f0c0030;
+    public static final int scan_line=0x7f0c0031;
+    public static final int scan_s=0x7f0c0032;
+    public static final int sfk01=0x7f0c0033;
+    public static final int sfk02=0x7f0c0034;
+    public static final int sfl=0x7f0c0035;
+    public static final int sp=0x7f0c0036;
+    public static final int swipeleft=0x7f0c0037;
+    public static final int swiperight=0x7f0c0038;
+    public static final int sy=0x7f0c0039;
+    public static final int sy01=0x7f0c003a;
+    public static final int sy02=0x7f0c003b;
+    public static final int sys=0x7f0c003c;
+    public static final int tjhy=0x7f0c003d;
+    public static final int visible=0x7f0c003e;
+    public static final int warning=0x7f0c003f;
+    public static final int warning01=0x7f0c0040;
+    public static final int wd=0x7f0c0041;
+    public static final int wd01=0x7f0c0042;
+    public static final int wd02=0x7f0c0043;
+    public static final int welcome=0x7f0c0044;
+    public static final int wyzq=0x7f0c0045;
+    public static final int xjd=0x7f0c0046;
+    public static final int yq=0x7f0c0047;
   }
   public static final class raw {
     public static final int beep=0x7f0d0000;
@@ -3537,8 +3814,8 @@ public final class R {
         0x7f03006d, 0x7f030071, 0x7f030072, 0x7f030073, 
         0x7f030074, 0x7f030075, 0x7f030078, 0x7f03007e, 
         0x7f03008d, 0x7f030094, 0x7f03009c, 0x7f03009f, 
-        0x7f0300a0, 0x7f0300bc, 0x7f0300bf, 0x7f0300d8, 
-        0x7f0300e1
+        0x7f0300a0, 0x7f0300db, 0x7f0300de, 0x7f0300f7, 
+        0x7f030100
       };
     /**
      * Attributes that can be used with a ActionBarLayout.
@@ -4009,7 +4286,7 @@ public final class R {
      */
     public static final int[] ActionMode={
         0x7f03002b, 0x7f03002c, 0x7f030048, 0x7f030071, 
-        0x7f0300bf, 0x7f0300e1
+        0x7f0300de, 0x7f030100
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#background}
@@ -4148,7 +4425,7 @@ public final class R {
      */
     public static final int[] AlertDialog={
         0x010100f2, 0x7f030038, 0x7f030084, 0x7f030085, 
-        0x7f030091, 0x7f0300b1
+        0x7f030091, 0x7f0300d0
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -4236,7 +4513,7 @@ public final class R {
      * @see #AppCompatImageView_srcCompat
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f0300b7
+        0x01010119, 0x7f0300d6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4283,7 +4560,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7
+        0x01010142, 0x7f0300f4, 0x7f0300f5, 0x7f0300f6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -4484,7 +4761,7 @@ public final class R {
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-        0x01010034, 0x7f0300c6
+        0x01010034, 0x7f0300e5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4772,15 +5049,15 @@ public final class R {
         0x7f030077, 0x7f030082, 0x7f030083, 0x7f030086, 
         0x7f030087, 0x7f030088, 0x7f030089, 0x7f03008a, 
         0x7f03008b, 0x7f03008c, 0x7f030098, 0x7f030099, 
-        0x7f03009a, 0x7f03009b, 0x7f03009d, 0x7f0300a3, 
-        0x7f0300a4, 0x7f0300a5, 0x7f0300a6, 0x7f0300aa, 
-        0x7f0300ab, 0x7f0300ac, 0x7f0300ad, 0x7f0300b4, 
-        0x7f0300b5, 0x7f0300c4, 0x7f0300c7, 0x7f0300c8, 
-        0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 
-        0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 0x7f0300e2, 
-        0x7f0300e3, 0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 
-        0x7f0300eb, 0x7f0300ec, 0x7f0300ed, 0x7f0300ee, 
-        0x7f0300ef, 0x7f0300f0, 0x7f0300f1
+        0x7f03009a, 0x7f03009b, 0x7f03009d, 0x7f0300c2, 
+        0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c9, 
+        0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 0x7f0300d3, 
+        0x7f0300d4, 0x7f0300e3, 0x7f0300e6, 0x7f0300e7, 
+        0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 
+        0x7f0300ec, 0x7f0300ed, 0x7f0300ee, 0x7f030101, 
+        0x7f030102, 0x7f030107, 0x7f030108, 0x7f030109, 
+        0x7f03010a, 0x7f03010b, 0x7f03010c, 0x7f03010d, 
+        0x7f03010e, 0x7f03010f, 0x7f030110
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarDivider}
@@ -6482,7 +6759,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
         0x7f030028, 0x7f030029, 0x7f030030, 0x7f03004b, 
-        0x7f030066, 0x7f03006f, 0x7f0300b3, 0x7f0300d1
+        0x7f030066, 0x7f03006f, 0x7f0300d2, 0x7f0300f0
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#arrowHeadLength}
@@ -6653,7 +6930,7 @@ public final class R {
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
         0x01010128, 0x7f030062, 0x7f030064, 0x7f030090, 
-        0x7f0300af
+        0x7f0300ce
       };
     /**
      * Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7080,7 +7357,7 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-        0x7f0300ae
+        0x7f0300cd
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionLayout}
@@ -7306,7 +7583,7 @@ public final class R {
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
         0x0101012f, 0x01010130, 0x01010131, 0x7f03009e, 
-        0x7f0300ba
+        0x7f0300d9
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -7447,7 +7724,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0300b9
+        0x7f0300d8
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#state_above_anchor}
@@ -7518,8 +7795,8 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f030080, 0x7f0300a7, 
-        0x7f0300b2, 0x7f0300b8
+        0x010100c4, 0x010100f1, 0x7f030080, 0x7f0300c6, 
+        0x7f0300d1, 0x7f0300d7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
@@ -7596,6 +7873,515 @@ public final class R {
      */
     public static final int RecyclerView_stackFromEnd=5;
     /**
+     * Attributes that can be used with a ScanCodeView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_animTime com.example.janepin:qrcv_animTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_barCodeTipText com.example.janepin:qrcv_barCodeTipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_barcodeRectHeight com.example.janepin:qrcv_barcodeRectHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_borderColor com.example.janepin:qrcv_borderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_borderSize com.example.janepin:qrcv_borderSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_cornerColor com.example.janepin:qrcv_cornerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_cornerLength com.example.janepin:qrcv_cornerLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_cornerSize com.example.janepin:qrcv_cornerSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_customGridScanLineDrawable com.example.janepin:qrcv_customGridScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_customScanLineDrawable com.example.janepin:qrcv_customScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isBarcode com.example.janepin:qrcv_isBarcode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isCenterVertical com.example.janepin:qrcv_isCenterVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isOnlyDecodeScanBoxArea com.example.janepin:qrcv_isOnlyDecodeScanBoxArea}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isScanLineReverse com.example.janepin:qrcv_isScanLineReverse}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowDefaultGridScanLineDrawable com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowDefaultScanLineDrawable com.example.janepin:qrcv_isShowDefaultScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowTipBackground com.example.janepin:qrcv_isShowTipBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowTipTextAsSingleLine com.example.janepin:qrcv_isShowTipTextAsSingleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_isTipTextBelowRect com.example.janepin:qrcv_isTipTextBelowRect}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_maskColor com.example.janepin:qrcv_maskColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_qrCodeTipText com.example.janepin:qrcv_qrCodeTipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_rectWidth com.example.janepin:qrcv_rectWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_scanLineColor com.example.janepin:qrcv_scanLineColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_scanLineMargin com.example.janepin:qrcv_scanLineMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_scanLineSize com.example.janepin:qrcv_scanLineSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_tipBackgroundColor com.example.janepin:qrcv_tipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_tipTextColor com.example.janepin:qrcv_tipTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_tipTextMargin com.example.janepin:qrcv_tipTextMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_tipTextSize com.example.janepin:qrcv_tipTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_toolbarHeight com.example.janepin:qrcv_toolbarHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScanCodeView_qrcv_topOffset com.example.janepin:qrcv_topOffset}</code></td><td></td></tr>
+     * </table>
+     * @see #ScanCodeView_qrcv_animTime
+     * @see #ScanCodeView_qrcv_barCodeTipText
+     * @see #ScanCodeView_qrcv_barcodeRectHeight
+     * @see #ScanCodeView_qrcv_borderColor
+     * @see #ScanCodeView_qrcv_borderSize
+     * @see #ScanCodeView_qrcv_cornerColor
+     * @see #ScanCodeView_qrcv_cornerLength
+     * @see #ScanCodeView_qrcv_cornerSize
+     * @see #ScanCodeView_qrcv_customGridScanLineDrawable
+     * @see #ScanCodeView_qrcv_customScanLineDrawable
+     * @see #ScanCodeView_qrcv_isBarcode
+     * @see #ScanCodeView_qrcv_isCenterVertical
+     * @see #ScanCodeView_qrcv_isOnlyDecodeScanBoxArea
+     * @see #ScanCodeView_qrcv_isScanLineReverse
+     * @see #ScanCodeView_qrcv_isShowDefaultGridScanLineDrawable
+     * @see #ScanCodeView_qrcv_isShowDefaultScanLineDrawable
+     * @see #ScanCodeView_qrcv_isShowTipBackground
+     * @see #ScanCodeView_qrcv_isShowTipTextAsSingleLine
+     * @see #ScanCodeView_qrcv_isTipTextBelowRect
+     * @see #ScanCodeView_qrcv_maskColor
+     * @see #ScanCodeView_qrcv_qrCodeTipText
+     * @see #ScanCodeView_qrcv_rectWidth
+     * @see #ScanCodeView_qrcv_scanLineColor
+     * @see #ScanCodeView_qrcv_scanLineMargin
+     * @see #ScanCodeView_qrcv_scanLineSize
+     * @see #ScanCodeView_qrcv_tipBackgroundColor
+     * @see #ScanCodeView_qrcv_tipTextColor
+     * @see #ScanCodeView_qrcv_tipTextMargin
+     * @see #ScanCodeView_qrcv_tipTextSize
+     * @see #ScanCodeView_qrcv_toolbarHeight
+     * @see #ScanCodeView_qrcv_topOffset
+     */
+    public static final int[] ScanCodeView={
+        0x7f0300a1, 0x7f0300a2, 0x7f0300a3, 0x7f0300a4, 
+        0x7f0300a5, 0x7f0300a6, 0x7f0300a7, 0x7f0300a8, 
+        0x7f0300a9, 0x7f0300aa, 0x7f0300ab, 0x7f0300ac, 
+        0x7f0300ad, 0x7f0300ae, 0x7f0300af, 0x7f0300b0, 
+        0x7f0300b1, 0x7f0300b2, 0x7f0300b3, 0x7f0300b4, 
+        0x7f0300b5, 0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 
+        0x7f0300b9, 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 
+        0x7f0300bd, 0x7f0300be, 0x7f0300bf
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_animTime}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.example.janepin:qrcv_animTime
+     */
+    public static final int ScanCodeView_qrcv_animTime=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barCodeTipText}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.janepin:qrcv_barCodeTipText
+     */
+    public static final int ScanCodeView_qrcv_barCodeTipText=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barcodeRectHeight}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_barcodeRectHeight
+     */
+    public static final int ScanCodeView_qrcv_barcodeRectHeight=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderColor}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_borderColor
+     */
+    public static final int ScanCodeView_qrcv_borderColor=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderSize}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_borderSize
+     */
+    public static final int ScanCodeView_qrcv_borderSize=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerColor}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_cornerColor
+     */
+    public static final int ScanCodeView_qrcv_cornerColor=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerLength}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_cornerLength
+     */
+    public static final int ScanCodeView_qrcv_cornerLength=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerSize}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_cornerSize
+     */
+    public static final int ScanCodeView_qrcv_cornerSize=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customGridScanLineDrawable}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_customGridScanLineDrawable
+     */
+    public static final int ScanCodeView_qrcv_customGridScanLineDrawable=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customScanLineDrawable}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_customScanLineDrawable
+     */
+    public static final int ScanCodeView_qrcv_customScanLineDrawable=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isBarcode}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isBarcode
+     */
+    public static final int ScanCodeView_qrcv_isBarcode=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isCenterVertical}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isCenterVertical
+     */
+    public static final int ScanCodeView_qrcv_isCenterVertical=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isOnlyDecodeScanBoxArea}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isOnlyDecodeScanBoxArea
+     */
+    public static final int ScanCodeView_qrcv_isOnlyDecodeScanBoxArea=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isScanLineReverse}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isScanLineReverse
+     */
+    public static final int ScanCodeView_qrcv_isScanLineReverse=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultGridScanLineDrawable}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable
+     */
+    public static final int ScanCodeView_qrcv_isShowDefaultGridScanLineDrawable=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultScanLineDrawable}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowDefaultScanLineDrawable
+     */
+    public static final int ScanCodeView_qrcv_isShowDefaultScanLineDrawable=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipBackground}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowTipBackground
+     */
+    public static final int ScanCodeView_qrcv_isShowTipBackground=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipTextAsSingleLine}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowTipTextAsSingleLine
+     */
+    public static final int ScanCodeView_qrcv_isShowTipTextAsSingleLine=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isTipTextBelowRect}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isTipTextBelowRect
+     */
+    public static final int ScanCodeView_qrcv_isTipTextBelowRect=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_maskColor}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_maskColor
+     */
+    public static final int ScanCodeView_qrcv_maskColor=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_qrCodeTipText}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.janepin:qrcv_qrCodeTipText
+     */
+    public static final int ScanCodeView_qrcv_qrCodeTipText=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_rectWidth}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_rectWidth
+     */
+    public static final int ScanCodeView_qrcv_rectWidth=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineColor}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_scanLineColor
+     */
+    public static final int ScanCodeView_qrcv_scanLineColor=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineMargin}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_scanLineMargin
+     */
+    public static final int ScanCodeView_qrcv_scanLineMargin=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineSize}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_scanLineSize
+     */
+    public static final int ScanCodeView_qrcv_scanLineSize=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipBackgroundColor}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_tipBackgroundColor
+     */
+    public static final int ScanCodeView_qrcv_tipBackgroundColor=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextColor}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_tipTextColor
+     */
+    public static final int ScanCodeView_qrcv_tipTextColor=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextMargin}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_tipTextMargin
+     */
+    public static final int ScanCodeView_qrcv_tipTextMargin=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextSize}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_tipTextSize
+     */
+    public static final int ScanCodeView_qrcv_tipTextSize=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_toolbarHeight}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_toolbarHeight
+     */
+    public static final int ScanCodeView_qrcv_toolbarHeight=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_topOffset}
+     * attribute's value can be found in the {@link #ScanCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_topOffset
+     */
+    public static final int ScanCodeView_qrcv_topOffset=30;
+    /**
      * Attributes that can be used with a SearchView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -7641,9 +8427,9 @@ public final class R {
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
         0x7f030047, 0x7f030055, 0x7f03005e, 0x7f030070, 
-        0x7f030076, 0x7f03007f, 0x7f0300a1, 0x7f0300a2, 
-        0x7f0300a8, 0x7f0300a9, 0x7f0300bb, 0x7f0300c0, 
-        0x7f0300e7
+        0x7f030076, 0x7f03007f, 0x7f0300c0, 0x7f0300c1, 
+        0x7f0300c7, 0x7f0300c8, 0x7f0300da, 0x7f0300df, 
+        0x7f030106
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -8009,7 +8795,7 @@ public final class R {
      * @see #SwipeMenuLayout_swipeEnable
      */
     public static final int[] SwipeMenuLayout={
-        0x7f03007c, 0x7f030081, 0x7f0300c1
+        0x7f03007c, 0x7f030081, 0x7f0300e0
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ios}
@@ -8079,10 +8865,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f0300b0, 
-        0x7f0300b6, 0x7f0300c2, 0x7f0300c3, 0x7f0300c5, 
-        0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 0x7f0300e4, 
-        0x7f0300e5, 0x7f0300e6
+        0x01010124, 0x01010125, 0x01010142, 0x7f0300cf, 
+        0x7f0300d5, 0x7f0300e1, 0x7f0300e2, 0x7f0300e4, 
+        0x7f0300f1, 0x7f0300f2, 0x7f0300f3, 0x7f030103, 
+        0x7f030104, 0x7f030105
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -8293,7 +9079,7 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x01010161, 0x01010162, 0x01010163, 0x01010164, 
-        0x7f0300c6
+        0x7f0300e5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -8484,10 +9270,10 @@ public final class R {
         0x7f03004a, 0x7f030056, 0x7f030057, 0x7f030058, 
         0x7f030059, 0x7f03005a, 0x7f03005b, 0x7f03008d, 
         0x7f03008e, 0x7f03008f, 0x7f030092, 0x7f030093, 
-        0x7f03009c, 0x7f0300bc, 0x7f0300bd, 0x7f0300be, 
-        0x7f0300d8, 0x7f0300d9, 0x7f0300da, 0x7f0300db, 
-        0x7f0300dc, 0x7f0300dd, 0x7f0300de, 0x7f0300df, 
-        0x7f0300e0
+        0x7f03009c, 0x7f0300db, 0x7f0300dc, 0x7f0300dd, 
+        0x7f0300f7, 0x7f0300f8, 0x7f0300f9, 0x7f0300fa, 
+        0x7f0300fb, 0x7f0300fc, 0x7f0300fd, 0x7f0300fe, 
+        0x7f0300ff
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -8882,7 +9668,7 @@ public final class R {
      */
     public static final int[] View={
         0x01010000, 0x010100da, 0x7f030096, 0x7f030097, 
-        0x7f0300d0
+        0x7f0300ef
       };
     /**
      * Attributes that can be used with a ViewBackgroundHelper.
