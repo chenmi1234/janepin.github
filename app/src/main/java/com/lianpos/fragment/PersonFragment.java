@@ -18,6 +18,8 @@ import com.lianpos.devfoucs.reportform.activity.PrinterActivity;
 import com.lianpos.devfoucs.reportform.activity.ReportForm;
 import com.lianpos.devfoucs.shoppingcart.CommodityManagementActivity;
 import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
+import com.lianpos.devfoucs.view.TwoButtonLoginoutDialog;
+import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
 
 /**
  * 个人中心
@@ -29,6 +31,8 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
 
     private RelativeLayout person_zl,modifyPassword,enterprise_informtion,commodity_management,printer_layout,loginout;
     View rootView;
+    // 两个按钮的dialog
+    private TwoButtonLoginoutDialog twoButtonDialog;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -93,10 +97,24 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
                 startActivity(printer);
                 break;
             case R.id.loginout:
-                Intent intent3 = new Intent();
-                intent3.setClass(getContext(), LoginActivity.class);
-                startActivity(intent3);
-                getActivity().onBackPressed();
+                twoButtonDialog = new TwoButtonLoginoutDialog(getActivity());
+                twoButtonDialog.setYesOnclickListener(new TwoButtonLoginoutDialog.onYesOnclickListener() {
+                    @Override
+                    public void onYesClick() {
+                        Intent intent3 = new Intent();
+                        intent3.setClass(getContext(), LoginActivity.class);
+                        startActivity(intent3);
+                        getActivity().onBackPressed();
+                        twoButtonDialog.dismiss();
+                    }
+                });
+                twoButtonDialog.setNoOnclickListener(new TwoButtonLoginoutDialog.onNoOnclickListener() {
+                    @Override
+                    public void onNoClick() {
+                        twoButtonDialog.dismiss();
+                    }
+                });
+                twoButtonDialog.show();
                 break;
 		}
     }
