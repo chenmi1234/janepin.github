@@ -5,10 +5,13 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.ui.AddFriendActivity;
+import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.qrcode.QRCodeView;
 import com.lianpos.qrcode.ZXingView;
@@ -21,6 +24,7 @@ import com.lianpos.zxing.android.CaptureActivity;
 public class ScanningActivity extends AppCompatActivity implements QRCodeView.Delegate {
 
     private ZXingView zXingView;
+    private ImageView scan_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,13 @@ public class ScanningActivity extends AppCompatActivity implements QRCodeView.De
         zXingView = (ZXingView) findViewById(R.id.zxingview);
         zXingView.setDelegate(this);//接收返回值
         zXingView.startSpotAndShowRect();//显示扫描框，并且延迟1.5秒后开始识别
+        scan_back = (ImageView) findViewById(R.id.scan_back);
+        scan_back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     @Override
@@ -39,6 +50,7 @@ public class ScanningActivity extends AppCompatActivity implements QRCodeView.De
         Intent intent = getIntent();
         String tiaozhuan = intent.getStringExtra("commodity");
         String chaifen = intent.getStringExtra("increase");
+        String tianjiashop = intent.getStringExtra("addshop");
         if (tiaozhuan != null){
             if (tiaozhuan.equals("shop")){
                 intent.setClass(ScanningActivity.this,IncreaseCommodityActivity.class);
@@ -55,7 +67,14 @@ public class ScanningActivity extends AppCompatActivity implements QRCodeView.De
                 startActivity(intent);
             }
             finish();
-        }else{
+        }else if (tianjiashop != null){
+            if(tianjiashop.equals("addshop")){
+                intent.setClass(ScanningActivity.this,MerchantActivity.class);
+                intent.putExtra("shopAdd", result);
+                startActivity(intent);
+            }
+            finish();
+        } else{
             intent.setClass(ScanningActivity.this,AddFriendActivity.class);
             intent.putExtra("codedContent", result);
             intent.putExtra("page","2");

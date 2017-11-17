@@ -10,12 +10,14 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.homepage.activity.ScanningActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.devfoucs.shoppingcart.fragment.ProductsFragment;
 
@@ -39,16 +41,22 @@ public class MerchantActivity extends FragmentActivity {
     //标题名集合
     private RadioButton[] titleText = null;
     private ViewPager pager;
-    private RadioGroup discount_layout;
+//    private RadioGroup discount_layout;
+    private ImageView scanning_shop_tiaoxing;
+    private EditText serch_shop;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_merchant);
+        Intent intert = getIntent();
         initView();
+        String addShopTiao = intert.getStringExtra("shopAdd");
+        serch_shop.setText(addShopTiao);
     }
 
     private void initView() {
+        serch_shop = (EditText) findViewById(R.id.serch_shop);
         pager = (ViewPager) findViewById(R.id.pager);
         merchant_back = (ImageView) findViewById(R.id.merchant_back);
         merchant_back.setOnClickListener(new View.OnClickListener() {
@@ -66,9 +74,7 @@ public class MerchantActivity extends FragmentActivity {
                 startActivity(intent);
             }
         });
-        discount_layout = (RadioGroup) findViewById(R.id.discount_layout);
         group_line = findViewById(R.id.group_line);
-        discount_layout.setOnCheckedChangeListener(listener);
         fragments = new ArrayList<Fragment>();
         productsFragment = new ProductsFragment();
         fragments.add(productsFragment);
@@ -79,19 +85,17 @@ public class MerchantActivity extends FragmentActivity {
         // 第一次启动时选中第0个tab
         pager.setCurrentItem(0);
         pager.setOffscreenPageLimit(2);
-    }
-
-    private RadioGroup.OnCheckedChangeListener listener = new RadioGroup.OnCheckedChangeListener() {
-        @Override
-        public void onCheckedChanged(RadioGroup radioGroup, int i) {
-            switch (i) {
-                case R.id.group_rb:
-                    pager.setCurrentItem(0);
-                    break;
+        scanning_shop_tiaoxing = (ImageView)findViewById(R.id.scanning_shop_tiaoxing);
+        scanning_shop_tiaoxing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(MerchantActivity.this, ScanningActivity.class);
+                intent.putExtra("addshop", "addshop");
+                startActivity(intent);
             }
-        }
-    };
-
+        });
+    }
 
     /**
      * 切换更换下划线状态

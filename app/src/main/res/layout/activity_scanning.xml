@@ -6,13 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.lianpos.devfoucs.homepage.activity.ScanningActivity">
 
+
+
     <com.lianpos.qrcode.ZXingView
         android:id="@+id/zxingview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:qrcv_animTime="1000"
         app:qrcv_barCodeTipText="将条码放入框内，即可自动扫描"
-        app:qrcv_barcodeRectHeight="220dp"
+        app:qrcv_barcodeRectHeight="420dp"
         app:qrcv_borderColor="@android:color/white"
         app:qrcv_borderSize="0px"
         app:qrcv_cornerColor="@color/colorPrimaryDark"
@@ -28,7 +30,7 @@
         app:qrcv_isTipTextBelowRect="true"
         app:qrcv_maskColor="#88000000"
         app:qrcv_qrCodeTipText="将二维码/条码放入框内，即可自动扫描"
-        app:qrcv_rectWidth="200dp"
+        app:qrcv_rectWidth="280dp"
         app:qrcv_scanLineColor="@color/colorPrimaryDark"
         app:qrcv_scanLineMargin="0dp"
         app:qrcv_scanLineSize="1dp"
@@ -36,4 +38,12 @@
         app:qrcv_tipTextSize="12sp"
         app:qrcv_toolbarHeight="56dp"
         app:qrcv_topOffset="90dp" />
+
+    <ImageView
+        android:id="@+id/scan_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/bcak01"/>
 </RelativeLayout>

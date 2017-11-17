@@ -47,7 +47,7 @@ import java.util.List;
  * Created by wangshuai on 2017/6/6.
  * 服务商品列表
  */
-public class ProductsFragment extends Fragment implements View.OnClickListener, onCallBackListener,ShopToDetailListener {
+public class ProductsFragment extends Fragment implements View.OnClickListener, onCallBackListener, ShopToDetailListener {
     private boolean isScroll = true;
     private ListView mainlist;
     private PinnedHeaderListView morelist;
@@ -141,27 +141,77 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
         super.onCreate(savedInstanceState);
         initView();
     }
 
     public List<ProductType> getData() {
+
         productCategorizes = new ArrayList<>();
-        for (int i = 1; i < 5; i++) {
-            ProductType productCategorize = new ProductType();
-            productCategorize.setType("分类信息" + i);
-            productCategorize.setType("分类信息" + i);
-            shopProductsAll = new ArrayList<>();
-            for (int j = 1; j < 6; j++) {
-                ShopProduct product = new ShopProduct();
-                product.setId(154788 + i + j);
-                product.setGoods("衬衫" + i);
-                product.setPrice(18 + "");
-                shopProductsAll.add(product);
-            }
-            productCategorize.setProduct(shopProductsAll);
-            productCategorizes.add(productCategorize);
-        }
+        ProductType productCategorize = new ProductType();
+        productCategorize.setType("其他商品");
+        shopProductsAll = new ArrayList<>();
+        ShopProduct product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("衬衫");
+        product.setPrice(18 + "");
+        shopProductsAll.add(product);
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("牙刷");
+        product.setPrice(10 + "");
+        shopProductsAll.add(product);
+        productCategorize.setProduct(shopProductsAll);
+        productCategorizes.add(productCategorize);
+
+        productCategorize = new ProductType();
+        productCategorize.setType("农夫山泉");
+        shopProductsAll = new ArrayList<>();
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("矿泉水");
+        product.setPrice(18 + "");
+        shopProductsAll.add(product);
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("珍珠奶茶");
+        product.setPrice(10 + "");
+        shopProductsAll.add(product);
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("卫生纸");
+        product.setPrice(17 + "");
+        shopProductsAll.add(product);
+        productCategorize.setProduct(shopProductsAll);
+        productCategorizes.add(productCategorize);
+
+
+        productCategorize = new ProductType();
+        productCategorize.setType("康师傅");
+        shopProductsAll = new ArrayList<>();
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("矿泉水");
+        product.setPrice(18 + "");
+        shopProductsAll.add(product);
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("干脆面");
+        product.setPrice(10 + "");
+        shopProductsAll.add(product);
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("哇哈哈");
+        product.setPrice(17 + "");
+        shopProductsAll.add(product);
+        product = new ShopProduct();
+        product.setId(154788);
+        product.setGoods("牛肉干");
+        product.setPrice(17 + "");
+        shopProductsAll.add(product);
+        productCategorize.setProduct(shopProductsAll);
+        productCategorizes.add(productCategorize);
         return productCategorizes;
     }
 
@@ -169,23 +219,22 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
         getData();
         animation_viewGroup = createAnimLayout();
         noData = (TextView) getView().findViewById(R.id.noData);
-        parentLayout = (RelativeLayout)  getView().findViewById(R.id.parentLayout);
-        shoppingPrise = (TextView)  getView().findViewById(R.id.shoppingPrise);
+        parentLayout = (RelativeLayout) getView().findViewById(R.id.parentLayout);
+        shoppingPrise = (TextView) getView().findViewById(R.id.shoppingPrise);
         shoppingNum = (TextView) getView().findViewById(R.id.shoppingNum);
-        settlement = (TextView)  getView().findViewById(R.id.settlement);
-        mainlist = (ListView)  getView().findViewById(R.id.classify_mainlist);
+        settlement = (TextView) getView().findViewById(R.id.settlement);
+        mainlist = (ListView) getView().findViewById(R.id.classify_mainlist);
         morelist = (PinnedHeaderListView) getView().findViewById(R.id.classify_morelist);
-        shopping_cart = (ImageView)  getView().findViewById(R.id.shopping_cart);
-        defaultText = (TextView)  getView().findViewById(R.id.defaultText);
-//        shoppingList = (LinearLayout) getView().findViewById(R.id.shoppingList);
-        shoppingListView = (ListView)  getView().findViewById(R.id.shopproductListView);
-        cardLayout = (FrameLayout)  getView().findViewById(R.id.cardLayout);
-        cardShopLayout = (LinearLayout)  getView().findViewById(R.id.cardShopLayout);
-        bg_layout =  getView().findViewById(R.id.bg_layout);
+        shopping_cart = (ImageView) getView().findViewById(R.id.shopping_cart);
+        defaultText = (TextView) getView().findViewById(R.id.defaultText);
+        shoppingListView = (ListView) getView().findViewById(R.id.shopproductListView);
+        cardLayout = (FrameLayout) getView().findViewById(R.id.cardLayout);
+        cardShopLayout = (LinearLayout) getView().findViewById(R.id.cardShopLayout);
+        bg_layout = getView().findViewById(R.id.bg_layout);
         initData();
     }
 
-    public void initData(){
+    public void initData() {
         productList = new ArrayList<>();
         strings = new ArrayList<>();
         sectionedAdapter = new TestSectionedAdapter(getActivity(), productCategorizes);
@@ -199,7 +248,7 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
 
         });
 
-        for(ProductType type :productCategorizes){
+        for (ProductType type : productCategorizes) {
             strings.add(type.getType());
         }
         morelist.setAdapter(sectionedAdapter);
@@ -207,7 +256,7 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
         mainlist.setAdapter(new ArrayAdapter<String>(getActivity(),
                 R.layout.categorize_item, strings));
 
-        shopAdapter = new ShopAdapter(getActivity(),productList);
+        shopAdapter = new ShopAdapter(getActivity(), productList);
         shoppingListView.setAdapter(shopAdapter);
         shopAdapter.setShopToDetailListener(this);
 
@@ -269,7 +318,6 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
         });
 
 
-
         bg_layout.setOnClickListener(this);
         settlement.setOnClickListener(this);
         shopping_cart.setOnClickListener(this);
@@ -284,22 +332,22 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
     @Override
     public void updateProduct(ShopProduct product, String type) {
         if (type.equals("1")) {
-            if(!productList.contains(product)){
+            if (!productList.contains(product)) {
                 productList.add(product);
-            }else {
-                for (ShopProduct shopProduct:productList){
-                    if(product.getId()==shopProduct.getId()){
+            } else {
+                for (ShopProduct shopProduct : productList) {
+                    if (product.getId() == shopProduct.getId()) {
                         shopProduct.setNumber(shopProduct.getNumber());
                     }
                 }
             }
         } else if (type.equals("2")) {
-            if(productList.contains(product)){
-                if(product.getNumber()==0){
+            if (productList.contains(product)) {
+                if (product.getNumber() == 0) {
                     productList.remove(product);
-                }else {
-                    for (ShopProduct shopProduct:productList){
-                        if(product.getId()==shopProduct.getId()){
+                } else {
+                    for (ShopProduct shopProduct : productList) {
+                        if (product.getId() == shopProduct.getId()) {
                             shopProduct.setNumber(shopProduct.getNumber());
                         }
                     }
@@ -314,19 +362,19 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
     @Override
     public void onUpdateDetailList(ShopProduct product, String type) {
         if (type.equals("1")) {
-            for (int i =0;i<productCategorizes.size();i++){
+            for (int i = 0; i < productCategorizes.size(); i++) {
                 shopProductsAll = productCategorizes.get(i).getProduct();
-                for(ShopProduct shopProduct :shopProductsAll){
-                    if(product.getId()==shopProduct.getId()){
+                for (ShopProduct shopProduct : shopProductsAll) {
+                    if (product.getId() == shopProduct.getId()) {
                         shopProduct.setNumber(product.getNumber());
                     }
                 }
             }
         } else if (type.equals("2")) {
-            for (int i =0;i<productCategorizes.size();i++){
+            for (int i = 0; i < productCategorizes.size(); i++) {
                 shopProductsAll = productCategorizes.get(i).getProduct();
-                for(ShopProduct shopProduct :shopProductsAll){
-                    if(product.getId()==shopProduct.getId()){
+                for (ShopProduct shopProduct : shopProductsAll) {
+                    if (product.getId() == shopProduct.getId()) {
                         shopProduct.setNumber(product.getNumber());
                     }
                 }
@@ -338,10 +386,10 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
 
     @Override
     public void onRemovePriduct(ShopProduct product) {
-        for (int i =0;i<productCategorizes.size();i++){
+        for (int i = 0; i < productCategorizes.size(); i++) {
             shopProductsAll = productCategorizes.get(i).getProduct();
-            for(ShopProduct shopProduct :shopProductsAll){
-                if(product.getId()==shopProduct.getId()){
+            for (ShopProduct shopProduct : shopProductsAll) {
+                if (product.getId() == shopProduct.getId()) {
                     productList.remove(product);
                     shopAdapter.notifyDataSetChanged();
                     shopProduct.setNumber(shopProduct.getNumber());
@@ -361,18 +409,17 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
         double sum = 0;
         int shopNum = 0;
         for (ShopProduct pro : productList) {
-//            sum = sum + (pro.getNumber() * Double.parseDouble(pro.getPrice()));
             sum = DoubleUtil.sum(sum, DoubleUtil.mul((double) pro.getNumber(), Double.parseDouble(pro.getPrice())));
             shopNum = shopNum + pro.getNumber();
         }
-        if(shopNum>0){
+        if (shopNum > 0) {
             shoppingNum.setVisibility(View.GONE);
-        }else {
+        } else {
             shoppingNum.setVisibility(View.GONE);
         }
-        if(sum>0){
+        if (sum > 0) {
             shoppingPrise.setVisibility(View.VISIBLE);
-        }else {
+        } else {
             shoppingPrise.setVisibility(View.GONE);
         }
         shoppingPrise.setText("¥" + " " + (new DecimalFormat("0.00")).format(sum));
@@ -407,13 +454,9 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
                 break;
 
             case R.id.settlement:
-                if(productList==null){
+                if (productList == null) {
                     return;
                 }
-//                Intent intent = new Intent(getActivity(), SettlementActivity.class);
-//                IntentObjectPool.putObjectExtra(intent, CommonParameter.SETTLEMENT_DETAILS, productList);
-//                IntentObjectPool.putStringExtra(intent,"shopId",shopId);
-//                startActivity(intent);
                 break;
 
             case R.id.bg_layout:
@@ -423,7 +466,6 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
                 break;
         }
     }
-
 
 
     /**
@@ -577,7 +619,6 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
         isClean = false;
         super.onLowMemory();
     }
-
 
 
     @Override

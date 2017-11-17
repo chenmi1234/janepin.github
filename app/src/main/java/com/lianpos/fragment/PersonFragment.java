@@ -16,6 +16,8 @@ import com.lianpos.devfoucs.reportform.activity.EnterpriseInformation;
 import com.lianpos.devfoucs.reportform.activity.ModifyPassword;
 import com.lianpos.devfoucs.reportform.activity.PrinterActivity;
 import com.lianpos.devfoucs.reportform.activity.ReportForm;
+import com.lianpos.devfoucs.shoppingcart.CommodityManagementActivity;
+import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
 
 /**
  * 个人中心
@@ -25,7 +27,7 @@ import com.lianpos.devfoucs.reportform.activity.ReportForm;
  */
 public class PersonFragment extends Fragment implements View.OnClickListener {
 
-    private RelativeLayout person_zl,modifyPassword,enterprise_informtion,printer_layout,loginout;
+    private RelativeLayout person_zl,modifyPassword,enterprise_informtion,commodity_management,printer_layout,loginout;
     View rootView;
 
     @Override
@@ -48,6 +50,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
         modifyPassword = (RelativeLayout)rootView.findViewById(R.id.modify_password);
         enterprise_informtion = (RelativeLayout)rootView.findViewById(R.id.enterprise_informtion);
         printer_layout = (RelativeLayout)rootView.findViewById(R.id.printer_layout);
+        commodity_management = (RelativeLayout)rootView.findViewById(R.id.commodity_management);
         loginout = (RelativeLayout)rootView.findViewById(R.id.loginout);
     }
 
@@ -58,6 +61,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
         enterprise_informtion.setOnClickListener(this);
         printer_layout.setOnClickListener(this);
         loginout.setOnClickListener(this);
+        commodity_management.setOnClickListener(this);
     }
 
     @Override
@@ -77,6 +81,11 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
                 Intent intent2 = new Intent();
                 intent2.setClass(getContext(), EnterpriseInformation.class);
                 startActivity(intent2);
+                break;
+            case R.id.commodity_management:
+                Intent commodity = new Intent();
+                commodity.setClass(getContext(), CommodityManagementActivity.class);
+                startActivity(commodity);
                 break;
             case R.id.printer_layout:
                 Intent printer = new Intent();
