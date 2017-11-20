@@ -7,14 +7,16 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <!-- 摄像头权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 读写数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -74,6 +76,7 @@
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquirySheetListActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquiryEditerActyvity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ScanningActivity"></activity>
+        <activity android:name="com.lianpos.scancodeidentify.zbar.ZbarActivity"></activity>
     </application>
 
 </manifest>

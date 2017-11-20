@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCallback, ProcessDataTask.Delegate {
     protected Camera mCamera;
     protected CameraPreview mPreview;
-    protected ScanCodeView mScanCodeView;
+    protected ScanBoxView mScanBoxView;
     protected Delegate mDelegate;
     protected Handler mHandler;
     protected boolean mSpotAble = false;
@@ -30,11 +30,11 @@ public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCa
     private void initView(Context context, AttributeSet attrs) {
         mPreview = new CameraPreview(getContext());
 
-        mScanCodeView = new ScanCodeView(getContext());
-        mScanCodeView.initCustomAttrs(context, attrs);
+        mScanBoxView = new ScanBoxView(getContext());
+        mScanBoxView.initCustomAttrs(context, attrs);
 
         addView(mPreview);
-        addView(mScanCodeView);
+        addView(mScanBoxView);
     }
 
     /**
@@ -50,8 +50,8 @@ public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCa
      * 显示扫描框
      */
     public void showScanRect() {
-        if (mScanCodeView != null) {
-            mScanCodeView.setVisibility(View.VISIBLE);
+        if (mScanBoxView != null) {
+            mScanBoxView.setVisibility(View.VISIBLE);
         }
     }
 
@@ -59,8 +59,8 @@ public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCa
      * 隐藏扫描框
      */
     public void hiddenScanRect() {
-        if (mScanCodeView != null) {
-            mScanCodeView.setVisibility(View.GONE);
+        if (mScanBoxView != null) {
+            mScanBoxView.setVisibility(View.GONE);
         }
     }
 
@@ -171,6 +171,7 @@ public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCa
      * 打开闪光灯
      */
     public void openFlashlight() {
+
         mPreview.openFlashlight();
     }
 
@@ -205,8 +206,8 @@ public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCa
      * 切换成扫描条码样式
      */
     public void changeToScanBarcodeStyle() {
-        if (!mScanCodeView.getIsBarcode()) {
-            mScanCodeView.setIsBarcode(true);
+        if (!mScanBoxView.getIsBarcode()) {
+            mScanBoxView.setIsBarcode(true);
         }
     }
 
@@ -214,8 +215,8 @@ public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCa
      * 切换成扫描二维码样式
      */
     public void changeToScanQRCodeStyle() {
-        if (mScanCodeView.getIsBarcode()) {
-            mScanCodeView.setIsBarcode(false);
+        if (mScanBoxView.getIsBarcode()) {
+            mScanBoxView.setIsBarcode(false);
         }
     }
 
@@ -225,7 +226,7 @@ public abstract class QRCodeView extends FrameLayout implements Camera.PreviewCa
      * @return
      */
     public boolean getIsScanBarcodeStyle() {
-        return mScanCodeView.getIsBarcode();
+        return mScanBoxView.getIsBarcode();
     }
 
     @Override

@@ -10,11 +10,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.homepage.activity.ScanningActivity;
 import com.lianpos.firebase.BaseActivity;
+import com.lianpos.scancodeidentify.zbar.ZbarActivity;
 import com.lianpos.util.MyToggle;
 import com.lianpos.util.MyToggle.OnToggleStateListener;
-import com.lianpos.zxing.android.CaptureActivity;
 
 /**
  * 新增商品
@@ -171,8 +170,9 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(IncreaseCommodityActivity.this, ScanningActivity.class);
+                intent.setClass(IncreaseCommodityActivity.this, ZbarActivity.class);
                 intent.putExtra("commodity", "shop");
+
                 startActivity(intent);
             }
         });
@@ -181,7 +181,7 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(IncreaseCommodityActivity.this, ScanningActivity.class);
+                intent.setClass(IncreaseCommodityActivity.this, ZbarActivity.class);
                 intent.putExtra("increase", "chaifen");
                 startActivity(intent);
             }

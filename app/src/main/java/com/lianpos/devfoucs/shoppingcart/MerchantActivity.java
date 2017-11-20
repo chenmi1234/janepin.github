@@ -13,13 +13,12 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.homepage.activity.ScanningActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.devfoucs.shoppingcart.fragment.ProductsFragment;
+import com.lianpos.scancodeidentify.zbar.ZbarActivity;
 
 import java.util.ArrayList;
 
@@ -90,7 +89,7 @@ public class MerchantActivity extends FragmentActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MerchantActivity.this, ScanningActivity.class);
+                intent.setClass(MerchantActivity.this, ZbarActivity.class);
                 intent.putExtra("addshop", "addshop");
                 startActivity(intent);
             }

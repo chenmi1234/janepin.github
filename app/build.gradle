@@ -20,6 +20,21 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'x86_64', 'armeabi-v7a', 'armeabi'
+            universalApk false
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 allprojects {
@@ -41,4 +56,5 @@ dependencies {
     compile project(path: ':citypickerview')
     implementation files('libs/core-3.0.0.jar')
     implementation files('libs/butterknife-7.0.1.jar')
+    implementation files('libs/zbar.jar')
 }

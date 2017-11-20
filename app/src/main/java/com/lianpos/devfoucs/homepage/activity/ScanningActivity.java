@@ -14,8 +14,7 @@ import com.lianpos.devfoucs.contacts.ui.AddFriendActivity;
 import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.qrcode.QRCodeView;
-import com.lianpos.qrcode.ZXingView;
-import com.lianpos.zxing.android.CaptureActivity;
+import com.lianpos.scancodeidentify.zxing.ZXingView;
 
 /**
  * 条形码二维码扫描

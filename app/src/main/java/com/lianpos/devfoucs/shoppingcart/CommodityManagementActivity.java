@@ -16,9 +16,9 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.homepage.activity.ScanningActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.devfoucs.shoppingcart.fragment.CommodityFragment;
+import com.lianpos.scancodeidentify.zbar.ZbarActivity;
 
 import java.util.ArrayList;
 
@@ -89,7 +89,7 @@ public class CommodityManagementActivity extends FragmentActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(CommodityManagementActivity.this, ScanningActivity.class);
+                intent.setClass(CommodityManagementActivity.this, ZbarActivity.class);
                 intent.putExtra("addshop", "addshop");
                 startActivity(intent);
             }

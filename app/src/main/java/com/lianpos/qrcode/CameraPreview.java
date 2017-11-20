@@ -96,16 +96,42 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         if (flashLightAvaliable()) {
             mCameraConfigurationManager.openFlashlight(mCamera);
         }
+     /*   if(isFlashlightOn()){
+            mCameraConfigurationManager.openFlashlight(mCamera);
+        }*/
     }
 
     public void closeFlashlight() {
         if (flashLightAvaliable()) {
             mCameraConfigurationManager.closeFlashlight(mCamera);
         }
+       /* if(isFlashlightOn()){
+            mCameraConfigurationManager.closeFlashlight(mCamera);
+            mCamera.release();
+        }*/
     }
 
+    //闪光灯是否开启
     private boolean flashLightAvaliable() {
         return mCamera != null && mPreviewing && mSurfaceCreated && getContext().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+    }
+
+    /*    *
+     * 是否开启了闪光灯
+     * @return
+     */
+    public boolean isFlashlightOn() {
+        try {
+            Camera.Parameters parameters = mCamera.getParameters();
+            String flashMode = parameters.getFlashMode();
+            if (flashMode.equals(android.hardware.Camera.Parameters.FLASH_MODE_TORCH)) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     private Runnable doAutoFocus = new Runnable() {

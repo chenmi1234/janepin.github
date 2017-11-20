@@ -5,14 +5,19 @@ import android.graphics.BitmapFactory;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
+import com.google.zxing.ChecksumException;
 import com.google.zxing.DecodeHintType;
+import com.google.zxing.FormatException;
 import com.google.zxing.MultiFormatReader;
+import com.google.zxing.NotFoundException;
 import com.google.zxing.RGBLuminanceSource;
 import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
+import com.google.zxing.qrcode.QRCodeReader;
 
 import java.util.ArrayList;
 import java.util.EnumMap;
+import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 
@@ -77,6 +82,44 @@ public class QRCodeDecoder {
         } catch (Exception e) {
             return null;
         }
+    }
+
+    /**
+     * 同步解析bitmap二维码。该方法是耗时操作，请在子线程中调用。
+     *
+     * @param path 要解析的二维码图片
+     * @return 返回二维码图片里的内容 或 null
+     */
+    public static String syncDecodeQRCode2(String path) {
+        // DecodeHintType 和EncodeHintType
+        Hashtable<DecodeHintType, String> hints = new Hashtable<>();
+        hints.put(DecodeHintType.CHARACTER_SET, "utf-8"); // 设置二维码内容的编码
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inJustDecodeBounds = true; // 先获取原大小
+        Bitmap scanBitmap = BitmapFactory.decodeFile(path, options);
+        options.inJustDecodeBounds = false; // 获取新的大小
+        int sampleSize = (int) (options.outHeight / (float) 200);
+        if (sampleSize <= 0)
+            sampleSize = 1;
+        options.inSampleSize = sampleSize;
+        scanBitmap = BitmapFactory.decodeFile(path, options);
+        DecodingRGBLuminanceSource source = new DecodingRGBLuminanceSource(scanBitmap);
+        BinaryBitmap bitmap1 = new BinaryBitmap(new HybridBinarizer(source));
+        QRCodeReader reader = new QRCodeReader();
+        try {
+            Result result = reader.decode(bitmap1, hints);
+            return null == result ? null : result.getText();
+        } catch (NotFoundException e) {
+            e.printStackTrace();
+
+        } catch (ChecksumException e) {
+            e.printStackTrace();
+
+        } catch (FormatException e) {
+            e.printStackTrace();
+
+        }
+        return null;
     }
 
     /**

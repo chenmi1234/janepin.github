@@ -2776,41 +2776,42 @@ public final class R {
     public static final int meituan_iten_header_item_bg=0x7f070071;
     public static final int notification_template_icon_bg=0x7f070072;
     public static final int scan_light=0x7f070073;
-    public static final int search_bar_icon_normal=0x7f070074;
-    public static final int selector_capture_back=0x7f070075;
-    public static final int selector_main_button=0x7f070076;
-    public static final int sfk01=0x7f070077;
-    public static final int sfk02=0x7f070078;
-    public static final int shape_angle_gray=0x7f070079;
-    public static final int shape_angle_red=0x7f07007a;
-    public static final int shape_circle=0x7f07007b;
-    public static final int shape_main_button=0x7f07007c;
-    public static final int shape_main_edit=0x7f07007d;
-    public static final int shape_main_imageview=0x7f07007e;
-    public static final int shape_main_title=0x7f07007f;
-    public static final int shape_radius=0x7f070080;
-    public static final int shape_radius_gray=0x7f070081;
-    public static final int shape_radius_green=0x7f070082;
-    public static final int shape_radius_red_bg=0x7f070083;
-    public static final int shape_shopping_cart=0x7f070084;
-    public static final int shape_side_bar_bg=0x7f070085;
-    public static final int shopping_cart=0x7f070086;
-    public static final int shopping_cart_bg=0x7f070087;
-    public static final int shopping_choice=0x7f070088;
-    public static final int sidebar_background=0x7f070089;
-    public static final int sy01=0x7f07008a;
-    public static final int sy02=0x7f07008b;
-    public static final int tab_item_dynamic_img_selector=0x7f07008c;
-    public static final int tab_item_home_img_selector=0x7f07008d;
-    public static final int tab_item_main_img_selector=0x7f07008e;
-    public static final int tab_item_message_img_selector=0x7f07008f;
-    public static final int tab_item_person_img_selector=0x7f070090;
-    public static final int tabitem_txt_sel=0x7f070091;
-    public static final int test_wheel_bg=0x7f070092;
-    public static final int wd01=0x7f070093;
-    public static final int wd02=0x7f070094;
-    public static final int wheel_bg=0x7f070095;
-    public static final int wheel_val=0x7f070096;
+    public static final int scancode_toggle_lamplight=0x7f070074;
+    public static final int search_bar_icon_normal=0x7f070075;
+    public static final int selector_capture_back=0x7f070076;
+    public static final int selector_main_button=0x7f070077;
+    public static final int sfk01=0x7f070078;
+    public static final int sfk02=0x7f070079;
+    public static final int shape_angle_gray=0x7f07007a;
+    public static final int shape_angle_red=0x7f07007b;
+    public static final int shape_circle=0x7f07007c;
+    public static final int shape_main_button=0x7f07007d;
+    public static final int shape_main_edit=0x7f07007e;
+    public static final int shape_main_imageview=0x7f07007f;
+    public static final int shape_main_title=0x7f070080;
+    public static final int shape_radius=0x7f070081;
+    public static final int shape_radius_gray=0x7f070082;
+    public static final int shape_radius_green=0x7f070083;
+    public static final int shape_radius_red_bg=0x7f070084;
+    public static final int shape_shopping_cart=0x7f070085;
+    public static final int shape_side_bar_bg=0x7f070086;
+    public static final int shopping_cart=0x7f070087;
+    public static final int shopping_cart_bg=0x7f070088;
+    public static final int shopping_choice=0x7f070089;
+    public static final int sidebar_background=0x7f07008a;
+    public static final int sy01=0x7f07008b;
+    public static final int sy02=0x7f07008c;
+    public static final int tab_item_dynamic_img_selector=0x7f07008d;
+    public static final int tab_item_home_img_selector=0x7f07008e;
+    public static final int tab_item_main_img_selector=0x7f07008f;
+    public static final int tab_item_message_img_selector=0x7f070090;
+    public static final int tab_item_person_img_selector=0x7f070091;
+    public static final int tabitem_txt_sel=0x7f070092;
+    public static final int test_wheel_bg=0x7f070093;
+    public static final int wd01=0x7f070094;
+    public static final int wd02=0x7f070095;
+    public static final int wheel_bg=0x7f070096;
+    public static final int wheel_val=0x7f070097;
   }
   public static final class id {
     public static final int about_version_code=0x7f080000;
@@ -2856,288 +2857,295 @@ public final class R {
     public static final int bottom=0x7f080028;
     public static final int briday_text=0x7f080029;
     public static final int btnDel=0x7f08002a;
-    public static final int buttonPanel=0x7f08002b;
-    public static final int cancel_action=0x7f08002c;
-    public static final int capture_imageview_back=0x7f08002d;
-    public static final int cardLayout=0x7f08002e;
-    public static final int cardShopLayout=0x7f08002f;
-    public static final int catalog=0x7f080030;
-    public static final int chaifenEdittext=0x7f080031;
-    public static final int checkbox=0x7f080032;
-    public static final int choiceLayout=0x7f080033;
-    public static final int choose_back=0x7f080034;
-    public static final int choose_birday_layout=0x7f080035;
-    public static final int choose_list=0x7f080036;
-    public static final int choose_sex_layout=0x7f080037;
-    public static final int choose_title=0x7f080038;
-    public static final int chronometer=0x7f080039;
-    public static final int cityInputText=0x7f08003a;
-    public static final int classify_mainlist=0x7f08003b;
-    public static final int classify_morelist=0x7f08003c;
-    public static final int collapseActionView=0x7f08003d;
-    public static final int commodityName=0x7f08003e;
-    public static final int commodityNum=0x7f08003f;
-    public static final int commodityPrise=0x7f080040;
-    public static final int commodity_back=0x7f080041;
-    public static final int commodity_baocun=0x7f080042;
-    public static final int commodity_management=0x7f080043;
-    public static final int company_name=0x7f080044;
-    public static final int confirm_send_layout=0x7f080045;
-    public static final int content=0x7f080046;
-    public static final int contentPanel=0x7f080047;
-    public static final int country_lvcountry=0x7f080048;
-    public static final int currentCity=0x7f080049;
-    public static final int currentCityTag=0x7f08004a;
-    public static final int custom=0x7f08004b;
-    public static final int customPanel=0x7f08004c;
-    public static final int danweiChoose=0x7f08004d;
-    public static final int decode=0x7f08004e;
-    public static final int decode_failed=0x7f08004f;
-    public static final int decode_succeeded=0x7f080050;
-    public static final int decor_content_parent=0x7f080051;
-    public static final int defaultText=0x7f080052;
-    public static final int default_activity_button=0x7f080053;
-    public static final int deleteImg=0x7f080054;
-    public static final int deleteNameImg=0x7f080055;
-    public static final int detailed_address=0x7f080056;
-    public static final int dialog=0x7f080057;
-    public static final int dialogDanwei=0x7f080058;
-    public static final int dialogNumber=0x7f080059;
-    public static final int dialog_unit_price=0x7f08005a;
-    public static final int disableHome=0x7f08005b;
-    public static final int discount_layout=0x7f08005c;
-    public static final int edit_query=0x7f08005d;
-    public static final int editter_back=0x7f08005e;
-    public static final int editter_save=0x7f08005f;
-    public static final int encode_failed=0x7f080060;
-    public static final int encode_succeeded=0x7f080061;
-    public static final int end=0x7f080062;
-    public static final int end_padder=0x7f080063;
-    public static final int enterprise_back=0x7f080064;
-    public static final int enterprise_editer=0x7f080065;
-    public static final int enterprise_editer_text=0x7f080066;
-    public static final int enterprise_informtion=0x7f080067;
-    public static final int enterprise_name=0x7f080068;
-    public static final int expand_activities_button=0x7f080069;
-    public static final int expanded_menu=0x7f08006a;
-    public static final int gridview=0x7f08006b;
-    public static final int group_line=0x7f08006c;
-    public static final int group_rb=0x7f08006d;
-    public static final int guigeChoose=0x7f08006e;
-    public static final int head=0x7f08006f;
-    public static final int home=0x7f080070;
-    public static final int homeAsUp=0x7f080071;
-    public static final int icon=0x7f080072;
-    public static final int id_city=0x7f080073;
-    public static final int id_district=0x7f080074;
-    public static final int id_province=0x7f080075;
-    public static final int ifRoom=0x7f080076;
-    public static final int image=0x7f080077;
-    public static final int imageView=0x7f080078;
-    public static final int imgBack=0x7f080079;
-    public static final int immediate_registration=0x7f08007a;
-    public static final int increase=0x7f08007b;
-    public static final int indexBar=0x7f08007c;
-    public static final int info=0x7f08007d;
-    public static final int inquiryContent=0x7f08007e;
-    public static final int inquiryNumber=0x7f08007f;
-    public static final int inquiry_listview=0x7f080080;
-    public static final int inquiry_sheet=0x7f080081;
-    public static final int inquiry_sheet_back=0x7f080082;
-    public static final int inquiry_sheet_cancel=0x7f080083;
-    public static final int inquiry_sheet_item_layout=0x7f080084;
-    public static final int inquiry_sheet_list_back=0x7f080085;
-    public static final int inquiry_shopName=0x7f080086;
-    public static final int inquiry_shopPhone=0x7f080087;
-    public static final int inventory=0x7f080088;
-    public static final int itemShopName=0x7f080089;
-    public static final int item_touch_helper_previous_elevation=0x7f08008a;
-    public static final int ivAvatar=0x7f08008b;
-    public static final int iv_make=0x7f08008c;
-    public static final int iv_shape_circle=0x7f08008d;
-    public static final int launch_product_query=0x7f08008e;
-    public static final int line1=0x7f08008f;
-    public static final int line3=0x7f080090;
-    public static final int linkman_back=0x7f080091;
-    public static final int listMode=0x7f080092;
-    public static final int list_item=0x7f080093;
-    public static final int list_view=0x7f080094;
-    public static final int ll_root=0x7f080095;
-    public static final int ll_title=0x7f080096;
-    public static final int ll_title_background=0x7f080097;
-    public static final int localCity=0x7f080098;
-    public static final int localCityTag=0x7f080099;
-    public static final int login_button=0x7f08009a;
-    public static final int loginout=0x7f08009b;
-    public static final int loop_area=0x7f08009c;
-    public static final int loop_city=0x7f08009d;
-    public static final int loop_data=0x7f08009e;
-    public static final int loop_day=0x7f08009f;
-    public static final int loop_hour=0x7f0800a0;
-    public static final int loop_min=0x7f0800a1;
-    public static final int loop_month=0x7f0800a2;
-    public static final int loop_year=0x7f0800a3;
-    public static final int main_container=0x7f0800a4;
-    public static final int mainitem_layout=0x7f0800a5;
-    public static final int mainitem_txt=0x7f0800a6;
-    public static final int makeMoney=0x7f0800a7;
-    public static final int make_money_back=0x7f0800a8;
-    public static final int media_actions=0x7f0800a9;
-    public static final int merchant_back=0x7f0800aa;
-    public static final int message=0x7f0800ab;
-    public static final int middle=0x7f0800ac;
-    public static final int modify_password=0x7f0800ad;
-    public static final int modify_password_back=0x7f0800ae;
-    public static final int multiply=0x7f0800af;
-    public static final int name=0x7f0800b0;
-    public static final int never=0x7f0800b1;
-    public static final int newPassword=0x7f0800b2;
-    public static final int new_password_editText=0x7f0800b3;
-    public static final int next_button=0x7f0800b4;
-    public static final int noButton=0x7f0800b5;
-    public static final int noData=0x7f0800b6;
-    public static final int none=0x7f0800b7;
-    public static final int normal=0x7f0800b8;
-    public static final int noticeText=0x7f0800b9;
-    public static final int oldPassword=0x7f0800ba;
-    public static final int old_password_editText=0x7f0800bb;
-    public static final int pager=0x7f0800bc;
-    public static final int parentLayout=0x7f0800bd;
-    public static final int parentPanel=0x7f0800be;
-    public static final int passwordMessage=0x7f0800bf;
-    public static final int password_confirm_message=0x7f0800c0;
-    public static final int password_editText=0x7f0800c1;
-    public static final int person_zl=0x7f0800c2;
-    public static final int phoneMessage=0x7f0800c3;
-    public static final int phoneNumber=0x7f0800c4;
-    public static final int phone_edittext=0x7f0800c5;
-    public static final int pinpaiChoose=0x7f0800c6;
-    public static final int preview_view=0x7f0800c7;
-    public static final int printer_back=0x7f0800c8;
-    public static final int printer_layout=0x7f0800c9;
-    public static final int prise=0x7f0800ca;
-    public static final int progress_circular=0x7f0800cb;
-    public static final int progress_horizontal=0x7f0800cc;
-    public static final int quit=0x7f0800cd;
-    public static final int radio=0x7f0800ce;
-    public static final int reduce=0x7f0800cf;
-    public static final int registerPasswordMessage=0x7f0800d0;
-    public static final int registerPhoneMessage=0x7f0800d1;
-    public static final int registerQRPasswordMessage=0x7f0800d2;
-    public static final int registerText=0x7f0800d3;
-    public static final int register_back=0x7f0800d4;
-    public static final int register_name_editText=0x7f0800d5;
-    public static final int register_password_editText=0x7f0800d6;
-    public static final int register_phone_editText=0x7f0800d7;
-    public static final int register_pwd_editText=0x7f0800d8;
-    public static final int restart_preview=0x7f0800d9;
-    public static final int resultTv=0x7f0800da;
-    public static final int return_scan_result=0x7f0800db;
-    public static final int rl_bottom=0x7f0800dc;
-    public static final int rl_title=0x7f0800dd;
-    public static final int rv=0x7f0800de;
-    public static final int scanBtn=0x7f0800df;
-    public static final int scan_back=0x7f0800e0;
-    public static final int scanningBar=0x7f0800e1;
-    public static final int scanning_shop_tiaoxing=0x7f0800e2;
-    public static final int screen=0x7f0800e3;
-    public static final int scrollIndicatorDown=0x7f0800e4;
-    public static final int scrollIndicatorUp=0x7f0800e5;
-    public static final int scrollView=0x7f0800e6;
-    public static final int search_badge=0x7f0800e7;
-    public static final int search_bar=0x7f0800e8;
-    public static final int search_book_contents_failed=0x7f0800e9;
-    public static final int search_book_contents_succeeded=0x7f0800ea;
-    public static final int search_button=0x7f0800eb;
-    public static final int search_close_btn=0x7f0800ec;
-    public static final int search_edit_frame=0x7f0800ed;
-    public static final int search_go_btn=0x7f0800ee;
-    public static final int search_mag_icon=0x7f0800ef;
-    public static final int search_plate=0x7f0800f0;
-    public static final int search_src_text=0x7f0800f1;
-    public static final int search_voice_btn=0x7f0800f2;
-    public static final int select_dialog_listview=0x7f0800f3;
-    public static final int serch_shop=0x7f0800f4;
-    public static final int settlement=0x7f0800f5;
-    public static final int sex_text=0x7f0800f6;
-    public static final int shopChaifen=0x7f0800f7;
-    public static final int shopDanwei=0x7f0800f8;
-    public static final int shopDanwei_text=0x7f0800f9;
-    public static final int shopEdittext=0x7f0800fa;
-    public static final int shopName=0x7f0800fb;
-    public static final int shopName_text=0x7f0800fc;
-    public static final int shopNumber=0x7f0800fd;
-    public static final int shopNumber_text=0x7f0800fe;
-    public static final int shopTiaoma=0x7f0800ff;
-    public static final int shoppingNum=0x7f080100;
-    public static final int shoppingPrise=0x7f080101;
-    public static final int shopping_cart=0x7f080102;
-    public static final int shopproductListView=0x7f080103;
-    public static final int shortcut=0x7f080104;
-    public static final int showCustom=0x7f080105;
-    public static final int showHome=0x7f080106;
-    public static final int showTitle=0x7f080107;
-    public static final int sidrbar=0x7f080108;
-    public static final int spacer=0x7f080109;
-    public static final int spinner2=0x7f08010a;
-    public static final int spinner3=0x7f08010b;
-    public static final int split=0x7f08010c;
-    public static final int splitDanwei=0x7f08010d;
-    public static final int splitNum=0x7f08010e;
-    public static final int splitToggle=0x7f08010f;
-    public static final int split_action_bar=0x7f080110;
-    public static final int src_atop=0x7f080111;
-    public static final int src_in=0x7f080112;
-    public static final int src_over=0x7f080113;
-    public static final int status_bar_latest_event_content=0x7f080114;
-    public static final int submenuarrow=0x7f080115;
-    public static final int submit_area=0x7f080116;
-    public static final int suitDanwei=0x7f080117;
-    public static final int suitNum=0x7f080118;
-    public static final int suitoggle=0x7f080119;
-    public static final int supplier_name=0x7f08011a;
-    public static final int tabMode=0x7f08011b;
-    public static final int text=0x7f08011c;
-    public static final int text2=0x7f08011d;
-    public static final int textItem=0x7f08011e;
-    public static final int textSpacerNoButtons=0x7f08011f;
-    public static final int time=0x7f080120;
-    public static final int title=0x7f080121;
-    public static final int title_template=0x7f080122;
-    public static final int toolBar=0x7f080123;
-    public static final int top=0x7f080124;
-    public static final int topPanel=0x7f080125;
-    public static final int tvCity=0x7f080126;
-    public static final int tvPhone=0x7f080127;
-    public static final int tvSideBarHint=0x7f080128;
-    public static final int tvSupermarket=0x7f080129;
-    public static final int tv_cancel=0x7f08012a;
-    public static final int tv_confirm=0x7f08012b;
-    public static final int tv_dynamic=0x7f08012c;
-    public static final int tv_follow=0x7f08012d;
-    public static final int tv_location=0x7f08012e;
-    public static final int tv_main=0x7f08012f;
-    public static final int tv_message=0x7f080130;
-    public static final int tv_person=0x7f080131;
-    public static final int tv_recommend=0x7f080132;
-    public static final int tv_title=0x7f080133;
-    public static final int tx_finish=0x7f080134;
-    public static final int tx_title=0x7f080135;
-    public static final int tx_unit=0x7f080136;
-    public static final int up=0x7f080137;
-    public static final int useLogo=0x7f080138;
-    public static final int view_empty=0x7f080139;
-    public static final int view_line=0x7f08013a;
-    public static final int viewfinder_view=0x7f08013b;
-    public static final int viewpager_home=0x7f08013c;
-    public static final int warningImage=0x7f08013d;
-    public static final int webview=0x7f08013e;
-    public static final int wifi_layout=0x7f08013f;
-    public static final int withText=0x7f080140;
-    public static final int wrap_content=0x7f080141;
-    public static final int yesButton=0x7f080142;
-    public static final int zl_back=0x7f080143;
-    public static final int zxingview=0x7f080144;
+    public static final int btn_qroce=0x7f08002b;
+    public static final int buttonPanel=0x7f08002c;
+    public static final int cancel_action=0x7f08002d;
+    public static final int capture_imageview_back=0x7f08002e;
+    public static final int cardLayout=0x7f08002f;
+    public static final int cardShopLayout=0x7f080030;
+    public static final int catalog=0x7f080031;
+    public static final int chaifenEdittext=0x7f080032;
+    public static final int checkbox=0x7f080033;
+    public static final int choiceLayout=0x7f080034;
+    public static final int choose_back=0x7f080035;
+    public static final int choose_birday_layout=0x7f080036;
+    public static final int choose_list=0x7f080037;
+    public static final int choose_sex_layout=0x7f080038;
+    public static final int choose_title=0x7f080039;
+    public static final int chronometer=0x7f08003a;
+    public static final int cityInputText=0x7f08003b;
+    public static final int classify_mainlist=0x7f08003c;
+    public static final int classify_morelist=0x7f08003d;
+    public static final int collapseActionView=0x7f08003e;
+    public static final int commodityName=0x7f08003f;
+    public static final int commodityNum=0x7f080040;
+    public static final int commodityPrise=0x7f080041;
+    public static final int commodity_back=0x7f080042;
+    public static final int commodity_baocun=0x7f080043;
+    public static final int commodity_management=0x7f080044;
+    public static final int company_name=0x7f080045;
+    public static final int confirm_send_layout=0x7f080046;
+    public static final int content=0x7f080047;
+    public static final int contentPanel=0x7f080048;
+    public static final int country_lvcountry=0x7f080049;
+    public static final int currentCity=0x7f08004a;
+    public static final int currentCityTag=0x7f08004b;
+    public static final int custom=0x7f08004c;
+    public static final int customPanel=0x7f08004d;
+    public static final int danweiChoose=0x7f08004e;
+    public static final int decode=0x7f08004f;
+    public static final int decode_failed=0x7f080050;
+    public static final int decode_succeeded=0x7f080051;
+    public static final int decor_content_parent=0x7f080052;
+    public static final int defaultText=0x7f080053;
+    public static final int default_activity_button=0x7f080054;
+    public static final int deleteImg=0x7f080055;
+    public static final int deleteNameImg=0x7f080056;
+    public static final int detailed_address=0x7f080057;
+    public static final int dialog=0x7f080058;
+    public static final int dialogDanwei=0x7f080059;
+    public static final int dialogNumber=0x7f08005a;
+    public static final int dialog_unit_price=0x7f08005b;
+    public static final int disableHome=0x7f08005c;
+    public static final int discount_layout=0x7f08005d;
+    public static final int edit_query=0x7f08005e;
+    public static final int editter_back=0x7f08005f;
+    public static final int editter_save=0x7f080060;
+    public static final int encode_failed=0x7f080061;
+    public static final int encode_succeeded=0x7f080062;
+    public static final int end=0x7f080063;
+    public static final int end_padder=0x7f080064;
+    public static final int enterprise_back=0x7f080065;
+    public static final int enterprise_editer=0x7f080066;
+    public static final int enterprise_editer_text=0x7f080067;
+    public static final int enterprise_informtion=0x7f080068;
+    public static final int enterprise_name=0x7f080069;
+    public static final int et_qroce=0x7f08006a;
+    public static final int expand_activities_button=0x7f08006b;
+    public static final int expanded_menu=0x7f08006c;
+    public static final int gridview=0x7f08006d;
+    public static final int group_line=0x7f08006e;
+    public static final int group_rb=0x7f08006f;
+    public static final int guigeChoose=0x7f080070;
+    public static final int head=0x7f080071;
+    public static final int home=0x7f080072;
+    public static final int homeAsUp=0x7f080073;
+    public static final int icon=0x7f080074;
+    public static final int id_city=0x7f080075;
+    public static final int id_district=0x7f080076;
+    public static final int id_province=0x7f080077;
+    public static final int ifRoom=0x7f080078;
+    public static final int image=0x7f080079;
+    public static final int imageView=0x7f08007a;
+    public static final int imgBack=0x7f08007b;
+    public static final int img_qroce=0x7f08007c;
+    public static final int immediate_registration=0x7f08007d;
+    public static final int increase=0x7f08007e;
+    public static final int indexBar=0x7f08007f;
+    public static final int info=0x7f080080;
+    public static final int inquiryContent=0x7f080081;
+    public static final int inquiryNumber=0x7f080082;
+    public static final int inquiry_listview=0x7f080083;
+    public static final int inquiry_sheet=0x7f080084;
+    public static final int inquiry_sheet_back=0x7f080085;
+    public static final int inquiry_sheet_cancel=0x7f080086;
+    public static final int inquiry_sheet_item_layout=0x7f080087;
+    public static final int inquiry_sheet_list_back=0x7f080088;
+    public static final int inquiry_shopName=0x7f080089;
+    public static final int inquiry_shopPhone=0x7f08008a;
+    public static final int inventory=0x7f08008b;
+    public static final int itemShopName=0x7f08008c;
+    public static final int item_touch_helper_previous_elevation=0x7f08008d;
+    public static final int ivAvatar=0x7f08008e;
+    public static final int iv_make=0x7f08008f;
+    public static final int iv_shape_circle=0x7f080090;
+    public static final int launch_product_query=0x7f080091;
+    public static final int line1=0x7f080092;
+    public static final int line3=0x7f080093;
+    public static final int line_back=0x7f080094;
+    public static final int linkman_back=0x7f080095;
+    public static final int listMode=0x7f080096;
+    public static final int list_item=0x7f080097;
+    public static final int list_view=0x7f080098;
+    public static final int ll_root=0x7f080099;
+    public static final int ll_title=0x7f08009a;
+    public static final int ll_title_background=0x7f08009b;
+    public static final int localCity=0x7f08009c;
+    public static final int localCityTag=0x7f08009d;
+    public static final int login_button=0x7f08009e;
+    public static final int loginout=0x7f08009f;
+    public static final int loop_area=0x7f0800a0;
+    public static final int loop_city=0x7f0800a1;
+    public static final int loop_data=0x7f0800a2;
+    public static final int loop_day=0x7f0800a3;
+    public static final int loop_hour=0x7f0800a4;
+    public static final int loop_min=0x7f0800a5;
+    public static final int loop_month=0x7f0800a6;
+    public static final int loop_year=0x7f0800a7;
+    public static final int main_container=0x7f0800a8;
+    public static final int mainitem_layout=0x7f0800a9;
+    public static final int mainitem_txt=0x7f0800aa;
+    public static final int makeMoney=0x7f0800ab;
+    public static final int make_money_back=0x7f0800ac;
+    public static final int media_actions=0x7f0800ad;
+    public static final int merchant_back=0x7f0800ae;
+    public static final int message=0x7f0800af;
+    public static final int middle=0x7f0800b0;
+    public static final int modify_password=0x7f0800b1;
+    public static final int modify_password_back=0x7f0800b2;
+    public static final int multiply=0x7f0800b3;
+    public static final int name=0x7f0800b4;
+    public static final int never=0x7f0800b5;
+    public static final int newPassword=0x7f0800b6;
+    public static final int new_password_editText=0x7f0800b7;
+    public static final int next_button=0x7f0800b8;
+    public static final int noButton=0x7f0800b9;
+    public static final int noData=0x7f0800ba;
+    public static final int none=0x7f0800bb;
+    public static final int normal=0x7f0800bc;
+    public static final int noticeText=0x7f0800bd;
+    public static final int oldPassword=0x7f0800be;
+    public static final int old_password_editText=0x7f0800bf;
+    public static final int pager=0x7f0800c0;
+    public static final int parentLayout=0x7f0800c1;
+    public static final int parentPanel=0x7f0800c2;
+    public static final int passwordMessage=0x7f0800c3;
+    public static final int password_confirm_message=0x7f0800c4;
+    public static final int password_editText=0x7f0800c5;
+    public static final int person_zl=0x7f0800c6;
+    public static final int phoneMessage=0x7f0800c7;
+    public static final int phoneNumber=0x7f0800c8;
+    public static final int phone_edittext=0x7f0800c9;
+    public static final int pinpaiChoose=0x7f0800ca;
+    public static final int preview_view=0x7f0800cb;
+    public static final int printer_back=0x7f0800cc;
+    public static final int printer_layout=0x7f0800cd;
+    public static final int prise=0x7f0800ce;
+    public static final int progress_circular=0x7f0800cf;
+    public static final int progress_horizontal=0x7f0800d0;
+    public static final int quit=0x7f0800d1;
+    public static final int radio=0x7f0800d2;
+    public static final int reduce=0x7f0800d3;
+    public static final int registerPasswordMessage=0x7f0800d4;
+    public static final int registerPhoneMessage=0x7f0800d5;
+    public static final int registerQRPasswordMessage=0x7f0800d6;
+    public static final int registerText=0x7f0800d7;
+    public static final int register_back=0x7f0800d8;
+    public static final int register_name_editText=0x7f0800d9;
+    public static final int register_password_editText=0x7f0800da;
+    public static final int register_phone_editText=0x7f0800db;
+    public static final int register_pwd_editText=0x7f0800dc;
+    public static final int restart_preview=0x7f0800dd;
+    public static final int resultTv=0x7f0800de;
+    public static final int return_scan_result=0x7f0800df;
+    public static final int rl_bottom=0x7f0800e0;
+    public static final int rl_title=0x7f0800e1;
+    public static final int rv=0x7f0800e2;
+    public static final int scanBtn=0x7f0800e3;
+    public static final int scan_back=0x7f0800e4;
+    public static final int scancode_lamplight=0x7f0800e5;
+    public static final int scancode_localimg=0x7f0800e6;
+    public static final int scanningBar=0x7f0800e7;
+    public static final int scanning_shop_tiaoxing=0x7f0800e8;
+    public static final int screen=0x7f0800e9;
+    public static final int scrollIndicatorDown=0x7f0800ea;
+    public static final int scrollIndicatorUp=0x7f0800eb;
+    public static final int scrollView=0x7f0800ec;
+    public static final int search_badge=0x7f0800ed;
+    public static final int search_bar=0x7f0800ee;
+    public static final int search_book_contents_failed=0x7f0800ef;
+    public static final int search_book_contents_succeeded=0x7f0800f0;
+    public static final int search_button=0x7f0800f1;
+    public static final int search_close_btn=0x7f0800f2;
+    public static final int search_edit_frame=0x7f0800f3;
+    public static final int search_go_btn=0x7f0800f4;
+    public static final int search_mag_icon=0x7f0800f5;
+    public static final int search_plate=0x7f0800f6;
+    public static final int search_src_text=0x7f0800f7;
+    public static final int search_voice_btn=0x7f0800f8;
+    public static final int select_dialog_listview=0x7f0800f9;
+    public static final int serch_shop=0x7f0800fa;
+    public static final int settlement=0x7f0800fb;
+    public static final int sex_text=0x7f0800fc;
+    public static final int shopChaifen=0x7f0800fd;
+    public static final int shopDanwei=0x7f0800fe;
+    public static final int shopDanwei_text=0x7f0800ff;
+    public static final int shopEdittext=0x7f080100;
+    public static final int shopName=0x7f080101;
+    public static final int shopName_text=0x7f080102;
+    public static final int shopNumber=0x7f080103;
+    public static final int shopNumber_text=0x7f080104;
+    public static final int shopTiaoma=0x7f080105;
+    public static final int shoppingNum=0x7f080106;
+    public static final int shoppingPrise=0x7f080107;
+    public static final int shopping_cart=0x7f080108;
+    public static final int shopproductListView=0x7f080109;
+    public static final int shortcut=0x7f08010a;
+    public static final int showCustom=0x7f08010b;
+    public static final int showHome=0x7f08010c;
+    public static final int showTitle=0x7f08010d;
+    public static final int sidrbar=0x7f08010e;
+    public static final int spacer=0x7f08010f;
+    public static final int spinner2=0x7f080110;
+    public static final int spinner3=0x7f080111;
+    public static final int split=0x7f080112;
+    public static final int splitDanwei=0x7f080113;
+    public static final int splitNum=0x7f080114;
+    public static final int splitToggle=0x7f080115;
+    public static final int split_action_bar=0x7f080116;
+    public static final int src_atop=0x7f080117;
+    public static final int src_in=0x7f080118;
+    public static final int src_over=0x7f080119;
+    public static final int status_bar_latest_event_content=0x7f08011a;
+    public static final int submenuarrow=0x7f08011b;
+    public static final int submit_area=0x7f08011c;
+    public static final int suitDanwei=0x7f08011d;
+    public static final int suitNum=0x7f08011e;
+    public static final int suitoggle=0x7f08011f;
+    public static final int supplier_name=0x7f080120;
+    public static final int tabMode=0x7f080121;
+    public static final int text=0x7f080122;
+    public static final int text2=0x7f080123;
+    public static final int textItem=0x7f080124;
+    public static final int textSpacerNoButtons=0x7f080125;
+    public static final int time=0x7f080126;
+    public static final int title=0x7f080127;
+    public static final int title_template=0x7f080128;
+    public static final int toolBar=0x7f080129;
+    public static final int top=0x7f08012a;
+    public static final int topPanel=0x7f08012b;
+    public static final int tvCity=0x7f08012c;
+    public static final int tvPhone=0x7f08012d;
+    public static final int tvSideBarHint=0x7f08012e;
+    public static final int tvSupermarket=0x7f08012f;
+    public static final int tv_cancel=0x7f080130;
+    public static final int tv_confirm=0x7f080131;
+    public static final int tv_dynamic=0x7f080132;
+    public static final int tv_follow=0x7f080133;
+    public static final int tv_location=0x7f080134;
+    public static final int tv_main=0x7f080135;
+    public static final int tv_message=0x7f080136;
+    public static final int tv_person=0x7f080137;
+    public static final int tv_recommend=0x7f080138;
+    public static final int tv_title=0x7f080139;
+    public static final int tx_finish=0x7f08013a;
+    public static final int tx_title=0x7f08013b;
+    public static final int tx_unit=0x7f08013c;
+    public static final int up=0x7f08013d;
+    public static final int useLogo=0x7f08013e;
+    public static final int view_empty=0x7f08013f;
+    public static final int view_line=0x7f080140;
+    public static final int viewfinder_view=0x7f080141;
+    public static final int viewpager_home=0x7f080142;
+    public static final int warningImage=0x7f080143;
+    public static final int webview=0x7f080144;
+    public static final int wifi_layout=0x7f080145;
+    public static final int withText=0x7f080146;
+    public static final int wrap_content=0x7f080147;
+    public static final int yesButton=0x7f080148;
+    public static final int zbarview=0x7f080149;
+    public static final int zl_back=0x7f08014a;
+    public static final int zxingview=0x7f08014b;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -3235,12 +3243,15 @@ public final class R {
     public static final int notification_template_part_time=0x7f0a0056;
     public static final int pop_citypicker=0x7f0a0057;
     public static final int product_item=0x7f0a0058;
-    public static final int select_dialog_item_material=0x7f0a0059;
-    public static final int select_dialog_multichoice_material=0x7f0a005a;
-    public static final int select_dialog_singlechoice_material=0x7f0a005b;
-    public static final int sortlistview_item=0x7f0a005c;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a005d;
-    public static final int trade_widget=0x7f0a005e;
+    public static final int qroce_generate_layout=0x7f0a0059;
+    public static final int select_dialog_item_material=0x7f0a005a;
+    public static final int select_dialog_multichoice_material=0x7f0a005b;
+    public static final int select_dialog_singlechoice_material=0x7f0a005c;
+    public static final int sortlistview_item=0x7f0a005d;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a005e;
+    public static final int trade_widget=0x7f0a005f;
+    public static final int zbartest_scan_layout=0x7f0a0060;
+    public static final int zxingtest_scan_layout=0x7f0a0061;
   }
   public static final class menu {
     public static final int main=0x7f0b0000;
@@ -3289,35 +3300,41 @@ public final class R {
     public static final int personal_data=0x7f0c0028;
     public static final int printer=0x7f0c0029;
     public static final int qdk=0x7f0c002a;
-    public static final int quit=0x7f0c002b;
-    public static final int reload=0x7f0c002c;
-    public static final int sales_list01=0x7f0c002d;
-    public static final int sales_list02=0x7f0c002e;
-    public static final int scan=0x7f0c002f;
-    public static final int scan_grid_line=0x7f0c0030;
-    public static final int scan_line=0x7f0c0031;
-    public static final int scan_s=0x7f0c0032;
-    public static final int sfk01=0x7f0c0033;
-    public static final int sfk02=0x7f0c0034;
-    public static final int sfl=0x7f0c0035;
-    public static final int sp=0x7f0c0036;
-    public static final int swipeleft=0x7f0c0037;
-    public static final int swiperight=0x7f0c0038;
-    public static final int sy=0x7f0c0039;
-    public static final int sy01=0x7f0c003a;
-    public static final int sy02=0x7f0c003b;
-    public static final int sys=0x7f0c003c;
-    public static final int tjhy=0x7f0c003d;
-    public static final int visible=0x7f0c003e;
-    public static final int warning=0x7f0c003f;
-    public static final int warning01=0x7f0c0040;
-    public static final int wd=0x7f0c0041;
-    public static final int wd01=0x7f0c0042;
-    public static final int wd02=0x7f0c0043;
-    public static final int welcome=0x7f0c0044;
-    public static final int wyzq=0x7f0c0045;
-    public static final int xjd=0x7f0c0046;
-    public static final int yq=0x7f0c0047;
+    public static final int qrcode_default_grid_scan_line=0x7f0c002b;
+    public static final int qrcode_default_scan_line=0x7f0c002c;
+    public static final int quit=0x7f0c002d;
+    public static final int reload=0x7f0c002e;
+    public static final int sales_list01=0x7f0c002f;
+    public static final int sales_list02=0x7f0c0030;
+    public static final int scan=0x7f0c0031;
+    public static final int scan_grid_line=0x7f0c0032;
+    public static final int scan_line=0x7f0c0033;
+    public static final int scan_s=0x7f0c0034;
+    public static final int scancode_back=0x7f0c0035;
+    public static final int scancode_lamplight_close=0x7f0c0036;
+    public static final int scancode_lamplight_open=0x7f0c0037;
+    public static final int scancode_localimg=0x7f0c0038;
+    public static final int sfk01=0x7f0c0039;
+    public static final int sfk02=0x7f0c003a;
+    public static final int sfl=0x7f0c003b;
+    public static final int sp=0x7f0c003c;
+    public static final int swipeleft=0x7f0c003d;
+    public static final int swiperight=0x7f0c003e;
+    public static final int sy=0x7f0c003f;
+    public static final int sy01=0x7f0c0040;
+    public static final int sy02=0x7f0c0041;
+    public static final int sys=0x7f0c0042;
+    public static final int tjhy=0x7f0c0043;
+    public static final int visible=0x7f0c0044;
+    public static final int warning=0x7f0c0045;
+    public static final int warning01=0x7f0c0046;
+    public static final int wd=0x7f0c0047;
+    public static final int wd01=0x7f0c0048;
+    public static final int wd02=0x7f0c0049;
+    public static final int welcome=0x7f0c004a;
+    public static final int wyzq=0x7f0c004b;
+    public static final int xjd=0x7f0c004c;
+    public static final int yq=0x7f0c004d;
   }
   public static final class raw {
     public static final int beep=0x7f0d0000;
@@ -3565,186 +3582,191 @@ public final class R {
     public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0f009b;
     public static final int Base_Widget_AppCompat_Toolbar=0x7f0f009c;
     public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f009d;
-    public static final int MyDialog=0x7f0f009e;
-    public static final int Platform_AppCompat=0x7f0f009f;
-    public static final int Platform_AppCompat_Light=0x7f0f00a0;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00a1;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00a2;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00a3;
-    public static final int Platform_V11_AppCompat=0x7f0f00a4;
-    public static final int Platform_V11_AppCompat_Light=0x7f0f00a5;
-    public static final int Platform_V14_AppCompat=0x7f0f00a6;
-    public static final int Platform_V14_AppCompat_Light=0x7f0f00a7;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00a8;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00a9;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00aa;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00ab;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00ac;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00ad;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00ae;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00b4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00af;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00b0;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00b1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00b2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00b3;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00b5;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00b6;
-    public static final int TextAppearance_AppCompat=0x7f0f00b7;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0f00b8;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0f00b9;
-    public static final int TextAppearance_AppCompat_Button=0x7f0f00ba;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0f00bb;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0f00bc;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0f00bd;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0f00be;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0f00bf;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0f00c0;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00c1;
-    public static final int TextAppearance_AppCompat_Large=0x7f0f00c2;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00c3;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00c4;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00c5;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00c6;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00c7;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0f00c8;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00c9;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0f00ca;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00cb;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00cc;
-    public static final int TextAppearance_AppCompat_Small=0x7f0f00cd;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00ce;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00cf;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00d0;
-    public static final int TextAppearance_AppCompat_Title=0x7f0f00d1;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f00d2;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f00d3;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f00d4;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f00d5;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f00d6;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f00d7;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f00d8;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f00d9;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f00da;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f00db;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f00dc;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f00dd;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f00de;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f00df;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f00e0;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f00e1;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f00e2;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f00e3;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f0f00e4;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0f00e5;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0f00e6;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0f00e7;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0f00e8;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f00e9;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f00ea;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f00eb;
-    public static final int ThemeOverlay_AppCompat=0x7f0f0103;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f0104;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f0105;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f0106;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f0107;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f0108;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0f0109;
-    public static final int Theme_AppCompat=0x7f0f00ec;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0f00ed;
-    public static final int Theme_AppCompat_DayNight=0x7f0f00ee;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f00ef;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f00f0;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f00f3;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f00f1;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f00f2;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f00f4;
-    public static final int Theme_AppCompat_Dialog=0x7f0f00f5;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f00f8;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f00f6;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f00f7;
-    public static final int Theme_AppCompat_Light=0x7f0f00f9;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f00fa;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0f00fb;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f00fe;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f00fc;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f00fd;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f00ff;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0f0100;
-    public static final int Theme_Light_NoTitle_Dialog=0x7f0f0101;
-    public static final int Theme_Light_NoTitle_NoShadow_Dialog=0x7f0f0102;
-    public static final int Widget_AppCompat_ActionBar=0x7f0f010a;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f010b;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f010c;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f010d;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f010e;
-    public static final int Widget_AppCompat_ActionButton=0x7f0f010f;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0110;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0111;
-    public static final int Widget_AppCompat_ActionMode=0x7f0f0112;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f0113;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f0114;
-    public static final int Widget_AppCompat_Button=0x7f0f0115;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0f011b;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f011c;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0f0116;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f0117;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f0118;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0f0119;
-    public static final int Widget_AppCompat_Button_Small=0x7f0f011a;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f011d;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f011e;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f011f;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0120;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0121;
-    public static final int Widget_AppCompat_EditText=0x7f0f0122;
-    public static final int Widget_AppCompat_ImageButton=0x7f0f0123;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f0124;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f0125;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f0126;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f0127;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f0128;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f0129;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f012a;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f012b;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f012c;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f012d;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f012e;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f012f;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f0130;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f0131;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f0132;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f0133;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f0134;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f0135;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f0136;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f0137;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0f0138;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f0139;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0f013a;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f013b;
-    public static final int Widget_AppCompat_ListView=0x7f0f013c;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f013d;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0f013e;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0f013f;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f0140;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0f0141;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0f0142;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f0143;
-    public static final int Widget_AppCompat_RatingBar=0x7f0f0144;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f0145;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f0146;
-    public static final int Widget_AppCompat_SearchView=0x7f0f0147;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f0148;
-    public static final int Widget_AppCompat_SeekBar=0x7f0f0149;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f014a;
-    public static final int Widget_AppCompat_Spinner=0x7f0f014b;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f014c;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f014d;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f014e;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f014f;
-    public static final int Widget_AppCompat_Toolbar=0x7f0f0150;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f0151;
+    public static final int MatchMatch=0x7f0f009e;
+    public static final int MatchWrap=0x7f0f009f;
+    public static final int MyDialog=0x7f0f00a0;
+    public static final int Platform_AppCompat=0x7f0f00a1;
+    public static final int Platform_AppCompat_Light=0x7f0f00a2;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00a3;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00a4;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00a5;
+    public static final int Platform_V11_AppCompat=0x7f0f00a6;
+    public static final int Platform_V11_AppCompat_Light=0x7f0f00a7;
+    public static final int Platform_V14_AppCompat=0x7f0f00a8;
+    public static final int Platform_V14_AppCompat_Light=0x7f0f00a9;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00aa;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00ab;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00ac;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00ad;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00ae;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00af;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00b0;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00b6;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00b1;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00b2;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00b3;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00b4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00b5;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00b7;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00b8;
+    public static final int TextAppearance_AppCompat=0x7f0f00b9;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0f00ba;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0f00bb;
+    public static final int TextAppearance_AppCompat_Button=0x7f0f00bc;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0f00bd;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0f00be;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0f00bf;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0f00c0;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0f00c1;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0f00c2;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00c3;
+    public static final int TextAppearance_AppCompat_Large=0x7f0f00c4;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00c5;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00c6;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00c7;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00c8;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00c9;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0f00ca;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00cb;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0f00cc;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00cd;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00ce;
+    public static final int TextAppearance_AppCompat_Small=0x7f0f00cf;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00d0;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00d1;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00d2;
+    public static final int TextAppearance_AppCompat_Title=0x7f0f00d3;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f00d4;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f00d5;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f00d6;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f00d7;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f00d8;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f00d9;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f00da;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f00db;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f00dc;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f00dd;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f00de;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f00df;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f00e0;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f00e1;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f00e2;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f00e3;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f00e4;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f00e5;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0f00e6;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0f00e7;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0f00e8;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0f00e9;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0f00ea;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f00eb;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f00ec;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f00ed;
+    public static final int ThemeOverlay_AppCompat=0x7f0f0105;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f0106;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f0107;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f0108;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f0109;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f010a;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0f010b;
+    public static final int Theme_AppCompat=0x7f0f00ee;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0f00ef;
+    public static final int Theme_AppCompat_DayNight=0x7f0f00f0;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f00f1;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f00f2;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f00f5;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f00f3;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f00f4;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f00f6;
+    public static final int Theme_AppCompat_Dialog=0x7f0f00f7;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f00fa;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f00f8;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f00f9;
+    public static final int Theme_AppCompat_Light=0x7f0f00fb;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f00fc;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0f00fd;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f0100;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f00fe;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f00ff;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f0101;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0f0102;
+    public static final int Theme_Light_NoTitle_Dialog=0x7f0f0103;
+    public static final int Theme_Light_NoTitle_NoShadow_Dialog=0x7f0f0104;
+    public static final int Widget_AppCompat_ActionBar=0x7f0f010c;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f010d;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f010e;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f010f;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f0110;
+    public static final int Widget_AppCompat_ActionButton=0x7f0f0111;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0112;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0113;
+    public static final int Widget_AppCompat_ActionMode=0x7f0f0114;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f0115;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f0116;
+    public static final int Widget_AppCompat_Button=0x7f0f0117;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0f011d;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f011e;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0f0118;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f0119;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f011a;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0f011b;
+    public static final int Widget_AppCompat_Button_Small=0x7f0f011c;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f011f;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f0120;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f0121;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0122;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0123;
+    public static final int Widget_AppCompat_EditText=0x7f0f0124;
+    public static final int Widget_AppCompat_ImageButton=0x7f0f0125;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f0126;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f0127;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f0128;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f0129;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f012a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f012b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f012c;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f012d;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f012e;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f012f;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f0130;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f0131;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f0132;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f0133;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f0134;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f0135;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f0136;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f0137;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f0138;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f0139;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0f013a;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f013b;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0f013c;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f013d;
+    public static final int Widget_AppCompat_ListView=0x7f0f013e;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f013f;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0f0140;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0f0141;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f0142;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0f0143;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0f0144;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f0145;
+    public static final int Widget_AppCompat_RatingBar=0x7f0f0146;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f0147;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f0148;
+    public static final int Widget_AppCompat_SearchView=0x7f0f0149;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f014a;
+    public static final int Widget_AppCompat_SeekBar=0x7f0f014b;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f014c;
+    public static final int Widget_AppCompat_Spinner=0x7f0f014d;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f014e;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f014f;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f0150;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f0151;
+    public static final int Widget_AppCompat_Toolbar=0x7f0f0152;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f0153;
+    public static final int WrapMatch=0x7f0f0154;
+    public static final int WrapWrap=0x7f0f0155;
+    public static final int scancode_checkbox=0x7f0f0156;
   }
   public static final class styleable {
     /**
@@ -7781,6 +7803,515 @@ public final class R {
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
+     * Attributes that can be used with a QRCodeView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_animTime com.example.janepin:qrcv_animTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_barCodeTipText com.example.janepin:qrcv_barCodeTipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_barcodeRectHeight com.example.janepin:qrcv_barcodeRectHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_borderColor com.example.janepin:qrcv_borderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_borderSize com.example.janepin:qrcv_borderSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_cornerColor com.example.janepin:qrcv_cornerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_cornerLength com.example.janepin:qrcv_cornerLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_cornerSize com.example.janepin:qrcv_cornerSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_customGridScanLineDrawable com.example.janepin:qrcv_customGridScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_customScanLineDrawable com.example.janepin:qrcv_customScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isBarcode com.example.janepin:qrcv_isBarcode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isCenterVertical com.example.janepin:qrcv_isCenterVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isOnlyDecodeScanBoxArea com.example.janepin:qrcv_isOnlyDecodeScanBoxArea}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isScanLineReverse com.example.janepin:qrcv_isScanLineReverse}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowDefaultGridScanLineDrawable com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowDefaultScanLineDrawable com.example.janepin:qrcv_isShowDefaultScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowTipBackground com.example.janepin:qrcv_isShowTipBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowTipTextAsSingleLine com.example.janepin:qrcv_isShowTipTextAsSingleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isTipTextBelowRect com.example.janepin:qrcv_isTipTextBelowRect}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_maskColor com.example.janepin:qrcv_maskColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_qrCodeTipText com.example.janepin:qrcv_qrCodeTipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_rectWidth com.example.janepin:qrcv_rectWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineColor com.example.janepin:qrcv_scanLineColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineMargin com.example.janepin:qrcv_scanLineMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineSize com.example.janepin:qrcv_scanLineSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipBackgroundColor com.example.janepin:qrcv_tipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextColor com.example.janepin:qrcv_tipTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextMargin com.example.janepin:qrcv_tipTextMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextSize com.example.janepin:qrcv_tipTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_toolbarHeight com.example.janepin:qrcv_toolbarHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_topOffset com.example.janepin:qrcv_topOffset}</code></td><td></td></tr>
+     * </table>
+     * @see #QRCodeView_qrcv_animTime
+     * @see #QRCodeView_qrcv_barCodeTipText
+     * @see #QRCodeView_qrcv_barcodeRectHeight
+     * @see #QRCodeView_qrcv_borderColor
+     * @see #QRCodeView_qrcv_borderSize
+     * @see #QRCodeView_qrcv_cornerColor
+     * @see #QRCodeView_qrcv_cornerLength
+     * @see #QRCodeView_qrcv_cornerSize
+     * @see #QRCodeView_qrcv_customGridScanLineDrawable
+     * @see #QRCodeView_qrcv_customScanLineDrawable
+     * @see #QRCodeView_qrcv_isBarcode
+     * @see #QRCodeView_qrcv_isCenterVertical
+     * @see #QRCodeView_qrcv_isOnlyDecodeScanBoxArea
+     * @see #QRCodeView_qrcv_isScanLineReverse
+     * @see #QRCodeView_qrcv_isShowDefaultGridScanLineDrawable
+     * @see #QRCodeView_qrcv_isShowDefaultScanLineDrawable
+     * @see #QRCodeView_qrcv_isShowTipBackground
+     * @see #QRCodeView_qrcv_isShowTipTextAsSingleLine
+     * @see #QRCodeView_qrcv_isTipTextBelowRect
+     * @see #QRCodeView_qrcv_maskColor
+     * @see #QRCodeView_qrcv_qrCodeTipText
+     * @see #QRCodeView_qrcv_rectWidth
+     * @see #QRCodeView_qrcv_scanLineColor
+     * @see #QRCodeView_qrcv_scanLineMargin
+     * @see #QRCodeView_qrcv_scanLineSize
+     * @see #QRCodeView_qrcv_tipBackgroundColor
+     * @see #QRCodeView_qrcv_tipTextColor
+     * @see #QRCodeView_qrcv_tipTextMargin
+     * @see #QRCodeView_qrcv_tipTextSize
+     * @see #QRCodeView_qrcv_toolbarHeight
+     * @see #QRCodeView_qrcv_topOffset
+     */
+    public static final int[] QRCodeView={
+        0x7f0300a1, 0x7f0300a2, 0x7f0300a3, 0x7f0300a4, 
+        0x7f0300a5, 0x7f0300a6, 0x7f0300a7, 0x7f0300a8, 
+        0x7f0300a9, 0x7f0300aa, 0x7f0300ab, 0x7f0300ac, 
+        0x7f0300ad, 0x7f0300ae, 0x7f0300af, 0x7f0300b0, 
+        0x7f0300b1, 0x7f0300b2, 0x7f0300b3, 0x7f0300b4, 
+        0x7f0300b5, 0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 
+        0x7f0300b9, 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 
+        0x7f0300bd, 0x7f0300be, 0x7f0300bf
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_animTime}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.example.janepin:qrcv_animTime
+     */
+    public static final int QRCodeView_qrcv_animTime=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barCodeTipText}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.janepin:qrcv_barCodeTipText
+     */
+    public static final int QRCodeView_qrcv_barCodeTipText=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barcodeRectHeight}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_barcodeRectHeight
+     */
+    public static final int QRCodeView_qrcv_barcodeRectHeight=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderColor}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_borderColor
+     */
+    public static final int QRCodeView_qrcv_borderColor=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderSize}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_borderSize
+     */
+    public static final int QRCodeView_qrcv_borderSize=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerColor}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_cornerColor
+     */
+    public static final int QRCodeView_qrcv_cornerColor=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerLength}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_cornerLength
+     */
+    public static final int QRCodeView_qrcv_cornerLength=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerSize}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_cornerSize
+     */
+    public static final int QRCodeView_qrcv_cornerSize=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customGridScanLineDrawable}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_customGridScanLineDrawable
+     */
+    public static final int QRCodeView_qrcv_customGridScanLineDrawable=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customScanLineDrawable}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_customScanLineDrawable
+     */
+    public static final int QRCodeView_qrcv_customScanLineDrawable=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isBarcode}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isBarcode
+     */
+    public static final int QRCodeView_qrcv_isBarcode=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isCenterVertical}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isCenterVertical
+     */
+    public static final int QRCodeView_qrcv_isCenterVertical=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isOnlyDecodeScanBoxArea}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isOnlyDecodeScanBoxArea
+     */
+    public static final int QRCodeView_qrcv_isOnlyDecodeScanBoxArea=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isScanLineReverse}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isScanLineReverse
+     */
+    public static final int QRCodeView_qrcv_isScanLineReverse=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultGridScanLineDrawable}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable
+     */
+    public static final int QRCodeView_qrcv_isShowDefaultGridScanLineDrawable=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultScanLineDrawable}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowDefaultScanLineDrawable
+     */
+    public static final int QRCodeView_qrcv_isShowDefaultScanLineDrawable=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipBackground}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowTipBackground
+     */
+    public static final int QRCodeView_qrcv_isShowTipBackground=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipTextAsSingleLine}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isShowTipTextAsSingleLine
+     */
+    public static final int QRCodeView_qrcv_isShowTipTextAsSingleLine=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isTipTextBelowRect}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.janepin:qrcv_isTipTextBelowRect
+     */
+    public static final int QRCodeView_qrcv_isTipTextBelowRect=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_maskColor}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_maskColor
+     */
+    public static final int QRCodeView_qrcv_maskColor=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_qrCodeTipText}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.janepin:qrcv_qrCodeTipText
+     */
+    public static final int QRCodeView_qrcv_qrCodeTipText=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_rectWidth}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_rectWidth
+     */
+    public static final int QRCodeView_qrcv_rectWidth=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineColor}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_scanLineColor
+     */
+    public static final int QRCodeView_qrcv_scanLineColor=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineMargin}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_scanLineMargin
+     */
+    public static final int QRCodeView_qrcv_scanLineMargin=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineSize}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_scanLineSize
+     */
+    public static final int QRCodeView_qrcv_scanLineSize=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipBackgroundColor}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_tipBackgroundColor
+     */
+    public static final int QRCodeView_qrcv_tipBackgroundColor=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextColor}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.janepin:qrcv_tipTextColor
+     */
+    public static final int QRCodeView_qrcv_tipTextColor=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextMargin}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_tipTextMargin
+     */
+    public static final int QRCodeView_qrcv_tipTextMargin=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextSize}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_tipTextSize
+     */
+    public static final int QRCodeView_qrcv_tipTextSize=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_toolbarHeight}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_toolbarHeight
+     */
+    public static final int QRCodeView_qrcv_toolbarHeight=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_topOffset}
+     * attribute's value can be found in the {@link #QRCodeView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.janepin:qrcv_topOffset
+     */
+    public static final int QRCodeView_qrcv_topOffset=30;
+    /**
      * Attributes that can be used with a RecyclerView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -7879,515 +8410,6 @@ public final class R {
      * @attr name com.example.janepin:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=5;
-    /**
-     * Attributes that can be used with a ScanCodeView.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_animTime com.example.janepin:qrcv_animTime}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_barCodeTipText com.example.janepin:qrcv_barCodeTipText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_barcodeRectHeight com.example.janepin:qrcv_barcodeRectHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_borderColor com.example.janepin:qrcv_borderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_borderSize com.example.janepin:qrcv_borderSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_cornerColor com.example.janepin:qrcv_cornerColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_cornerLength com.example.janepin:qrcv_cornerLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_cornerSize com.example.janepin:qrcv_cornerSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_customGridScanLineDrawable com.example.janepin:qrcv_customGridScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_customScanLineDrawable com.example.janepin:qrcv_customScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isBarcode com.example.janepin:qrcv_isBarcode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isCenterVertical com.example.janepin:qrcv_isCenterVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isOnlyDecodeScanBoxArea com.example.janepin:qrcv_isOnlyDecodeScanBoxArea}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isScanLineReverse com.example.janepin:qrcv_isScanLineReverse}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowDefaultGridScanLineDrawable com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowDefaultScanLineDrawable com.example.janepin:qrcv_isShowDefaultScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowTipBackground com.example.janepin:qrcv_isShowTipBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isShowTipTextAsSingleLine com.example.janepin:qrcv_isShowTipTextAsSingleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_isTipTextBelowRect com.example.janepin:qrcv_isTipTextBelowRect}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_maskColor com.example.janepin:qrcv_maskColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_qrCodeTipText com.example.janepin:qrcv_qrCodeTipText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_rectWidth com.example.janepin:qrcv_rectWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_scanLineColor com.example.janepin:qrcv_scanLineColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_scanLineMargin com.example.janepin:qrcv_scanLineMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_scanLineSize com.example.janepin:qrcv_scanLineSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_tipBackgroundColor com.example.janepin:qrcv_tipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_tipTextColor com.example.janepin:qrcv_tipTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_tipTextMargin com.example.janepin:qrcv_tipTextMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_tipTextSize com.example.janepin:qrcv_tipTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_toolbarHeight com.example.janepin:qrcv_toolbarHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ScanCodeView_qrcv_topOffset com.example.janepin:qrcv_topOffset}</code></td><td></td></tr>
-     * </table>
-     * @see #ScanCodeView_qrcv_animTime
-     * @see #ScanCodeView_qrcv_barCodeTipText
-     * @see #ScanCodeView_qrcv_barcodeRectHeight
-     * @see #ScanCodeView_qrcv_borderColor
-     * @see #ScanCodeView_qrcv_borderSize
-     * @see #ScanCodeView_qrcv_cornerColor
-     * @see #ScanCodeView_qrcv_cornerLength
-     * @see #ScanCodeView_qrcv_cornerSize
-     * @see #ScanCodeView_qrcv_customGridScanLineDrawable
-     * @see #ScanCodeView_qrcv_customScanLineDrawable
-     * @see #ScanCodeView_qrcv_isBarcode
-     * @see #ScanCodeView_qrcv_isCenterVertical
-     * @see #ScanCodeView_qrcv_isOnlyDecodeScanBoxArea
-     * @see #ScanCodeView_qrcv_isScanLineReverse
-     * @see #ScanCodeView_qrcv_isShowDefaultGridScanLineDrawable
-     * @see #ScanCodeView_qrcv_isShowDefaultScanLineDrawable
-     * @see #ScanCodeView_qrcv_isShowTipBackground
-     * @see #ScanCodeView_qrcv_isShowTipTextAsSingleLine
-     * @see #ScanCodeView_qrcv_isTipTextBelowRect
-     * @see #ScanCodeView_qrcv_maskColor
-     * @see #ScanCodeView_qrcv_qrCodeTipText
-     * @see #ScanCodeView_qrcv_rectWidth
-     * @see #ScanCodeView_qrcv_scanLineColor
-     * @see #ScanCodeView_qrcv_scanLineMargin
-     * @see #ScanCodeView_qrcv_scanLineSize
-     * @see #ScanCodeView_qrcv_tipBackgroundColor
-     * @see #ScanCodeView_qrcv_tipTextColor
-     * @see #ScanCodeView_qrcv_tipTextMargin
-     * @see #ScanCodeView_qrcv_tipTextSize
-     * @see #ScanCodeView_qrcv_toolbarHeight
-     * @see #ScanCodeView_qrcv_topOffset
-     */
-    public static final int[] ScanCodeView={
-        0x7f0300a1, 0x7f0300a2, 0x7f0300a3, 0x7f0300a4, 
-        0x7f0300a5, 0x7f0300a6, 0x7f0300a7, 0x7f0300a8, 
-        0x7f0300a9, 0x7f0300aa, 0x7f0300ab, 0x7f0300ac, 
-        0x7f0300ad, 0x7f0300ae, 0x7f0300af, 0x7f0300b0, 
-        0x7f0300b1, 0x7f0300b2, 0x7f0300b3, 0x7f0300b4, 
-        0x7f0300b5, 0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 
-        0x7f0300b9, 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 
-        0x7f0300bd, 0x7f0300be, 0x7f0300bf
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_animTime}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.example.janepin:qrcv_animTime
-     */
-    public static final int ScanCodeView_qrcv_animTime=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barCodeTipText}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.example.janepin:qrcv_barCodeTipText
-     */
-    public static final int ScanCodeView_qrcv_barCodeTipText=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barcodeRectHeight}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_barcodeRectHeight
-     */
-    public static final int ScanCodeView_qrcv_barcodeRectHeight=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderColor}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_borderColor
-     */
-    public static final int ScanCodeView_qrcv_borderColor=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderSize}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_borderSize
-     */
-    public static final int ScanCodeView_qrcv_borderSize=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerColor}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_cornerColor
-     */
-    public static final int ScanCodeView_qrcv_cornerColor=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerLength}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_cornerLength
-     */
-    public static final int ScanCodeView_qrcv_cornerLength=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerSize}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_cornerSize
-     */
-    public static final int ScanCodeView_qrcv_cornerSize=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customGridScanLineDrawable}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_customGridScanLineDrawable
-     */
-    public static final int ScanCodeView_qrcv_customGridScanLineDrawable=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customScanLineDrawable}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_customScanLineDrawable
-     */
-    public static final int ScanCodeView_qrcv_customScanLineDrawable=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isBarcode}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isBarcode
-     */
-    public static final int ScanCodeView_qrcv_isBarcode=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isCenterVertical}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isCenterVertical
-     */
-    public static final int ScanCodeView_qrcv_isCenterVertical=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isOnlyDecodeScanBoxArea}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isOnlyDecodeScanBoxArea
-     */
-    public static final int ScanCodeView_qrcv_isOnlyDecodeScanBoxArea=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isScanLineReverse}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isScanLineReverse
-     */
-    public static final int ScanCodeView_qrcv_isScanLineReverse=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultGridScanLineDrawable}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable
-     */
-    public static final int ScanCodeView_qrcv_isShowDefaultGridScanLineDrawable=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultScanLineDrawable}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isShowDefaultScanLineDrawable
-     */
-    public static final int ScanCodeView_qrcv_isShowDefaultScanLineDrawable=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipBackground}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isShowTipBackground
-     */
-    public static final int ScanCodeView_qrcv_isShowTipBackground=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipTextAsSingleLine}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isShowTipTextAsSingleLine
-     */
-    public static final int ScanCodeView_qrcv_isShowTipTextAsSingleLine=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isTipTextBelowRect}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.example.janepin:qrcv_isTipTextBelowRect
-     */
-    public static final int ScanCodeView_qrcv_isTipTextBelowRect=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_maskColor}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_maskColor
-     */
-    public static final int ScanCodeView_qrcv_maskColor=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_qrCodeTipText}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.example.janepin:qrcv_qrCodeTipText
-     */
-    public static final int ScanCodeView_qrcv_qrCodeTipText=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_rectWidth}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_rectWidth
-     */
-    public static final int ScanCodeView_qrcv_rectWidth=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineColor}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_scanLineColor
-     */
-    public static final int ScanCodeView_qrcv_scanLineColor=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineMargin}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_scanLineMargin
-     */
-    public static final int ScanCodeView_qrcv_scanLineMargin=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineSize}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_scanLineSize
-     */
-    public static final int ScanCodeView_qrcv_scanLineSize=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipBackgroundColor}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_tipBackgroundColor
-     */
-    public static final int ScanCodeView_qrcv_tipBackgroundColor=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextColor}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.example.janepin:qrcv_tipTextColor
-     */
-    public static final int ScanCodeView_qrcv_tipTextColor=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextMargin}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_tipTextMargin
-     */
-    public static final int ScanCodeView_qrcv_tipTextMargin=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextSize}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_tipTextSize
-     */
-    public static final int ScanCodeView_qrcv_tipTextSize=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_toolbarHeight}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_toolbarHeight
-     */
-    public static final int ScanCodeView_qrcv_toolbarHeight=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_topOffset}
-     * attribute's value can be found in the {@link #ScanCodeView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.example.janepin:qrcv_topOffset
-     */
-    public static final int ScanCodeView_qrcv_topOffset=30;
     /**
      * Attributes that can be used with a SearchView.
      * <p>Includes the following attributes:</p>
