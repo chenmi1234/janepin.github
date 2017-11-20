@@ -171,10 +171,180 @@
             android:textColor="#333333"
             android:padding="15dp"/>
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@+id/frist_brand"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="品牌代理"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="品牌代理"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="10dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="品牌代理"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="10dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="品牌代理"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="10dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="品牌代理"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="品牌代理"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="10dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="品牌代理"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="10dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_radius_brand">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="· · ·"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="10dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+        </LinearLayout>
 
     </RelativeLayout>
 

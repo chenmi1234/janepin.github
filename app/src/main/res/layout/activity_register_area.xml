@@ -25,6 +25,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:text="企业名称"
             android:textColor="#333333"
@@ -42,9 +43,9 @@
                 android:layout_height="40dp"
                 android:background="@null"
                 android:hint="请输入企业名称"
+                android:maxLength="12"
                 android:singleLine="true"
                 android:textColor="#333333"
-                android:maxLength="12"
                 android:textColorHint="#cccccc" />
 
         </RelativeLayout>
@@ -67,6 +68,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:text="供货商姓名"
             android:textColor="#333333"
@@ -84,9 +86,9 @@
                 android:layout_height="40dp"
                 android:background="@null"
                 android:hint="请输入供货商姓名"
+                android:maxLength="10"
                 android:singleLine="true"
                 android:textColor="#333333"
-                android:maxLength="10"
                 android:textColorHint="#cccccc" />
 
         </RelativeLayout>
@@ -110,6 +112,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:text="老板电话"
             android:textColor="#333333"
@@ -214,6 +217,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="20dp"
             android:text="详细地址"
             android:textColor="#333333"
@@ -231,6 +235,7 @@
                 android:layout_height="40dp"
                 android:background="@null"
                 android:hint="请输入详细地址"
+                android:maxLength="30"
                 android:singleLine="true"
                 android:textColor="#333333"
                 android:textColorHint="#cccccc" />
@@ -272,7 +277,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:text="默认同意《简销用户服务协议》"/>
+            android:text="默认同意《简销用户服务协议》" />
     </RelativeLayout>
 
 </LinearLayout>

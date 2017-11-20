@@ -2796,6 +2796,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\bcak01.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_radius_brand.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\shape_radius_brand.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_adddetail.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-hdpi\\adddetail.png"
     },

@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:text="姓名"
+            android:layout_gravity="center_vertical"
             android:textColor="#333333"
             android:textSize="18dp" />
 
