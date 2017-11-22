@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.model.CityBean;
 import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
+import com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity;
 import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
 
 import java.util.List;
@@ -53,7 +54,7 @@ public class LinkManAdapter extends RecyclerView.Adapter<LinkManAdapter.ViewHold
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(mContext, MerchantActivity.class);
+                intent.setClass(mContext, LinkageActivity.class);
                 mContext.startActivity(intent);
             }
         });

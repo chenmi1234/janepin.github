@@ -23,4 +23,14 @@ public class JanePinBean extends RealmObject {
     public String InquiryShopUnit;
     //询价单 批发价
     public String InquiryShopTrade;
+    //添加商品 Dialog数量
+    public String AddShopDialogNumber;
+    //添加商品 Dialog单位
+    public String AddShopDialogUnit;
+    //添加商品 Dialog状态
+    public String AddShopDialogStateNumber;
+    //添加商品 Dialog单价
+    public String AddShopDialogPrice;
+    //添加商品 DialogTitle
+    public String AddShopDialogTitle;
 }

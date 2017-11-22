@@ -11,6 +11,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
+import com.lianpos.entity.JanePinBean;
+
+import butterknife.ButterKnife;
+import io.realm.Realm;
 
 /**
  * 一个按钮的dialog
@@ -20,7 +24,7 @@ import com.lianpos.activity.R;
 public class AddCommodityDialog extends Dialog {
 
     private TextView yes;//确定按钮
-    private TextView no; //取消按钮
+    private TextView addShopBtn; //取消按钮
     private TextView messageTv;//消息提示文本
     private String messageStr;//从外界设置的消息文本
     //确定文本和取消文本的显示内容
@@ -28,7 +32,8 @@ public class AddCommodityDialog extends Dialog {
     private onYesOnclickListener yesOnclickListener;//确定按钮被点击了的监听器
     private onNoOnclickListener noOnclickListener;//确定按钮被点击了的监听器
     private EditText dialog_unit_price;
-
+    private Realm realm = null;
+    private EditText addShopDialogNumber;
     /**
      * 设置确定按钮的显示内容和监听
      *
@@ -53,6 +58,7 @@ public class AddCommodityDialog extends Dialog {
         setContentView(R.layout.dialog_add_commodity_layout);
         //按空白处不能取消动画
         setCanceledOnTouchOutside(false);
+        ButterKnife.bind(this);
 
         //初始化界面控件
         initView();
@@ -77,10 +83,16 @@ public class AddCommodityDialog extends Dialog {
             }
         });
 
-        no.setOnClickListener(new View.OnClickListener() {
+        addShopBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (noOnclickListener != null) {
+                    realm = Realm.getDefaultInstance();
+                    realm.beginTransaction();
+                    JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                    janePinBean.AddShopDialogNumber = addShopDialogNumber.getText().toString();
+                    janePinBean.AddShopDialogPrice = dialog_unit_price.getText().toString();
+                    realm.commitTransaction();
                     noOnclickListener.onNoClick();
                 }
             }
@@ -150,8 +162,9 @@ public class AddCommodityDialog extends Dialog {
     private void initView() {
         messageTv = (TextView) findViewById(R.id.message);
         yes = (TextView) findViewById(R.id.dialogNumber);
-        no = (TextView) findViewById(R.id.dialogDanwei);
+        addShopBtn = (TextView) findViewById(R.id.dialogDanwei);
         dialog_unit_price = (EditText) findViewById(R.id.dialog_unit_price);
+        addShopDialogNumber = (EditText) findViewById(R.id.addShopDialogNumber);
     }
 
     /**

@@ -2,6 +2,7 @@ package com.lianpos.devfoucs.shoppingcart.fragment;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -19,9 +20,11 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -38,10 +41,15 @@ import com.lianpos.devfoucs.shoppingcart.assistant.onCallBackListener;
 import com.lianpos.devfoucs.shoppingcart.mode.ProductType;
 import com.lianpos.devfoucs.shoppingcart.mode.ShopProduct;
 import com.lianpos.devfoucs.shoppingcart.view.PinnedHeaderListView;
+import com.lianpos.devfoucs.view.AddCommodityDialog;
+import com.lianpos.entity.JanePinBean;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * Created by wangshuai on 2017/6/6.
@@ -99,6 +107,7 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
     private RelativeLayout parentLayout;
 
     private TextView noData;
+    Realm realm;
 
     /**
      * 分类列表
@@ -110,6 +119,10 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
     private ListView shoppingListView;
 
     private ShopAdapter shopAdapter;
+    // 两个按钮的dialog
+    private AddCommodityDialog addCommodityDialog;
+
+    private EditText serch_shop;
 
 
     private Handler myHandler = new Handler() {
@@ -231,6 +244,7 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
         cardLayout = (FrameLayout) getView().findViewById(R.id.cardLayout);
         cardShopLayout = (LinearLayout) getView().findViewById(R.id.cardShopLayout);
         bg_layout = getView().findViewById(R.id.bg_layout);
+        serch_shop = (EditText)getView().findViewById(R.id.serch_shop);
         initData();
     }
 
@@ -317,11 +331,47 @@ public class ProductsFragment extends Fragment implements View.OnClickListener, 
             }
         });
 
+        morelist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
+                addCommodityDialog = new AddCommodityDialog(getContext());
+                addCommodityDialog.setYesOnclickListener(new AddCommodityDialog.onYesOnclickListener() {
+                    @Override
+                    public void onYesClick() {
+
+                    }
+                });
+                addCommodityDialog.setNoOnclickListener(new AddCommodityDialog.onNoOnclickListener() {
+                    @Override
+                    public void onNoClick() {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                        realm.commitTransaction();
+                        String addNumber = "";
+                        String addPrice = "";
+                        for (JanePinBean guest : guests) {
+                            addNumber = guest.AddShopDialogNumber;
+                            addPrice = guest.AddShopDialogPrice;
+                        }
+                        TextView tvName=(TextView)morelist.getChildAt(position).findViewById(R.id.shoppingNum);
+                        TextView tvPrise=(TextView)morelist.getChildAt(position).findViewById(R.id.prise);
+                        tvName.setText(addNumber);
+                        tvPrise.setText(addPrice);
+                        addCommodityDialog.dismiss();
+                    }
+                });
+                addCommodityDialog.show();
+            }
+        });
+
 
         bg_layout.setOnClickListener(this);
         settlement.setOnClickListener(this);
         shopping_cart.setOnClickListener(this);
     }
+
 
     /**
      * 回调函数更新购物车和价格显示状态

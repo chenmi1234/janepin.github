@@ -121,40 +121,37 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
             }
         });
 
-        viewHolder.mainitem_layout.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                addCommodityDialog = new AddCommodityDialog(context);
-                addCommodityDialog.setYesOnclickListener(new AddCommodityDialog.onYesOnclickListener() {
-                    @Override
-                    public void onYesClick() {
-                        int num = product.getNumber();
-                        num++;
-                        product.setNumber(num);
-                        viewHolder.shoppingNum.setText(product.getNumber() + "");
-                        if (callBackListener != null) {
-                            callBackListener.updateProduct(product, "1");
-                        } else {
-                        }
-                        if (mHolderClickListener != null) {
-                            int[] start_location = new int[2];
-                            viewHolder.shoppingNum.getLocationInWindow(start_location);//获取点击商品图片的位置
-//                            Drawable drawable = context.getResources().getDrawable(R.drawable.adddetail);//复制一个新的商品图标
-//                            //TODO:解决方案，先监听到左边ListView的Item中，然后在开始动画添加
-//                            mHolderClickListener.onHolderClick(drawable, start_location);
-                        }
-                    }
-                });
-                addCommodityDialog.setNoOnclickListener(new AddCommodityDialog.onNoOnclickListener() {
-                    @Override
-                    public void onNoClick() {
-                        addCommodityDialog.dismiss();
-                    }
-                });
-                addCommodityDialog.show();
-            }
-        });
+//        viewHolder.mainitem_layout.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                addCommodityDialog = new AddCommodityDialog(context);
+//                addCommodityDialog.setYesOnclickListener(new AddCommodityDialog.onYesOnclickListener() {
+//                    @Override
+//                    public void onYesClick() {
+//                        int num = product.getNumber();
+//                        num++;
+//                        product.setNumber(num);
+//                        viewHolder.shoppingNum.setText(product.getNumber() + "");
+//                        if (callBackListener != null) {
+//                            callBackListener.updateProduct(product, "1");
+//                        } else {
+//                        }
+//                        if (mHolderClickListener != null) {
+//                            int[] start_location = new int[2];
+//                            viewHolder.shoppingNum.getLocationInWindow(start_location);//获取点击商品图片的位置
+//                        }
+//                    }
+//                });
+//                addCommodityDialog.setNoOnclickListener(new AddCommodityDialog.onNoOnclickListener() {
+//                    @Override
+//                    public void onNoClick() {
+//                        addCommodityDialog.dismiss();
+//                    }
+//                });
+//                addCommodityDialog.show();
+//            }
+//        });
 
         viewHolder.shoppingNum.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
