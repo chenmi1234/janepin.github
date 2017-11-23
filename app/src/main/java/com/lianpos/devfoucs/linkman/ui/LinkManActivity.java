@@ -89,6 +89,7 @@ public class LinkManActivity extends AppCompatActivity {
                 finish();
             }
         });
+
     }
 
     /**

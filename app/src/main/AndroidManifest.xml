@@ -78,6 +78,7 @@
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ScanningActivity"></activity>
         <activity android:name="com.lianpos.scancodeidentify.zbar.ZbarActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity"></activity>
     </application>
 
 </manifest>

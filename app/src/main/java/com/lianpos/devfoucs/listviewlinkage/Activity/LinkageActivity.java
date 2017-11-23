@@ -11,6 +11,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
 import com.lianpos.devfoucs.listviewlinkage.Adapter.LeftListAdapter;
 import com.lianpos.devfoucs.listviewlinkage.Adapter.MainSectionedAdapter;
 import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
@@ -34,6 +35,7 @@ public class LinkageActivity extends AppCompatActivity {
     //新增商品
     private TextView addShopping;
     private ImageView scanning_shop_tiaoxing;
+    private TextView settlement;
 
     private String[] leftStr = new String[]{"面食类", "盖饭", "寿司", "烧烤", "酒水", "凉菜", "小吃", "粥", "休闲"};
     private boolean[] flagArray = {true, false, false, false, false, false, false, false, false};
@@ -166,6 +168,16 @@ public class LinkageActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+            }
+        });
+
+        settlement = (TextView) findViewById(R.id.settlement);
+        settlement.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(LinkageActivity.this,IWantBillingActivity.class);
+                startActivity(intent);
             }
         });
     }
