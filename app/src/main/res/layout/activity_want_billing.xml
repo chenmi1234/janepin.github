@@ -20,12 +20,23 @@
             android:src="@mipmap/bcak01" />
 
         <TextView
+            android:id="@+id/billing_Inventory_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="我要开单"
             android:textColor="#ffffff"
             android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="新增商品"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
     </RelativeLayout>
 
 
@@ -78,6 +89,7 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/see_stock"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -115,21 +127,58 @@
                 android:textColor="#333333"
                 android:textSize="20dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="20dp"
-                android:text="添加商品"
-                android:textColor="#DD3302"
-                android:textSize="16dp"
-                android:textStyle="bold" />
 
         </RelativeLayout>
 
     </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_shopName"
+        android:layout_below="@id/addShopTitle"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_radius_gray"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/fdj" />
+
+            <EditText
+                android:id="@+id/serch_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:hint="搜索商品条码"
+                android:inputType="number"
+                android:maxLength="16"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textColorHint="#cccccc" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/scanning_shop_tiaoxing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/scan" />
+    </RelativeLayout>
 
 
     <LinearLayout
@@ -248,6 +297,7 @@
                 android:orientation="horizontal">
 
                 <RelativeLayout
+                    android:id="@+id/cencelRela"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -265,6 +315,7 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/sureAndSend"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_weight="1"

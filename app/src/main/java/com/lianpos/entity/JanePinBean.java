@@ -33,4 +33,8 @@ public class JanePinBean extends RealmObject {
     public String AddShopDialogPrice;
     //添加商品 DialogTitle
     public String AddShopDialogTitle;
+    // 开单盘点分辨字段 0 开单 1 盘点
+    public String BillingInventoryCode = "0";
+    // 开单盘点分辨字段 0 不弹出 1 弹出
+    public String DialogEjectCode = "0";
 }

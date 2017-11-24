@@ -15,19 +15,25 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.ui.AddFriendActivity;
+import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
+import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
 import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.qrcode.QRCodeDecoder;
 import com.lianpos.qrcode.QRCodeView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 
 /**
@@ -40,6 +46,10 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
 
     @Bind(R.id.scancode_lamplight)
     ToggleButton toggleButton;
+
+    // 两个按钮的dialog
+    private AddCommodityDialog addCommodityDialog;
+    private Realm realm = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -205,9 +215,17 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
             finish();
         }else if (tianjiashop != null){
             if(tianjiashop.equals("addshop")){
-                intent.setClass(ZbarActivity.this,MerchantActivity.class);
-                intent.putExtra("shopAdd", result);
-                startActivity(intent);
+                ButterKnife.bind(this);
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.AddShopDialogTitle = result;
+                janePinBean.DialogEjectCode = "1";
+                realm.commitTransaction();
+//                intent.setClass(ZbarActivity.this,IWantBillingActivity.class);
+//                intent.putExtra("shopAdd", result);
+//                intent.putExtra("pdDialog", "1");
+//                startActivity(intent);
             }
             finish();
         } else{

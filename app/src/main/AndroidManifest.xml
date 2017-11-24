@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-feature android:name="android.hardware.camera.flash" />
@@ -55,6 +56,9 @@
         <activity
             android:name="com.lianpos.devfoucs.shoppingcart.CommodityManagementActivity"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
 
         <activity android:name="com.lianpos.devfoucs.homepage.activity.MakeActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.login.activity.RegisterActivity"></activity>
@@ -77,8 +81,8 @@
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquiryEditerActyvity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ScanningActivity"></activity>
         <activity android:name="com.lianpos.scancodeidentify.zbar.ZbarActivity"></activity>
-        <activity android:name="com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity"></activity>
     </application>
 
 </manifest>

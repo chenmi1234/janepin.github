@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -73,6 +74,22 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
         realm = Realm.getDefaultInstance();
         ((TextView) layout.findViewById(R.id.textItem)).setText(rightStr[section][position]);
         final LinearLayout finalLayout = layout;
+
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String billingInventory = "";
+        for (JanePinBean guest : guests) {
+            billingInventory = guest.BillingInventoryCode;
+        }
+        if (billingInventory.equals("1")){
+            ((LinearLayout) finalLayout.findViewById(R.id.number_right_item)).setVisibility(View.GONE);
+            ((LinearLayout) finalLayout.findViewById(R.id.prise_right_item)).setVisibility(View.GONE);
+        }else{
+            ((LinearLayout) finalLayout.findViewById(R.id.number_right_item)).setVisibility(View.VISIBLE);
+            ((LinearLayout) finalLayout.findViewById(R.id.prise_right_item)).setVisibility(View.VISIBLE);
+        }
+
         layout.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {

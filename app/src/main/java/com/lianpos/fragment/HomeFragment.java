@@ -11,7 +11,14 @@ import android.widget.ImageView;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.activity.InquirySheetActivity;
 import com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity;
+import com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity;
 import com.lianpos.devfoucs.linkman.ui.LinkManActivity;
+import com.lianpos.devfoucs.view.TwoButtonBillingDialog;
+import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
+import com.lianpos.entity.JanePinBean;
+
+import butterknife.ButterKnife;
+import io.realm.Realm;
 
 /**
  * 首页
@@ -29,12 +36,16 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     private ImageView inventory;
     // 询价单
     private ImageView inquiry_sheet;
-
+    // 两个按钮的dialog
+    private TwoButtonBillingDialog twoButtonDialog;
+    private Realm realm = null;
     View rootView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.activity_make, null);
+        ButterKnife.bind(rootView);
+        realm = Realm.getDefaultInstance();
         init();
         return rootView;
     }
@@ -66,16 +77,49 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.billing:
-                Intent billingIntent = new Intent();
-                billingIntent.setClass(getActivity(), LinkManActivity.class);
-                startActivity(billingIntent);
+                twoButtonDialog = new TwoButtonBillingDialog(getActivity());
+                twoButtonDialog.setYesOnclickListener(new TwoButtonBillingDialog.onYesOnclickListener() {
+                    @Override
+                    public void onYesClick() {
+
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.BillingInventoryCode = "1";
+                        realm.commitTransaction();
+
+                        Intent billingIntent = new Intent();
+                        billingIntent.setClass(getActivity(), LinkManActivity.class);
+                        startActivity(billingIntent);
+                        twoButtonDialog.dismiss();
+                    }
+                });
+                twoButtonDialog.setNoOnclickListener(new TwoButtonBillingDialog.onNoOnclickListener() {
+                    @Override
+                    public void onNoClick() {
+
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.BillingInventoryCode = "0";
+                        realm.commitTransaction();
+
+                        Intent billingIntent = new Intent();
+                        billingIntent.setClass(getActivity(), LinkManActivity.class);
+                        startActivity(billingIntent);
+                        twoButtonDialog.dismiss();
+                    }
+                });
+                twoButtonDialog.show();
                 break;
             case R.id.makeMoney:
                 Intent intent = new Intent();
-                intent.setClass(getActivity(), MakeMoneyActivity.class);
+                intent.setClass(getActivity(), ViewInventoryActivity.class);
                 startActivity(intent);
                 break;
             case R.id.inventory:
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.BillingInventoryCode = "1";
+                realm.commitTransaction();
                 Intent pandianIntent = new Intent();
                 pandianIntent.setClass(getActivity(), LinkManActivity.class);
                 startActivity(pandianIntent);
