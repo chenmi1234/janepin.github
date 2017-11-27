@@ -196,6 +196,30 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
         String tiaozhuan = intent.getStringExtra("commodity");
         String chaifen = intent.getStringExtra("increase");
         String tianjiashop = intent.getStringExtra("addshop");
+
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String billingInventory = "";
+        for (JanePinBean guest : guests) {
+            billingInventory = guest.NewlyAddedDistinguish;
+        }
+
+        if (billingInventory.equals("1")){
+            realm.beginTransaction();
+            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+            janePinBean.NewlyAddedBarCode = result;
+            realm.commitTransaction();
+            finish();
+        }else if (billingInventory.equals("2")){
+            realm.beginTransaction();
+            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+            janePinBean.NewlyAddedAssembleBarCode = result;
+            realm.commitTransaction();
+            finish();
+        }
+
         if (tiaozhuan != null){
             if (tiaozhuan.equals("shop")){
                 intent.setClass(ZbarActivity.this,IncreaseCommodityActivity.class);
@@ -222,18 +246,7 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
                 janePinBean.AddShopDialogTitle = result;
                 janePinBean.DialogEjectCode = "1";
                 realm.commitTransaction();
-//                intent.setClass(ZbarActivity.this,IWantBillingActivity.class);
-//                intent.putExtra("shopAdd", result);
-//                intent.putExtra("pdDialog", "1");
-//                startActivity(intent);
             }
-            finish();
-        } else{
-            intent.setClass(ZbarActivity.this,AddFriendActivity.class);
-            intent.putExtra("codedContent", result);
-            intent.putExtra("page","2");
-            setResult(RESULT_OK, intent);
-            startActivity(intent);
             finish();
         }
         vibrate();

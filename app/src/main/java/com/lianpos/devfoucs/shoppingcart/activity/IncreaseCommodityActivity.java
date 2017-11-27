@@ -1,19 +1,27 @@
 package com.lianpos.devfoucs.shoppingcart.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.Switch;
 
 import com.lianpos.activity.R;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.scancodeidentify.zbar.ZbarActivity;
 import com.lianpos.util.MyToggle;
 import com.lianpos.util.MyToggle.OnToggleStateListener;
+
+import butterknife.ButterKnife;
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * 新增商品
@@ -50,6 +58,11 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
     private RelativeLayout danweiChoose;
     private RelativeLayout guigeChoose;
     private RelativeLayout pinpaiChoose;
+    private RelativeLayout addShopName;
+    private RelativeLayout addShopSuggestedPrice;
+    private Switch mSwitch;
+    private Switch switch_zzcf;
+    private Realm realm = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,15 +70,10 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
         setContentView(R.layout.activity_add_commodity);
         getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+        ButterKnife.bind(this);
+        realm = Realm.getDefaultInstance();
         init();
         Intent intert = getIntent();
-        num1 = intert.getStringExtra("page");
-        request = intert.getStringExtra("codedContent");
-        if (num1 != null) {
-            if (num1.equals("2")) {
-                shopEdittext.setText(request);
-            }
-        }
         num2 = intert.getStringExtra("zhuan");
         request1 = intert.getStringExtra("shopTiao");
         if (num2 != null) {
@@ -76,6 +84,8 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
     }
 
     private void init() {
+        //获取数据
+        quiryDataFun();
         // 初始化控件
         initActivity();
         // 初始化点击事件
@@ -102,6 +112,10 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
         danweiChoose = (RelativeLayout) findViewById(R.id.danweiChoose);
         guigeChoose = (RelativeLayout) findViewById(R.id.guigeChoose);
         pinpaiChoose = (RelativeLayout) findViewById(R.id.pinpaiChoose);
+        mSwitch = (Switch) findViewById(R.id.switch_tc);
+        switch_zzcf = (Switch) findViewById(R.id.switch_zzcf);
+        addShopName = (RelativeLayout) findViewById(R.id.addShopName);
+        addShopSuggestedPrice = (RelativeLayout) findViewById(R.id.addShopSuggestedPrice);
     }
 
     /**
@@ -123,6 +137,7 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
         //套餐初始为关闭
         suitNum.setVisibility(View.GONE);
         suitDanwei.setVisibility(View.GONE);
+        switch_zzcf.setChecked(true);
         //设置开关组装拆分图片
         splitToggle.setImageRes(R.mipmap.swipeleft, R.mipmap.swipeleft, R.mipmap.swiperight);
 
@@ -158,6 +173,7 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
                     splitToggle.setImageRes(R.mipmap.swipeleft, R.mipmap.swipeleft, R.mipmap.swiperight);
                     splitNum.setVisibility(View.VISIBLE);
                     splitDanwei.setVisibility(View.VISIBLE);
+                    splitDanwei.setVisibility(View.VISIBLE);
                 } else {
                     splitToggle.setImageRes(R.mipmap.swiperight, R.mipmap.swiperight, R.mipmap.swipeleft);
                     splitNum.setVisibility(View.GONE);
@@ -169,10 +185,12 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
         scanningBar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.NewlyAddedDistinguish = "1";
+                realm.commitTransaction();
                 Intent intent = new Intent();
                 intent.setClass(IncreaseCommodityActivity.this, ZbarActivity.class);
-                intent.putExtra("commodity", "shop");
-
                 startActivity(intent);
             }
         });
@@ -180,13 +198,79 @@ public class IncreaseCommodityActivity extends BaseActivity implements View.OnCl
         shopChaifen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.NewlyAddedDistinguish = "2";
+                realm.commitTransaction();
                 Intent intent = new Intent();
                 intent.setClass(IncreaseCommodityActivity.this, ZbarActivity.class);
-                intent.putExtra("increase", "chaifen");
                 startActivity(intent);
             }
         });
 
+        mSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
+
+            public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
+                if (isChecked) {
+                    suitNum.setVisibility(View.VISIBLE);
+                    suitDanwei.setVisibility(View.VISIBLE);
+                } else {
+                    suitNum.setVisibility(View.GONE);
+                    suitDanwei.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        switch_zzcf.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
+
+            public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
+                if (isChecked) {
+                    splitNum.setVisibility(View.VISIBLE);
+                    splitDanwei.setVisibility(View.VISIBLE);
+                    addShopName.setVisibility(View.VISIBLE);
+                    addShopSuggestedPrice.setVisibility(View.VISIBLE);
+                } else {
+                    splitNum.setVisibility(View.GONE);
+                    splitDanwei.setVisibility(View.GONE);
+                    addShopName.setVisibility(View.GONE);
+                    addShopSuggestedPrice.setVisibility(View.GONE);
+                }
+            }
+        });
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        quiryDataFun();
+    }
+
+    @Override
+    protected void onDestroy(){
+        super.onDestroy();
+        if (realm != null) {
+            realm.close();
+        }
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        guests.removeAllChangeListeners();
+    }
+
+    private void quiryDataFun(){
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String barCode = "";
+        for (JanePinBean guest : guests) {
+            barCode = guest.NewlyAddedBarCode;
+        }
+        if (barCode != null && !barCode.isEmpty()){
+            shopEdittext.setText(barCode);
+        }
     }
 
     @Override

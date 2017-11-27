@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.activity.InquirySheetActivity;
@@ -40,6 +41,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     private TwoButtonBillingDialog twoButtonDialog;
     private Realm realm = null;
     View rootView;
+    private RelativeLayout myWantMoney;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -63,6 +65,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         makeMoney = (ImageView) rootView.findViewById(R.id.makeMoney);
         inventory = (ImageView) rootView.findViewById(R.id.inventory);
         inquiry_sheet = (ImageView) rootView.findViewById(R.id.inquiry_sheet);
+        myWantMoney = (RelativeLayout) rootView.findViewById(R.id.myWantMoney);
     }
 
     // 初始化点击事件
@@ -71,6 +74,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         makeMoney.setOnClickListener(this);
         inventory.setOnClickListener(this);
         inquiry_sheet.setOnClickListener(this);
+        myWantMoney.setOnClickListener(this);
     }
 
     @Override
@@ -128,6 +132,11 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 Intent intent1 = new Intent();
                 intent1.setClass(getActivity(), InquirySheetActivity.class);
                 startActivity(intent1);
+                break;
+            case R.id.myWantMoney:
+                Intent myWantMoney = new Intent();
+                myWantMoney.setClass(getActivity(), MakeMoneyActivity.class);
+                startActivity(myWantMoney);
                 break;
         }
     }

@@ -160,7 +160,7 @@ MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.
 	android:label
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:31:9-41
 	android:icon
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:30:9-36
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:30:9-37
 	android:allowBackup
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:29:9-35
 	android:theme

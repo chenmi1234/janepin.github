@@ -2,6 +2,7 @@ package com.lianpos.devfoucs.listviewlinkage.Adapter;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -12,7 +13,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity;
 import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
+import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 
 import butterknife.ButterKnife;
@@ -93,37 +96,9 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
         layout.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(mContext, rightStr[section][position], Toast.LENGTH_SHORT).show();
-                realm.beginTransaction();
-                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-                janePinBean.AddShopDialogTitle = rightStr[section][position];
-                realm.commitTransaction();
-                addCommodityDialog = new AddCommodityDialog(mContext);
-                addCommodityDialog.setYesOnclickListener(new AddCommodityDialog.onYesOnclickListener() {
-                    @Override
-                    public void onYesClick() {
-
-                    }
-                });
-                addCommodityDialog.setNoOnclickListener(new AddCommodityDialog.onNoOnclickListener() {
-                    @Override
-                    public void onNoClick() {
-                        realm = Realm.getDefaultInstance();
-                        realm.beginTransaction();
-                        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
-                        realm.commitTransaction();
-                        String addNumber = "";
-                        String addPrice = "";
-                        for (JanePinBean guest : guests) {
-                            addNumber = guest.AddShopDialogNumber;
-                            addPrice = guest.AddShopDialogPrice;
-                        }
-                        ((TextView) finalLayout.findViewById(R.id.shoppingNum)).setText(addNumber);
-                        ((TextView) finalLayout.findViewById(R.id.prise)).setText(addPrice);
-                        addCommodityDialog.dismiss();
-                    }
-                });
-                addCommodityDialog.show();
+                Intent intent = new Intent();
+                intent.setClass(mContext,IncreaseCommodityActivity.class);
+                mContext.startActivity(intent);
             }
         });
         return layout;

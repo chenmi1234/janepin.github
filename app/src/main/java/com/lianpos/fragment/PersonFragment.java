@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity;
 import com.lianpos.devfoucs.login.activity.LoginActivity;
 import com.lianpos.devfoucs.login.activity.RegisterActivity;
 import com.lianpos.devfoucs.reportform.activity.EnterpriseInformation;
@@ -88,7 +89,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.commodity_management:
                 Intent commodity = new Intent();
-                commodity.setClass(getContext(), CommodityManagementActivity.class);
+                commodity.setClass(getContext(), LinkageActivity.class);
                 startActivity(commodity);
                 break;
             case R.id.printer_layout:

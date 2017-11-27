@@ -40,6 +40,7 @@
         </RelativeLayout>
 
         <TextView
+            android:visibility="gone"
             android:id="@+id/addShopping"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,6 +54,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:visibility="gone"
         android:id="@+id/search_shopName"
         android:layout_below="@id/addShopTitle"
         android:layout_width="match_parent"
@@ -131,8 +133,25 @@
     </LinearLayout>
 
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/newAddShopping"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="#DD3302"
+            android:text="新增商品"/>
+    </LinearLayout>
+
 
     <LinearLayout
+        android:visibility="gone"
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
