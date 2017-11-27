@@ -157,7 +157,7 @@ public abstract class HeaderRecyclerAndFooterWrapperAdapter extends RecyclerView
         if (mHeaderDatas.get(viewType) != null) {//不为空，说明是headerview
             //return new ViewHolder(parent.getContext(), mHeaderViews.get(viewType));
             //return createHeader(parent, mHeaderViews.indexOfKey(viewType)); 第一种方法是让子类实现这个方法 构建ViewHolder
-            return ViewHolder.get(parent.getContext(), null, parent, mHeaderDatas.get(viewType).keyAt(0), -1);
+            return ViewHolder.Companion.get(parent.getContext(), null, parent, mHeaderDatas.get(viewType).keyAt(0), -1);
         } else if (mFooterViews.get(viewType) != null) {//不为空，说明是footerview
             return new ViewHolder(parent.getContext(), mFooterViews.get(viewType));
         }

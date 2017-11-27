@@ -80,7 +80,7 @@ public class DynamicFragment extends Fragment {
         mRv.addItemDecoration(mDecoration = new SuspensionDecoration(getActivity(), mDatas));
         //如果add两个，那么按照先后顺序，依次渲染。
         //mRv.addItemDecoration(new TitleItemDecoration2(this,mDatas));
-        mRv.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
+        mRv.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.Companion.getVERTICAL_LIST()));
 
         mAdapter.setOnLongItemClickListener(new CityAdapter.OnRecyclerViewLongItemClickListener() {
             @Override
@@ -163,7 +163,7 @@ public class DynamicFragment extends Fragment {
 
         @Override
         public SwipeDelMenuAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return new ViewHolder(mInflater.inflate(R.layout.item_city_swipe, parent, false));
+            return new ViewHolder(getMInflater().inflate(R.layout.item_city_swipe, parent, false));
         }
 
         @Override

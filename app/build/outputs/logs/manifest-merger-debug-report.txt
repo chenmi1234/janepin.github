@@ -4,22 +4,22 @@ ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-88:12
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-88:12
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-88:12
-MERGED from [io.realm:realm-android-library:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.1.aar\71f32655e4178bfc9497629bc88c16a5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.realm:realm-android-library:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.1.aar\fa82a753b443ef13100a8c9c31bd9f03\AndroidManifest.xml:2:1-11:12
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-19:12
-MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\37d11f52f3074b32cefb62c4e68485e5\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5afeaec391734e7ca03ce9ff144592ce\AndroidManifest.xml:17:1-27:12
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\741238d6e4e35775780d3013bb639230\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\e18e5c865b2ce622cf2271dee75d3539\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\97c027bb181c5b4aaf5a2bb16fba70c2\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\ac57d2da45b254dbe120c26976b95239\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\bb63e5108e58660fa4cb953e5c1e13da\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\668ee8621eddbef83bdcd2f309a1d2f6\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5de2abd3002e27655c8aa63693c790bb\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\11df8880ec23b84d6ac0971691a3efab\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\33d43769a6c7813535fcdbf64017203d\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\3be8377a10aa6b9ea83533bff4f4596f\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\18d8d1f843a5a5f94fe4fa45099da81a\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\03d6e721352ef07b3c9ce076a92896d7\AndroidManifest.xml:17:1-27:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\62b1c700f75bc0029a18bb311ebf1f97\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\f1cacf591e8f3eb299c972ba42f1b3c3\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\81979d3c7afde83eb64b961e8091e963\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\c8e23fea18f63fb3c24e1243b8b932ef\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\b044d546811edb59ea386a1ef1abf455\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\cc3a3bbc703d2bedb193aac55b705856\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\baa3014ad422cd0426b43f0867a91849\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\19628a0675c8c416687170847878e69d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\f4c457e2e9e5bb75838b3f7fd7302950\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9433999fe7b2c8cf599f7b5e0373edba\AndroidManifest.xml:17:1-27:12
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-88:12
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-88:12
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-88:12
@@ -83,38 +83,38 @@ uses-sdk
 ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:22:5-25:44
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:22:5-25:44
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:22:5-25:44
-MERGED from [io.realm:realm-android-library:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.1.aar\71f32655e4178bfc9497629bc88c16a5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.realm:realm-android-library:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.1.aar\71f32655e4178bfc9497629bc88c16a5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.1.aar\fa82a753b443ef13100a8c9c31bd9f03\AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.1.aar\fa82a753b443ef13100a8c9c31bd9f03\AndroidManifest.xml:7:5-9:41
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\37d11f52f3074b32cefb62c4e68485e5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\37d11f52f3074b32cefb62c4e68485e5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5afeaec391734e7ca03ce9ff144592ce\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5afeaec391734e7ca03ce9ff144592ce\AndroidManifest.xml:21:5-23:78
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\741238d6e4e35775780d3013bb639230\AndroidManifest.xml:7:5-43
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\741238d6e4e35775780d3013bb639230\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\e18e5c865b2ce622cf2271dee75d3539\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\e18e5c865b2ce622cf2271dee75d3539\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\97c027bb181c5b4aaf5a2bb16fba70c2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\97c027bb181c5b4aaf5a2bb16fba70c2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\ac57d2da45b254dbe120c26976b95239\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\ac57d2da45b254dbe120c26976b95239\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\bb63e5108e58660fa4cb953e5c1e13da\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\bb63e5108e58660fa4cb953e5c1e13da\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\668ee8621eddbef83bdcd2f309a1d2f6\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\668ee8621eddbef83bdcd2f309a1d2f6\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5de2abd3002e27655c8aa63693c790bb\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5de2abd3002e27655c8aa63693c790bb\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\11df8880ec23b84d6ac0971691a3efab\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\11df8880ec23b84d6ac0971691a3efab\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\33d43769a6c7813535fcdbf64017203d\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\33d43769a6c7813535fcdbf64017203d\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\3be8377a10aa6b9ea83533bff4f4596f\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\3be8377a10aa6b9ea83533bff4f4596f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\18d8d1f843a5a5f94fe4fa45099da81a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\18d8d1f843a5a5f94fe4fa45099da81a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\03d6e721352ef07b3c9ce076a92896d7\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\03d6e721352ef07b3c9ce076a92896d7\AndroidManifest.xml:21:5-23:78
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\62b1c700f75bc0029a18bb311ebf1f97\AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\62b1c700f75bc0029a18bb311ebf1f97\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\f1cacf591e8f3eb299c972ba42f1b3c3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\f1cacf591e8f3eb299c972ba42f1b3c3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\81979d3c7afde83eb64b961e8091e963\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\81979d3c7afde83eb64b961e8091e963\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\c8e23fea18f63fb3c24e1243b8b932ef\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\c8e23fea18f63fb3c24e1243b8b932ef\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\b044d546811edb59ea386a1ef1abf455\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.1.aar\b044d546811edb59ea386a1ef1abf455\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\cc3a3bbc703d2bedb193aac55b705856\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\cc3a3bbc703d2bedb193aac55b705856\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\baa3014ad422cd0426b43f0867a91849\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\baa3014ad422cd0426b43f0867a91849\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\19628a0675c8c416687170847878e69d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\19628a0675c8c416687170847878e69d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\f4c457e2e9e5bb75838b3f7fd7302950\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\f4c457e2e9e5bb75838b3f7fd7302950\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9433999fe7b2c8cf599f7b5e0373edba\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9433999fe7b2c8cf599f7b5e0373edba\AndroidManifest.xml:21:5-23:58
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:22:5-25:44
 INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:22:5-25:44
 	tools:overrideLibrary
@@ -135,26 +135,26 @@ MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermedi
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
 MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-17:19
 MERGED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-17:19
-MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\37d11f52f3074b32cefb62c4e68485e5\AndroidManifest.xml:11:5-20
-MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\37d11f52f3074b32cefb62c4e68485e5\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5afeaec391734e7ca03ce9ff144592ce\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\5afeaec391734e7ca03ce9ff144592ce\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\e18e5c865b2ce622cf2271dee75d3539\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\e18e5c865b2ce622cf2271dee75d3539\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\97c027bb181c5b4aaf5a2bb16fba70c2\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\97c027bb181c5b4aaf5a2bb16fba70c2\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\ac57d2da45b254dbe120c26976b95239\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\ac57d2da45b254dbe120c26976b95239\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\668ee8621eddbef83bdcd2f309a1d2f6\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\668ee8621eddbef83bdcd2f309a1d2f6\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5de2abd3002e27655c8aa63693c790bb\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\5de2abd3002e27655c8aa63693c790bb\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\11df8880ec23b84d6ac0971691a3efab\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\11df8880ec23b84d6ac0971691a3efab\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\33d43769a6c7813535fcdbf64017203d\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\33d43769a6c7813535fcdbf64017203d\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\3be8377a10aa6b9ea83533bff4f4596f\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\3be8377a10aa6b9ea83533bff4f4596f\AndroidManifest.xml:25:5-20
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\18d8d1f843a5a5f94fe4fa45099da81a\AndroidManifest.xml:11:5-20
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\18d8d1f843a5a5f94fe4fa45099da81a\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\03d6e721352ef07b3c9ce076a92896d7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\03d6e721352ef07b3c9ce076a92896d7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\f1cacf591e8f3eb299c972ba42f1b3c3\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\f1cacf591e8f3eb299c972ba42f1b3c3\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\81979d3c7afde83eb64b961e8091e963\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.2.1.aar\81979d3c7afde83eb64b961e8091e963\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\c8e23fea18f63fb3c24e1243b8b932ef\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.2.1.aar\c8e23fea18f63fb3c24e1243b8b932ef\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\cc3a3bbc703d2bedb193aac55b705856\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\cc3a3bbc703d2bedb193aac55b705856\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\baa3014ad422cd0426b43f0867a91849\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\baa3014ad422cd0426b43f0867a91849\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\19628a0675c8c416687170847878e69d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\19628a0675c8c416687170847878e69d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\f4c457e2e9e5bb75838b3f7fd7302950\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\f4c457e2e9e5bb75838b3f7fd7302950\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9433999fe7b2c8cf599f7b5e0373edba\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9433999fe7b2c8cf599f7b5e0373edba\AndroidManifest.xml:25:5-20
 	android:supportsRtl
 		ADDED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-35
 	android:label

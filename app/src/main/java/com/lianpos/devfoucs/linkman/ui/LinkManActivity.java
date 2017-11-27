@@ -58,7 +58,7 @@ public class LinkManActivity extends AppCompatActivity {
         mRv.setAdapter(mAdapter);
         mRv.addItemDecoration(mDecoration = new SuspensionDecoration(this, mDatas));
         //如果add两个，那么按照先后顺序，依次渲染。
-        mRv.addItemDecoration(new DividerItemDecoration(LinkManActivity.this, DividerItemDecoration.VERTICAL_LIST));
+        mRv.addItemDecoration(new DividerItemDecoration(LinkManActivity.this, DividerItemDecoration.Companion.getVERTICAL_LIST()));
 
         //使用indexBar
         mTvSideBarHint = (TextView) findViewById(R.id.tvSideBarHint);//HintTextView
