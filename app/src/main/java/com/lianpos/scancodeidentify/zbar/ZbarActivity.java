@@ -60,6 +60,8 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
     }
 
     private void initLayout() {
+        mQRCodeView = (ZBarView) findViewById(R.id.zbarview);
+        toggleButton = (ToggleButton) findViewById(R.id.scancode_lamplight);
         mQRCodeView.setDelegate(this);
         mQRCodeView.startSpotAndShowRect();//显示扫描框，并且延迟1.5秒后开始识别
         toggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -216,6 +218,12 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
             realm.beginTransaction();
             JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
             janePinBean.NewlyAddedAssembleBarCode = result;
+            realm.commitTransaction();
+            finish();
+        }else if (billingInventory.equals("3")){
+            realm.beginTransaction();
+            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+            janePinBean.DialogEjectCode = "1";
             realm.commitTransaction();
             finish();
         }

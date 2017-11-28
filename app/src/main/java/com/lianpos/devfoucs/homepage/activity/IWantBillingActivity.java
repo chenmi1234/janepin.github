@@ -7,9 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -17,11 +20,13 @@ import android.widget.TextView;
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.view.SwipeListLayout;
-import com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity;
 import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
+import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.scancodeidentify.zbar.ZbarActivity;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -53,6 +58,7 @@ public class IWantBillingActivity extends BaseActivity {
     // 两个按钮的dialog
     private AddCommodityDialog addCommodityDialog;
     private Realm realm = null;
+    private TextView billAddShopBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,9 +89,28 @@ public class IWantBillingActivity extends BaseActivity {
             @Override
             public void onScroll(AbsListView view, int firstVisibleItem,
                                  int visibleItemCount, int totalItemCount) {
-
             }
         });
+
+        billAddShopBtn = (TextView) findViewById(R.id.billAddShopBtn);
+        billAddShopBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(IWantBillingActivity.this,IncreaseCommodityActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        lv_main.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent();
+                intent.setClass(IWantBillingActivity.this,ShopInformation.class);
+                startActivity(intent);
+            }
+        });
+
         billing_Inventory_title = (TextView) findViewById(R.id.billing_Inventory_title);
         see_stock = (TextView) findViewById(R.id.see_stock);
         realm = Realm.getDefaultInstance();
@@ -116,9 +141,12 @@ public class IWantBillingActivity extends BaseActivity {
         scanning_shop_tiaoxing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.NewlyAddedDistinguish = "3";
+                realm.commitTransaction();
                 Intent intent = new Intent();
                 intent.setClass(IWantBillingActivity.this, ZbarActivity.class);
-                intent.putExtra("addshop", "addshop");
                 startActivity(intent);
             }
         });
@@ -288,6 +316,15 @@ public class IWantBillingActivity extends BaseActivity {
                     sll_main.setStatus(SwipeListLayout.Status.Close, true);
                     list.remove(arg0);
                     notifyDataSetChanged();
+                }
+            });
+            final LinearLayout shopShowItem = (LinearLayout) view.findViewById(R.id.shopShowItem);
+            shopShowItem.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(IWantBillingActivity.this,ShopInformation.class);
+                    startActivity(intent);
                 }
             });
             return view;

@@ -1,11 +1,9 @@
 package com.lianpos.devfoucs.shoppingcart.activity
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
-import android.widget.CompoundButton
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -15,13 +13,11 @@ import android.widget.Switch
 import com.lianpos.activity.R
 import com.lianpos.entity.JanePinBean
 import com.lianpos.firebase.BaseActivity
-import com.lianpos.scancodeidentify.zbar.ZbarActivity
 import com.lianpos.util.MyToggle
-import com.lianpos.util.MyToggle.OnToggleStateListener
 
 import butterknife.ButterKnife
+import com.lianpos.scancodeidentify.zbar.ZbarActivity
 import io.realm.Realm
-import io.realm.RealmResults
 
 /**
  * 新增商品
@@ -72,14 +68,6 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
         ButterKnife.bind(this)
         realm = Realm.getDefaultInstance()
         init()
-        val intert = intent
-        num2 = intert.getStringExtra("zhuan")
-        request1 = intert.getStringExtra("shopTiao")
-        if (num2 != null) {
-            if (num2 == "3") {
-                chaifenEdittext!!.setText(request1)
-            }
-        }
     }
 
     private fun init() {
@@ -233,9 +221,9 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
         }
         realm = Realm.getDefaultInstance()
         realm!!.beginTransaction()
-        val guests = realm!!.where<JanePinBean>(JanePinBean::class.java).equalTo("id", 0).findAll()
+        var guests = realm!!.where<JanePinBean>(JanePinBean::class.java).equalTo("id", 0).findAll()
         realm!!.commitTransaction()
-        guests.removeAllChangeListeners()
+        guests = null
     }
 
     private fun quiryDataFun() {
@@ -244,11 +232,17 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
         val guests = realm!!.where<JanePinBean>(JanePinBean::class.java).equalTo("id", 0).findAll()
         realm!!.commitTransaction()
         var barCode: String? = ""
+        var assemBarCode: String? = ""
         for (guest in guests) {
             barCode = guest.NewlyAddedBarCode
+            assemBarCode = guest.NewlyAddedAssembleBarCode
         }
+        initActivity()
         if (barCode != null && !barCode.isEmpty()) {
             shopEdittext!!.setText(barCode)
+        }
+        if (assemBarCode != null && !assemBarCode.isEmpty()) {
+            chaifenEdittext!!.setText(assemBarCode)
         }
     }
 

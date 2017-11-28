@@ -41,15 +41,6 @@ public class JanePinBean extends RealmObject {
     public String NewlyAddedDistinguish;
     //新增商品 商品条码
     public String NewlyAddedBarCode;
-
-    public String getNewlyAddedBarCode() {
-        return NewlyAddedBarCode;
-    }
-
-    public void setNewlyAddedBarCode(String newlyAddedBarCode) {
-        NewlyAddedBarCode = newlyAddedBarCode;
-    }
-
     //新增商品 商品名称
     public String NewlyAddedName;
     //新增商品 基本单位

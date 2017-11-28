@@ -52,6 +52,7 @@ public class LinkageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linkage);
         ButterKnife.bind(this);
+        leftListview = (ListView) findViewById(R.id.left_listview);
         pinnedListView = (PinnedHeaderListView) findViewById(R.id.pinnedListView);
         final MainSectionedAdapter sectionedAdapter = new MainSectionedAdapter(this, leftStr, rightStr);
         pinnedListView.setAdapter(sectionedAdapter);

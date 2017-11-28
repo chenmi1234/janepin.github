@@ -10,7 +10,7 @@ import io.realm.Realm
 
 class DBRealm {
     /**
-     * 貯金データ新規作成
+     * 新增
      */
     fun createTyokinInfoBean(realm: Realm) {
         realm.beginTransaction()
@@ -21,19 +21,19 @@ class DBRealm {
 
 
     /**
-     * 検索貯金データ
+     * 查询
      *
      * @param realm Realm
      */
     fun seachTyokinInfo(realm: Realm): JanePinBean? {
         val queryApp = realm.where(JanePinBean::class.java)
-        queryApp.equalTo("docType", "TYOKININFO")
+        queryApp.equalTo("id", 0)
         val accountAppli = queryApp.findFirst()
         return accountAppli
     }
 
     /**
-     * 貯金削除
+     * 删除
      */
     fun deleteTyokinInfo(realm: Realm) {
         realm.beginTransaction()
@@ -42,7 +42,7 @@ class DBRealm {
     }
 
     /**
-     * 貯金データを挿入する
+     * 修改
      */
     fun insertTyokinInfo(realm: Realm, acList: MutableList<JanePinBean>) {
         realm.beginTransaction()
