@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="20dp"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
 
                 <LinearLayout
@@ -85,6 +85,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="18688889999"
+                    android:layout_marginLeft="20dp"
                     android:textColor="#333333"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -105,7 +106,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -131,13 +132,14 @@
 
         </RelativeLayout>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
     <RelativeLayout
         android:id="@+id/search_shopName"
         android:layout_below="@id/addShopTitle"
         android:layout_width="match_parent"
         android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
         android:layout_height="wrap_content">
 
         <LinearLayout
@@ -245,6 +247,17 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/billing_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="请扫描或填写条码进行添加商品"/>
 
         <ListView
             android:id="@+id/lv_main"

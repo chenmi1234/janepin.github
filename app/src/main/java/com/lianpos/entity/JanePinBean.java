@@ -23,6 +23,8 @@ public class JanePinBean extends RealmObject {
     public String InquiryShopUnit;
     //询价单 批发价
     public String InquiryShopTrade;
+    //添加商品 Dialog条码
+    public String AddShopDialogTiaoma;
     //添加商品 Dialog数量
     public String AddShopDialogNumber;
     //添加商品 Dialog单位
@@ -31,9 +33,11 @@ public class JanePinBean extends RealmObject {
     public String AddShopDialogStateNumber;
     //添加商品 Dialog单价
     public String AddShopDialogPrice;
+    //添加商品 Dialog建议
+    public String AddShopDialogJyPrice;
     //添加商品 DialogTitle
     public String AddShopDialogTitle;
-    // 开单盘点分辨字段 0 开单 1 盘点
+    // 开单盘点分辨字段 0 开单 1 盘点 2 查看库存
     public String BillingInventoryCode = "0";
     // 开单盘点分辨字段 0 不弹出 1 弹出
     public String DialogEjectCode = "0";

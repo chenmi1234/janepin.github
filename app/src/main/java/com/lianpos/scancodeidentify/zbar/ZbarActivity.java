@@ -15,15 +15,10 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.contacts.ui.AddFriendActivity;
-import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
-import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
-import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.qrcode.QRCodeDecoder;
@@ -46,9 +41,6 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
 
     @Bind(R.id.scancode_lamplight)
     ToggleButton toggleButton;
-
-    // 两个按钮的dialog
-    private AddCommodityDialog addCommodityDialog;
     private Realm realm = null;
 
     @Override
@@ -224,6 +216,7 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
             realm.beginTransaction();
             JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
             janePinBean.DialogEjectCode = "1";
+            janePinBean.AddShopDialogTiaoma = result;
             realm.commitTransaction();
             finish();
         }

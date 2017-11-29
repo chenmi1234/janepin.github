@@ -74,11 +74,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="请输入商品条码"
                         android:background="@null"
                         android:focusable="true"
-                        android:maxLength="14"
+                        android:hint="请输入商品条码"
                         android:inputType="number"
+                        android:maxLength="14"
                         android:singleLine="true"
                         android:textColor="#333333"
                         android:textSize="18dp" />
@@ -124,12 +124,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="请输入商品名称"
-                        android:gravity="right"
+                        android:layout_marginRight="10dp"
                         android:background="@null"
+                        android:gravity="right"
+                        android:hint="请输入商品名称"
                         android:maxLength="10"
                         android:singleLine="true"
-                        android:layout_marginRight="10dp"
                         android:textColor="#333333"
                         android:textSize="18dp" />
                 </LinearLayout>
@@ -291,6 +291,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
                     android:layout_centerVertical="true"
                     android:orientation="horizontal">
 
@@ -306,12 +307,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="0.00"
                         android:background="@null"
-                        android:maxLength="7"
+                        android:hint="0.00"
                         android:inputType="number|numberDecimal"
+                        android:maxLength="7"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:singleLine="true"
-                        android:layout_marginRight="10dp"
                         android:textColor="#333333"
                         android:textSize="18dp" />
                 </LinearLayout>
@@ -356,12 +358,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="0.00"
-                        android:background="@null"
-                        android:maxLength="7"
-                        android:inputType="number|numberDecimal"
-                        android:singleLine="true"
                         android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:hint="0.00"
+                        android:inputType="number|numberDecimal"
+                        android:maxLength="7"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:singleLine="true"
                         android:textColor="#333333"
                         android:textSize="18dp" />
                 </LinearLayout>
@@ -390,19 +394,19 @@
 
                     <Switch
                         android:id="@+id/switch_tc"
-                        android:layout_marginRight="10dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp" />
                 </LinearLayout>
 
 
                 <LinearLayout
-                    android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:visibility="gone">
 
                     <com.lianpos.util.MyToggle
                         android:id="@+id/suitoggle"
@@ -411,6 +415,7 @@
                         android:layout_marginRight="10dp" />
                 </LinearLayout>
             </RelativeLayout>
+
             <LinearLayout
                 android:id="@+id/suitNum"
                 android:layout_width="match_parent"
@@ -421,41 +426,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" 1 "
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:layout_gravity="center_vertical"
+                    android:text=" 1 "
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:text="套"
-                    android:layout_gravity="center_vertical"
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" = "
                     android:layout_gravity="center_vertical"
+                    android:text=" = "
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#333333"
-                    android:hint="0"
-                    android:maxLength="4"
-                    android:layout_marginRight="5dp"
-                    android:textSize="16dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:singleLine="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@null"
+                    android:hint="0"
                     android:inputType="number"
-                    android:background="@null"/>
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
 
                 <Spinner
                     android:layout_width="wrap_content"
@@ -484,20 +489,19 @@
                         android:text="最小单位"
                         android:textColor="#333333"
                         android:textSize="18dp" />
-                    
+
                     <EditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
                         android:hint="1"
-                        android:singleLine="true"
                         android:inputType="number"
                         android:maxLength="4"
-                        android:background="@null"
-                        android:layout_gravity="center_vertical"
-                        android:textSize="16dp"
-                        android:textColor="#333333"/>
+                        android:singleLine="true"
+                        android:textColor="#333333"
+                        android:textSize="16dp" />
                 </LinearLayout>
-
 
 
                 <LinearLayout
@@ -512,8 +516,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="建议售价"
                         android:layout_marginRight="5dp"
+                        android:text="建议售价"
                         android:textColor="#333333"
                         android:textSize="18dp" />
 
@@ -529,12 +533,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="0.00"
-                        android:background="@null"
-                        android:maxLength="14"
-                        android:inputType="number|numberDecimal"
-                        android:singleLine="true"
                         android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:hint="0.00"
+                        android:inputType="number|numberDecimal"
+                        android:maxLength="14"
+                        android:singleLine="true"
                         android:textColor="#333333"
                         android:textSize="18dp" />
                 </LinearLayout>
@@ -563,19 +567,19 @@
 
                     <Switch
                         android:id="@+id/switch_zzcf"
-                        android:layout_marginRight="10dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp" />
                 </LinearLayout>
 
 
                 <LinearLayout
-                    android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:visibility="gone">
 
                     <com.lianpos.util.MyToggle
                         android:id="@+id/splitToggle"
@@ -595,38 +599,38 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#333333"
-                    android:hint="0"
-                    android:maxLength="4"
-                    android:layout_marginRight="5dp"
-                    android:textSize="16dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="15dp"
-                    android:singleLine="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@null"
+                    android:hint="0"
                     android:inputType="number"
-                    android:background="@null"/>
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:text="瓶"
-                    android:layout_gravity="center_vertical"
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:text=" = "
-                    android:layout_gravity="center_vertical"
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" 1 "
                     android:layout_gravity="center_vertical"
+                    android:text=" 1 "
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
@@ -664,10 +668,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="请输入商品条码"
                         android:background="@null"
-                        android:maxLength="14"
+                        android:hint="请输入商品条码"
                         android:inputType="number"
+                        android:maxLength="14"
                         android:singleLine="true"
                         android:textColor="#333333"
                         android:textSize="18dp" />
@@ -688,6 +692,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:background="#cccccc" />
+
             <RelativeLayout
                 android:id="@+id/addShopName"
                 android:layout_width="match_parent"
@@ -713,12 +718,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="请输入商品名称"
-                        android:gravity="right"
+                        android:layout_marginRight="10dp"
                         android:background="@null"
+                        android:gravity="right"
+                        android:hint="请输入商品名称"
                         android:maxLength="10"
                         android:singleLine="true"
-                        android:layout_marginRight="10dp"
                         android:textColor="#333333"
                         android:textSize="18dp" />
                 </LinearLayout>
@@ -730,6 +735,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:background="#cccccc" />
+
             <RelativeLayout
                 android:id="@+id/addShopSuggestedPrice"
                 android:layout_width="match_parent"
@@ -763,12 +769,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:hint="0.00"
-                        android:background="@null"
-                        android:maxLength="7"
-                        android:inputType="number|numberDecimal"
-                        android:singleLine="true"
                         android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:hint="0.00"
+                        android:inputType="number|numberDecimal"
+                        android:maxLength="7"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:singleLine="true"
                         android:textColor="#333333"
                         android:textSize="18dp" />
                 </LinearLayout>

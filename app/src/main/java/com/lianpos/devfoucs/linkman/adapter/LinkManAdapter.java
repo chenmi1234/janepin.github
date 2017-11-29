@@ -11,8 +11,14 @@ import android.widget.TextView;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.model.CityBean;
 import com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity;
+import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
+import com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity;
+import com.lianpos.entity.JanePinBean;
 
 import java.util.List;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * 开单盘点adapter
@@ -23,6 +29,7 @@ public class LinkManAdapter extends RecyclerView.Adapter<LinkManAdapter.ViewHold
     protected Context mContext;
     protected List<CityBean> mDatas;
     protected LayoutInflater mInflater;
+    private Realm realm = null;
 
     public LinkManAdapter(Context mContext, List<CityBean> mDatas) {
         this.mContext = mContext;
@@ -47,13 +54,31 @@ public class LinkManAdapter extends RecyclerView.Adapter<LinkManAdapter.ViewHold
     @Override
     public void onBindViewHolder(final LinkManAdapter.ViewHolder holder, final int position) {
         final CityBean cityBean = mDatas.get(position);
+
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String billingInventory = "";
+        for (JanePinBean guest : guests) {
+            billingInventory = guest.BillingInventoryCode;
+        }
+
         holder.tvCity.setText(cityBean.getCity());
+        final String finalBillingInventory = billingInventory;
         holder.content.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(mContext, BillingFristPageActivity.class);
-                mContext.startActivity(intent);
+                if (finalBillingInventory.equals("0") || finalBillingInventory.equals("1")){
+                    Intent intent = new Intent();
+                    intent.setClass(mContext, IWantBillingActivity.class);
+                    mContext.startActivity(intent);
+                }else{
+                    Intent intent = new Intent();
+                    intent.setClass(mContext, ViewInventoryActivity.class);
+                    mContext.startActivity(intent);
+                }
+
             }
         });
         holder.avatar.setText("18842535353");

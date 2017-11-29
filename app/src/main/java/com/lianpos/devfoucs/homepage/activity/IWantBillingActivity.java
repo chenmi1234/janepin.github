@@ -19,6 +19,8 @@ import android.widget.TextView;
 
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.homepage.bean.InquirySheetBean;
+import com.lianpos.devfoucs.homepage.bean.WantBillingBean;
 import com.lianpos.devfoucs.homepage.view.SwipeListLayout;
 import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
@@ -47,7 +49,7 @@ import io.realm.RealmResults;
 public class IWantBillingActivity extends BaseActivity {
 
     private ImageView make_money_back;
-    private List<String> list = new ArrayList<String>(15);
+//    private List<String> list = new ArrayList<String>(15);
     private Set<SwipeListLayout> sets = new HashSet();
     private TextView billing_total;
     private TextView billing_Inventory_title;
@@ -59,15 +61,28 @@ public class IWantBillingActivity extends BaseActivity {
     private AddCommodityDialog addCommodityDialog;
     private Realm realm = null;
     private TextView billAddShopBtn;
+    private List<WantBillingBean> mDatas;
+    private WantBillingBean bean;
+    private ListAdapter listAdapter;
+    private TextView billing_message;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_want_billing);
         serch_shop = (EditText) findViewById(R.id.serch_shop);
+        make_money_back = (ImageView) findViewById(R.id.make_money_back);
+        billing_message = (TextView) findViewById(R.id.billing_message);
+        make_money_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         ListView lv_main = (ListView) findViewById(R.id.lv_main);
         initList();
-        lv_main.setAdapter(new ListAdapter());
+        listAdapter = new ListAdapter();
+        lv_main.setAdapter(listAdapter);
         lv_main.setOnScrollListener(new AbsListView.OnScrollListener() {
 
             @Override
@@ -122,10 +137,10 @@ public class IWantBillingActivity extends BaseActivity {
             billingInventory = guest.BillingInventoryCode;
         }
         if (billingInventory.equals("1")) {
-            billing_Inventory_title.setText("我要盘点");
+            billing_Inventory_title.setText("盘点单");
             see_stock.setVisibility(View.GONE);
         } else {
-            billing_Inventory_title.setText("我要开单");
+            billing_Inventory_title.setText("销售单");
             see_stock.setVisibility(View.VISIBLE);
         }
 
@@ -212,12 +227,29 @@ public class IWantBillingActivity extends BaseActivity {
                     realm.beginTransaction();
                     RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
                     realm.commitTransaction();
+                    String addTiaoma = "";
                     String addNumber = "";
                     String addPrice = "";
+                    String addUnit = "";
+                    String addJyPrice = "";
                     for (JanePinBean guest : guests) {
                         addNumber = guest.AddShopDialogNumber;
                         addPrice = guest.AddShopDialogPrice;
+                        addUnit = guest.AddShopDialogUnit;
+                        addTiaoma = guest.InquiryShopNumber;
+                        addJyPrice = guest.AddShopDialogJyPrice;
                     }
+
+                    Double aaa = 0.00;
+                    Double bbb = 0.00;
+                    aaa = Double.valueOf(addNumber).doubleValue();
+                    bbb = Double.valueOf(addPrice).doubleValue();
+                    String addJine = Double.toString(aaa * bbb);
+
+                    bean = new WantBillingBean("商品名称", addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
+                    mDatas.add(bean);
+                    billing_message.setVisibility(View.GONE);
+                    listAdapter.notifyDataSetChanged();
                     addCommodityDialog.dismiss();
                 }
             });
@@ -226,20 +258,22 @@ public class IWantBillingActivity extends BaseActivity {
     }
 
     private void initList() {
-        list.add("可乐");
-        list.add("怡宝");
-        list.add("虾仁");
-        list.add("面包");
-        list.add("茶叶");
-        list.add("果子");
-        list.add("农夫山泉");
-        list.add("饼干");
-        list.add("蔡子业");
-        list.add("三只松鼠");
-        list.add("良品铺子");
-        list.add("胶带");
-        list.add("攻防");
-        list.add("雪糕");
+
+        mDatas = new ArrayList<WantBillingBean>();
+
+        //将数据装到集合中去
+//        bean = new WantBillingBean("可口可乐", "6911112223000", "1","瓶", "23.22", "40.00","200.00");
+//        mDatas.add(bean);
+//
+//        bean = new WantBillingBean("三只松鼠杏仁", "6911112223999", "2","袋", "23.88", "30.00","200.00");
+//        mDatas.add(bean);
+//
+//        bean = new WantBillingBean("哈尔滨啤酒", "6911112223222", "3","箱", "1.22", "20.00","200.00");
+//        mDatas.add(bean);
+//
+//        bean = new WantBillingBean("香蕉雪糕", "6911112223222", "4","件", "3.00", "10.00","200.00");
+//        mDatas.add(bean);
+
     }
 
     class MyOnSlipStatusListener implements SwipeListLayout.OnSwipeStatusListener {
@@ -283,12 +317,12 @@ public class IWantBillingActivity extends BaseActivity {
 
         @Override
         public int getCount() {
-            return list.size();
+            return mDatas.size();
         }
 
         @Override
         public Object getItem(int arg0) {
-            return list.get(arg0);
+            return mDatas.get(arg0);
         }
 
         @Override
@@ -303,7 +337,20 @@ public class IWantBillingActivity extends BaseActivity {
                         R.layout.slip_list_item, null);
             }
             TextView tv_name = (TextView) view.findViewById(R.id.tv_name);
-            tv_name.setText(list.get(arg0));
+            TextView tv_number = (TextView) view.findViewById(R.id.billing_tiaoma);
+            TextView tv_num_text = (TextView) view.findViewById(R.id.billingNumberText);
+            TextView tv_unit = (TextView) view.findViewById(R.id.billingUnit);
+            TextView tv_pifa_price = (TextView) view.findViewById(R.id.billing_pifa_price);
+            TextView tv_jianyi_price = (TextView) view.findViewById(R.id.billing_jianyi_price);
+            TextView tv_total = (TextView) view.findViewById(R.id.billing_total);
+            WantBillingBean bean = mDatas.get(arg0);
+            tv_name.setText(bean.getItemShopName());
+            tv_number.setText(bean.getShopTiaoma());
+            tv_num_text.setText(bean.getShopNumber());
+            tv_unit.setText(bean.getShopUnit());
+            tv_pifa_price.setText(bean.getShopPifajia());
+            tv_jianyi_price.setText(bean.getShopPrice());
+            tv_total.setText(bean.getShopTotal());
             final SwipeListLayout sll_main = (SwipeListLayout) view
                     .findViewById(R.id.sll_main);
             TextView tv_delete = (TextView) view.findViewById(R.id.tv_delete);
@@ -314,7 +361,10 @@ public class IWantBillingActivity extends BaseActivity {
                 @Override
                 public void onClick(View view) {
                     sll_main.setStatus(SwipeListLayout.Status.Close, true);
-                    list.remove(arg0);
+                    mDatas.remove(arg0);
+                    if (mDatas.isEmpty()){
+                        billing_message.setVisibility(View.VISIBLE);
+                    }
                     notifyDataSetChanged();
                 }
             });

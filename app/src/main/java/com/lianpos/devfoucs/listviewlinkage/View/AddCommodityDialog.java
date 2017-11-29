@@ -7,6 +7,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
@@ -31,11 +32,12 @@ public class AddCommodityDialog extends Dialog {
     private String yesStr;
     private onYesOnclickListener yesOnclickListener;//确定按钮被点击了的监听器
     private onNoOnclickListener noOnclickListener;//确定按钮被点击了的监听器
-    private EditText dialog_unit_price;
+    private EditText dialog_unit_price,jianyi_price_edittext;
 //    private Realm realm = null;
     private EditText addShopDialogNumber;
     Realm realm;
     private TextView dialogTitle;
+    private Spinner spinner2;
     /**
      * 设置确定按钮的显示内容和监听
      *
@@ -75,7 +77,7 @@ public class AddCommodityDialog extends Dialog {
         realm.commitTransaction();
         String showTitle = "";
         for (JanePinBean guest : guests) {
-            showTitle = guest.AddShopDialogTitle;
+            showTitle = guest.AddShopDialogTiaoma;
         }
         dialogTitle.setText(showTitle);
 
@@ -102,8 +104,11 @@ public class AddCommodityDialog extends Dialog {
                     realm = Realm.getDefaultInstance();
                     realm.beginTransaction();
                     JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                    janePinBean.InquiryShopNumber = dialogTitle.getText().toString();
                     janePinBean.AddShopDialogNumber = addShopDialogNumber.getText().toString();
                     janePinBean.AddShopDialogPrice = dialog_unit_price.getText().toString();
+                    janePinBean.AddShopDialogUnit = (String) spinner2.getSelectedItem();
+                    janePinBean.AddShopDialogJyPrice = jianyi_price_edittext.getText().toString();
                     realm.commitTransaction();
                     noOnclickListener.onNoClick();
                 }
@@ -176,8 +181,10 @@ public class AddCommodityDialog extends Dialog {
         yes = (TextView) findViewById(R.id.dialogNumber);
         addShopBtn = (TextView) findViewById(R.id.dialogDanwei);
         dialog_unit_price = (EditText) findViewById(R.id.dialog_unit_price);
+        jianyi_price_edittext = (EditText) findViewById(R.id.jianyi_price_edittext);
         addShopDialogNumber = (EditText) findViewById(R.id.addShopDialogNumber);
         dialogTitle = (TextView) findViewById(R.id.dialogTitle);
+        spinner2 = (Spinner) findViewById(R.id.spinner2);
     }
 
     /**

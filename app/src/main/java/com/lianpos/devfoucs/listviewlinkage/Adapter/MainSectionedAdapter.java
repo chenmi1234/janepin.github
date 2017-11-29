@@ -8,15 +8,19 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity;
-import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
+import com.lianpos.devfoucs.homepage.view.SwipeListLayout;
+import com.lianpos.devfoucs.listviewlinkage.View.PinnedHeaderListView;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 import butterknife.ButterKnife;
 import io.realm.Realm;
@@ -32,9 +36,8 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
     private Context mContext;
     private String[] leftStr;
     private String[][] rightStr;
-    // 两个按钮的dialog
-    private AddCommodityDialog addCommodityDialog;
     private Realm realm = null;
+    private Set<SwipeListLayout> sets = new HashSet();
 
     public MainSectionedAdapter(Context context, String[] leftStr, String[][] rightStr) {
         this.mContext = context;
@@ -63,20 +66,35 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
     }
 
     @Override
-    public View getItemView(final int section, final int position, View convertView, ViewGroup parent) {
-        LinearLayout layout = null;
+    public View getItemView(final int section, final int position, View convertView, final ViewGroup parent) {
         if (convertView == null) {
-            LayoutInflater inflator = (LayoutInflater) parent.getContext()
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            layout = (LinearLayout) inflator.inflate(R.layout.right_list_item, null);
-        } else {
-            layout = (LinearLayout) convertView;
+            convertView = LayoutInflater.from(mContext).inflate(
+                    R.layout.right_list_item, null);
         }
+        //获得listview的实例
+        final PinnedHeaderListView listView = (PinnedHeaderListView) parent;
 
-        ButterKnife.bind(layout);
+        final SwipeListLayout sll_main = (SwipeListLayout) convertView
+                .findViewById(R.id.sll_main);
+        TextView tv_delete = (TextView) convertView.findViewById(R.id.tv_delete);
+        sll_main.setOnSwipeStatusListener(new MyOnSlipStatusListener(
+                sll_main));
+
+        final List list = Arrays.asList(rightStr);
+        final List arrayList = new ArrayList(list);
+        tv_delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sll_main.setStatus(SwipeListLayout.Status.Close, true);
+                arrayList.remove(position);
+                notifyDataSetChanged();
+            }
+        });
+
+        ButterKnife.bind(convertView);
         realm = Realm.getDefaultInstance();
-        ((TextView) layout.findViewById(R.id.textItem)).setText(rightStr[section][position]);
-        final LinearLayout finalLayout = layout;
+        ((TextView) convertView.findViewById(R.id.textItem)).setText(rightStr[section][position]);
+//        final LinearLayout finalLayout = layout;
 
         realm.beginTransaction();
         RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
@@ -86,14 +104,14 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
             billingInventory = guest.BillingInventoryCode;
         }
         if (billingInventory.equals("1")){
-            ((LinearLayout) finalLayout.findViewById(R.id.number_right_item)).setVisibility(View.GONE);
-            ((LinearLayout) finalLayout.findViewById(R.id.prise_right_item)).setVisibility(View.GONE);
+            ((LinearLayout) convertView.findViewById(R.id.number_right_item)).setVisibility(View.GONE);
+            ((LinearLayout) convertView.findViewById(R.id.prise_right_item)).setVisibility(View.GONE);
         }else{
-            ((LinearLayout) finalLayout.findViewById(R.id.number_right_item)).setVisibility(View.VISIBLE);
-            ((LinearLayout) finalLayout.findViewById(R.id.prise_right_item)).setVisibility(View.VISIBLE);
+            ((LinearLayout) convertView.findViewById(R.id.number_right_item)).setVisibility(View.VISIBLE);
+            ((LinearLayout) convertView.findViewById(R.id.prise_right_item)).setVisibility(View.VISIBLE);
         }
 
-        layout.setOnClickListener(new OnClickListener() {
+        convertView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent();
@@ -101,7 +119,7 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
                 mContext.startActivity(intent);
             }
         });
-        return layout;
+        return convertView;
     }
 
     @Override
@@ -117,6 +135,43 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
         layout.setClickable(false);
         ((TextView) layout.findViewById(R.id.textItem)).setText(leftStr[section]);
         return layout;
+    }
+
+    class MyOnSlipStatusListener implements SwipeListLayout.OnSwipeStatusListener {
+
+        private SwipeListLayout slipListLayout;
+
+        public MyOnSlipStatusListener(SwipeListLayout slipListLayout) {
+            this.slipListLayout = slipListLayout;
+        }
+
+        @Override
+        public void onStatusChanged(SwipeListLayout.Status status) {
+            if (status == SwipeListLayout.Status.Open) {
+                //若有其他的item的状态为Open，则Close，然后移除
+                if (sets.size() > 0) {
+                    for (SwipeListLayout s : sets) {
+                        s.setStatus(SwipeListLayout.Status.Close, true);
+                        sets.remove(s);
+                    }
+                }
+                sets.add(slipListLayout);
+            } else {
+                if (sets.contains(slipListLayout))
+                    sets.remove(slipListLayout);
+            }
+        }
+
+        @Override
+        public void onStartCloseAnimation() {
+
+        }
+
+        @Override
+        public void onStartOpenAnimation() {
+
+        }
+
     }
 
 }

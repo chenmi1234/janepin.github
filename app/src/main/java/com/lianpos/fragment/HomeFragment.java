@@ -115,13 +115,18 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 twoButtonDialog.show();
                 break;
             case R.id.makeMoney:
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.BillingInventoryCode = "2";
+                realm.commitTransaction();
+
                 Intent intent = new Intent();
-                intent.setClass(getActivity(), ViewInventoryActivity.class);
+                intent.setClass(getActivity(), LinkManActivity.class);
                 startActivity(intent);
                 break;
             case R.id.inventory:
                 realm.beginTransaction();
-                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean = realm.createObject(JanePinBean.class);
                 janePinBean.BillingInventoryCode = "1";
                 realm.commitTransaction();
                 Intent pandianIntent = new Intent();

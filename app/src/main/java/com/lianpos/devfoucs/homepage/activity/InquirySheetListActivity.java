@@ -59,7 +59,7 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         Intent intent = getIntent();
         inquiry_shopName.setText(intent.getStringExtra("shopName"));
         inquiry_shopPhone.setText(intent.getStringExtra("shopPhone"));
-        inquiry_shopNumber.setText(intent.getStringExtra("inquiryNumber"));
+//        inquiry_shopNumber.setText(intent.getStringExtra("inquiryNumber"));
     }
 
     /**
@@ -131,16 +131,16 @@ public class InquirySheetListActivity extends BaseActivity implements View.OnCli
         mDatas = new ArrayList<InquirySheetBean>();
 
         //将数据装到集合中去
-        InquirySheetBean bean = new InquirySheetBean("6911112223999", "可口可乐", "瓶");
+        InquirySheetBean bean = new InquirySheetBean("可口可乐", "6911112223000", "瓶");
         mDatas.add(bean);
 
-        bean = new InquirySheetBean("6911112223000", "三只松鼠杏仁", "箱");
+        bean = new InquirySheetBean("三只松鼠杏仁", "6911112223999", "箱");
         mDatas.add(bean);
 
-        bean = new InquirySheetBean("6911112223111", "哈尔滨啤酒", "瓶");
+        bean = new InquirySheetBean("哈尔滨啤酒", "6911112223222", "瓶");
         mDatas.add(bean);
 
-        bean = new InquirySheetBean("6911112223222", "香蕉雪糕", "个");
+        bean = new InquirySheetBean("香蕉雪糕", "6911112223222", "个");
         mDatas.add(bean);
 
         //为数据绑定适配器

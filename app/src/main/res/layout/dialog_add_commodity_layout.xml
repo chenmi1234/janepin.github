@@ -128,7 +128,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
             android:background="#ffffff">
 
@@ -147,6 +146,38 @@
 
                 <EditText
                     android:id="@+id/dialog_unit_price"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape_angle_gray"
+                    android:hint="￥0.00"
+                    android:inputType="number|numberDecimal"
+                    android:maxLength="9" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="建议价格"
+                    android:textColor="#cccccc"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/jianyi_price_edittext"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
