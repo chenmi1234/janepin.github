@@ -163,11 +163,14 @@
                 android:textColor="#333333"
                 />
             <EditText
+                android:id="@+id/inquiry_price_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:background="@null"
+                android:maxLength="7"
                 android:hint="0.00"
+                android:inputType="numberDecimal"
                 android:textColorHint="#cccccc"
                 android:layout_marginRight="15dp"
                 android:textColor="#333333"/>

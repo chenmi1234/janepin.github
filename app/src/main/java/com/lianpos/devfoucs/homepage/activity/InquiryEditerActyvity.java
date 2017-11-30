@@ -3,6 +3,7 @@ package com.lianpos.devfoucs.homepage.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -12,6 +13,7 @@ import com.lianpos.devfoucs.shoppingcart.activity.ChooseListView;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
+import com.lianpos.util.MoneyEditText;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
@@ -31,6 +33,8 @@ public class InquiryEditerActyvity extends BaseActivity implements View.OnClickL
     Realm realm;
     //条形码  商品名称
     private TextView shopNumber_text,shopName_text,shopDanwei_text;
+    //询价编辑 批发价
+    private EditText inquiry_price_edit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +62,7 @@ public class InquiryEditerActyvity extends BaseActivity implements View.OnClickL
         shopNumber_text = (TextView) findViewById(R.id.shopNumber_text);
         shopName_text = (TextView) findViewById(R.id.shopName_text);
         shopDanwei_text = (TextView) findViewById(R.id.shopDanwei_text);
+        inquiry_price_edit = (EditText) findViewById(R.id.inquiry_price_edit);
     }
 
     /**
@@ -86,6 +91,8 @@ public class InquiryEditerActyvity extends BaseActivity implements View.OnClickL
         shopNumber_text.setText(showNumber);
         shopName_text.setText(showName);
         shopDanwei_text.setText(showDanwei);
+
+        MoneyEditText.setPricePoint(inquiry_price_edit);
     }
 
     @Override

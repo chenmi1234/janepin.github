@@ -63,11 +63,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
                     android:background="@null"
                     android:hint="00"
                     android:inputType="number"
                     android:maxLength="4"
-                    android:layout_marginTop="10dp"
                     android:textColorHint="#cccccc"
                     android:textSize="25dp" />
             </LinearLayout>
@@ -92,10 +92,10 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
                     android:background="@mipmap/frame"
-                    android:paddingRight="10dp"
-                    android:gravity="left"
                     android:entries="@array/spingarr"
-                    android:padding="5dp" />
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:paddingRight="10dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -118,8 +118,8 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
                     android:background="@mipmap/frame"
-                    android:entries="@array/spingzt"
                     android:ellipsize="end"
+                    android:entries="@array/spingzt"
                     android:gravity="left"
                     android:padding="5dp" />
             </LinearLayout>
@@ -152,7 +152,10 @@
                     android:background="@drawable/shape_angle_gray"
                     android:hint="￥0.00"
                     android:inputType="number|numberDecimal"
-                    android:maxLength="9" />
+                    android:maxLength="9"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:textColorHint="#cccccc" />
             </LinearLayout>
         </RelativeLayout>
 
@@ -184,7 +187,10 @@
                     android:background="@drawable/shape_angle_gray"
                     android:hint="￥0.00"
                     android:inputType="number|numberDecimal"
-                    android:maxLength="9" />
+                    android:maxLength="9"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:textColorHint="#cccccc" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>

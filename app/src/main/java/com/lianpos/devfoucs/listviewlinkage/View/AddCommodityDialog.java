@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lianpos.activity.R;
 import com.lianpos.entity.JanePinBean;
@@ -101,16 +102,20 @@ public class AddCommodityDialog extends Dialog {
             @Override
             public void onClick(View v) {
                 if (noOnclickListener != null) {
-                    realm = Realm.getDefaultInstance();
-                    realm.beginTransaction();
-                    JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-                    janePinBean.InquiryShopNumber = dialogTitle.getText().toString();
-                    janePinBean.AddShopDialogNumber = addShopDialogNumber.getText().toString();
-                    janePinBean.AddShopDialogPrice = dialog_unit_price.getText().toString();
-                    janePinBean.AddShopDialogUnit = (String) spinner2.getSelectedItem();
-                    janePinBean.AddShopDialogJyPrice = jianyi_price_edittext.getText().toString();
-                    realm.commitTransaction();
-                    noOnclickListener.onNoClick();
+                    if (dialog_unit_price.getText().toString().equals("")||jianyi_price_edittext.getText().toString().equals("")||addShopDialogNumber.getText().toString().equals("")){
+                        Toast.makeText(getContext(), "数量、价格、建议价格不可以为空", Toast.LENGTH_SHORT).show();
+                    }else{
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.InquiryShopNumber = dialogTitle.getText().toString();
+                        janePinBean.AddShopDialogNumber = addShopDialogNumber.getText().toString();
+                        janePinBean.AddShopDialogPrice = dialog_unit_price.getText().toString();
+                        janePinBean.AddShopDialogUnit = (String) spinner2.getSelectedItem();
+                        janePinBean.AddShopDialogJyPrice = jianyi_price_edittext.getText().toString();
+                        realm.commitTransaction();
+                        noOnclickListener.onNoClick();
+                    }
                 }
             }
         });
