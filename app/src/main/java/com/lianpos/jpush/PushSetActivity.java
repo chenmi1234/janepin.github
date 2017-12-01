@@ -1,13 +1,16 @@
 package com.lianpos.jpush;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.Window;
 import android.widget.Toast;
 
+import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 
 import java.util.LinkedHashSet;
@@ -24,7 +27,19 @@ public class PushSetActivity extends FragmentActivity {
 	@Override
 	public void onCreate(Bundle icicle) {
 		super.onCreate(icicle);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.activity_welcome);
 		setTag("abc");
+		Handler handler = new Handler();
+		//当计时结束,跳转至主界面
+		handler.postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				Intent intent = new Intent(PushSetActivity.this, MainActivity.class);
+				startActivity(intent);
+				PushSetActivity.this.finish();
+			}
+		}, 2000);
 	}
 
 

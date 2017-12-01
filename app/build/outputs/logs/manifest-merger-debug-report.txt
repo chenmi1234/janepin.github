@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-239:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-239:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-239:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-239:12
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-261:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-261:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-261:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-261:12
 MERGED from [io.realm:realm-android-library:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.1.aar\fa82a753b443ef13100a8c9c31bd9f03\AndroidManifest.xml:2:1-11:12
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
@@ -20,9 +20,9 @@ MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\
 MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\19628a0675c8c416687170847878e69d\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\f4c457e2e9e5bb75838b3f7fd7302950\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\9433999fe7b2c8cf599f7b5e0373edba\AndroidManifest.xml:17:1-27:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-239:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-239:12
-INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-239:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-261:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-261:12
+INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:2:1-261:12
 	package
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:4:5-35
 		INJECTED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml
@@ -190,7 +190,7 @@ ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:47:5
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:47:22-78
 application
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:49:5-237:19
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:49:5-259:19
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [:indexlib] E:\AndroidProject\JanePinSystem\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
@@ -221,358 +221,376 @@ MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.
 		ADDED from [:mypicker] E:\AndroidProject\JanePinSystem\mypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:53:9-41
+	android:persistent
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:54:9-34
 	android:icon
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:52:9-37
 	android:allowBackup
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:51:9-35
 	android:theme
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:54:9-65
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:55:9-65
 	android:name
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:50:9-52
 activity#com.lianpos.jpush.PushSetActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:55:9-62:20
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:56:9-63:20
 	android:label
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:57:13-45
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:58:13-45
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:56:13-61
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:57:13-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:58:13-61:29
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:59:13-62:29
 action#android.intent.action.MAIN
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:59:17-69
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:59:25-66
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:61:17-77
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:61:27-74
+receiver#com.lianpos.jpush.BoardcastReceiver
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:66:9-84:20
+	android:enabled
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:68:13-35
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:67:13-63
+intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.woman.RCTest
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:69:13-83:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:71:17-79
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:71:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:73:17-83
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:73:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:75:17-88
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:75:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:77:17-86
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:77:25-83
+action#cn.jpush.android.intent.CONNECTION
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:79:17-77
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:79:25-74
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:80:17-78
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:80:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:81:17-78
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:81:25-76
+category#com.woman.RCTest
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:82:17-61
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:82:27-58
 activity#com.lianpos.jpush.TestActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:67:9-74:20
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:89:9-96:20
 	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:69:13-37
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:68:13-58
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:90:13-58
 intent-filter#jpush.testAction+jpush.testCategory
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:70:13-73:29
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:92:13-95:29
 action#jpush.testAction
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:71:17-59
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:93:17-59
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:71:25-56
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:93:25-56
 category#jpush.testCategory
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:72:17-63
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:94:17-63
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:72:27-60
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:94:27-60
 activity#cn.jpush.android.ui.PopWinActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:77:9-80:61
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:99:9-102:61
 	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:79:13-37
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:101:13-37
 	android:theme
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:102:13-49
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:78:13-62
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:100:13-62
 activity#cn.jpush.android.ui.PushActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:83:9-94:20
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:105:9-116:20
 	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:86:13-37
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:108:13-37
 	android:configChanges
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:85:13-63
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:107:13-63
 	android:theme
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:87:13-60
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:109:13-60
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:84:13-60
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:106:13-60
 intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.lianpos.activity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:88:13-93:29
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:110:13-115:29
 action#cn.jpush.android.ui.PushActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:89:17-75
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:111:17-75
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:89:25-72
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:111:25-72
 category#android.intent.category.DEFAULT
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:91:17-76
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:113:17-76
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:91:27-73
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:113:27-73
 category#com.lianpos.activity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:92:17-65
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:114:17-65
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:92:27-62
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:114:27-62
 service#cn.jpush.android.service.DownloadService
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:96:9-99:48
-	android:enabled
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:98:13-35
-	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:99:13-37
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:97:13-68
-service#cn.jpush.android.service.PushService
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:104:9-114:19
-	android:enabled
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:106:13-35
-	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:107:13-37
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:105:13-64
-intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:108:13-113:29
-action#cn.jpush.android.intent.REGISTER
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:109:17-75
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:109:25-72
-action#cn.jpush.android.intent.REPORT
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:110:17-73
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:110:25-70
-action#cn.jpush.android.intent.PushService
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:111:17-78
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:111:25-75
-action#cn.jpush.android.intent.PUSH_TIME
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:112:17-76
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:112:25-73
-service#cn.jpush.android.service.DaemonService
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:118:9-127:19
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:118:9-121:48
 	android:enabled
 		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:120:13-35
 	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:121:13-36
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:121:13-37
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:119:13-66
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:119:13-68
+service#cn.jpush.android.service.PushService
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:126:9-136:19
+	android:enabled
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:128:13-35
+	android:exported
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:129:13-37
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:127:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:130:13-135:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:131:17-75
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:131:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:132:17-73
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:132:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:133:17-78
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:133:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:134:17-76
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:134:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:140:9-149:19
+	android:enabled
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:142:13-35
+	android:exported
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:143:13-36
+	android:name
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:141:13-66
 intent-filter#cn.jpush.android.intent.DaemonService+com.lianpos.activity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:122:13-125:29
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:144:13-147:29
 action#cn.jpush.android.intent.DaemonService
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:123:17-80
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:145:17-80
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:123:25-77
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:145:25-77
 receiver#cn.jpush.android.service.PushReceiver
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:130:9-151:20
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:152:9-173:20
 	android:enabled
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:132:13-35
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:154:13-35
 	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:133:13-37
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:155:13-37
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:131:13-65
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:153:13-65
 intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.lianpos.activity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:134:13-138:29
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:156:13-160:29
 	android:priority
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:134:28-51
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:156:28-51
 action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:135:17-94
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:157:17-94
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:135:25-91
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:157:25-91
 intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:139:13-142:29
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:161:13-164:29
 action#android.intent.action.USER_PRESENT
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:140:17-77
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:162:17-77
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:140:25-74
-action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:141:17-79
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:141:25-76
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:162:25-74
 intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:144:13-149:29
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:166:13-171:29
 action#android.intent.action.PACKAGE_ADDED
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:145:17-78
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:167:17-78
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:145:25-75
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:167:25-75
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:146:17-80
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:168:17-80
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:146:25-77
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:168:25-77
 data
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:148:17-50
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:170:17-50
 	android:scheme
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:148:23-47
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:170:23-47
 receiver#cn.jpush.android.service.AlarmReceiver
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:154:9-156:40
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:176:9-178:40
 	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:156:13-37
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:178:13-37
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:155:13-66
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:177:13-66
 receiver#com.lianpos.jpush.MyReceiver
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:159:9-179:20
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:181:9-201:20
 	android:enabled
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:161:13-35
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:183:13-35
 	android:exported
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:162:13-37
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:184:13-37
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:160:13-56
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:182:13-56
 intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.lianpos.activity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:163:13-178:29
-action#cn.jpush.android.intent.REGISTRATION
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:164:17-79
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:164:25-76
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:185:13-200:29
 action#cn.jpush.android.intent.UNREGISTRATION
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:166:17-81
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:188:17-81
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:166:25-78
-action#cn.jpush.android.intent.MESSAGE_RECEIVED
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:167:17-83
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:167:25-80
-action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:169:17-88
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:169:25-85
-action#cn.jpush.android.intent.NOTIFICATION_OPENED
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:171:17-86
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:171:25-83
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:188:25-78
 action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:173:17-91
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:195:17-91
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:173:25-88
-action#cn.jpush.android.intent.CONNECTION
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:175:17-77
-	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:175:25-74
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:195:25-88
 meta-data#JPUSH_CHANNEL
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:183:9-185:49
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:205:9-207:49
 	android:value
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:185:13-46
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:207:13-46
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:184:13-41
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:206:13-41
 meta-data#JPUSH_APPKEY
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:186:9-188:56
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:208:9-210:56
 	android:value
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:188:13-53
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:210:13-53
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:187:13-40
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:209:13-40
 activity#com.lianpos.activity.MainActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:192:9-194:64
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:214:9-216:64
 	android:windowSoftInputMode
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:194:13-52
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:216:13-52
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:193:13-61
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:215:13-61
 activity#com.lianpos.devfoucs.linkman.ui.LinkManActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:195:9-198:84
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:217:9-220:84
 	android:windowSoftInputMode
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:198:13-72
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:220:13-72
 	android:theme
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:197:13-69
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:219:13-69
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:196:13-75
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:218:13-75
 activity#com.lianpos.zxing.android.CaptureActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:199:9-202:81
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:221:9-224:81
 	android:screenOrientation
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:201:13-49
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:223:13-49
 	android:theme
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:202:13-69
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:224:13-69
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:200:13-69
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:222:13-69
 activity#com.lianpos.devfoucs.shoppingcart.MerchantActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:203:9-205:84
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:225:9-227:84
 	android:windowSoftInputMode
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:205:13-72
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:227:13-72
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:204:13-78
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:226:13-78
 activity#com.lianpos.devfoucs.shoppingcart.CommodityManagementActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:206:9-208:84
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:228:9-230:84
 	android:windowSoftInputMode
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:208:13-72
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:230:13-72
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:207:13-89
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:229:13-89
 activity#com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:209:9-211:84
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:231:9-233:84
 	android:windowSoftInputMode
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:211:13-72
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:233:13-72
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:210:13-89
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:232:13-89
 activity#com.lianpos.devfoucs.homepage.activity.MakeActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:213:9-97
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:235:9-97
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:213:19-85
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:235:19-85
 activity#com.lianpos.devfoucs.login.activity.RegisterActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:214:9-98
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:236:9-98
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:214:19-86
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:236:19-86
 activity#com.lianpos.devfoucs.login.activity.LoginActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:215:9-95
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:237:9-95
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:215:19-83
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:237:19-83
 activity#com.lianpos.devfoucs.login.activity.RegisterInfoActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:216:9-102
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:238:9-102
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:216:19-90
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:238:19-90
 activity#com.lianpos.devfoucs.login.activity.RegisterAreaActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:217:9-102
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:239:9-102
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:217:19-90
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:239:19-90
 activity#com.lianpos.devfoucs.homepage.activity.InquirySheetActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:218:9-105
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:240:9-105
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:218:19-93
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:240:19-93
 activity#com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:219:9-102
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:241:9-102
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:219:19-90
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:241:19-90
 activity#com.lianpos.devfoucs.homepage.activity.IWantBillingActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:220:9-105
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:242:9-105
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:220:19-93
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:242:19-93
 activity#com.lianpos.devfoucs.reportform.activity.ReportForm
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:221:9-97
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:243:9-97
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:221:19-85
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:243:19-85
 activity#com.lianpos.devfoucs.reportform.activity.ModifyPassword
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:222:9-101
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:244:9-101
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:222:19-89
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:244:19-89
 activity#com.lianpos.devfoucs.reportform.activity.PrinterActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:223:9-102
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:245:9-102
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:223:19-90
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:245:19-90
 activity#com.lianpos.devfoucs.reportform.activity.EditerAreaActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:224:9-105
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:246:9-105
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:224:19-93
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:246:19-93
 activity#com.lianpos.devfoucs.reportform.activity.EnterpriseInformation
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:225:9-108
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:247:9-108
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:225:19-96
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:247:19-96
 activity#com.lianpos.devfoucs.contacts.ui.AddFriendActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:226:9-96
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:248:9-96
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:226:19-84
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:248:19-84
 activity#com.lianpos.devfoucs.contacts.ui.AddPhoneNmbActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:227:9-98
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:249:9-98
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:227:19-86
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:249:19-86
 activity#com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:228:9-114
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:250:9-114
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:228:19-102
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:250:19-102
 activity#com.lianpos.devfoucs.shoppingcart.activity.ChooseListView
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:229:9-103
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:251:9-103
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:229:19-91
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:251:19-91
 activity#com.lianpos.devfoucs.homepage.activity.InquirySheetListActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:230:9-109
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:252:9-109
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:230:19-97
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:252:19-97
 activity#com.lianpos.devfoucs.homepage.activity.InquiryEditerActyvity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:231:9-106
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:253:9-106
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:231:19-94
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:253:19-94
 activity#com.lianpos.devfoucs.homepage.activity.ScanningActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:232:9-101
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:254:9-101
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:232:19-89
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:254:19-89
 activity#com.lianpos.scancodeidentify.zbar.ZbarActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:233:9-92
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:255:9-92
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:233:19-80
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:255:19-80
 activity#com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:234:9-109
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:256:9-109
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:234:19-97
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:256:19-97
 activity#com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:235:9-106
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:257:9-106
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:235:19-94
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:257:19-94
 activity#com.lianpos.devfoucs.homepage.activity.ShopInformation
-ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:236:9-100
+ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:258:9-100
 	android:name
-		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:236:19-88
+		ADDED from E:\AndroidProject\JanePinSystem\app\src\main\AndroidManifest.xml:258:19-88
 activity#com.lljjcoder.citylist.CityListSelectActivity
 ADDED from [:citypickerview] E:\AndroidProject\JanePinSystem\citypickerview\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-16:20
 	android:name

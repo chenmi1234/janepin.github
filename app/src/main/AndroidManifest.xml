@@ -51,6 +51,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/logos"
         android:label="@string/app_name"
+        android:persistent="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:name="com.lianpos.jpush.PushSetActivity"
@@ -60,6 +61,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        //静态注册接收器
+        <receiver
+            android:name="com.lianpos.jpush.BoardcastReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <!--Required 用户注册SDK的intent-->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!--Required 用户接收SDK消息的intent-->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!--Required 用户接收SDK通知栏信息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!--Required 用户打开自定义通知栏的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/><!--开机广播-->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/><!--网络状态改变广播-->
+                <category android:name="com.woman.RCTest" />
+            </intent-filter>
+        </receiver>
 
 
         <!-- For test only 测试设置 -->
