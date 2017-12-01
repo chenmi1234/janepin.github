@@ -2775,60 +2775,55 @@ public final class R {
     public static final int icon_tab_person_select=0x7f070070;
     public static final int icon_view_circle=0x7f070071;
     public static final int input_close=0x7f070072;
-    public static final int jpush_ic_richpush_actionbar_back=0x7f070073;
-    public static final int jpush_ic_richpush_actionbar_divider=0x7f070074;
-    public static final int jpush_notification_icon=0x7f070075;
-    public static final int jpush_richpush_btn_selector=0x7f070076;
-    public static final int jpush_richpush_progressbar=0x7f070077;
-    public static final int lxr01=0x7f070078;
-    public static final int lxr02=0x7f070079;
-    public static final int main_title_txt_sel=0x7f07007a;
-    public static final int meituan_iten_header_item_bg=0x7f07007b;
-    public static final int notification_template_icon_bg=0x7f07007c;
-    public static final int richpush_btn_selector=0x7f07007d;
-    public static final int richpush_progressbar=0x7f07007e;
-    public static final int scan_light=0x7f07007f;
-    public static final int scancode_toggle_lamplight=0x7f070080;
-    public static final int search_bar_icon_normal=0x7f070081;
-    public static final int selector_capture_back=0x7f070082;
-    public static final int selector_main_button=0x7f070083;
-    public static final int sfk01=0x7f070084;
-    public static final int sfk02=0x7f070085;
-    public static final int shape_angle_gray=0x7f070086;
-    public static final int shape_angle_red=0x7f070087;
-    public static final int shape_circle=0x7f070088;
-    public static final int shape_main_button=0x7f070089;
-    public static final int shape_main_edit=0x7f07008a;
-    public static final int shape_main_imageview=0x7f07008b;
-    public static final int shape_main_title=0x7f07008c;
-    public static final int shape_radius=0x7f07008d;
-    public static final int shape_radius_brand=0x7f07008e;
-    public static final int shape_radius_gray=0x7f07008f;
-    public static final int shape_radius_green=0x7f070090;
-    public static final int shape_radius_radius=0x7f070091;
-    public static final int shape_radius_red_bg=0x7f070092;
-    public static final int shape_shopping_cart=0x7f070093;
-    public static final int shape_side_bar_bg=0x7f070094;
-    public static final int shopping_cart=0x7f070095;
-    public static final int shopping_cart_bg=0x7f070096;
-    public static final int shopping_choice=0x7f070097;
-    public static final int sidebar_background=0x7f070098;
-    public static final int stripes=0x7f070099;
-    public static final int sy01=0x7f07009a;
-    public static final int sy02=0x7f07009b;
-    public static final int tab_item_dynamic_img_selector=0x7f07009c;
-    public static final int tab_item_home_img_selector=0x7f07009d;
-    public static final int tab_item_main_img_selector=0x7f07009e;
-    public static final int tab_item_message_img_selector=0x7f07009f;
-    public static final int tab_item_person_img_selector=0x7f0700a0;
-    public static final int tabitem_txt_sel=0x7f0700a1;
-    public static final int test_wheel_bg=0x7f0700a2;
-    public static final int tiledstripes=0x7f0700a3;
-    public static final int top_bg=0x7f0700a4;
-    public static final int wd01=0x7f0700a5;
-    public static final int wd02=0x7f0700a6;
-    public static final int wheel_bg=0x7f0700a7;
-    public static final int wheel_val=0x7f0700a8;
+    public static final int jpush_notification_icon=0x7f070073;
+    public static final int lxr01=0x7f070074;
+    public static final int lxr02=0x7f070075;
+    public static final int main_title_txt_sel=0x7f070076;
+    public static final int meituan_iten_header_item_bg=0x7f070077;
+    public static final int notification_template_icon_bg=0x7f070078;
+    public static final int richpush_btn_selector=0x7f070079;
+    public static final int scan_light=0x7f07007a;
+    public static final int scancode_toggle_lamplight=0x7f07007b;
+    public static final int search_bar_icon_normal=0x7f07007c;
+    public static final int selector_capture_back=0x7f07007d;
+    public static final int selector_main_button=0x7f07007e;
+    public static final int sfk01=0x7f07007f;
+    public static final int sfk02=0x7f070080;
+    public static final int shape_angle_gray=0x7f070081;
+    public static final int shape_angle_red=0x7f070082;
+    public static final int shape_circle=0x7f070083;
+    public static final int shape_main_button=0x7f070084;
+    public static final int shape_main_edit=0x7f070085;
+    public static final int shape_main_imageview=0x7f070086;
+    public static final int shape_main_title=0x7f070087;
+    public static final int shape_radius=0x7f070088;
+    public static final int shape_radius_brand=0x7f070089;
+    public static final int shape_radius_gray=0x7f07008a;
+    public static final int shape_radius_green=0x7f07008b;
+    public static final int shape_radius_radius=0x7f07008c;
+    public static final int shape_radius_red_bg=0x7f07008d;
+    public static final int shape_shopping_cart=0x7f07008e;
+    public static final int shape_side_bar_bg=0x7f07008f;
+    public static final int shopping_cart=0x7f070090;
+    public static final int shopping_cart_bg=0x7f070091;
+    public static final int shopping_choice=0x7f070092;
+    public static final int sidebar_background=0x7f070093;
+    public static final int stripes=0x7f070094;
+    public static final int sy01=0x7f070095;
+    public static final int sy02=0x7f070096;
+    public static final int tab_item_dynamic_img_selector=0x7f070097;
+    public static final int tab_item_home_img_selector=0x7f070098;
+    public static final int tab_item_main_img_selector=0x7f070099;
+    public static final int tab_item_message_img_selector=0x7f07009a;
+    public static final int tab_item_person_img_selector=0x7f07009b;
+    public static final int tabitem_txt_sel=0x7f07009c;
+    public static final int test_wheel_bg=0x7f07009d;
+    public static final int tiledstripes=0x7f07009e;
+    public static final int top_bg=0x7f07009f;
+    public static final int wd01=0x7f0700a0;
+    public static final int wd02=0x7f0700a1;
+    public static final int wheel_bg=0x7f0700a2;
+    public static final int wheel_val=0x7f0700a3;
   }
   public static final class id {
     public static final int about_version_code=0x7f080000;
@@ -3449,56 +3444,66 @@ public final class R {
     public static final int abc_shareactionprovider_share_with_application=0x7f0e001d;
     public static final int abc_toolbar_collapse_description=0x7f0e001e;
     public static final int action_settings=0x7f0e001f;
-    public static final int app_name=0x7f0e0020;
-    public static final int business=0x7f0e0021;
-    public static final int button_ok=0x7f0e0022;
-    public static final int contents_contact=0x7f0e0023;
-    public static final int contents_email=0x7f0e0024;
-    public static final int contents_location=0x7f0e0025;
-    public static final int contents_phone=0x7f0e0026;
-    public static final int contents_sms=0x7f0e0027;
-    public static final int contents_text=0x7f0e0028;
-    public static final int dynamic=0x7f0e0029;
-    public static final int evaluate=0x7f0e002a;
-    public static final int filter_vcode=0x7f0e002b;
-    public static final int hello_world=0x7f0e002c;
-    public static final int home=0x7f0e002d;
-    public static final int main=0x7f0e002e;
-    public static final int message=0x7f0e002f;
-    public static final int msg_bulk_mode_scanned=0x7f0e0030;
-    public static final int msg_camera_framework_bug=0x7f0e0031;
-    public static final int person=0x7f0e0032;
-    public static final int preferences_actions_title=0x7f0e0033;
-    public static final int preferences_copy_to_clipboard_title=0x7f0e0034;
-    public static final int preferences_decode_1D_title=0x7f0e0035;
-    public static final int preferences_decode_Data_Matrix_title=0x7f0e0036;
-    public static final int preferences_decode_QR_title=0x7f0e0037;
-    public static final int preferences_play_beep=0x7f0e0038;
-    public static final int preferences_play_beep_title=0x7f0e0039;
-    public static final int preferences_remember_duplicates_summary=0x7f0e003a;
-    public static final int preferences_remember_duplicates_title=0x7f0e003b;
-    public static final int preferences_scanning_title=0x7f0e003c;
-    public static final int preferences_supplemental_summary=0x7f0e003d;
-    public static final int preferences_supplemental_title=0x7f0e003e;
-    public static final int preferences_vibrate=0x7f0e003f;
-    public static final int preferences_vibrate_title=0x7f0e0040;
-    public static final int preview_msg=0x7f0e0041;
-    public static final int scan_text=0x7f0e0042;
-    public static final int search_menu_title=0x7f0e0043;
-    public static final int service_products=0x7f0e0044;
-    public static final int settlement=0x7f0e0045;
-    public static final int shopping_cart=0x7f0e0046;
-    public static final int status_bar_notification_info_overflow=0x7f0e0047;
-    public static final int timepicker_day=0x7f0e0048;
-    public static final int timepicker_finish=0x7f0e0049;
-    public static final int timepicker_hour=0x7f0e004a;
-    public static final int timepicker_min=0x7f0e004b;
-    public static final int timepicker_month=0x7f0e004c;
-    public static final int timepicker_title=0x7f0e004d;
-    public static final int timepicker_title_default=0x7f0e004e;
-    public static final int timepicker_year=0x7f0e004f;
-    public static final int viewfinderview_status_text1=0x7f0e0050;
-    public static final int viewfinderview_status_text2=0x7f0e0051;
+    public static final int alias_hint=0x7f0e0020;
+    public static final int app_name=0x7f0e0021;
+    public static final int business=0x7f0e0022;
+    public static final int button_ok=0x7f0e0023;
+    public static final int contents_contact=0x7f0e0024;
+    public static final int contents_email=0x7f0e0025;
+    public static final int contents_location=0x7f0e0026;
+    public static final int contents_phone=0x7f0e0027;
+    public static final int contents_sms=0x7f0e0028;
+    public static final int contents_text=0x7f0e0029;
+    public static final int dynamic=0x7f0e002a;
+    public static final int error_alias_empty=0x7f0e002b;
+    public static final int error_network=0x7f0e002c;
+    public static final int error_style_empty=0x7f0e002d;
+    public static final int error_tag_empty=0x7f0e002e;
+    public static final int error_tag_gs_empty=0x7f0e002f;
+    public static final int evaluate=0x7f0e0030;
+    public static final int filter_vcode=0x7f0e0031;
+    public static final int hello_world=0x7f0e0032;
+    public static final int home=0x7f0e0033;
+    public static final int logining=0x7f0e0034;
+    public static final int main=0x7f0e0035;
+    public static final int message=0x7f0e0036;
+    public static final int msg_bulk_mode_scanned=0x7f0e0037;
+    public static final int msg_camera_framework_bug=0x7f0e0038;
+    public static final int person=0x7f0e0039;
+    public static final int preferences_actions_title=0x7f0e003a;
+    public static final int preferences_copy_to_clipboard_title=0x7f0e003b;
+    public static final int preferences_decode_1D_title=0x7f0e003c;
+    public static final int preferences_decode_Data_Matrix_title=0x7f0e003d;
+    public static final int preferences_decode_QR_title=0x7f0e003e;
+    public static final int preferences_play_beep=0x7f0e003f;
+    public static final int preferences_play_beep_title=0x7f0e0040;
+    public static final int preferences_remember_duplicates_summary=0x7f0e0041;
+    public static final int preferences_remember_duplicates_title=0x7f0e0042;
+    public static final int preferences_scanning_title=0x7f0e0043;
+    public static final int preferences_supplemental_summary=0x7f0e0044;
+    public static final int preferences_supplemental_title=0x7f0e0045;
+    public static final int preferences_vibrate=0x7f0e0046;
+    public static final int preferences_vibrate_title=0x7f0e0047;
+    public static final int preview_msg=0x7f0e0048;
+    public static final int scan_text=0x7f0e0049;
+    public static final int search_menu_title=0x7f0e004a;
+    public static final int service_products=0x7f0e004b;
+    public static final int setting_su=0x7f0e004c;
+    public static final int settlement=0x7f0e004d;
+    public static final int shopping_cart=0x7f0e004e;
+    public static final int status_bar_notification_info_overflow=0x7f0e004f;
+    public static final int style_hint=0x7f0e0050;
+    public static final int tag_hint=0x7f0e0051;
+    public static final int timepicker_day=0x7f0e0052;
+    public static final int timepicker_finish=0x7f0e0053;
+    public static final int timepicker_hour=0x7f0e0054;
+    public static final int timepicker_min=0x7f0e0055;
+    public static final int timepicker_month=0x7f0e0056;
+    public static final int timepicker_title=0x7f0e0057;
+    public static final int timepicker_title_default=0x7f0e0058;
+    public static final int timepicker_year=0x7f0e0059;
+    public static final int viewfinderview_status_text1=0x7f0e005a;
+    public static final int viewfinderview_status_text2=0x7f0e005b;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -3662,188 +3667,192 @@ public final class R {
     public static final int MatchMatch=0x7f0f009e;
     public static final int MatchWrap=0x7f0f009f;
     public static final int MyDialog=0x7f0f00a0;
-    public static final int Platform_AppCompat=0x7f0f00a1;
-    public static final int Platform_AppCompat_Light=0x7f0f00a2;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00a3;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00a4;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00a5;
-    public static final int Platform_V11_AppCompat=0x7f0f00a6;
-    public static final int Platform_V11_AppCompat_Light=0x7f0f00a7;
-    public static final int Platform_V14_AppCompat=0x7f0f00a8;
-    public static final int Platform_V14_AppCompat_Light=0x7f0f00a9;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00aa;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00ab;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00ac;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00ad;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00ae;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00af;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00b0;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00b6;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00b1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00b2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00b3;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00b4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00b5;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00b7;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00b8;
-    public static final int TextAppearance_AppCompat=0x7f0f00b9;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0f00ba;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0f00bb;
-    public static final int TextAppearance_AppCompat_Button=0x7f0f00bc;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0f00bd;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0f00be;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0f00bf;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0f00c0;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0f00c1;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0f00c2;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00c3;
-    public static final int TextAppearance_AppCompat_Large=0x7f0f00c4;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00c5;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00c6;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00c7;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00c8;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00c9;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0f00ca;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00cb;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0f00cc;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00cd;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00ce;
-    public static final int TextAppearance_AppCompat_Small=0x7f0f00cf;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00d0;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00d1;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00d2;
-    public static final int TextAppearance_AppCompat_Title=0x7f0f00d3;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f00d4;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f00d5;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f00d6;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f00d7;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f00d8;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f00d9;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f00da;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f00db;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f00dc;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f00dd;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f00de;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f00df;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f00e0;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f00e1;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f00e2;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f00e3;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f00e4;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f00e5;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f0f00e6;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0f00e7;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0f00e8;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0f00e9;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0f00ea;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f00eb;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f00ec;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f00ed;
-    public static final int ThemeOverlay_AppCompat=0x7f0f0105;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f0106;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f0107;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f0108;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f0109;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f010a;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0f010b;
-    public static final int Theme_AppCompat=0x7f0f00ee;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0f00ef;
-    public static final int Theme_AppCompat_DayNight=0x7f0f00f0;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f00f1;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f00f2;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f00f5;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f00f3;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f00f4;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f00f6;
-    public static final int Theme_AppCompat_Dialog=0x7f0f00f7;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f00fa;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f00f8;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f00f9;
-    public static final int Theme_AppCompat_Light=0x7f0f00fb;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f00fc;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0f00fd;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f0100;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f00fe;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f00ff;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f0101;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0f0102;
-    public static final int Theme_Light_NoTitle_Dialog=0x7f0f0103;
-    public static final int Theme_Light_NoTitle_NoShadow_Dialog=0x7f0f0104;
-    public static final int Widget_AppCompat_ActionBar=0x7f0f010c;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f010d;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f010e;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f010f;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f0110;
-    public static final int Widget_AppCompat_ActionButton=0x7f0f0111;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0112;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0113;
-    public static final int Widget_AppCompat_ActionMode=0x7f0f0114;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f0115;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f0116;
-    public static final int Widget_AppCompat_Button=0x7f0f0117;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0f011d;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f011e;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0f0118;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f0119;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f011a;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0f011b;
-    public static final int Widget_AppCompat_Button_Small=0x7f0f011c;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f011f;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f0120;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f0121;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0122;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0123;
-    public static final int Widget_AppCompat_EditText=0x7f0f0124;
-    public static final int Widget_AppCompat_ImageButton=0x7f0f0125;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f0126;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f0127;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f0128;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f0129;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f012a;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f012b;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f012c;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f012d;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f012e;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f012f;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f0130;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f0131;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f0132;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f0133;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f0134;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f0135;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f0136;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f0137;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f0138;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f0139;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0f013a;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f013b;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0f013c;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f013d;
-    public static final int Widget_AppCompat_ListView=0x7f0f013e;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f013f;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0f0140;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0f0141;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f0142;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0f0143;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0f0144;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f0145;
-    public static final int Widget_AppCompat_RatingBar=0x7f0f0146;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f0147;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f0148;
-    public static final int Widget_AppCompat_SearchView=0x7f0f0149;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f014a;
-    public static final int Widget_AppCompat_SeekBar=0x7f0f014b;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f014c;
-    public static final int Widget_AppCompat_Spinner=0x7f0f014d;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f014e;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f014f;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f0150;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f0151;
-    public static final int Widget_AppCompat_Toolbar=0x7f0f0152;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f0153;
-    public static final int WrapMatch=0x7f0f0154;
-    public static final int WrapWrap=0x7f0f0155;
-    public static final int scancode_checkbox=0x7f0f0156;
+    public static final int MyDialogStyle=0x7f0f00a1;
+    public static final int Platform_AppCompat=0x7f0f00a2;
+    public static final int Platform_AppCompat_Light=0x7f0f00a3;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00a4;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00a5;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00a6;
+    public static final int Platform_V11_AppCompat=0x7f0f00a7;
+    public static final int Platform_V11_AppCompat_Light=0x7f0f00a8;
+    public static final int Platform_V14_AppCompat=0x7f0f00a9;
+    public static final int Platform_V14_AppCompat_Light=0x7f0f00aa;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00ab;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00ac;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00ad;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00ae;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00af;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00b0;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00b1;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00b7;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00b2;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00b3;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00b4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00b5;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00b6;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00b8;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00b9;
+    public static final int TextAppearance_AppCompat=0x7f0f00ba;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0f00bb;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0f00bc;
+    public static final int TextAppearance_AppCompat_Button=0x7f0f00bd;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0f00be;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0f00bf;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0f00c0;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0f00c1;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0f00c2;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0f00c3;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00c4;
+    public static final int TextAppearance_AppCompat_Large=0x7f0f00c5;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00c6;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00c7;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00c8;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00c9;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00ca;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0f00cb;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00cc;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0f00cd;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00ce;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00cf;
+    public static final int TextAppearance_AppCompat_Small=0x7f0f00d0;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00d1;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00d2;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00d3;
+    public static final int TextAppearance_AppCompat_Title=0x7f0f00d4;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f00d5;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f00d6;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f00d7;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f00d8;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f00d9;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f00da;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f00db;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f00dc;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f00dd;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f00de;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f00df;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f00e0;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f00e1;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f00e2;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f00e3;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f00e4;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f00e5;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f00e6;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0f00e7;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0f00e8;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0f00e9;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0f00ea;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0f00eb;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f00ec;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f00ed;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f00ee;
+    public static final int ThemeOverlay_AppCompat=0x7f0f0106;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f0107;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f0108;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f0109;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f010a;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f010b;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0f010c;
+    public static final int Theme_AppCompat=0x7f0f00ef;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0f00f0;
+    public static final int Theme_AppCompat_DayNight=0x7f0f00f1;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f00f2;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f00f3;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f00f6;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f00f4;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f00f5;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f00f7;
+    public static final int Theme_AppCompat_Dialog=0x7f0f00f8;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f00fb;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f00f9;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f00fa;
+    public static final int Theme_AppCompat_Light=0x7f0f00fc;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f00fd;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0f00fe;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f0101;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f00ff;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f0100;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f0102;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0f0103;
+    public static final int Theme_Light_NoTitle_Dialog=0x7f0f0104;
+    public static final int Theme_Light_NoTitle_NoShadow_Dialog=0x7f0f0105;
+    public static final int Widget_AppCompat_ActionBar=0x7f0f010d;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f010e;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f010f;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f0110;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f0111;
+    public static final int Widget_AppCompat_ActionButton=0x7f0f0112;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0113;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0114;
+    public static final int Widget_AppCompat_ActionMode=0x7f0f0115;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f0116;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f0117;
+    public static final int Widget_AppCompat_Button=0x7f0f0118;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0f011e;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f011f;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0f0119;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f011a;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f011b;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0f011c;
+    public static final int Widget_AppCompat_Button_Small=0x7f0f011d;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f0120;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f0121;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f0122;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0123;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0124;
+    public static final int Widget_AppCompat_EditText=0x7f0f0125;
+    public static final int Widget_AppCompat_ImageButton=0x7f0f0126;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f0127;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f0128;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f0129;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f012a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f012b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f012c;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f012d;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f012e;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f012f;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f0130;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f0131;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f0132;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f0133;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f0134;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f0135;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f0136;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f0137;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f0138;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f0139;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f013a;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0f013b;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f013c;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0f013d;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f013e;
+    public static final int Widget_AppCompat_ListView=0x7f0f013f;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f0140;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0f0141;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0f0142;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f0143;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0f0144;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0f0145;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f0146;
+    public static final int Widget_AppCompat_RatingBar=0x7f0f0147;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f0148;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f0149;
+    public static final int Widget_AppCompat_SearchView=0x7f0f014a;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f014b;
+    public static final int Widget_AppCompat_SeekBar=0x7f0f014c;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f014d;
+    public static final int Widget_AppCompat_Spinner=0x7f0f014e;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f014f;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f0150;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f0151;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f0152;
+    public static final int Widget_AppCompat_Toolbar=0x7f0f0153;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f0154;
+    public static final int WrapMatch=0x7f0f0155;
+    public static final int WrapWrap=0x7f0f0156;
+    public static final int push_alias=0x7f0f0157;
+    public static final int push_style=0x7f0f0158;
+    public static final int push_tag=0x7f0f0159;
+    public static final int scancode_checkbox=0x7f0f015a;
   }
   public static final class styleable {
     /**
@@ -3853,35 +3862,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.example.janepin:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.janepin:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.janepin:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.janepin:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.janepin:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.janepin:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.janepin:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.janepin:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.janepin:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.janepin:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.example.janepin:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.example.janepin:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.example.janepin:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.example.janepin:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.janepin:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.janepin:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.example.janepin:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.example.janepin:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.janepin:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.example.janepin:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.example.janepin:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.example.janepin:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.example.janepin:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.janepin:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.janepin:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.example.janepin:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.janepin:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.example.janepin:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.janepin:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.lianpos.activity:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.lianpos.activity:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.lianpos.activity:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.lianpos.activity:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.lianpos.activity:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.lianpos.activity:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.lianpos.activity:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.lianpos.activity:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.lianpos.activity:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.lianpos.activity:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.lianpos.activity:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.lianpos.activity:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.lianpos.activity:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.lianpos.activity:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.lianpos.activity:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.lianpos.activity:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.lianpos.activity:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.lianpos.activity:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.lianpos.activity:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.lianpos.activity:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.lianpos.activity:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.lianpos.activity:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.lianpos.activity:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.lianpos.activity:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.lianpos.activity:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.lianpos.activity:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.lianpos.activity:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.lianpos.activity:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.lianpos.activity:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3967,7 +3976,7 @@ public final class R {
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3975,11 +3984,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:background
+     * @attr name com.lianpos.activity:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3990,11 +3999,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:backgroundSplit
+     * @attr name com.lianpos.activity:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4005,11 +4014,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:backgroundStacked
+     * @attr name com.lianpos.activity:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4018,11 +4027,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetEnd
+     * @attr name com.lianpos.activity:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4031,11 +4040,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetEndWithActions
+     * @attr name com.lianpos.activity:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4044,11 +4053,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetLeft
+     * @attr name com.lianpos.activity:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4057,11 +4066,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetRight
+     * @attr name com.lianpos.activity:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4070,11 +4079,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetStart
+     * @attr name com.lianpos.activity:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4083,11 +4092,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetStartWithNavigation
+     * @attr name com.lianpos.activity:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4095,11 +4104,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:customNavigationLayout
+     * @attr name com.lianpos.activity:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4117,11 +4126,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:displayOptions
+     * @attr name com.lianpos.activity:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4129,11 +4138,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:divider
+     * @attr name com.lianpos.activity:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4142,11 +4151,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:elevation
+     * @attr name com.lianpos.activity:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4155,21 +4164,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:height
+     * @attr name com.lianpos.activity:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:hideOnContentScroll
+     * @attr name com.lianpos.activity:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4177,11 +4186,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:homeAsUpIndicator
+     * @attr name com.lianpos.activity:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4189,11 +4198,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:homeLayout
+     * @attr name com.lianpos.activity:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4201,11 +4210,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:icon
+     * @attr name com.lianpos.activity:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4213,11 +4222,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:indeterminateProgressStyle
+     * @attr name com.lianpos.activity:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4226,11 +4235,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:itemPadding
+     * @attr name com.lianpos.activity:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4238,11 +4247,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:logo
+     * @attr name com.lianpos.activity:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4256,11 +4265,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:navigationMode
+     * @attr name com.lianpos.activity:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4268,11 +4277,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:popupTheme
+     * @attr name com.lianpos.activity:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4281,11 +4290,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:progressBarPadding
+     * @attr name com.lianpos.activity:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4293,21 +4302,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:progressBarStyle
+     * @attr name com.lianpos.activity:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:subtitle
+     * @attr name com.lianpos.activity:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4315,21 +4324,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:subtitleTextStyle
+     * @attr name com.lianpos.activity:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:title
+     * @attr name com.lianpos.activity:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4337,7 +4346,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:titleTextStyle
+     * @attr name com.lianpos.activity:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4376,12 +4385,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.example.janepin:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.janepin:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.janepin:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.example.janepin:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.janepin:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.janepin:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.lianpos.activity:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.lianpos.activity:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.lianpos.activity:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.lianpos.activity:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.lianpos.activity:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.lianpos.activity:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4395,7 +4404,7 @@ public final class R {
         0x7f0300de, 0x7f030100
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4403,11 +4412,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:background
+     * @attr name com.lianpos.activity:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4418,11 +4427,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:backgroundSplit
+     * @attr name com.lianpos.activity:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4430,11 +4439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:closeItemLayout
+     * @attr name com.lianpos.activity:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4443,11 +4452,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:height
+     * @attr name com.lianpos.activity:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4455,11 +4464,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:subtitleTextStyle
+     * @attr name com.lianpos.activity:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4467,7 +4476,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:titleTextStyle
+     * @attr name com.lianpos.activity:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4477,8 +4486,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.janepin:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.janepin:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.lianpos.activity:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.lianpos.activity:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4487,7 +4496,7 @@ public final class R {
         0x7f03006e, 0x7f03007b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4495,17 +4504,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:expandActivityOverflowButtonDrawable
+     * @attr name com.lianpos.activity:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:initialActivityCount
+     * @attr name com.lianpos.activity:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4516,11 +4525,11 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.janepin:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.janepin:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.example.janepin:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.janepin:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.janepin:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.lianpos.activity:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.lianpos.activity:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.lianpos.activity:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.lianpos.activity:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.lianpos.activity:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -4546,7 +4555,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4554,11 +4563,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonPanelSideLayout
+     * @attr name com.lianpos.activity:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4566,11 +4575,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:listItemLayout
+     * @attr name com.lianpos.activity:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4578,11 +4587,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:listLayout
+     * @attr name com.lianpos.activity:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4590,11 +4599,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:multiChoiceItemLayout
+     * @attr name com.lianpos.activity:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4602,7 +4611,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:singleChoiceItemLayout
+     * @attr name com.lianpos.activity:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=5;
     /**
@@ -4613,7 +4622,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.janepin:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.lianpos.activity:srcCompat}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4637,7 +4646,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4645,7 +4654,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:srcCompat
+     * @attr name com.lianpos.activity:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -4656,9 +4665,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.janepin:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.janepin:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.janepin:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.lianpos.activity:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.lianpos.activity:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.lianpos.activity:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4681,7 +4690,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4689,22 +4698,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:tickMark
+     * @attr name com.lianpos.activity:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:tickMarkTint
+     * @attr name com.lianpos.activity:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4721,7 +4730,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:tickMarkTintMode
+     * @attr name com.lianpos.activity:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4861,7 +4870,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.janepin:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.lianpos.activity:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_textAllCaps
@@ -4882,7 +4891,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4892,7 +4901,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:textAllCaps
+     * @attr name com.lianpos.activity:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
     /**
@@ -4904,119 +4913,119 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.janepin:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.janepin:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.janepin:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.janepin:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.janepin:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.janepin:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.janepin:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.janepin:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.janepin:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.janepin:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.janepin:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.janepin:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.janepin:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.janepin:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.janepin:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.janepin:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.janepin:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.janepin:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.janepin:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.janepin:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.janepin:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.janepin:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.janepin:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.janepin:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.janepin:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.janepin:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.janepin:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.janepin:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.janepin:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.janepin:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.janepin:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.janepin:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.janepin:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.janepin:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.janepin:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.janepin:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.janepin:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.janepin:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.janepin:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.janepin:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.janepin:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.janepin:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.janepin:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.janepin:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.janepin:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.janepin:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.janepin:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.janepin:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.janepin:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.janepin:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.janepin:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.janepin:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.janepin:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.janepin:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.janepin:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.janepin:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.janepin:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.janepin:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.janepin:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.janepin:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.janepin:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.janepin:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.janepin:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.janepin:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.janepin:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.janepin:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.janepin:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.janepin:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.janepin:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.janepin:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.janepin:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.janepin:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.janepin:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.janepin:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.janepin:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.janepin:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.janepin:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.janepin:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.janepin:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.janepin:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.janepin:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.janepin:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.janepin:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.janepin:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.janepin:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.janepin:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.janepin:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.janepin:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.janepin:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.janepin:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.janepin:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.janepin:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.janepin:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.janepin:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.janepin:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.janepin:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.janepin:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.janepin:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.janepin:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.janepin:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.janepin:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.janepin:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.janepin:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.janepin:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.janepin:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.janepin:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.janepin:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.janepin:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.janepin:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.janepin:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.janepin:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.janepin:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.janepin:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.lianpos.activity:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.lianpos.activity:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.lianpos.activity:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.lianpos.activity:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.lianpos.activity:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.lianpos.activity:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.lianpos.activity:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.lianpos.activity:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.lianpos.activity:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.lianpos.activity:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.lianpos.activity:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.lianpos.activity:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.lianpos.activity:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.lianpos.activity:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.lianpos.activity:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.lianpos.activity:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.lianpos.activity:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.lianpos.activity:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.lianpos.activity:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.lianpos.activity:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.lianpos.activity:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.lianpos.activity:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.lianpos.activity:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.lianpos.activity:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.lianpos.activity:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.lianpos.activity:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.lianpos.activity:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.lianpos.activity:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.lianpos.activity:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.lianpos.activity:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.lianpos.activity:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.lianpos.activity:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.lianpos.activity:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.lianpos.activity:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.lianpos.activity:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.lianpos.activity:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.lianpos.activity:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.lianpos.activity:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.lianpos.activity:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.lianpos.activity:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.lianpos.activity:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.lianpos.activity:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.lianpos.activity:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.lianpos.activity:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.lianpos.activity:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.lianpos.activity:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.lianpos.activity:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.lianpos.activity:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.lianpos.activity:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.lianpos.activity:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.lianpos.activity:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.lianpos.activity:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.lianpos.activity:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.lianpos.activity:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.lianpos.activity:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.lianpos.activity:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.lianpos.activity:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.lianpos.activity:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.lianpos.activity:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.lianpos.activity:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.lianpos.activity:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.lianpos.activity:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.lianpos.activity:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.lianpos.activity:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.lianpos.activity:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.lianpos.activity:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.lianpos.activity:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.lianpos.activity:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.lianpos.activity:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.lianpos.activity:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.lianpos.activity:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.lianpos.activity:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.lianpos.activity:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.lianpos.activity:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.lianpos.activity:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.lianpos.activity:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.lianpos.activity:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.lianpos.activity:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.lianpos.activity:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.lianpos.activity:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.lianpos.activity:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.lianpos.activity:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.lianpos.activity:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.lianpos.activity:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.lianpos.activity:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.lianpos.activity:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.lianpos.activity:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.lianpos.activity:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.lianpos.activity:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.lianpos.activity:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.lianpos.activity:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.lianpos.activity:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.lianpos.activity:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.lianpos.activity:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.lianpos.activity:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.lianpos.activity:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.lianpos.activity:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.lianpos.activity:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.lianpos.activity:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.lianpos.activity:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.lianpos.activity:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.lianpos.activity:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.lianpos.activity:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.lianpos.activity:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.lianpos.activity:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.lianpos.activity:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.lianpos.activity:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.lianpos.activity:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.lianpos.activity:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.lianpos.activity:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.lianpos.activity:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.lianpos.activity:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.lianpos.activity:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5166,7 +5175,7 @@ public final class R {
         0x7f03010e, 0x7f03010f, 0x7f030110
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5174,11 +5183,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarDivider
+     * @attr name com.lianpos.activity:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5186,11 +5195,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarItemBackground
+     * @attr name com.lianpos.activity:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5198,11 +5207,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarPopupTheme
+     * @attr name com.lianpos.activity:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5219,11 +5228,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:actionBarSize
+     * @attr name com.lianpos.activity:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5231,11 +5240,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarSplitStyle
+     * @attr name com.lianpos.activity:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5243,11 +5252,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarStyle
+     * @attr name com.lianpos.activity:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5255,11 +5264,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarTabBarStyle
+     * @attr name com.lianpos.activity:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5267,11 +5276,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarTabStyle
+     * @attr name com.lianpos.activity:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5279,11 +5288,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarTabTextStyle
+     * @attr name com.lianpos.activity:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5291,11 +5300,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarTheme
+     * @attr name com.lianpos.activity:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5303,11 +5312,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionBarWidgetTheme
+     * @attr name com.lianpos.activity:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5315,11 +5324,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionButtonStyle
+     * @attr name com.lianpos.activity:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5327,11 +5336,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionDropDownStyle
+     * @attr name com.lianpos.activity:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5339,11 +5348,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionMenuTextAppearance
+     * @attr name com.lianpos.activity:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5354,11 +5363,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:actionMenuTextColor
+     * @attr name com.lianpos.activity:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5366,11 +5375,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeBackground
+     * @attr name com.lianpos.activity:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5378,11 +5387,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeCloseButtonStyle
+     * @attr name com.lianpos.activity:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5390,11 +5399,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeCloseDrawable
+     * @attr name com.lianpos.activity:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5402,11 +5411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeCopyDrawable
+     * @attr name com.lianpos.activity:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5414,11 +5423,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeCutDrawable
+     * @attr name com.lianpos.activity:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5426,11 +5435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeFindDrawable
+     * @attr name com.lianpos.activity:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5438,11 +5447,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModePasteDrawable
+     * @attr name com.lianpos.activity:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5450,11 +5459,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModePopupWindowStyle
+     * @attr name com.lianpos.activity:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5462,11 +5471,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeSelectAllDrawable
+     * @attr name com.lianpos.activity:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5474,11 +5483,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeShareDrawable
+     * @attr name com.lianpos.activity:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5486,11 +5495,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeSplitBackground
+     * @attr name com.lianpos.activity:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5498,11 +5507,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeStyle
+     * @attr name com.lianpos.activity:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5510,11 +5519,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionModeWebSearchDrawable
+     * @attr name com.lianpos.activity:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5522,11 +5531,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionOverflowButtonStyle
+     * @attr name com.lianpos.activity:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5534,11 +5543,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionOverflowMenuStyle
+     * @attr name com.lianpos.activity:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5546,11 +5555,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:activityChooserViewStyle
+     * @attr name com.lianpos.activity:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5558,21 +5567,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:alertDialogButtonGroupStyle
+     * @attr name com.lianpos.activity:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:alertDialogCenterButtons
+     * @attr name com.lianpos.activity:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5580,11 +5589,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:alertDialogStyle
+     * @attr name com.lianpos.activity:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5592,7 +5601,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:alertDialogTheme
+     * @attr name com.lianpos.activity:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -5618,7 +5627,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowIsFloating=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5626,11 +5635,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:autoCompleteTextViewStyle
+     * @attr name com.lianpos.activity:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5638,11 +5647,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:borderlessButtonStyle
+     * @attr name com.lianpos.activity:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5650,11 +5659,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonBarButtonStyle
+     * @attr name com.lianpos.activity:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5662,11 +5671,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonBarNegativeButtonStyle
+     * @attr name com.lianpos.activity:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5674,11 +5683,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonBarNeutralButtonStyle
+     * @attr name com.lianpos.activity:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5686,11 +5695,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonBarPositiveButtonStyle
+     * @attr name com.lianpos.activity:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5698,11 +5707,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonBarStyle
+     * @attr name com.lianpos.activity:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5710,11 +5719,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonStyle
+     * @attr name com.lianpos.activity:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5722,11 +5731,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:buttonStyleSmall
+     * @attr name com.lianpos.activity:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5734,11 +5743,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:checkboxStyle
+     * @attr name com.lianpos.activity:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5746,110 +5755,110 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:checkedTextViewStyle
+     * @attr name com.lianpos.activity:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorAccent
+     * @attr name com.lianpos.activity:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorBackgroundFloating
+     * @attr name com.lianpos.activity:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorButtonNormal
+     * @attr name com.lianpos.activity:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorControlActivated
+     * @attr name com.lianpos.activity:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorControlHighlight
+     * @attr name com.lianpos.activity:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorControlNormal
+     * @attr name com.lianpos.activity:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorPrimary
+     * @attr name com.lianpos.activity:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorPrimaryDark
+     * @attr name com.lianpos.activity:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:colorSwitchThumbNormal
+     * @attr name com.lianpos.activity:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5857,11 +5866,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:controlBackground
+     * @attr name com.lianpos.activity:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5870,11 +5879,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:dialogPreferredPadding
+     * @attr name com.lianpos.activity:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5882,11 +5891,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:dialogTheme
+     * @attr name com.lianpos.activity:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5894,11 +5903,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:dividerHorizontal
+     * @attr name com.lianpos.activity:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5906,11 +5915,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:dividerVertical
+     * @attr name com.lianpos.activity:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5918,11 +5927,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:dropDownListViewStyle
+     * @attr name com.lianpos.activity:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5931,11 +5940,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:dropdownListPreferredItemHeight
+     * @attr name com.lianpos.activity:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5943,11 +5952,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:editTextBackground
+     * @attr name com.lianpos.activity:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5958,11 +5967,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:editTextColor
+     * @attr name com.lianpos.activity:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5970,11 +5979,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:editTextStyle
+     * @attr name com.lianpos.activity:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5982,11 +5991,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:homeAsUpIndicator
+     * @attr name com.lianpos.activity:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5994,11 +6003,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:imageButtonStyle
+     * @attr name com.lianpos.activity:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6006,11 +6015,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:listChoiceBackgroundIndicator
+     * @attr name com.lianpos.activity:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6018,11 +6027,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:listDividerAlertDialog
+     * @attr name com.lianpos.activity:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6030,11 +6039,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:listMenuViewStyle
+     * @attr name com.lianpos.activity:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6042,11 +6051,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:listPopupWindowStyle
+     * @attr name com.lianpos.activity:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6055,11 +6064,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:listPreferredItemHeight
+     * @attr name com.lianpos.activity:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6068,11 +6077,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:listPreferredItemHeightLarge
+     * @attr name com.lianpos.activity:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6081,11 +6090,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:listPreferredItemHeightSmall
+     * @attr name com.lianpos.activity:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6094,11 +6103,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:listPreferredItemPaddingLeft
+     * @attr name com.lianpos.activity:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6107,11 +6116,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:listPreferredItemPaddingRight
+     * @attr name com.lianpos.activity:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6119,11 +6128,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:panelBackground
+     * @attr name com.lianpos.activity:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6131,11 +6140,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:panelMenuListTheme
+     * @attr name com.lianpos.activity:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=79;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6144,11 +6153,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:panelMenuListWidth
+     * @attr name com.lianpos.activity:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=80;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6156,11 +6165,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:popupMenuStyle
+     * @attr name com.lianpos.activity:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=81;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6168,11 +6177,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:popupWindowStyle
+     * @attr name com.lianpos.activity:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6180,11 +6189,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:radioButtonStyle
+     * @attr name com.lianpos.activity:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6192,11 +6201,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:ratingBarStyle
+     * @attr name com.lianpos.activity:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6204,11 +6213,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:ratingBarStyleIndicator
+     * @attr name com.lianpos.activity:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=85;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6216,11 +6225,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:ratingBarStyleSmall
+     * @attr name com.lianpos.activity:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=86;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6228,11 +6237,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:searchViewStyle
+     * @attr name com.lianpos.activity:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=87;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6240,11 +6249,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:seekBarStyle
+     * @attr name com.lianpos.activity:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6252,11 +6261,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:selectableItemBackground
+     * @attr name com.lianpos.activity:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=89;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6264,11 +6273,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:selectableItemBackgroundBorderless
+     * @attr name com.lianpos.activity:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=90;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6276,11 +6285,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:spinnerDropDownItemStyle
+     * @attr name com.lianpos.activity:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=91;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6288,11 +6297,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:spinnerStyle
+     * @attr name com.lianpos.activity:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6300,11 +6309,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:switchStyle
+     * @attr name com.lianpos.activity:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6312,11 +6321,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:textAppearanceLargePopupMenu
+     * @attr name com.lianpos.activity:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=94;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6324,11 +6333,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:textAppearanceListItem
+     * @attr name com.lianpos.activity:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=95;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6336,11 +6345,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:textAppearanceListItemSmall
+     * @attr name com.lianpos.activity:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=96;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6348,11 +6357,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:textAppearancePopupMenuHeader
+     * @attr name com.lianpos.activity:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=97;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6360,11 +6369,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:textAppearanceSearchResultSubtitle
+     * @attr name com.lianpos.activity:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=98;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6372,11 +6381,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:textAppearanceSearchResultTitle
+     * @attr name com.lianpos.activity:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=99;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6384,11 +6393,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:textAppearanceSmallPopupMenu
+     * @attr name com.lianpos.activity:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=100;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6399,11 +6408,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:textColorAlertDialogListItem
+     * @attr name com.lianpos.activity:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=101;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6414,11 +6423,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:textColorSearchUrl
+     * @attr name com.lianpos.activity:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=102;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6426,11 +6435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:toolbarNavigationButtonStyle
+     * @attr name com.lianpos.activity:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=103;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6438,41 +6447,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:toolbarStyle
+     * @attr name com.lianpos.activity:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=104;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:windowActionBar
+     * @attr name com.lianpos.activity:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=105;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:windowActionBarOverlay
+     * @attr name com.lianpos.activity:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=106;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:windowActionModeOverlay
+     * @attr name com.lianpos.activity:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=107;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6485,11 +6494,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.janepin:windowFixedHeightMajor
+     * @attr name com.lianpos.activity:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=108;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6502,11 +6511,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.janepin:windowFixedHeightMinor
+     * @attr name com.lianpos.activity:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6519,11 +6528,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.janepin:windowFixedWidthMajor
+     * @attr name com.lianpos.activity:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=110;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6536,11 +6545,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.janepin:windowFixedWidthMinor
+     * @attr name com.lianpos.activity:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=111;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6553,11 +6562,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.janepin:windowMinWidthMajor
+     * @attr name com.lianpos.activity:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6570,17 +6579,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.janepin:windowMinWidthMinor
+     * @attr name com.lianpos.activity:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:windowNoTitle
+     * @attr name com.lianpos.activity:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=114;
     /**
@@ -6590,7 +6599,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.janepin:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.lianpos.activity:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6598,13 +6607,13 @@ public final class R {
         0x7f030026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:allowStacking
+     * @attr name com.lianpos.activity:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6614,14 +6623,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_text_cancel_color com.example.janepin:citypicker_text_cancel_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_text_confirm_color com.example.janepin:citypicker_text_confirm_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_title_action_size com.example.janepin:citypicker_title_action_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_title_background com.example.janepin:citypicker_title_background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_title_text_size com.example.janepin:citypicker_title_text_size}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_color com.example.janepin:citypicker_wheel_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_color com.example.janepin:citypicker_wheel_text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_size com.example.janepin:citypicker_wheel_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_text_cancel_color com.lianpos.activity:citypicker_text_cancel_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_text_confirm_color com.lianpos.activity:citypicker_text_confirm_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_title_action_size com.lianpos.activity:citypicker_title_action_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_title_background com.lianpos.activity:citypicker_title_background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_title_text_size com.lianpos.activity:citypicker_title_text_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_color com.lianpos.activity:citypicker_wheel_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_color com.lianpos.activity:citypicker_wheel_text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CityPickerView_citypicker_wheel_text_size com.lianpos.activity:citypicker_wheel_text_size}</code></td><td></td></tr>
      * </table>
      * @see #CityPickerView_citypicker_text_cancel_color
      * @see #CityPickerView_citypicker_text_confirm_color
@@ -6637,29 +6646,29 @@ public final class R {
         0x7f030043, 0x7f030044, 0x7f030045, 0x7f030046
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_text_cancel_color}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_text_cancel_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:citypicker_text_cancel_color
+     * @attr name com.lianpos.activity:citypicker_text_cancel_color
      */
     public static final int CityPickerView_citypicker_text_cancel_color=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_text_confirm_color}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_text_confirm_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:citypicker_text_confirm_color
+     * @attr name com.lianpos.activity:citypicker_text_confirm_color
      */
     public static final int CityPickerView_citypicker_text_confirm_color=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_title_action_size}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_title_action_size}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6668,22 +6677,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:citypicker_title_action_size
+     * @attr name com.lianpos.activity:citypicker_title_action_size
      */
     public static final int CityPickerView_citypicker_title_action_size=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_title_background}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_title_background}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:citypicker_title_background
+     * @attr name com.lianpos.activity:citypicker_title_background
      */
     public static final int CityPickerView_citypicker_title_background=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_title_text_size}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_title_text_size}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6692,33 +6701,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:citypicker_title_text_size
+     * @attr name com.lianpos.activity:citypicker_title_text_size
      */
     public static final int CityPickerView_citypicker_title_text_size=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_wheel_color}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_wheel_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:citypicker_wheel_color
+     * @attr name com.lianpos.activity:citypicker_wheel_color
      */
     public static final int CityPickerView_citypicker_wheel_color=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_wheel_text_color}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_wheel_text_color}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:citypicker_wheel_text_color
+     * @attr name com.lianpos.activity:citypicker_wheel_text_color
      */
     public static final int CityPickerView_citypicker_wheel_text_color=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#citypicker_wheel_text_size}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#citypicker_wheel_text_size}
      * attribute's value can be found in the {@link #CityPickerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6727,7 +6736,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:citypicker_wheel_text_size
+     * @attr name com.lianpos.activity:citypicker_wheel_text_size
      */
     public static final int CityPickerView_citypicker_wheel_text_size=7;
     /**
@@ -6739,7 +6748,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.janepin:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.lianpos.activity:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -6749,12 +6758,12 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f030027
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.janepin:alpha
+     * @attr name com.lianpos.activity:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -6785,8 +6794,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.janepin:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.janepin:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.lianpos.activity:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.lianpos.activity:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -6808,18 +6817,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:buttonTint
+     * @attr name com.lianpos.activity:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6835,7 +6844,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:buttonTintMode
+     * @attr name com.lianpos.activity:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -6845,14 +6854,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.janepin:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.janepin:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.janepin:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.janepin:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.janepin:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.janepin:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.janepin:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.janepin:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.lianpos.activity:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.lianpos.activity:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.lianpos.activity:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.lianpos.activity:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.lianpos.activity:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.lianpos.activity:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.lianpos.activity:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.lianpos.activity:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -6868,7 +6877,7 @@ public final class R {
         0x7f030066, 0x7f03006f, 0x7f0300d2, 0x7f0300f0
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6877,11 +6886,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:arrowHeadLength
+     * @attr name com.lianpos.activity:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6890,11 +6899,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:arrowShaftLength
+     * @attr name com.lianpos.activity:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6903,22 +6912,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:barLength
+     * @attr name com.lianpos.activity:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:color
+     * @attr name com.lianpos.activity:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6927,11 +6936,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:drawableSize
+     * @attr name com.lianpos.activity:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6940,21 +6949,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:gapBetweenBars
+     * @attr name com.lianpos.activity:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:spinBars
+     * @attr name com.lianpos.activity:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6963,7 +6972,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:thickness
+     * @attr name com.lianpos.activity:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -6973,8 +6982,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #IndexBar_indexBarPressBackground com.example.janepin:indexBarPressBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IndexBar_indexBarTextSize com.example.janepin:indexBarTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IndexBar_indexBarPressBackground com.lianpos.activity:indexBarPressBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IndexBar_indexBarTextSize com.lianpos.activity:indexBarTextSize}</code></td><td></td></tr>
      * </table>
      * @see #IndexBar_indexBarPressBackground
      * @see #IndexBar_indexBarTextSize
@@ -6983,18 +6992,18 @@ public final class R {
         0x7f030079, 0x7f03007a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#indexBarPressBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#indexBarPressBackground}
      * attribute's value can be found in the {@link #IndexBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:indexBarPressBackground
+     * @attr name com.lianpos.activity:indexBarPressBackground
      */
     public static final int IndexBar_indexBarPressBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#indexBarTextSize}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#indexBarTextSize}
      * attribute's value can be found in the {@link #IndexBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7003,7 +7012,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:indexBarTextSize
+     * @attr name com.lianpos.activity:indexBarTextSize
      */
     public static final int IndexBar_indexBarTextSize=1;
     /**
@@ -7018,10 +7027,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.janepin:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.janepin:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.janepin:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.janepin:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.lianpos.activity:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.lianpos.activity:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.lianpos.activity:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.lianpos.activity:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -7217,7 +7226,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7225,11 +7234,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:divider
+     * @attr name com.lianpos.activity:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7238,21 +7247,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:dividerPadding
+     * @attr name com.lianpos.activity:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:measureWithLargestChild
+     * @attr name com.lianpos.activity:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7267,7 +7276,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:showDividers
+     * @attr name com.lianpos.activity:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -7435,10 +7444,10 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.example.janepin:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.janepin:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.janepin:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.example.janepin:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.lianpos.activity:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.lianpos.activity:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.lianpos.activity:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.lianpos.activity:showAsAction}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -7466,7 +7475,7 @@ public final class R {
         0x7f0300cd
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7474,27 +7483,27 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:actionLayout
+     * @attr name com.lianpos.activity:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:actionProviderClass
+     * @attr name com.lianpos.activity:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:actionViewClass
+     * @attr name com.lianpos.activity:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -7640,7 +7649,7 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7656,7 +7665,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:showAsAction
+     * @attr name com.lianpos.activity:showAsAction
      */
     public static final int MenuItem_showAsAction=16;
     /**
@@ -7673,8 +7682,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.janepin:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.janepin:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.lianpos.activity:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.lianpos.activity:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -7779,17 +7788,17 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:preserveIconSpacing
+     * @attr name com.lianpos.activity:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7797,7 +7806,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:subMenuArrow
+     * @attr name com.lianpos.activity:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -7809,7 +7818,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.janepin:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.lianpos.activity:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -7825,7 +7834,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.janepin:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.lianpos.activity:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -7833,13 +7842,13 @@ public final class R {
         0x7f0300d8
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:state_above_anchor
+     * @attr name com.lianpos.activity:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -7870,13 +7879,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:overlapAnchor
+     * @attr name com.lianpos.activity:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -7886,37 +7895,37 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_animTime com.example.janepin:qrcv_animTime}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_barCodeTipText com.example.janepin:qrcv_barCodeTipText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_barcodeRectHeight com.example.janepin:qrcv_barcodeRectHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_borderColor com.example.janepin:qrcv_borderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_borderSize com.example.janepin:qrcv_borderSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_cornerColor com.example.janepin:qrcv_cornerColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_cornerLength com.example.janepin:qrcv_cornerLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_cornerSize com.example.janepin:qrcv_cornerSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_customGridScanLineDrawable com.example.janepin:qrcv_customGridScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_customScanLineDrawable com.example.janepin:qrcv_customScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isBarcode com.example.janepin:qrcv_isBarcode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isCenterVertical com.example.janepin:qrcv_isCenterVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isOnlyDecodeScanBoxArea com.example.janepin:qrcv_isOnlyDecodeScanBoxArea}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isScanLineReverse com.example.janepin:qrcv_isScanLineReverse}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isShowDefaultGridScanLineDrawable com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isShowDefaultScanLineDrawable com.example.janepin:qrcv_isShowDefaultScanLineDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isShowTipBackground com.example.janepin:qrcv_isShowTipBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isShowTipTextAsSingleLine com.example.janepin:qrcv_isShowTipTextAsSingleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_isTipTextBelowRect com.example.janepin:qrcv_isTipTextBelowRect}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_maskColor com.example.janepin:qrcv_maskColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_qrCodeTipText com.example.janepin:qrcv_qrCodeTipText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_rectWidth com.example.janepin:qrcv_rectWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineColor com.example.janepin:qrcv_scanLineColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineMargin com.example.janepin:qrcv_scanLineMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineSize com.example.janepin:qrcv_scanLineSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_tipBackgroundColor com.example.janepin:qrcv_tipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextColor com.example.janepin:qrcv_tipTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextMargin com.example.janepin:qrcv_tipTextMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextSize com.example.janepin:qrcv_tipTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_toolbarHeight com.example.janepin:qrcv_toolbarHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #QRCodeView_qrcv_topOffset com.example.janepin:qrcv_topOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_animTime com.lianpos.activity:qrcv_animTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_barCodeTipText com.lianpos.activity:qrcv_barCodeTipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_barcodeRectHeight com.lianpos.activity:qrcv_barcodeRectHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_borderColor com.lianpos.activity:qrcv_borderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_borderSize com.lianpos.activity:qrcv_borderSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_cornerColor com.lianpos.activity:qrcv_cornerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_cornerLength com.lianpos.activity:qrcv_cornerLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_cornerSize com.lianpos.activity:qrcv_cornerSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_customGridScanLineDrawable com.lianpos.activity:qrcv_customGridScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_customScanLineDrawable com.lianpos.activity:qrcv_customScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isBarcode com.lianpos.activity:qrcv_isBarcode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isCenterVertical com.lianpos.activity:qrcv_isCenterVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isOnlyDecodeScanBoxArea com.lianpos.activity:qrcv_isOnlyDecodeScanBoxArea}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isScanLineReverse com.lianpos.activity:qrcv_isScanLineReverse}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowDefaultGridScanLineDrawable com.lianpos.activity:qrcv_isShowDefaultGridScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowDefaultScanLineDrawable com.lianpos.activity:qrcv_isShowDefaultScanLineDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowTipBackground com.lianpos.activity:qrcv_isShowTipBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isShowTipTextAsSingleLine com.lianpos.activity:qrcv_isShowTipTextAsSingleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_isTipTextBelowRect com.lianpos.activity:qrcv_isTipTextBelowRect}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_maskColor com.lianpos.activity:qrcv_maskColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_qrCodeTipText com.lianpos.activity:qrcv_qrCodeTipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_rectWidth com.lianpos.activity:qrcv_rectWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineColor com.lianpos.activity:qrcv_scanLineColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineMargin com.lianpos.activity:qrcv_scanLineMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_scanLineSize com.lianpos.activity:qrcv_scanLineSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipBackgroundColor com.lianpos.activity:qrcv_tipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextColor com.lianpos.activity:qrcv_tipTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextMargin com.lianpos.activity:qrcv_tipTextMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_tipTextSize com.lianpos.activity:qrcv_tipTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_toolbarHeight com.lianpos.activity:qrcv_toolbarHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #QRCodeView_qrcv_topOffset com.lianpos.activity:qrcv_topOffset}</code></td><td></td></tr>
      * </table>
      * @see #QRCodeView_qrcv_animTime
      * @see #QRCodeView_qrcv_barCodeTipText
@@ -7961,16 +7970,16 @@ public final class R {
         0x7f0300bd, 0x7f0300be, 0x7f0300bf
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_animTime}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_animTime}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.janepin:qrcv_animTime
+     * @attr name com.lianpos.activity:qrcv_animTime
      */
     public static final int QRCodeView_qrcv_animTime=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barCodeTipText}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_barCodeTipText}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7980,11 +7989,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:qrcv_barCodeTipText
+     * @attr name com.lianpos.activity:qrcv_barCodeTipText
      */
     public static final int QRCodeView_qrcv_barCodeTipText=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_barcodeRectHeight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_barcodeRectHeight}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7997,11 +8006,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_barcodeRectHeight
+     * @attr name com.lianpos.activity:qrcv_barcodeRectHeight
      */
     public static final int QRCodeView_qrcv_barcodeRectHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_borderColor}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8012,11 +8021,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_borderColor
+     * @attr name com.lianpos.activity:qrcv_borderColor
      */
     public static final int QRCodeView_qrcv_borderColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_borderSize}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_borderSize}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8029,11 +8038,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_borderSize
+     * @attr name com.lianpos.activity:qrcv_borderSize
      */
     public static final int QRCodeView_qrcv_borderSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_cornerColor}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8044,11 +8053,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_cornerColor
+     * @attr name com.lianpos.activity:qrcv_cornerColor
      */
     public static final int QRCodeView_qrcv_cornerColor=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerLength}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_cornerLength}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8061,11 +8070,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_cornerLength
+     * @attr name com.lianpos.activity:qrcv_cornerLength
      */
     public static final int QRCodeView_qrcv_cornerLength=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_cornerSize}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_cornerSize}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8078,11 +8087,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_cornerSize
+     * @attr name com.lianpos.activity:qrcv_cornerSize
      */
     public static final int QRCodeView_qrcv_cornerSize=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customGridScanLineDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_customGridScanLineDrawable}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8090,11 +8099,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_customGridScanLineDrawable
+     * @attr name com.lianpos.activity:qrcv_customGridScanLineDrawable
      */
     public static final int QRCodeView_qrcv_customGridScanLineDrawable=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_customScanLineDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_customScanLineDrawable}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8102,101 +8111,101 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_customScanLineDrawable
+     * @attr name com.lianpos.activity:qrcv_customScanLineDrawable
      */
     public static final int QRCodeView_qrcv_customScanLineDrawable=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isBarcode}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isBarcode}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isBarcode
+     * @attr name com.lianpos.activity:qrcv_isBarcode
      */
     public static final int QRCodeView_qrcv_isBarcode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isCenterVertical}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isCenterVertical}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isCenterVertical
+     * @attr name com.lianpos.activity:qrcv_isCenterVertical
      */
     public static final int QRCodeView_qrcv_isCenterVertical=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isOnlyDecodeScanBoxArea}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isOnlyDecodeScanBoxArea}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isOnlyDecodeScanBoxArea
+     * @attr name com.lianpos.activity:qrcv_isOnlyDecodeScanBoxArea
      */
     public static final int QRCodeView_qrcv_isOnlyDecodeScanBoxArea=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isScanLineReverse}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isScanLineReverse}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isScanLineReverse
+     * @attr name com.lianpos.activity:qrcv_isScanLineReverse
      */
     public static final int QRCodeView_qrcv_isScanLineReverse=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultGridScanLineDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isShowDefaultGridScanLineDrawable}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isShowDefaultGridScanLineDrawable
+     * @attr name com.lianpos.activity:qrcv_isShowDefaultGridScanLineDrawable
      */
     public static final int QRCodeView_qrcv_isShowDefaultGridScanLineDrawable=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowDefaultScanLineDrawable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isShowDefaultScanLineDrawable}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isShowDefaultScanLineDrawable
+     * @attr name com.lianpos.activity:qrcv_isShowDefaultScanLineDrawable
      */
     public static final int QRCodeView_qrcv_isShowDefaultScanLineDrawable=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isShowTipBackground}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isShowTipBackground
+     * @attr name com.lianpos.activity:qrcv_isShowTipBackground
      */
     public static final int QRCodeView_qrcv_isShowTipBackground=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isShowTipTextAsSingleLine}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isShowTipTextAsSingleLine}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isShowTipTextAsSingleLine
+     * @attr name com.lianpos.activity:qrcv_isShowTipTextAsSingleLine
      */
     public static final int QRCodeView_qrcv_isShowTipTextAsSingleLine=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_isTipTextBelowRect}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_isTipTextBelowRect}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:qrcv_isTipTextBelowRect
+     * @attr name com.lianpos.activity:qrcv_isTipTextBelowRect
      */
     public static final int QRCodeView_qrcv_isTipTextBelowRect=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_maskColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_maskColor}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8207,11 +8216,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_maskColor
+     * @attr name com.lianpos.activity:qrcv_maskColor
      */
     public static final int QRCodeView_qrcv_maskColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_qrCodeTipText}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_qrCodeTipText}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8221,11 +8230,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:qrcv_qrCodeTipText
+     * @attr name com.lianpos.activity:qrcv_qrCodeTipText
      */
     public static final int QRCodeView_qrcv_qrCodeTipText=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_rectWidth}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_rectWidth}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8238,11 +8247,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_rectWidth
+     * @attr name com.lianpos.activity:qrcv_rectWidth
      */
     public static final int QRCodeView_qrcv_rectWidth=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_scanLineColor}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8253,11 +8262,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_scanLineColor
+     * @attr name com.lianpos.activity:qrcv_scanLineColor
      */
     public static final int QRCodeView_qrcv_scanLineColor=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineMargin}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_scanLineMargin}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8270,11 +8279,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_scanLineMargin
+     * @attr name com.lianpos.activity:qrcv_scanLineMargin
      */
     public static final int QRCodeView_qrcv_scanLineMargin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_scanLineSize}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_scanLineSize}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8287,11 +8296,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_scanLineSize
+     * @attr name com.lianpos.activity:qrcv_scanLineSize
      */
     public static final int QRCodeView_qrcv_scanLineSize=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_tipBackgroundColor}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8302,11 +8311,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_tipBackgroundColor
+     * @attr name com.lianpos.activity:qrcv_tipBackgroundColor
      */
     public static final int QRCodeView_qrcv_tipBackgroundColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_tipTextColor}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8317,11 +8326,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:qrcv_tipTextColor
+     * @attr name com.lianpos.activity:qrcv_tipTextColor
      */
     public static final int QRCodeView_qrcv_tipTextColor=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextMargin}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_tipTextMargin}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8334,11 +8343,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_tipTextMargin
+     * @attr name com.lianpos.activity:qrcv_tipTextMargin
      */
     public static final int QRCodeView_qrcv_tipTextMargin=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_tipTextSize}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_tipTextSize}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8351,11 +8360,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_tipTextSize
+     * @attr name com.lianpos.activity:qrcv_tipTextSize
      */
     public static final int QRCodeView_qrcv_tipTextSize=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_toolbarHeight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_toolbarHeight}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8368,11 +8377,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_toolbarHeight
+     * @attr name com.lianpos.activity:qrcv_toolbarHeight
      */
     public static final int QRCodeView_qrcv_toolbarHeight=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#qrcv_topOffset}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#qrcv_topOffset}
      * attribute's value can be found in the {@link #QRCodeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8385,7 +8394,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:qrcv_topOffset
+     * @attr name com.lianpos.activity:qrcv_topOffset
      */
     public static final int QRCodeView_qrcv_topOffset=30;
     /**
@@ -8397,10 +8406,10 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.janepin:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.janepin:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.example.janepin:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.janepin:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.lianpos.activity:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.lianpos.activity:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.lianpos.activity:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.lianpos.activity:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -8449,42 +8458,42 @@ public final class R {
      */
     public static final int RecyclerView_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:layoutManager
+     * @attr name com.lianpos.activity:layoutManager
      */
     public static final int RecyclerView_layoutManager=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:reverseLayout
+     * @attr name com.lianpos.activity:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.janepin:spanCount
+     * @attr name com.lianpos.activity:spanCount
      */
     public static final int RecyclerView_spanCount=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:stackFromEnd
+     * @attr name com.lianpos.activity:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=5;
     /**
@@ -8498,19 +8507,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.example.janepin:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.example.janepin:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.janepin:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.example.janepin:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.janepin:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.example.janepin:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.example.janepin:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.example.janepin:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.janepin:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.example.janepin:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.example.janepin:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.janepin:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.example.janepin:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.lianpos.activity:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.lianpos.activity:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.lianpos.activity:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.lianpos.activity:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.lianpos.activity:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.lianpos.activity:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.lianpos.activity:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.lianpos.activity:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.lianpos.activity:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.lianpos.activity:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.lianpos.activity:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.lianpos.activity:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.lianpos.activity:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -8639,7 +8648,7 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8647,11 +8656,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:closeIcon
+     * @attr name com.lianpos.activity:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8659,21 +8668,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:commitIcon
+     * @attr name com.lianpos.activity:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:defaultQueryHint
+     * @attr name com.lianpos.activity:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8681,21 +8690,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:goIcon
+     * @attr name com.lianpos.activity:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:iconifiedByDefault
+     * @attr name com.lianpos.activity:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8703,11 +8712,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:layout
+     * @attr name com.lianpos.activity:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8715,21 +8724,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:queryBackground
+     * @attr name com.lianpos.activity:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:queryHint
+     * @attr name com.lianpos.activity:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8737,11 +8746,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:searchHintIcon
+     * @attr name com.lianpos.activity:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8749,11 +8758,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:searchIcon
+     * @attr name com.lianpos.activity:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8761,11 +8770,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:submitBackground
+     * @attr name com.lianpos.activity:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8773,11 +8782,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:suggestionRowLayout
+     * @attr name com.lianpos.activity:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8785,7 +8794,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:voiceIcon
+     * @attr name com.lianpos.activity:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -8799,7 +8808,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.example.janepin:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.lianpos.activity:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -8874,7 +8883,7 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8882,7 +8891,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:popupTheme
+     * @attr name com.lianpos.activity:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -8892,9 +8901,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SwipeMenuLayout_ios com.example.janepin:ios}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwipeMenuLayout_leftSwipe com.example.janepin:leftSwipe}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwipeMenuLayout_swipeEnable com.example.janepin:swipeEnable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwipeMenuLayout_ios com.lianpos.activity:ios}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwipeMenuLayout_leftSwipe com.lianpos.activity:leftSwipe}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwipeMenuLayout_swipeEnable com.lianpos.activity:swipeEnable}</code></td><td></td></tr>
      * </table>
      * @see #SwipeMenuLayout_ios
      * @see #SwipeMenuLayout_leftSwipe
@@ -8904,33 +8913,33 @@ public final class R {
         0x7f03007c, 0x7f030081, 0x7f0300e0
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#ios}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#ios}
      * attribute's value can be found in the {@link #SwipeMenuLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:ios
+     * @attr name com.lianpos.activity:ios
      */
     public static final int SwipeMenuLayout_ios=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#leftSwipe}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#leftSwipe}
      * attribute's value can be found in the {@link #SwipeMenuLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:leftSwipe
+     * @attr name com.lianpos.activity:leftSwipe
      */
     public static final int SwipeMenuLayout_leftSwipe=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#swipeEnable}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#swipeEnable}
      * attribute's value can be found in the {@link #SwipeMenuLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:swipeEnable
+     * @attr name com.lianpos.activity:swipeEnable
      */
     public static final int SwipeMenuLayout_swipeEnable=2;
     /**
@@ -8943,17 +8952,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.example.janepin:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.janepin:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.janepin:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.janepin:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.janepin:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.janepin:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.janepin:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.janepin:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.example.janepin:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.janepin:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.janepin:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.lianpos.activity:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.lianpos.activity:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.lianpos.activity:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.lianpos.activity:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.lianpos.activity:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.lianpos.activity:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.lianpos.activity:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.lianpos.activity:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.lianpos.activity:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.lianpos.activity:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.lianpos.activity:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -9009,27 +9018,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:showText
+     * @attr name com.lianpos.activity:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:splitTrack
+     * @attr name com.lianpos.activity:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9038,11 +9047,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:switchMinWidth
+     * @attr name com.lianpos.activity:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9051,11 +9060,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:switchPadding
+     * @attr name com.lianpos.activity:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9063,11 +9072,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:switchTextAppearance
+     * @attr name com.lianpos.activity:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9076,22 +9085,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:thumbTextPadding
+     * @attr name com.lianpos.activity:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:thumbTint
+     * @attr name com.lianpos.activity:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9108,11 +9117,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:thumbTintMode
+     * @attr name com.lianpos.activity:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9120,22 +9129,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:track
+     * @attr name com.lianpos.activity:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:trackTint
+     * @attr name com.lianpos.activity:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9152,7 +9161,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:trackTintMode
+     * @attr name com.lianpos.activity:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -9170,7 +9179,7 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.janepin:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.lianpos.activity:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -9291,7 +9300,7 @@ public final class R {
      */
     public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9301,7 +9310,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.janepin:textAllCaps
+     * @attr name com.lianpos.activity:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=8;
     /**
@@ -9313,33 +9322,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.janepin:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.janepin:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.janepin:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.janepin:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.janepin:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.janepin:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.janepin:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.janepin:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.janepin:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.example.janepin:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.example.janepin:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.janepin:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.janepin:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.janepin:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.example.janepin:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.example.janepin:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.janepin:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.janepin:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.example.janepin:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.example.janepin:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.janepin:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.janepin:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.janepin:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.janepin:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.example.janepin:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.janepin:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.janepin:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.lianpos.activity:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.lianpos.activity:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.lianpos.activity:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.lianpos.activity:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.lianpos.activity:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.lianpos.activity:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.lianpos.activity:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.lianpos.activity:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.lianpos.activity:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.lianpos.activity:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.lianpos.activity:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.lianpos.activity:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.lianpos.activity:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.lianpos.activity:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.lianpos.activity:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.lianpos.activity:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.lianpos.activity:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.lianpos.activity:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.lianpos.activity:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.lianpos.activity:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.lianpos.activity:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.lianpos.activity:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.lianpos.activity:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.lianpos.activity:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.lianpos.activity:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.lianpos.activity:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.lianpos.activity:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -9424,7 +9433,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9437,21 +9446,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:buttonGravity
+     * @attr name com.lianpos.activity:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:collapseContentDescription
+     * @attr name com.lianpos.activity:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9459,11 +9468,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:collapseIcon
+     * @attr name com.lianpos.activity:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9472,11 +9481,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetEnd
+     * @attr name com.lianpos.activity:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9485,11 +9494,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetEndWithActions
+     * @attr name com.lianpos.activity:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9498,11 +9507,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetLeft
+     * @attr name com.lianpos.activity:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9511,11 +9520,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetRight
+     * @attr name com.lianpos.activity:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9524,11 +9533,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetStart
+     * @attr name com.lianpos.activity:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9537,11 +9546,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:contentInsetStartWithNavigation
+     * @attr name com.lianpos.activity:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9549,21 +9558,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:logo
+     * @attr name com.lianpos.activity:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:logoDescription
+     * @attr name com.lianpos.activity:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9572,21 +9581,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:maxButtonHeight
+     * @attr name com.lianpos.activity:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:navigationContentDescription
+     * @attr name com.lianpos.activity:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9594,11 +9603,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:navigationIcon
+     * @attr name com.lianpos.activity:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9606,21 +9615,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:popupTheme
+     * @attr name com.lianpos.activity:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:subtitle
+     * @attr name com.lianpos.activity:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9628,32 +9637,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:subtitleTextAppearance
+     * @attr name com.lianpos.activity:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:subtitleTextColor
+     * @attr name com.lianpos.activity:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.janepin:title
+     * @attr name com.lianpos.activity:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9662,11 +9671,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:titleMargin
+     * @attr name com.lianpos.activity:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9675,11 +9684,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:titleMarginBottom
+     * @attr name com.lianpos.activity:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9688,11 +9697,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:titleMarginEnd
+     * @attr name com.lianpos.activity:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9701,11 +9710,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:titleMarginStart
+     * @attr name com.lianpos.activity:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9714,11 +9723,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:titleMarginTop
+     * @attr name com.lianpos.activity:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9727,11 +9736,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:titleMargins
+     * @attr name com.lianpos.activity:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9739,18 +9748,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:titleTextAppearance
+     * @attr name com.lianpos.activity:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:titleTextColor
+     * @attr name com.lianpos.activity:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -9762,9 +9771,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.example.janepin:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.example.janepin:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.example.janepin:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.lianpos.activity:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.lianpos.activity:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.lianpos.activity:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -9784,8 +9793,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.janepin:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.janepin:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.lianpos.activity:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.lianpos.activity:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -9810,18 +9819,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.janepin:backgroundTint
+     * @attr name com.lianpos.activity:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9837,7 +9846,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.janepin:backgroundTintMode
+     * @attr name com.lianpos.activity:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -9917,7 +9926,7 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9926,11 +9935,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:paddingEnd
+     * @attr name com.lianpos.activity:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9939,11 +9948,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.janepin:paddingStart
+     * @attr name com.lianpos.activity:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.janepin.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.lianpos.activity.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9951,7 +9960,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.janepin:theme
+     * @attr name com.lianpos.activity:theme
      */
     public static final int View_theme=4;
   }

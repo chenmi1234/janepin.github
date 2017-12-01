@@ -6,7 +6,7 @@ android {
     buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId "com.example.janepin"
+        applicationId "com.lianpos.activity"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
@@ -59,6 +59,7 @@ dependencies {
     implementation files('libs/butterknife-7.0.1.jar')
     implementation files('libs/zbar.jar')
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation files('libs/jpush-android-2.1.3.jar')
 }
 repositories {
     mavenCentral()
