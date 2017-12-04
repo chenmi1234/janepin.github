@@ -48,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:text="企业名称"
+            android:layout_gravity="center_vertical"
             android:textColor="#333333"
             android:textSize="18dp" />
 
@@ -89,6 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:text="供货商姓名"
+            android:layout_gravity="center_vertical"
             android:textColor="#333333"
             android:textSize="18dp" />
 
@@ -131,6 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:text="老板电话"
+            android:layout_gravity="center_vertical"
             android:textColor="#333333"
             android:textSize="18dp" />
 
@@ -235,6 +238,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:text="详细地址"
+            android:layout_gravity="center_vertical"
             android:textColor="#333333"
             android:textSize="18dp" />
 

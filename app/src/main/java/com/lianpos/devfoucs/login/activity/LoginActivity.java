@@ -1,18 +1,11 @@
 package com.lianpos.devfoucs.login.activity;
 
-import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.text.method.TransformationMethod;
 import android.view.KeyEvent;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,13 +16,10 @@ import android.widget.Toast;
 
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.login.view.PassWordDisplay;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 import com.lianpos.util.JumpUtil;
 import com.lianpos.util.NetUtil;
-
-import org.w3c.dom.Text;
 
 /**
  * Description: 登陆

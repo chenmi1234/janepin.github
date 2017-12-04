@@ -253,6 +253,7 @@
         <activity android:name="com.lianpos.devfoucs.homepage.activity.InquiryEditerActyvity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ScanningActivity"></activity>
         <activity android:name="com.lianpos.scancodeidentify.zbar.ZbarActivity"></activity>
+        <activity android:name="com.lianpos.devfoucs.homepage.activity.IWantInventoryActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ShopInformation"></activity>

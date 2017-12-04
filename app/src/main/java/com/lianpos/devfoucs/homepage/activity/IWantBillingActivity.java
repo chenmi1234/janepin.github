@@ -42,7 +42,7 @@ import io.realm.Realm;
 import io.realm.RealmResults;
 
 /**
- * 开单盘点确认
+ * 开单确认
  * <p>
  * Created by wangshuai on 2017/11/06
  */
@@ -65,6 +65,8 @@ public class IWantBillingActivity extends BaseActivity {
     private WantBillingBean bean;
     private ListAdapter listAdapter;
     private TextView billing_message;
+    private TextView left_billing_total;
+    Double total = 0.00;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +75,7 @@ public class IWantBillingActivity extends BaseActivity {
         serch_shop = (EditText) findViewById(R.id.serch_shop);
         make_money_back = (ImageView) findViewById(R.id.make_money_back);
         billing_message = (TextView) findViewById(R.id.billing_message);
+        left_billing_total = (TextView) findViewById(R.id.left_billing_total);
         make_money_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -248,6 +251,11 @@ public class IWantBillingActivity extends BaseActivity {
 
                     bean = new WantBillingBean("商品名称", addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
                     mDatas.add(bean);
+                    total = 0.00;
+                    for (int j = 0; j < mDatas.size(); j++) {
+                        total = total + aaa * bbb;
+                    }
+                    left_billing_total.setText(Double.toString(total));
                     billing_message.setVisibility(View.GONE);
                     listAdapter.notifyDataSetChanged();
                     addCommodityDialog.dismiss();

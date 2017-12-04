@@ -295,7 +295,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/billing_total"
+                        android:id="@+id/left_billing_total"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="00.00"

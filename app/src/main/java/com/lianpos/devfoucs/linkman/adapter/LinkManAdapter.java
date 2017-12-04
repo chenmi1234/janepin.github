@@ -12,6 +12,7 @@ import com.lianpos.activity.R;
 import com.lianpos.devfoucs.contacts.model.CityBean;
 import com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity;
 import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
+import com.lianpos.devfoucs.homepage.activity.IWantInventoryActivity;
 import com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity;
 import com.lianpos.entity.JanePinBean;
 
@@ -69,9 +70,13 @@ public class LinkManAdapter extends RecyclerView.Adapter<LinkManAdapter.ViewHold
         holder.content.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (finalBillingInventory.equals("0") || finalBillingInventory.equals("1")){
+                if (finalBillingInventory.equals("0")){
                     Intent intent = new Intent();
                     intent.setClass(mContext, IWantBillingActivity.class);
+                    mContext.startActivity(intent);
+                }else if (finalBillingInventory.equals("1")){
+                    Intent intent = new Intent();
+                    intent.setClass(mContext, IWantInventoryActivity.class);
                     mContext.startActivity(intent);
                 }else{
                     Intent intent = new Intent();

@@ -1,7 +1,7 @@
 package com.lianpos.devfoucs.homepage.bean;
 
 /**
- * 开单盘点确认Bean
+ * 开单确认Bean
  * Created by wangshuai on 2017/11/16 0016.
  */
 
