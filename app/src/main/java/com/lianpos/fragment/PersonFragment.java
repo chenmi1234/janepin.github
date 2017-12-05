@@ -17,6 +17,7 @@ import com.lianpos.devfoucs.reportform.activity.EnterpriseInformation;
 import com.lianpos.devfoucs.reportform.activity.ModifyPassword;
 import com.lianpos.devfoucs.reportform.activity.PrinterActivity;
 import com.lianpos.devfoucs.reportform.activity.ReportForm;
+import com.lianpos.devfoucs.shopmanage.ShopManageActivity;
 import com.lianpos.devfoucs.shoppingcart.CommodityManagementActivity;
 import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
 import com.lianpos.devfoucs.view.TwoButtonLoginoutDialog;
@@ -89,7 +90,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.commodity_management:
                 Intent commodity = new Intent();
-                commodity.setClass(getContext(), LinkageActivity.class);
+                commodity.setClass(getContext(), ShopManageActivity.class);
                 startActivity(commodity);
                 break;
             case R.id.printer_layout:

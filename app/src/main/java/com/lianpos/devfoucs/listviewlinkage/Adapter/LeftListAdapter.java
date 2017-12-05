@@ -10,17 +10,20 @@ import android.widget.TextView;
 
 import com.lianpos.activity.R;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 基本功能：左侧Adapter
  * 创建：wangshuai
  * 创建时间：17/11/22
  */
 public class LeftListAdapter extends BaseAdapter {
-    private String[] leftStr;
-    boolean[] flagArray;
+    private List<String> leftStr;
+    List<Boolean> flagArray;
     private Context context;
 
-    public LeftListAdapter(Context context, String[] leftStr, boolean[] flagArray) {
+    public LeftListAdapter(Context context, List<String> leftStr, List<Boolean> flagArray) {
         this.leftStr = leftStr;
         this.context = context;
         this.flagArray = flagArray;
@@ -28,12 +31,12 @@ public class LeftListAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return leftStr.length;
+        return leftStr.size();
     }
 
     @Override
     public Object getItem(int arg0) {
-        return leftStr[arg0];
+        return leftStr.get(arg0);
     }
 
     @Override
@@ -62,9 +65,9 @@ public class LeftListAdapter extends BaseAdapter {
         private TextView left_list_item_number;
 
         public void updataView(final int position) {
-            left_list_item.setText(leftStr[position]);
+            left_list_item.setText(leftStr.get(position).toString());
             left_list_item_number.setText("4");
-            if (flagArray[position]) {
+            if (flagArray.get(position)) {
                 left_list_item.setBackgroundColor(Color.rgb(255, 255, 255));
             } else {
                 left_list_item.setBackgroundColor(Color.TRANSPARENT);

@@ -34,12 +34,12 @@ import io.realm.RealmResults;
 public class MainSectionedAdapter extends SectionedBaseAdapter {
 
     private Context mContext;
-    private String[] leftStr;
-    private String[][] rightStr;
+    private List<String> leftStr;
+    private ArrayList<String[]> rightStr;
     private Realm realm = null;
     private Set<SwipeListLayout> sets = new HashSet();
 
-    public MainSectionedAdapter(Context context, String[] leftStr, String[][] rightStr) {
+    public MainSectionedAdapter(Context context, List<String> leftStr, ArrayList<String[]> rightStr) {
         this.mContext = context;
         this.leftStr = leftStr;
         this.rightStr = rightStr;
@@ -47,7 +47,7 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
 
     @Override
     public Object getItem(int section, int position) {
-        return rightStr[section][position];
+        return rightStr.get(section)[position];
     }
 
     @Override
@@ -57,12 +57,12 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
 
     @Override
     public int getSectionCount() {
-        return leftStr.length;
+        return leftStr.size();
     }
 
     @Override
     public int getCountForSection(int section) {
-        return rightStr[section].length;
+        return rightStr.get(section).length;
     }
 
     @Override
@@ -80,20 +80,17 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
         sll_main.setOnSwipeStatusListener(new MyOnSlipStatusListener(
                 sll_main));
 
-        final List list = Arrays.asList(rightStr);
-        final List arrayList = new ArrayList(list);
         tv_delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 sll_main.setStatus(SwipeListLayout.Status.Close, true);
-                arrayList.remove(position);
                 notifyDataSetChanged();
             }
         });
 
         ButterKnife.bind(convertView);
         realm = Realm.getDefaultInstance();
-        ((TextView) convertView.findViewById(R.id.textItem)).setText(rightStr[section][position]);
+        ((TextView) convertView.findViewById(R.id.textItem)).setText(rightStr.get(section)[position]);
 //        final LinearLayout finalLayout = layout;
 
         realm.beginTransaction();
@@ -133,7 +130,7 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
             layout = (LinearLayout) convertView;
         }
         layout.setClickable(false);
-        ((TextView) layout.findViewById(R.id.textItem)).setText(leftStr[section]);
+        ((TextView) layout.findViewById(R.id.textItem)).setText(leftStr.get(section).toString());
         return layout;
     }
 
@@ -156,6 +153,7 @@ public class MainSectionedAdapter extends SectionedBaseAdapter {
                     }
                 }
                 sets.add(slipListLayout);
+                notifyDataSetChanged();
             } else {
                 if (sets.contains(slipListLayout))
                     sets.remove(slipListLayout);

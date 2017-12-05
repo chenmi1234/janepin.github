@@ -19,6 +19,9 @@ import com.lianpos.devfoucs.listviewlinkage.View.PinnedHeaderListView;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.scancodeidentify.zbar.ZbarActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -38,25 +41,35 @@ public class LinkageActivity extends AppCompatActivity {
     private TextView settlement;
     private LinearLayout newAddShopping;
 
-    private String[] leftStr = new String[]{"面食类", "盖饭", "寿司", "烧烤", "酒水", "凉菜", "小吃", "粥", "休闲"};
-    private boolean[] flagArray = {true, false, false, false, false, false, false, false, false};
-    private String[][] rightStr = new String[][]{{"热干面", "臊子面", "烩面"},
-            {"番茄鸡蛋", "红烧排骨", "农家小炒肉"},
-            {"芝士", "丑小丫", "金枪鱼"}, {"羊肉串", "烤鸡翅", "烤羊排"}, {"长城干红", "燕京鲜啤", "青岛鲜啤"},
-            {"拌粉丝", "大拌菜", "菠菜花生"}, {"小食组", "紫薯"},
-            {"小米粥", "大米粥", "南瓜粥", "玉米粥", "紫米粥"}, {"儿童小汽车", "悠悠球", "熊大", " 熊二", "光头强"}
-    };
+    ArrayList<String[]> rightList = null;
+    List<String> leftList = null;
+    List<Boolean> flagArray = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linkage);
+
+        rightList = new ArrayList();
+        String[] a = {"1", "2", "3"};
+        String[] b = {"4", "5", "6"};
+        rightList.add(a);
+        rightList.add(b);
+
+        flagArray = new ArrayList<>();
+        flagArray.add(true);
+        flagArray.add(false);
+
+        leftList = new ArrayList<String>();
+        leftList.add("面食类");
+        leftList.add("饮品类");
+
         ButterKnife.bind(this);
         leftListview = (ListView) findViewById(R.id.left_listview);
         pinnedListView = (PinnedHeaderListView) findViewById(R.id.pinnedListView);
-        final MainSectionedAdapter sectionedAdapter = new MainSectionedAdapter(this, leftStr, rightStr);
+        final MainSectionedAdapter sectionedAdapter = new MainSectionedAdapter(this, leftList, rightList);
         pinnedListView.setAdapter(sectionedAdapter);
-        adapter = new LeftListAdapter(this, leftStr, flagArray);
+        adapter = new LeftListAdapter(this, leftList, flagArray);
         leftListview.setAdapter(adapter);
         leftListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
@@ -64,11 +77,11 @@ public class LinkageActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> arg0, View view, int position, long arg3) {
                 isScroll = false;
 
-                for (int i = 0; i < leftStr.length; i++) {
+                for (int i = 0; i < leftList.size(); i++) {
                     if (i == position) {
-                        flagArray[i] = true;
+                        flagArray.set(i, true);
                     } else {
-                        flagArray[i] = false;
+                        flagArray.set(i, false);
                     }
                 }
                 adapter.notifyDataSetChanged();
@@ -109,12 +122,12 @@ public class LinkageActivity extends AppCompatActivity {
             @Override
             public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
                 if (isScroll) {
-                    for (int i = 0; i < rightStr.length; i++) {
+                    for (int i = 0; i < rightList.size(); i++) {
                         if (i == sectionedAdapter.getSectionForPosition(pinnedListView.getFirstVisiblePosition())) {
-                            flagArray[i] = true;
+                            flagArray.set(i, true);
                             x = i;
                         } else {
-                            flagArray[i] = false;
+                            flagArray.set(i, false);
                         }
                     }
                     if (x != y) {
@@ -150,12 +163,12 @@ public class LinkageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(LinkageActivity.this,IncreaseCommodityActivity.class);
+                intent.setClass(LinkageActivity.this, IncreaseCommodityActivity.class);
                 startActivity(intent);
             }
         });
 
-        scanning_shop_tiaoxing = (ImageView)findViewById(R.id.scanning_shop_tiaoxing);
+        scanning_shop_tiaoxing = (ImageView) findViewById(R.id.scanning_shop_tiaoxing);
         scanning_shop_tiaoxing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -166,7 +179,7 @@ public class LinkageActivity extends AppCompatActivity {
             }
         });
 
-        pinnedListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+        pinnedListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
@@ -178,7 +191,7 @@ public class LinkageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(LinkageActivity.this,IWantBillingActivity.class);
+                intent.setClass(LinkageActivity.this, IWantBillingActivity.class);
                 startActivity(intent);
             }
         });
@@ -188,7 +201,7 @@ public class LinkageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(LinkageActivity.this,IncreaseCommodityActivity.class);
+                intent.setClass(LinkageActivity.this, IncreaseCommodityActivity.class);
                 startActivity(intent);
             }
         });

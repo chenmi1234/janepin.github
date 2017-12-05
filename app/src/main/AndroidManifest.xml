@@ -257,6 +257,7 @@
         <activity android:name="com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ShopInformation"></activity>
+        <activity android:name="com.lianpos.devfoucs.shopmanage.ShopManageActivity"></activity>
     </application>
 
 </manifest>
