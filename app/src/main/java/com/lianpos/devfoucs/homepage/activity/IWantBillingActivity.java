@@ -251,10 +251,7 @@ public class IWantBillingActivity extends BaseActivity {
 
                     bean = new WantBillingBean("商品名称", addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
                     mDatas.add(bean);
-                    total = 0.00;
-                    for (int j = 0; j < mDatas.size(); j++) {
-                        total = total + aaa * bbb;
-                    }
+                    total = total + aaa * bbb;
                     left_billing_total.setText(Double.toString(total));
                     billing_message.setVisibility(View.GONE);
                     listAdapter.notifyDataSetChanged();
@@ -351,7 +348,7 @@ public class IWantBillingActivity extends BaseActivity {
             TextView tv_pifa_price = (TextView) view.findViewById(R.id.billing_pifa_price);
             TextView tv_jianyi_price = (TextView) view.findViewById(R.id.billing_jianyi_price);
             TextView tv_total = (TextView) view.findViewById(R.id.billing_total);
-            WantBillingBean bean = mDatas.get(arg0);
+            final WantBillingBean bean = mDatas.get(arg0);
             tv_name.setText(bean.getItemShopName());
             tv_number.setText(bean.getShopTiaoma());
             tv_num_text.setText(bean.getShopNumber());
@@ -370,9 +367,15 @@ public class IWantBillingActivity extends BaseActivity {
                 public void onClick(View view) {
                     sll_main.setStatus(SwipeListLayout.Status.Close, true);
                     mDatas.remove(arg0);
+
+                    Double aaa = 0.00;
+                    aaa = Double.valueOf(bean.getShopTotal()).doubleValue();
+                    total = total - aaa;
                     if (mDatas.isEmpty()){
                         billing_message.setVisibility(View.VISIBLE);
+                        total = 0.00;
                     }
+                    left_billing_total.setText(Double.toString(total));
                     notifyDataSetChanged();
                 }
             });

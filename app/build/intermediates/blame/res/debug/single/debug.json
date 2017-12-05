@@ -16,24 +16,24 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sales_list02.png.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\sales_list02.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_sy02.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\sy02.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sales_list02.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-mdpi\\sales_list02.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_commodity_classify.xml.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\fragment_commodity_classify.xml"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ckkc.png.flat",
-        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\ckkc.png"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_list_details.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\list_details.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ckkc.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\ckkc.png"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_jxzz.png.flat",
