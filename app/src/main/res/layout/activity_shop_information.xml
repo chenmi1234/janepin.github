@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="详情页"
+            android:text="开单详情页"
             android:textColor="#ffffff"
             android:textSize="20dp" />
 
@@ -53,6 +53,7 @@
             android:textSize="16dp" />
 
         <TextView
+            android:id="@+id/billing_tiaoma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -83,6 +84,7 @@
             android:textSize="16dp" />
 
         <TextView
+            android:id="@+id/billing_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -108,7 +110,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:text="数量/单位"
+            android:text="数量"
             android:textColor="#333333"
             android:textSize="16dp" />
 
@@ -125,6 +127,52 @@
             android:padding="15dp"
             android:textColor="#333333"
             android:textSize="16dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#cccccc" />
+
+    <RelativeLayout
+        android:id="@+id/danweiChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="基本单位"
+            android:textColor="#333333"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/inventory_page_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="请选择"
+                android:textColor="#333333"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/many" />
+        </LinearLayout>
     </RelativeLayout>
 
     <ImageView
@@ -203,5 +251,15 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:background="#cccccc" />
+
+    <Button
+        android:id="@+id/billing_page_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_radius_red_bg"
+        android:text="保存"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:layout_margin="20dp"/>
 
 </LinearLayout>

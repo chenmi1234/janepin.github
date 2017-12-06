@@ -80,7 +80,7 @@ public class AddCommodityInventoryDialog extends Dialog {
         realm.commitTransaction();
         String showTitle = "";
         for (JanePinBean guest : guests) {
-            showTitle = guest.AddShopDialogTiaoma;
+            showTitle = guest.AddShopInventoryTiaoma;
         }
         dialogTitle.setText(showTitle);
 
@@ -110,8 +110,9 @@ public class AddCommodityInventoryDialog extends Dialog {
                         realm = Realm.getDefaultInstance();
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-                        janePinBean.AddShopDialogTiaoma = dialogTitle.getText().toString();
+                        janePinBean.AddShopInventoryTiaoma = dialogTitle.getText().toString();
                         janePinBean.AddShopInventoryStock = addShopDialogStock.getText().toString();
+                        janePinBean.AddShopInventoryUnit = "箱";
                         janePinBean.AddShopDInventoryPrice = price_inventory.getText().toString();
                         realm.commitTransaction();
                         noOnclickListener.onNoClick();

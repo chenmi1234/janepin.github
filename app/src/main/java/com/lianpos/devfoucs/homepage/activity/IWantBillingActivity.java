@@ -230,17 +230,19 @@ public class IWantBillingActivity extends BaseActivity {
                     realm.beginTransaction();
                     RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
                     realm.commitTransaction();
+                    String addName = "";
                     String addTiaoma = "";
                     String addNumber = "";
                     String addPrice = "";
                     String addUnit = "";
                     String addJyPrice = "";
                     for (JanePinBean guest : guests) {
-                        addNumber = guest.AddShopDialogNumber;
-                        addPrice = guest.AddShopDialogPrice;
-                        addUnit = guest.AddShopDialogUnit;
-                        addTiaoma = guest.InquiryShopNumber;
-                        addJyPrice = guest.AddShopDialogJyPrice;
+                        addName = guest.AddShopBillingName;
+                        addTiaoma = guest.AddShopBillingTiaoma;
+                        addNumber = guest.AddShopBillingStock;
+                        addUnit = guest.AddShopBillingUnit;
+                        addPrice = guest.AddShopDBillingPrice;
+                        addJyPrice = guest.AddShopDBillingJYPrice;
                     }
 
                     Double aaa = 0.00;
@@ -249,7 +251,7 @@ public class IWantBillingActivity extends BaseActivity {
                     bbb = Double.valueOf(addPrice).doubleValue();
                     String addJine = Double.toString(aaa * bbb);
 
-                    bean = new WantBillingBean("商品名称", addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
+                    bean = new WantBillingBean(addName, addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
                     mDatas.add(bean);
                     total = total + aaa * bbb;
                     left_billing_total.setText(Double.toString(total));

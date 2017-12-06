@@ -1,6 +1,7 @@
 package com.lianpos.devfoucs.shopmanage;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -8,13 +9,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by 123 on 2016/10/14.
+ * Created by 123 on 2017/12/6.
  */
 public class RightAdapter extends BaseAdapter {
     private Context context;
@@ -54,7 +56,7 @@ public class RightAdapter extends BaseAdapter {
         } else {
             holder = (Holder) view.getTag();
         }
-        holder.tv_right.setText(list.get(i).toString());
+        holder.tv_name.setText(list.get(i).toString());
         holder.btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -78,6 +80,15 @@ public class RightAdapter extends BaseAdapter {
             }
         });
 
+        sll_main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(context, IncreaseCommodityActivity.class);
+                context.startActivity(intent);
+            }
+        });
+
         return view;
     }
 
@@ -85,8 +96,10 @@ public class RightAdapter extends BaseAdapter {
         TextView tv_right_number;
         TextView tv_right;
         TextView btn_add;
+        TextView tv_name;
 
         public Holder(View view) {
+            tv_name = (TextView) view.findViewById(R.id.tv_name);
             tv_right_number = (TextView) view.findViewById(R.id.jyPrice);
             tv_right = (TextView) view.findViewById(R.id.prise);
             btn_add = (TextView) view.findViewById(R.id.rightTm);

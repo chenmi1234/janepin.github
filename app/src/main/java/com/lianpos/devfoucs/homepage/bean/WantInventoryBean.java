@@ -20,7 +20,7 @@ public class WantInventoryBean {
     public WantInventoryBean() {
     }
 
-    public WantInventoryBean(String itemShopName, String shopTiaoma, String shopNumber, String shopUnit, String shopPifajia, String shopPrice, String shopTotal) {
+    public WantInventoryBean(String itemShopName, String shopTiaoma, String shopNumber, String shopUnit, String shopPifajia) {
         this.itemShopName = itemShopName;
         this.shopTiaoma = shopTiaoma;
         this.shopNumber = shopNumber;
