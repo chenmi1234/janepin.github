@@ -2,7 +2,6 @@ package com.lianpos.devfoucs.login.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
@@ -16,10 +15,11 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.lianpos.activity.MainActivity;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.view.OneButtonSuccessDialog;
 import com.lianpos.devfoucs.view.OneButtonWarningDialog;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CheckInforUtils;
 import com.lljjcoder.city_20170724.CityPickerView;
@@ -27,7 +27,17 @@ import com.lljjcoder.city_20170724.bean.CityBean;
 import com.lljjcoder.city_20170724.bean.DistrictBean;
 import com.lljjcoder.city_20170724.bean.ProvinceBean;
 
-import org.w3c.dom.Text;
+import java.io.IOException;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 /**
  * Description:注册
@@ -35,6 +45,7 @@ import org.w3c.dom.Text;
  */
 
 public class RegisterAreaActivity extends BaseActivity implements View.OnClickListener {
+    public static final MediaType JSON=MediaType.parse("application/json; charset=utf-8");
     // 企业名称
     private EditText enterprise_name;
     // 供货商名称
@@ -59,6 +70,8 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
     private OneButtonWarningDialog onewarnButtonDialog;
     // 用户协议
     private TextView agreement;
+    final OkHttpClient client = new OkHttpClient();
+    Realm realm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -168,7 +181,7 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                     public void onSelected(ProvinceBean province, CityBean city, DistrictBean district) {
                         //返回结果
                         area_text.setText(
-                               province.getName() + "  " + city.getName() + "   " + district.getName());
+                                province.getName() + "  " + city.getName() + "   " + district.getName());
                         area_text.setTextColor(Color.parseColor("#333333"));
                     }
 
@@ -180,7 +193,7 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                 break;
             case R.id.immediate_registration:
 
-                if (enterprise_name.getText().toString().isEmpty() || supplier_name.getText().toString().isEmpty() || boss_phone.getText().toString().isEmpty() || area_text.getText().equals("请选择") || detailed_address.getText().toString().isEmpty()){
+                if (enterprise_name.getText().toString().isEmpty() || supplier_name.getText().toString().isEmpty() || boss_phone.getText().toString().isEmpty() || area_text.getText().equals("请选择") || detailed_address.getText().toString().isEmpty()) {
                     onewarnButtonDialog = new OneButtonWarningDialog(RegisterAreaActivity.this);
                     onewarnButtonDialog.setYesOnclickListener(new OneButtonWarningDialog.onYesOnclickListener() {
                         @Override
@@ -189,27 +202,105 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                         }
                     });
                     onewarnButtonDialog.show();
-                }else if(!CheckInforUtils.isMobile(boss_phone.getText().toString())) {
+                } else if (!CheckInforUtils.isMobile(boss_phone.getText().toString())) {
                     registerPhoneMessage.setVisibility(View.VISIBLE);
                     registerPhoneMessage.setText("请输入正确的手机号");
-                }else{
+                } else {
                     registerPhoneMessage.setVisibility(View.GONE);
-                    oneButtonDialog = new OneButtonSuccessDialog(RegisterAreaActivity.this);
-                    oneButtonDialog.setYesOnclickListener(new OneButtonSuccessDialog.onYesOnclickListener() {
-                        @Override
-                        public void onYesClick() {
-                            Intent intent1 = new Intent();
-                            intent1.setClass(RegisterAreaActivity.this, LoginActivity.class);
-                            startActivity(intent1);
-                            finish();
-                        }
-                    });
-                    oneButtonDialog.show();
+
+                    realm = Realm.getDefaultInstance();
+                    realm.beginTransaction();
+                    RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                    realm.commitTransaction();
+                    String showName = "";
+                    String showPaw = "";
+                    String showConPaw = "";
+                    String yw_user_name = "";
+                    String yw_sex = "";
+                    String yw_birthday = "";
+                    for (JanePinBean guest : guests) {
+                        showName = guest.PhoneNumber;
+                        showPaw = guest.Psw;
+                        showConPaw = guest.ConPsw;
+                        yw_user_name = guest.yw_user_name;
+                        yw_sex = guest.yw_sex;
+                        yw_birthday = guest.yw_birthday;
+                    }
+                    try {
+                        runRegist(showName,showPaw,yw_user_name,yw_sex,yw_birthday);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
                 break;
             case R.id.register_back:
                 finish();
                 break;
         }
+    }
+
+
+    /**
+     * post请求后台
+     */
+    private void runRegist(final String showName, final String showPaw, final String yw_user_name, final String yw_sex, final String yw_birthday) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                OkHttpClient client = new OkHttpClient();
+//                RequestBody formBody = new FormBody.Builder()
+//                        .add("yw_user_phone", showName)
+//                        .add("yw_user_password",showPaw)
+//                        .add("yw_user_name", yw_user_name)
+//                        .add("yw_user_password",yw_sex)
+//                        .add("yw_birthday", yw_birthday)
+//                        .add("user_supplier_name", enterprise_name.getText().toString())
+//                        .add("supplier_compellation",supplier_name.getText().toString())
+//                        .add("supplier_phone", boss_phone.getText().toString())
+//                        .add("user_area",area_text.getText().toString())
+//                        .add("user_address", detailed_address.getText().toString())
+//                        .build();
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_phone", "15566660700");
+                    jsonObject.put("yw_user_password", "123456");
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                RequestBody body = RequestBody.create(JSON, json);
+                Request request = new Request.Builder()
+                        .url("http://192.168.5.104:8080/app/appUser/login.do")
+                        .post(body)
+                        .build();
+                try {
+                    Response response = client.newCall(request).execute();
+                    if (!response.isSuccessful()) {
+                        throw new IOException("Unexpected code " + response);
+                    }
+                    String result = "";
+                    result = response.body().string();
+                    result = URLDecoder.decode(result, "UTF-8");
+                    if (result.equals("success")) {
+                        oneButtonDialog = new OneButtonSuccessDialog(RegisterAreaActivity.this);
+                        oneButtonDialog.setYesOnclickListener(new OneButtonSuccessDialog.onYesOnclickListener() {
+                            @Override
+                            public void onYesClick() throws InterruptedException {
+                                oneButtonDialog.dismiss();
+                            }
+                        });
+                        oneButtonDialog.show();
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        t1.start();
+        t1.join();
     }
 }

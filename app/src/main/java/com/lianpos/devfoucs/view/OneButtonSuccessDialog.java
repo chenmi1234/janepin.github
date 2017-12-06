@@ -62,7 +62,11 @@ public class OneButtonSuccessDialog extends Dialog {
             @Override
             public void onClick(View v) {
                 if (yesOnclickListener != null) {
-                    yesOnclickListener.onYesClick();
+                    try {
+                        yesOnclickListener.onYesClick();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
@@ -103,6 +107,6 @@ public class OneButtonSuccessDialog extends Dialog {
      * 设置确定按钮和取消被点击的接口
      */
     public interface onYesOnclickListener {
-        public void onYesClick();
+        public void onYesClick() throws InterruptedException;
     }
 }

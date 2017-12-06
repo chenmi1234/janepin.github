@@ -57,6 +57,7 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_info);
+        realm = Realm.getDefaultInstance();
         init();
     }
 
@@ -125,22 +126,6 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
                 return false;
             }
         });
-        realm = Realm.getDefaultInstance();
-        realm.beginTransaction();
-        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
-        realm.commitTransaction();
-        register_name_editText.setText("");
-        String showName = "";
-        String showPaw = "";
-        String showConPaw = "";
-        for (JanePinBean guest : guests) {
-            showName = guest.PhoneNumber;
-            showPaw = guest.Psw;
-            showConPaw = guest.ConPsw;
-        }
-        register_name_editText.setText(showName);
-        sex_text.setText(showPaw);
-        briday_text.setText(showConPaw);
     }
 
     @Override
@@ -149,6 +134,28 @@ public class RegisterInfoActivity extends BaseActivity implements View.OnClickLi
             case R.id.deleteNameImg:
                 break;
             case R.id.next_button:
+
+                realm.beginTransaction();
+                RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                realm.commitTransaction();
+                String showName = "";
+                String showPaw = "";
+                String showConPaw = "";
+                for (JanePinBean guest : guests) {
+                    showName = guest.PhoneNumber;
+                    showPaw = guest.Psw;
+                    showConPaw = guest.ConPsw;
+                }
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.PhoneNumber = showName;
+                janePinBean.Psw = showPaw;
+                janePinBean.ConPsw = showConPaw;
+                janePinBean.yw_user_name = register_name_editText.getText().toString();
+                janePinBean.yw_sex = sex_text.getText().toString();
+                janePinBean.yw_birthday = briday_text.getText().toString();
+                realm.commitTransaction();
+
                 if (register_name_editText.getText().toString().isEmpty()) {
                     oneButtonDialog = new OneButtonWarningDialog(RegisterInfoActivity.this);
                     oneButtonDialog.setYesOnclickListener(new OneButtonWarningDialog.onYesOnclickListener() {
