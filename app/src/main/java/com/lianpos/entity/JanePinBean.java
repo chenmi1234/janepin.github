@@ -9,6 +9,8 @@ import io.realm.RealmObject;
 
 public class JanePinBean extends RealmObject {
     public int id;
+    //注册用户id
+    public String ywUserId;
     //账号
     public String PhoneNumber;
     //密码

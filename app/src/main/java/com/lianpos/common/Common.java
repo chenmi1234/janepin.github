@@ -12,4 +12,6 @@ public class Common {
     public static String loginUrl  = LOCALURL + "/app/appUser/login.do";
     // 注册API url
     public static String registerUrl  =  LOCALURL + "/app/appUser/register.do";
+    // 身份卡API url
+    public static String idCardUrl = LOCALURL + "/app/appUser/findywView.do";
 }

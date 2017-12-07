@@ -3,7 +3,6 @@ package com.lianpos.devfoucs.login.activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Looper;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.text.method.TransformationMethod;
@@ -21,6 +20,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
 import com.lianpos.common.Common;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.CheckInforUtils;
@@ -30,6 +30,7 @@ import com.lianpos.util.WeiboDialogUtils;
 
 import java.net.URLEncoder;
 
+import io.realm.Realm;
 import okhttp3.MediaType;
 
 /**
@@ -65,6 +66,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
     private RelativeLayout wifi_layout;
     private Dialog mWeiboDialog;
+    Realm realm;
+    String resultId = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -279,7 +282,13 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 if (!result.isEmpty()){
                     JSONObject paramJson = JSON.parseObject(result);
                     String resultFlag = paramJson.getString("result_flag");
+                    resultId = paramJson.getString("yw_user_id");
                     if ("1".equals(resultFlag)) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.ywUserId = resultId;
+                        realm.commitTransaction();
                         Intent intent1 = new Intent();
                         intent1.setClass(LoginActivity.this, MainActivity.class);
                         startActivity(intent1);

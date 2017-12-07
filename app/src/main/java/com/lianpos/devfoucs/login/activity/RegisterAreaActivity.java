@@ -71,9 +71,10 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
     // 用户协议
     private TextView agreement;
     final OkHttpClient client = new OkHttpClient();
-    Realm realm;
     private Dialog mWeiboDialog;
     String pdStr = "";
+    Realm realm;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
