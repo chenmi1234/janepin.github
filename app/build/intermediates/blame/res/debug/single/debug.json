@@ -508,6 +508,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\drop.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_animation.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\anim\\rotate_animation.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -868,6 +872,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\inquiry_list02.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_popup_bg.9.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-xhdpi\\popup_bg.9.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_thumb.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
@@ -1122,6 +1130,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ckkc.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\ckkc.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_dialog_exit.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\anim\\dialog_exit.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ckkc.png.flat",
@@ -1704,6 +1716,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\meituan_iten_header_item_bg.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_loading_bg.9.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable-xhdpi\\loading_bg.9.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_right_shop_listview.xml.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\right_shop_listview.xml"
     },
@@ -1782,6 +1798,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim_dialog_enter.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\anim\\dialog_enter.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
@@ -2304,6 +2324,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_loading.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\dialog_loading.xml"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_quit.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\quit.png"
     },
@@ -2476,6 +2500,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_loading_icon.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\loading_icon.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\03d6e721352ef07b3c9ce076a92896d7\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -2640,6 +2668,10 @@
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\shape_side_bar_bg.xml"
     },
     {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_dialog_loading_img.png.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xxhdpi\\dialog_loading_img.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_wyzq.png.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\mipmap-xhdpi\\wyzq.png"
     },
@@ -2726,6 +2758,10 @@
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle.xml.flat",
         "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\drawable\\shape_circle.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_loading.xml.flat",
+        "source": "E:\\AndroidProject\\JanePinSystem\\app\\src\\main\\res\\layout\\dialog_loading.xml"
     },
     {
         "merged": "E:\\AndroidProject\\JanePinSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_sy01.png.flat",

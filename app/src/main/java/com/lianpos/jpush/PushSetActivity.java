@@ -10,8 +10,8 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.devfoucs.login.activity.LoginActivity;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -35,7 +35,7 @@ public class PushSetActivity extends FragmentActivity {
 		handler.postDelayed(new Runnable() {
 			@Override
 			public void run() {
-				Intent intent = new Intent(PushSetActivity.this, MainActivity.class);
+				Intent intent = new Intent(PushSetActivity.this, LoginActivity.class);
 				startActivity(intent);
 				PushSetActivity.this.finish();
 			}

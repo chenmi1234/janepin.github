@@ -1,7 +1,9 @@
 package com.lianpos.devfoucs.login.activity;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
@@ -17,27 +19,25 @@ import android.widget.TextView;
 
 import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.devfoucs.view.OneButtonSuccessDialog;
 import com.lianpos.devfoucs.view.OneButtonWarningDialog;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
+import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.CheckInforUtils;
+import com.lianpos.util.WeiboDialogUtils;
 import com.lljjcoder.city_20170724.CityPickerView;
 import com.lljjcoder.city_20170724.bean.CityBean;
 import com.lljjcoder.city_20170724.bean.DistrictBean;
 import com.lljjcoder.city_20170724.bean.ProvinceBean;
 
-import java.io.IOException;
-import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
 
 /**
  * Description:注册
@@ -45,7 +45,7 @@ import okhttp3.Response;
  */
 
 public class RegisterAreaActivity extends BaseActivity implements View.OnClickListener {
-    public static final MediaType JSON=MediaType.parse("application/json; charset=utf-8");
+    public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     // 企业名称
     private EditText enterprise_name;
     // 供货商名称
@@ -72,6 +72,8 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
     private TextView agreement;
     final OkHttpClient client = new OkHttpClient();
     Realm realm;
+    private Dialog mWeiboDialog;
+    String pdStr = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -227,7 +229,21 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                         yw_birthday = guest.yw_birthday;
                     }
                     try {
-                        runRegist(showName,showPaw,yw_user_name,yw_sex,yw_birthday);
+                        mWeiboDialog = WeiboDialogUtils.createLoadingDialog(RegisterAreaActivity.this, "加载中...");
+                        runRegist(showName, showPaw, yw_user_name, yw_sex, yw_birthday);
+                        if ("1".equals(pdStr)){
+//                            Toast.makeText(RegisterAreaActivity.this, "注册成功~", Toast.LENGTH_SHORT).show();
+                            oneButtonDialog = new OneButtonSuccessDialog(RegisterAreaActivity.this);
+                            oneButtonDialog.setYesOnclickListener(new OneButtonSuccessDialog.onYesOnclickListener() {
+                                @Override
+                                public void onYesClick() {
+                                    Intent intent1 = new Intent();
+                                    intent1.setClass(RegisterAreaActivity.this, LoginActivity.class);
+                                    startActivity(intent1);
+                                }
+                            });
+                            oneButtonDialog.show();
+                        }
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -248,55 +264,34 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                OkHttpClient client = new OkHttpClient();
-//                RequestBody formBody = new FormBody.Builder()
-//                        .add("yw_user_phone", showName)
-//                        .add("yw_user_password",showPaw)
-//                        .add("yw_user_name", yw_user_name)
-//                        .add("yw_user_password",yw_sex)
-//                        .add("yw_birthday", yw_birthday)
-//                        .add("user_supplier_name", enterprise_name.getText().toString())
-//                        .add("supplier_compellation",supplier_name.getText().toString())
-//                        .add("supplier_phone", boss_phone.getText().toString())
-//                        .add("user_area",area_text.getText().toString())
-//                        .add("user_address", detailed_address.getText().toString())
-//                        .build();
-
                 JSONObject jsonObject = new JSONObject();
                 String json = "";
                 try {
-                    jsonObject.put("yw_user_phone", "15566660700");
-                    jsonObject.put("yw_user_password", "123456");
+                    jsonObject.put("yw_user_phone", showName);
+                    jsonObject.put("yw_user_password", showPaw);
+                    jsonObject.put("yw_user_name", yw_user_name);
+                    jsonObject.put("yw_sex", "1");
+                    jsonObject.put("yw_birthday", yw_birthday);
+                    jsonObject.put("user_supplier_name", enterprise_name.getText().toString());
+                    jsonObject.put("supplier_compellation", supplier_name.getText().toString());
+                    jsonObject.put("supplier_phone", boss_phone.getText().toString());
+                    jsonObject.put("user_area", area_text.getText().toString());
+                    jsonObject.put("user_address", detailed_address.getText().toString());
                     json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
                     json = URLEncoder.encode(json, "UTF-8");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                RequestBody body = RequestBody.create(JSON, json);
-                Request request = new Request.Builder()
-                        .url("http://192.168.5.104:8080/app/appUser/login.do")
-                        .post(body)
-                        .build();
-                try {
-                    Response response = client.newCall(request).execute();
-                    if (!response.isSuccessful()) {
-                        throw new IOException("Unexpected code " + response);
+
+                String result = CallAPIUtil.ObtainFun(json, Common.registerUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = com.alibaba.fastjson.JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    if ("1".equals(resultFlag)) {
+                        pdStr = "1";
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                     }
-                    String result = "";
-                    result = response.body().string();
-                    result = URLDecoder.decode(result, "UTF-8");
-                    if (result.equals("success")) {
-                        oneButtonDialog = new OneButtonSuccessDialog(RegisterAreaActivity.this);
-                        oneButtonDialog.setYesOnclickListener(new OneButtonSuccessDialog.onYesOnclickListener() {
-                            @Override
-                            public void onYesClick() throws InterruptedException {
-                                oneButtonDialog.dismiss();
-                            }
-                        });
-                        oneButtonDialog.show();
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
                 }
             }
         });

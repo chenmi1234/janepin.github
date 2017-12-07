@@ -1,7 +1,9 @@
 package com.lianpos.devfoucs.login.activity;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Looper;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.text.method.TransformationMethod;
@@ -14,12 +16,21 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.firebase.BaseActivity;
+import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.CheckInforUtils;
 import com.lianpos.util.JumpUtil;
 import com.lianpos.util.NetUtil;
+import com.lianpos.util.WeiboDialogUtils;
+
+import java.net.URLEncoder;
+
+import okhttp3.MediaType;
 
 /**
  * Description: 登陆
@@ -27,6 +38,7 @@ import com.lianpos.util.NetUtil;
  */
 
 public class LoginActivity extends BaseActivity implements View.OnClickListener {
+    public static final MediaType JSONTYPE = MediaType.parse("application/json; charset=utf-8");
     // 手机号输入
     private EditText phone_edittext;
     // 显示/隐藏密码
@@ -52,6 +64,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private static final int REQUEST_CODE_SCAN = 0x0000;
 
     private RelativeLayout wifi_layout;
+    private Dialog mWeiboDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -179,9 +192,12 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                         toast.show();
                     }else{
                         if (CheckInforUtils.isMobile(phone_edittext.getText().toString())) {
-                            Intent intent1 = new Intent();
-                            intent1.setClass(LoginActivity.this, MainActivity.class);
-                            startActivity(intent1);
+                            try {
+                                mWeiboDialog = WeiboDialogUtils.createLoadingDialog(LoginActivity.this, "加载中...");
+                                runLogin(phone_edittext.getText().toString(),password_editText.getText().toString());
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
                         } else {
                             Toast toast = Toast.makeText(getApplicationContext(), "请输入正确的手机号", Toast.LENGTH_SHORT);
                             toast.show();
@@ -235,5 +251,44 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         }else {
             wifi_layout.setVisibility(View.GONE);
         }
+    }
+
+    /**
+     * 登录方法
+     * post请求后台
+     */
+    private void runLogin(final String showName, final String showPaw) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_phone", showName);
+                    jsonObject.put("yw_user_password", showPaw);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.loginUrl);
+
+                if (!result.isEmpty()){
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    if ("1".equals(resultFlag)) {
+                        Intent intent1 = new Intent();
+                        intent1.setClass(LoginActivity.this, MainActivity.class);
+                        startActivity(intent1);
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
     }
 }
