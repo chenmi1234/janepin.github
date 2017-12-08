@@ -259,6 +259,7 @@
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ShopInformation"></activity>
         <activity android:name="com.lianpos.devfoucs.shopmanage.ShopManageActivity"></activity>
         <activity android:name="com.lianpos.devfoucs.homepage.activity.ShopInventoryInformation"></activity>
+        <activity android:name="com.lianpos.devfoucs.idcard.activity.IDCard"></activity>
     </application>
 
 </manifest>

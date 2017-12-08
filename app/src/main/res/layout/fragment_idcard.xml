@@ -91,6 +91,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:text="品牌代理"
+                        android:ellipsize="end"
                         android:paddingBottom="3dp"
                         android:paddingTop="3dp"
                         android:paddingRight="10dp"
@@ -100,16 +101,19 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/brand2_layout"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
                     android:background="@drawable/shape_radius_brand">
                     <TextView
+                        android:id="@+id/brand2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:text="品牌代理"
+                        android:ellipsize="end"
                         android:paddingBottom="3dp"
                         android:paddingTop="3dp"
                         android:paddingRight="10dp"
@@ -118,16 +122,19 @@
                         android:textColor="#ffffff"/>
                 </RelativeLayout>
                 <RelativeLayout
+                    android:id="@+id/brand3_layout"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
                     android:background="@drawable/shape_radius_brand">
                     <TextView
+                        android:id="@+id/brand3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:text="品牌代理"
+                        android:ellipsize="end"
                         android:paddingBottom="3dp"
                         android:paddingTop="3dp"
                         android:paddingRight="10dp"
@@ -142,15 +149,19 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
                 <RelativeLayout
+                    android:id="@+id/brand4_layout"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:background="@drawable/shape_radius_brand">
                     <TextView
+                        android:id="@+id/brand4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:text="品牌代理"
+                        android:ellipsize="end"
                         android:paddingBottom="3dp"
                         android:paddingTop="3dp"
                         android:paddingRight="10dp"
@@ -160,16 +171,19 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/brand5_layout"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
                     android:background="@drawable/shape_radius_brand">
                     <TextView
+                        android:id="@+id/brand5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:text="品牌代理"
+                        android:ellipsize="end"
                         android:paddingBottom="3dp"
                         android:paddingTop="3dp"
                         android:paddingRight="10dp"
@@ -178,12 +192,13 @@
                         android:textColor="#ffffff"/>
                 </RelativeLayout>
                 <RelativeLayout
+                    android:id="@+id/brand6_layout"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
                     android:background="@drawable/shape_radius_brand">
                     <TextView
+                        android:id="@+id/brand6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
