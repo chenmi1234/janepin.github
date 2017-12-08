@@ -12,19 +12,29 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.devfoucs.contacts.adapter.CityAdapter;
 import com.lianpos.devfoucs.contacts.decoration.DividerItemDecoration;
 import com.lianpos.devfoucs.contacts.model.CityBean;
 import com.lianpos.devfoucs.contacts.ui.AddFriendPop;
 import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
+import com.lianpos.entity.JanePinBean;
+import com.lianpos.util.CallAPIUtil;
+import com.lianpos.util.StringUtil;
 import com.mcxtzhang.indexlib.IndexBar.widget.IndexBar;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -49,6 +59,10 @@ public class DynamicFragment extends Fragment {
     private static final int REQUEST_CODE_SCAN = 0x0000;
     // 两个按钮的dialog
     private TwoButtonWarningDialog twoButtonDialog;
+    List<String> userNameData = new ArrayList<String>();
+    List<String> phoneData = new ArrayList<String>();
+    List<String> shopNameData = new ArrayList<String>();
+    JSONArray resultSpList = null;
 
     /**
      * 右侧边栏导航区域
@@ -59,10 +73,26 @@ public class DynamicFragment extends Fragment {
      * 显示指示器DialogText
      */
     private TextView mTvSideBarHint;
+    private Realm realm = null;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_dynamic, null);
+
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String ywUserId = "";
+        for (JanePinBean guest : guests) {
+            ywUserId = guest.ywUserId;
+        }
+        try {
+            runContacts(ywUserId);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         mRv = (RecyclerView) rootView.findViewById(R.id.rv);
         mRv.setLayoutManager(mManager = new LinearLayoutManager(getActivity()));
 
@@ -109,8 +139,8 @@ public class DynamicFragment extends Fragment {
         mTvSideBarHint = (TextView) rootView.findViewById(R.id.tvSideBarHint);//HintTextView
         mIndexBar = (IndexBar) rootView.findViewById(R.id.indexBar);//IndexBar
 
-        //模拟线上加载数据
-        initDatas(getResources().getStringArray(R.array.provinces));
+        //加载数据
+        initDatas(userNameData,phoneData,shopNameData);
 
         title = (TextView) rootView.findViewById(R.id.title);
         title.setText("联系人");
@@ -121,19 +151,21 @@ public class DynamicFragment extends Fragment {
     /**
      * 组织数据源
      *
-     * @param data
+     * @param name
      * @return
      */
-    private void initDatas(final String[] data) {
+    private void initDatas(final List<String> name,final List<String> phone,final List<String> shop) {
         //延迟两秒 模拟加载数据中....
         getActivity().getWindow().getDecorView().postDelayed(new Runnable() {
             @Override
             public void run() {
                 mDatas = new ArrayList<>();
                 //微信的头部 也是可以右侧IndexBar导航索引的，
-                for (int i = 0; i < data.length; i++) {
+                for (int i = 0; i < resultSpList.size(); i++) {
                     CityBean cityBean = new CityBean();
-                    cityBean.setCity(data[i]);//设置城市名称
+                    cityBean.setCity(name.get(i));//设置名称
+                    cityBean.setPhone(phone.get(i));//设置电话
+                    cityBean.setShopName(shop.get(i));//设置商铺
                     mDatas.add(cityBean);
                 }
                 mAdapter.setDatas(mDatas);
@@ -147,6 +179,55 @@ public class DynamicFragment extends Fragment {
                 mDecoration.setmDatas(mDatas);
             }
         }, 1);
+    }
+
+
+    /**
+     * 获取联系人数据
+     * post请求后台
+     */
+    private void runContacts(final String idCardStr) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", idCardStr);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.userListByYwUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    resultSpList = paramJson.getJSONArray("sh_list");
+                    if ("1".equals(resultFlag)) {
+                        if (StringUtil.isNotNull(resultSpList)) {
+                            for (int i = 0; i < resultSpList.size(); i++) {
+                                JSONObject info = resultSpList.getJSONObject(i);
+                                String userName = info.getString("username");
+                                String phone = info.getString("phone");
+                                String name = info.getString("name");
+                                if (StringUtil.isNotNull(userName)) {
+                                    userNameData.add(userName);
+                                    phoneData.add(phone);
+                                    shopNameData.add(name);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
     }
 
     /**
@@ -172,15 +253,7 @@ public class DynamicFragment extends Fragment {
             holder.itemView.findViewById(R.id.btnDel).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-//                    ((SwipeMenuLayout) holder.itemView).quickClose();
-//                    mDatas.remove(holder.getAdapterPosition());
-//                    mIndexBar.setmPressedShowTextView(mTvSideBarHint)//设置HintTextView
-//                            .setNeedRealIndex(true)//设置需要真实的索引
-//                            .setmLayoutManager(mManager)//设置RecyclerView的LayoutManager
-//                            .setmSourceDatas(mDatas)//设置数据
-//                            .invalidate();
                     callPhone("18842669964");
-//                    notifyDataSetChanged();
                 }
             });
         }

@@ -1,21 +1,13 @@
 package com.lianpos.devfoucs.contacts.adapter
 
 import android.content.Context
-import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
-
 import com.lianpos.activity.R
 import com.lianpos.devfoucs.contacts.model.CityBean
-import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity
-import com.lianpos.devfoucs.linkman.ui.LinkManActivity
-import com.lianpos.devfoucs.login.activity.LoginActivity
-import com.lianpos.devfoucs.login.activity.RegisterActivity
 
 /**
  * Created by wangshuai .
@@ -46,6 +38,8 @@ open class CityAdapter(protected var mContext: Context, protected var mDatas: Li
     override fun onBindViewHolder(holder: CityAdapter.ViewHolder, position: Int) {
         val cityBean = mDatas!![position]
         holder.tvCity.text = cityBean.city
+        holder.avatar.text = cityBean.phone
+        holder.tvSupermarket.text = cityBean.shopName
         holder.content.setOnClickListener { }
         holder.content.setOnLongClickListener { v ->
             if (mOnLongItemClickListener != null) {
@@ -53,8 +47,6 @@ open class CityAdapter(protected var mContext: Context, protected var mDatas: Li
             }
             true
         }
-        holder.avatar.text = "18842535353"
-        holder.tvSupermarket.text = "十七超市"
     }
 
     override fun getItemCount(): Int {

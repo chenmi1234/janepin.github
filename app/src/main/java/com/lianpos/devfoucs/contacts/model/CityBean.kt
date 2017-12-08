@@ -8,23 +8,13 @@ import com.mcxtzhang.indexlib.IndexBar.bean.BaseIndexPinyinBean
  * Date: 17/10/28
  */
 
-class CityBean : BaseIndexPinyinBean {
+class CityBean() : BaseIndexPinyinBean() {
 
     var city: String? = null//城市名字
-    private var isTop: Boolean = false//是否是最上面的 不需要被转化成拼音的
-
-    constructor() {}
+    var phone: String? = null//电话号
+    var shopName: String? = null//超市名称
 
     override fun getTarget(): String? {
         return city
-    }
-
-    override fun isNeedToPinyin(): Boolean {
-        return !isTop
-    }
-
-
-    override fun isShowSuspension(): Boolean {
-        return !isTop
     }
 }
