@@ -16,4 +16,6 @@ public class Common {
     public static String idCardUrl = LOCALURL + "/app/appUser/findywView.do";
     // 库存API url
     public static String invertoryUrl = LOCALURL + "/app/appGoods/queryGoods.do";
+    // 个人资料API url
+    public static String userZlUrl = LOCALURL + "/app/appUser/findywView.do";
 }

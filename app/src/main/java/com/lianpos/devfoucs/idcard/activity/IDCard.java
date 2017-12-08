@@ -68,9 +68,7 @@ public class IDCard extends Activity implements View.OnClickListener {
     private void initActivity() {
         zl_back = (ImageView) findViewById(R.id.zl_back);
         listView = (ListView) findViewById(R.id.idCardListview);
-        listView = new ListView(this);
-        listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1,data));
-        setContentView(listView);
+        listView.setAdapter(new ArrayAdapter<>(this,android.R.layout.simple_expandable_list_item_1,data));
     }
 
     /**
