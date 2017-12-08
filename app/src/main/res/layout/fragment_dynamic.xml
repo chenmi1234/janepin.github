@@ -62,6 +62,14 @@
         android:layout_marginTop="20dp"
         android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂无数据，右上角添加好友"
+            android:textSize="20dp"
+            android:textColor="#ff0000"
+            android:layout_gravity="center"/>
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv"
             android:layout_width="match_parent"

@@ -1,5 +1,6 @@
 package com.lianpos.fragment;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -26,6 +27,7 @@ import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.StringUtil;
+import com.lianpos.util.WeiboDialogUtils;
 import com.mcxtzhang.indexlib.IndexBar.widget.IndexBar;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 
@@ -63,6 +65,7 @@ public class DynamicFragment extends Fragment {
     List<String> phoneData = new ArrayList<String>();
     List<String> shopNameData = new ArrayList<String>();
     JSONArray resultSpList = null;
+    private Dialog mWeiboDialog;
 
     /**
      * 右侧边栏导航区域
@@ -88,6 +91,7 @@ public class DynamicFragment extends Fragment {
             ywUserId = guest.ywUserId;
         }
         try {
+            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(getContext(), "加载中...");
             runContacts(ywUserId);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -140,7 +144,7 @@ public class DynamicFragment extends Fragment {
         mIndexBar = (IndexBar) rootView.findViewById(R.id.indexBar);//IndexBar
 
         //加载数据
-        initDatas(userNameData,phoneData,shopNameData);
+        initDatas(userNameData, phoneData, shopNameData);
 
         title = (TextView) rootView.findViewById(R.id.title);
         title.setText("联系人");
@@ -154,19 +158,21 @@ public class DynamicFragment extends Fragment {
      * @param name
      * @return
      */
-    private void initDatas(final List<String> name,final List<String> phone,final List<String> shop) {
+    private void initDatas(final List<String> name, final List<String> phone, final List<String> shop) {
         //延迟两秒 模拟加载数据中....
         getActivity().getWindow().getDecorView().postDelayed(new Runnable() {
             @Override
             public void run() {
                 mDatas = new ArrayList<>();
                 //微信的头部 也是可以右侧IndexBar导航索引的，
-                for (int i = 0; i < resultSpList.size(); i++) {
-                    CityBean cityBean = new CityBean();
-                    cityBean.setCity(name.get(i));//设置名称
-                    cityBean.setPhone(phone.get(i));//设置电话
-                    cityBean.setShopName(shop.get(i));//设置商铺
-                    mDatas.add(cityBean);
+                if (StringUtil.isNotNull(resultSpList)) {
+                    for (int i = 0; i < resultSpList.size(); i++) {
+                        CityBean cityBean = new CityBean();
+                        cityBean.setCity(name.get(i));//设置名称
+                        cityBean.setPhone(phone.get(i));//设置电话
+                        cityBean.setShopName(shop.get(i));//设置商铺
+                        mDatas.add(cityBean);
+                    }
                 }
                 mAdapter.setDatas(mDatas);
                 mAdapter.notifyDataSetChanged();
@@ -209,6 +215,7 @@ public class DynamicFragment extends Fragment {
                     String resultFlag = paramJson.getString("result_flag");
                     resultSpList = paramJson.getJSONArray("sh_list");
                     if ("1".equals(resultFlag)) {
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         if (StringUtil.isNotNull(resultSpList)) {
                             for (int i = 0; i < resultSpList.size(); i++) {
                                 JSONObject info = resultSpList.getJSONObject(i);
@@ -222,6 +229,9 @@ public class DynamicFragment extends Fragment {
                                 }
                             }
                         }
+                    }else if ("2".equals(resultFlag)){
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+
                     }
                 }
             }

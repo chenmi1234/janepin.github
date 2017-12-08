@@ -19,7 +19,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2374132-f1f8-48c6-9041-65f9270aee42" name="Default" comment="">
@@ -31,15 +31,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_dynamic.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_dynamic.xml.flat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/adapter/CityAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/adapter/CityAdapter.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/model/CityBean.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/model/CityBean.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dynamic.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dynamic.xml" />
     </list>
     <ignored path="TextViewDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,20 +87,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DynamicFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DynamicFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+            <state relative-caret-position="-1335">
+              <caret line="82" column="62" lean-forward="false" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
               <folding>
-                <element signature="e#2130#2138#0" expanded="true" />
-                <element signature="e#2184#2192#0" expanded="true" />
-                <element signature="e#2241#2249#0" expanded="true" />
-                <element signature="e#5729#6727#0" expanded="true" />
-                <element signature="e#6726#6727#0" expanded="true" />
-                <element signature="e#6919#8650#0" expanded="true" />
-                <element signature="e#8649#8650#0" expanded="true" />
+                <element signature="e#2199#2207#0" expanded="true" />
+                <element signature="e#2253#2261#0" expanded="true" />
+                <element signature="e#2310#2318#0" expanded="true" />
+                <element signature="e#5924#7026#0" expanded="true" />
+                <element signature="e#7025#7026#0" expanded="true" />
+                <element signature="e#7218#9141#0" expanded="true" />
+                <element signature="e#9140#9141#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/util/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="575" column="26" lean-forward="false" selection-start-line="575" selection-start-column="26" selection-end-line="575" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_dynamic.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_dynamic.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ReportForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="210" column="68" lean-forward="false" selection-start-line="210" selection-start-column="68" selection-end-line="210" selection-end-column="68" />
+              <folding>
+                <element signature="e#9048#9428#0" expanded="true" />
+                <element signature="e#9427#9428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_person_zl.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_person_zl.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="348" column="46" lean-forward="false" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,41 +188,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityBean.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/model/CityBean.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDCard.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IDCard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1611">
-              <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="213">
+              <caret line="77" column="5" lean-forward="false" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java">
+      <file leaf-file-name="RegisterAreaActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3726">
-              <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrays.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="215">
+              <caret line="293" column="67" lean-forward="false" selection-start-line="293" selection-start-column="24" selection-end-line="293" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -206,7 +237,6 @@
       <find>设置bieming</find>
       <find>设置别名</find>
       <find>rootView.</find>
-      <find>brand8_layout</find>
       <find>设置别名和</find>
       <find>a</find>
       <find>aid</find>
@@ -220,6 +250,7 @@
       <find>爱迪生</find>
       <find>tvCity</find>
       <find>LinkManAdapter</find>
+      <find>brand8_layout</find>
     </findStrings>
     <replaceStrings>
       <replace>phone</replace>
@@ -4533,7 +4564,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/bean/WantBillingBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_want_billing.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_want_inventory.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/util/OkHttpUtil.kt" />
@@ -4577,13 +4607,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_idcard.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/jpush/PushSetActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_idcard_pp.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ReportForm.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_person_zl.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/model/CityBean.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/adapter/CityAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_dynamic.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java" />
       </list>
     </option>
   </component>
@@ -5527,7 +5558,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512725754620" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512727549279" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -5575,7 +5606,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512725754620" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512727549279" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -5758,7 +5789,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512725754621" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512727549281" />
       </method>
     </configuration>
     <list size="1">
@@ -5834,13 +5865,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498576520404</updated>
-    </task>
-    <task id="LOCAL-00016" summary="联系人页面">
-      <created>1509523262046</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1509523262046</updated>
     </task>
     <task id="LOCAL-00017" summary="联系人页面添加好友">
       <created>1509530599028</created>
@@ -6178,7 +6202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512718723561</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="联系人获取数据">
+      <created>1512725803687</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1512725803688</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -6188,12 +6219,12 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28895614" sideWeight="0.50653595" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36928105" sideWeight="0.5030257" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37908497" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37908497" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36928105" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36928105" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -6274,7 +6305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Realm增删改查" />
     <MESSAGE value="询价单realm" />
     <MESSAGE value="相机" />
     <MESSAGE value="网格二维码扫描" />
@@ -6299,7 +6329,8 @@
     <MESSAGE value="身份卡获取" />
     <MESSAGE value="身份卡获取数据" />
     <MESSAGE value="个人资料获取数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人资料获取数据" />
+    <MESSAGE value="联系人获取数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="联系人获取数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -6354,7 +6385,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java</url>
-          <line>90</line>
+          <line>94</line>
           <properties />
           <option name="timeStamp" value="221" />
         </line-breakpoint>
@@ -6371,25 +6402,11 @@
           <option name="timeStamp" value="132" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="225" />
+      <option name="time" value="226" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/app/libs/okhttp-3.3.1.jar!/okhttp3/OkHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="91" column="58" lean-forward="false" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-24/data/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_loading.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -6513,16 +6530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5796">
-          <caret line="291" column="49" lean-forward="false" selection-start-line="291" selection-start-column="49" selection-end-line="291" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -6539,17 +6546,6 @@
         <state relative-caret-position="161">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1512705790409" expanded="false" signature="20151:20159" ph="&lt;~&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6645,30 +6641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_person_zl.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="210" column="47" lean-forward="true" selection-start-line="210" selection-start-column="47" selection-end-line="210" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ReportForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="215" column="17" lean-forward="false" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
-          <folding>
-            <element signature="e#4199#9494#0" expanded="true" />
-            <element signature="e#9048#9428#0" expanded="true" />
-            <element signature="e#9427#9428#0" expanded="true" />
-            <element signature="e#9493#9494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ModifyPassword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -6755,18 +6727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-24/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/adapter/CityAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="236" column="12" lean-forward="false" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -6779,26 +6743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/adapter/CityAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1611">
-          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3726">
-          <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-24/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="236" column="12" lean-forward="false" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -6813,19 +6761,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="293" column="67" lean-forward="false" selection-start-line="293" selection-start-column="24" selection-end-line="293" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.2.1/recyclerview-v7-24.2.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="149" column="13" lean-forward="false" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        <state relative-caret-position="-1335">
+          <caret line="82" column="62" lean-forward="false" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
           <folding>
-            <element signature="e#2130#2138#0" expanded="true" />
-            <element signature="e#2184#2192#0" expanded="true" />
-            <element signature="e#2241#2249#0" expanded="true" />
-            <element signature="e#5729#6727#0" expanded="true" />
-            <element signature="e#6726#6727#0" expanded="true" />
-            <element signature="e#6919#8650#0" expanded="true" />
-            <element signature="e#8649#8650#0" expanded="true" />
+            <element signature="e#2199#2207#0" expanded="true" />
+            <element signature="e#2253#2261#0" expanded="true" />
+            <element signature="e#2310#2318#0" expanded="true" />
+            <element signature="e#5924#7026#0" expanded="true" />
+            <element signature="e#7025#7026#0" expanded="true" />
+            <element signature="e#7218#9141#0" expanded="true" />
+            <element signature="e#9140#9141#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_dynamic.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_person_zl.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="348" column="46" lean-forward="false" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ReportForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="210" column="68" lean-forward="false" selection-start-line="210" selection-start-column="68" selection-end-line="210" selection-end-column="68" />
+          <folding>
+            <element signature="e#9048#9428#0" expanded="true" />
+            <element signature="e#9427#9428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="575" column="26" lean-forward="false" selection-start-line="575" selection-start-column="26" selection-end-line="575" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="77" column="5" lean-forward="false" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

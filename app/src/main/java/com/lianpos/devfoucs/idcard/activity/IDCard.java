@@ -1,6 +1,7 @@
 package com.lianpos.devfoucs.idcard.activity;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -15,6 +16,7 @@ import com.lianpos.common.Common;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.StringUtil;
+import com.lianpos.util.WeiboDialogUtils;
 
 import java.net.URLEncoder;
 import java.util.ArrayList;
@@ -34,6 +36,7 @@ public class IDCard extends Activity implements View.OnClickListener {
     private Realm realm = null;
     private ListView listView;
     List<String> data = null;
+    private Dialog mWeiboDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +51,7 @@ public class IDCard extends Activity implements View.OnClickListener {
             ywUserId = guest.ywUserId;
         }
         try {
+            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(IDCard.this, "加载中...");
             runIDCard(ywUserId);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -68,7 +72,9 @@ public class IDCard extends Activity implements View.OnClickListener {
     private void initActivity() {
         zl_back = (ImageView) findViewById(R.id.zl_back);
         listView = (ListView) findViewById(R.id.idCardListview);
-        listView.setAdapter(new ArrayAdapter<>(this,android.R.layout.simple_expandable_list_item_1,data));
+        if (StringUtil.isNotNull(data)){
+            listView.setAdapter(new ArrayAdapter<>(this,android.R.layout.simple_expandable_list_item_1,data));
+        }
     }
 
     /**
@@ -114,6 +120,7 @@ public class IDCard extends Activity implements View.OnClickListener {
                     String resultFlag = paramJson.getString("result_flag");
                     JSONArray resultBrandList = paramJson.getJSONArray("brand_list");
                     if ("1".equals(resultFlag)) {
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         if (StringUtil.isNotNull(resultBrandList)) {
                             data = new ArrayList<String>();
                             for (int i = 0; i < resultBrandList.size(); i++) {
