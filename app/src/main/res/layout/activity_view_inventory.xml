@@ -69,9 +69,18 @@
 
     </LinearLayout>
 
-    <RelativeLayout
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+        </android.support.v7.widget.RecyclerView>
 
         <ListView
             android:id="@+id/lv_inventory"
@@ -80,6 +89,6 @@
             android:padding="0dp"
             android:scrollbars="none"></ListView>
 
-    </RelativeLayout>
+    </FrameLayout>
 
 </LinearLayout>

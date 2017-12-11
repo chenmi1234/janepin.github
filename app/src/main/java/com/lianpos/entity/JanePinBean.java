@@ -11,6 +11,8 @@ public class JanePinBean extends RealmObject {
     public int id;
     //注册用户id
     public String ywUserId;
+    //商户id
+    public String shUserId;
     //账号
     public String PhoneNumber;
     //密码

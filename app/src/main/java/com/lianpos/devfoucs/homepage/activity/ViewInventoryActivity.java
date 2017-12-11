@@ -1,27 +1,43 @@
 package com.lianpos.devfoucs.homepage.activity;
 
+import android.app.Dialog;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
-import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
+import com.lianpos.devfoucs.contacts.adapter.InvertoryAdapter;
+import com.lianpos.devfoucs.contacts.decoration.DividerItemDecoration;
+import com.lianpos.devfoucs.contacts.model.InventoryBean;
 import com.lianpos.devfoucs.homepage.view.SwipeListLayout;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
+import com.lianpos.util.CallAPIUtil;
+import com.lianpos.util.StringUtil;
+import com.lianpos.util.WeiboDialogUtils;
+import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import io.realm.Realm;
+import io.realm.RealmResults;
+
 /**
  * 查看库存
- *
+ * <p>
  * Created by wangshuai on 2017/11/24
  */
 public class ViewInventoryActivity extends BaseActivity {
@@ -30,38 +46,54 @@ public class ViewInventoryActivity extends BaseActivity {
     private List<String> list = new ArrayList<String>(15);
     private Set<SwipeListLayout> sets = new HashSet();
     private TextView billing_total;
+    JSONArray resultKcList = null;
+    private Dialog mWeiboDialog;
+    private SwipeDelMenuAdapter mAdapter;
+    private RecyclerView mRv;
+    List<String> spNameData = new ArrayList<String>();
+    List<String> barcodeData = new ArrayList<String>();
+    List<String> sellCountData = new ArrayList<String>();
+    List<String> xsUnitData = new ArrayList<String>();
+    List<String> spInventoryCountData = new ArrayList<String>();
+    List<String> spUnitCountData = new ArrayList<String>();
+    private Realm realm = null;
+    private List<InventoryBean> mDatas = new ArrayList<>();
+    private LinearLayoutManager mManager;
+    private SuspensionDecoration mDecoration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_inventory);
         ListView lv_inventory = (ListView) findViewById(R.id.lv_inventory);
-        initList();
-        lv_inventory.setAdapter(new ListAdapter());
-        lv_inventory.setOnScrollListener(new AbsListView.OnScrollListener() {
 
-            @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState) {
-                switch (scrollState) {
-                    //当listview开始滑动时，若有item的状态为Open，则Close，然后移除
-                    case SCROLL_STATE_TOUCH_SCROLL:
-                        if (sets.size() > 0) {
-                            for (SwipeListLayout s : sets) {
-                                s.setStatus(SwipeListLayout.Status.Close, true);
-                                sets.remove(s);
-                            }
-                        }
-                        break;
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String shUserId = "";
+        for (JanePinBean guest : guests) {
+            shUserId = guest.shUserId;
+        }
+        try {
+            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(ViewInventoryActivity.this, "加载中...");
+            runInventory(shUserId);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
-                }
-            }
+        mRv = (RecyclerView) findViewById(R.id.rv);
+        mRv.setLayoutManager(mManager = new LinearLayoutManager(this));
 
-            @Override
-            public void onScroll(AbsListView view, int firstVisibleItem,
-                                 int visibleItemCount, int totalItemCount) {
+        mAdapter = new SwipeDelMenuAdapter(this, mDatas);
+        mRv.setAdapter(mAdapter);
+        mRv.addItemDecoration(mDecoration = new SuspensionDecoration(this, mDatas));
+        //如果add两个，那么按照先后顺序，依次渲染。
+        mRv.addItemDecoration(new DividerItemDecoration(ViewInventoryActivity.this, DividerItemDecoration.Companion.getVERTICAL_LIST()));
 
-            }
-        });
+        //加载数据
+        initDatas(spNameData, barcodeData, sellCountData, xsUnitData, spInventoryCountData, spUnitCountData);
+
         inventory_back = (ImageView) findViewById(R.id.inventory_back);
         inventory_back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,88 +103,112 @@ public class ViewInventoryActivity extends BaseActivity {
         });
     }
 
-    private void initList() {
-        list.add("可乐");
-        list.add("怡宝");
-        list.add("虾仁");
-        list.add("面包");
-        list.add("茶叶");
-        list.add("果子");
-        list.add("农夫山泉");
-        list.add("饼干");
-        list.add("蔡子业");
-        list.add("三只松鼠");
-        list.add("良品铺子");
-        list.add("胶带");
-        list.add("攻防");
-        list.add("雪糕");
-    }
+    /**
+     * 获取联系人数据
+     * post请求后台
+     */
+    private void runInventory(final String idCardStr) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
 
-    class MyOnSlipStatusListener implements SwipeListLayout.OnSwipeStatusListener {
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("user_id", idCardStr);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
 
-        private SwipeListLayout slipListLayout;
+                String result = CallAPIUtil.ObtainFun(json, Common.invertoryUrl);
 
-        public MyOnSlipStatusListener(SwipeListLayout slipListLayout) {
-            this.slipListLayout = slipListLayout;
-        }
-
-        @Override
-        public void onStatusChanged(SwipeListLayout.Status status) {
-            if (status == SwipeListLayout.Status.Open) {
-                //若有其他的item的状态为Open，则Close，然后移除
-                if (sets.size() > 0) {
-                    for (SwipeListLayout s : sets) {
-                        s.setStatus(SwipeListLayout.Status.Close, true);
-                        sets.remove(s);
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    resultKcList = paramJson.getJSONArray("kucun_list");
+                    if ("1".equals(resultFlag)) {
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+                        if (StringUtil.isNotNull(resultKcList)) {
+                            for (int i = 0; i < resultKcList.size(); i++) {
+                                JSONObject info = resultKcList.getJSONObject(i);
+                                String sp_name = info.getString("sp_name");
+                                String barcode = info.getString("barcode");
+                                String sell_count = info.getString("sell_count");
+                                String xs_unit = info.getString("xs_unit");
+                                String sp_inventory_count = info.getString("sp_inventory_count");
+                                String sp_unit = info.getString("sp_unit");
+                                if (StringUtil.isNotNull(sp_name)) {
+                                    spNameData.add(sp_name);
+                                    barcodeData.add(barcode);
+                                    sellCountData.add(sell_count);
+                                    xsUnitData.add(xs_unit);
+                                    spInventoryCountData.add(sp_inventory_count);
+                                    spUnitCountData.add(sp_unit);
+                                }
+                            }
+                        }
+                    } else if ("2".equals(resultFlag)) {
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                     }
                 }
-                sets.add(slipListLayout);
-            } else {
-                if (sets.contains(slipListLayout))
-                    sets.remove(slipListLayout);
             }
-        }
-
-        @Override
-        public void onStartCloseAnimation() {
-
-        }
-
-        @Override
-        public void onStartOpenAnimation() {
-
-        }
-
+        });
+        t1.start();
+        t1.join();
     }
 
-    class ListAdapter extends BaseAdapter {
 
-        @Override
-        public int getCount() {
-            return list.size();
-        }
-
-        @Override
-        public Object getItem(int arg0) {
-            return list.get(arg0);
-        }
-
-        @Override
-        public long getItemId(int arg0) {
-            return arg0;
-        }
-
-        @Override
-        public View getView(final int arg0, View view, ViewGroup arg2) {
-            if (view == null) {
-                view = LayoutInflater.from(ViewInventoryActivity.this).inflate(
-                        R.layout.inventory_list_item, null);
+    private void initDatas(final List<String> spNameData, final List<String> barcodeData, final List<String> sellCountData, final List<String> xsUnitData, final List<String> spInventoryCountData, final List<String> spUnitCountData) {
+        //延迟两秒 模拟加载数据中....
+        getWindow().getDecorView().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mDatas = new ArrayList<>();
+                //微信的头部 也是可以右侧IndexBar导航索引的，
+                if (StringUtil.isNotNull(resultKcList)) {
+                    for (int i = 0; i < resultKcList.size(); i++) {
+                        InventoryBean inventoryBean = new InventoryBean();
+                        inventoryBean.setInName(spNameData.get(i));//名称
+                        inventoryBean.setTiaoma(barcodeData.get(i));//条码
+                        inventoryBean.setInNumber(sellCountData.get(i));//销量
+                        inventoryBean.setUnit(xsUnitData.get(i));//单位
+                        inventoryBean.setInventory(spInventoryCountData.get(i));//库存
+                        inventoryBean.setInventoryunit(spUnitCountData.get(i));//库存单位
+                        mDatas.add(inventoryBean);
+                    }
+                }
+                mAdapter.setDatas(mDatas);
+                mAdapter.notifyDataSetChanged();
             }
-            TextView tv_name = (TextView) view.findViewById(R.id.tv_name);
-            tv_name.setText(list.get(arg0));
-            return view;
+        }, 1);
+    }
+
+    /**
+     * 和CityAdapter 一模一样，只是修改了 Item的布局
+     * Created by wangshuai .
+     * Date: 17/11/1
+     */
+
+    private class SwipeDelMenuAdapter extends InvertoryAdapter {
+
+        public SwipeDelMenuAdapter(ViewInventoryActivity mContext, List<InventoryBean> mDatas) {
+            super(mContext, mDatas);
         }
 
+        @Override
+        public SwipeDelMenuAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+            return new ViewHolder(getMInflater().inflate(R.layout.inventory_list_item, parent, false));
+        }
+
+        @Override
+        public void onBindViewHolder(final ViewHolder holder, int position) {
+            super.onBindViewHolder(holder, position);
+            final TextView callText = (TextView) holder.itemView.findViewById(R.id.tvPhone);
+
+        }
     }
 
 }

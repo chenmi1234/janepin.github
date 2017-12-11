@@ -12,14 +12,13 @@ import android.widget.RelativeLayout;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.homepage.activity.InquirySheetActivity;
 import com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity;
-import com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity;
 import com.lianpos.devfoucs.linkman.ui.LinkManActivity;
 import com.lianpos.devfoucs.view.TwoButtonBillingDialog;
-import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
 import com.lianpos.entity.JanePinBean;
 
 import butterknife.ButterKnife;
 import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * 首页
@@ -42,6 +41,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     private Realm realm = null;
     View rootView;
     private RelativeLayout myWantMoney;
+    RealmResults<JanePinBean> guests = null;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -81,7 +81,18 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.billing:
+
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                realm.commitTransaction();
+                String ywUserIdbilling = "";
+                for (JanePinBean guest : guests) {
+                    ywUserIdbilling = guest.ywUserId;
+                }
+
                 twoButtonDialog = new TwoButtonBillingDialog(getActivity());
+                final String finalYwUserIdbilling = ywUserIdbilling;
                 twoButtonDialog.setYesOnclickListener(new TwoButtonBillingDialog.onYesOnclickListener() {
                     @Override
                     public void onYesClick() {
@@ -89,6 +100,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
                         janePinBean.BillingInventoryCode = "1";
+                        janePinBean.ywUserId = finalYwUserIdbilling;
                         realm.commitTransaction();
 
                         Intent billingIntent = new Intent();
@@ -97,6 +109,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                         twoButtonDialog.dismiss();
                     }
                 });
+                final String finalYwUserIdbilling1 = ywUserIdbilling;
                 twoButtonDialog.setNoOnclickListener(new TwoButtonBillingDialog.onNoOnclickListener() {
                     @Override
                     public void onNoClick() {
@@ -104,6 +117,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
                         janePinBean.BillingInventoryCode = "0";
+                        janePinBean.ywUserId = finalYwUserIdbilling1;
                         realm.commitTransaction();
 
                         Intent billingIntent = new Intent();
@@ -115,9 +129,20 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 twoButtonDialog.show();
                 break;
             case R.id.makeMoney:
+
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                realm.commitTransaction();
+                String ywUserId = "";
+                for (JanePinBean guest : guests) {
+                    ywUserId = guest.ywUserId;
+                }
+
                 realm.beginTransaction();
                 JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
                 janePinBean.BillingInventoryCode = "2";
+                janePinBean.ywUserId = ywUserId;
                 realm.commitTransaction();
 
                 Intent intent = new Intent();
@@ -125,9 +150,20 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.inventory:
+
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                realm.commitTransaction();
+                ywUserId = "";
+                for (JanePinBean guest : guests) {
+                    ywUserId = guest.ywUserId;
+                }
+
                 realm.beginTransaction();
                 janePinBean = realm.createObject(JanePinBean.class);
                 janePinBean.BillingInventoryCode = "1";
+                janePinBean.ywUserId = ywUserId;
                 realm.commitTransaction();
                 Intent pandianIntent = new Intent();
                 pandianIntent.setClass(getActivity(), LinkManActivity.class);
