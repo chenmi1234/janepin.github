@@ -64,6 +64,8 @@ public class DynamicFragment extends Fragment {
     List<String> userNameData = new ArrayList<String>();
     List<String> phoneData = new ArrayList<String>();
     List<String> shopNameData = new ArrayList<String>();
+    List<String> relationIDData = new ArrayList<String>();
+    List<String> userIdData = new ArrayList<String>();
     JSONArray resultSpList = null;
     private Dialog mWeiboDialog;
 
@@ -123,9 +125,15 @@ public class DynamicFragment extends Fragment {
                 twoButtonDialog.setYesOnclickListener(new TwoButtonWarningDialog.onYesOnclickListener() {
                     @Override
                     public void onYesClick() {
-                        mDatas.remove(position);
-                        mAdapter.notifyDataSetChanged();
-                        twoButtonDialog.dismiss();
+
+                        try {
+                            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(getContext(), "加载中...");
+                            runDelContacts(relationIDData.get(position),position);
+                            mAdapter.notifyDataSetChanged();
+                            twoButtonDialog.dismiss();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                     }
                 });
                 twoButtonDialog.setNoOnclickListener(new TwoButtonWarningDialog.onNoOnclickListener() {
@@ -222,16 +230,58 @@ public class DynamicFragment extends Fragment {
                                 String userName = info.getString("username");
                                 String phone = info.getString("phone");
                                 String name = info.getString("name");
+                                String relation = info.getString("relation_id");
+                                String userID = info.getString("user_id");
                                 if (StringUtil.isNotNull(userName)) {
                                     userNameData.add(userName);
                                     phoneData.add(phone);
                                     shopNameData.add(name);
+                                    relationIDData.add(relation);
+                                    userIdData.add(userID);
                                 }
                             }
                         }
                     }else if ("2".equals(resultFlag)){
                         WeiboDialogUtils.closeDialog(mWeiboDialog);
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
+    }
 
+
+    /**
+     * 删除联系人数据
+     * post请求后台
+     */
+    private void runDelContacts(final String idCardStr,final int position) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("relation_id", idCardStr);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.userDelYwUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    if ("1".equals(resultFlag)) {
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+                        mDatas.remove(position);
+                    }else if ("2".equals(resultFlag)){
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                     }
                 }
             }
@@ -260,10 +310,11 @@ public class DynamicFragment extends Fragment {
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
             super.onBindViewHolder(holder, position);
+            final TextView callText = (TextView) holder.itemView.findViewById(R.id.tvPhone);
             holder.itemView.findViewById(R.id.btnDel).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    callPhone("18842669964");
+                    callPhone(callText.getText().toString());
                 }
             });
         }

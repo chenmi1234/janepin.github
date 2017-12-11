@@ -7,7 +7,7 @@ package com.lianpos.common;
 
 public class Common {
     // 本地Url
-    private static final String LOCALURL = "http://192.168.5.100";
+    private static final String LOCALURL = "http://47.100.123.184";
     // 登录API url
     public static String loginUrl  = LOCALURL + "/app/appUser/login.do";
     // 注册API url
@@ -16,6 +16,8 @@ public class Common {
     public static String idCardUrl = LOCALURL + "/app/appUser/findywView.do";
     //联系人列表
     public static String userListByYwUrl = LOCALURL + "/app/appUser/getShUserListByYw.do";
+    //联系人删除
+    public static String userDelYwUrl = LOCALURL + "/app/appUser/delRelation.do";
     //搜索好友和扫一扫添加好友
     public static String querySysUserUrl = LOCALURL + "/app/appUser/querySysUser.do";
     // 库存API url
