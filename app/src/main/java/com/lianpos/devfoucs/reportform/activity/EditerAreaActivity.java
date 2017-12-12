@@ -1,30 +1,40 @@
 package com.lianpos.devfoucs.reportform.activity;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.devfoucs.view.OneButtonSuccessDialog;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
+import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.CheckInforUtils;
+import com.lianpos.util.WeiboDialogUtils;
 import com.lljjcoder.city_20170724.CityPickerView;
 import com.lljjcoder.city_20170724.bean.CityBean;
 import com.lljjcoder.city_20170724.bean.DistrictBean;
 import com.lljjcoder.city_20170724.bean.ProvinceBean;
+
+import java.net.URLEncoder;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * Description:注册
@@ -52,6 +62,10 @@ public class EditerAreaActivity extends BaseActivity implements View.OnClickList
     private TextView registerPhoneMessage;
     // 一个按钮的dialog
     private OneButtonSuccessDialog oneButtonDialog;
+    Realm realm;
+    String ywUserId = "";
+    private Dialog mWeiboDialog;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -183,9 +197,91 @@ public class EditerAreaActivity extends BaseActivity implements View.OnClickList
                 finish();
                 break;
             case R.id.enterprise_editer_text:
+                String enterpriseName = enterprise_name.getText().toString();
+                String supplierName = supplier_name.getText().toString();
+                String bossPhone = boss_phone.getText().toString();
+                String areaText = area_text.getText().toString();
+                String detailedAddress = detailed_address.getText().toString();
+                try {
+                    mWeiboDialog = WeiboDialogUtils.createLoadingDialog(EditerAreaActivity.this, "加载中...");
+                    realm = Realm.getDefaultInstance();
+                    realm.beginTransaction();
+                    RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                    realm.commitTransaction();
+                    for (JanePinBean guest : guests) {
+                        ywUserId = guest.ywUserId;
+                    }
 
+                    if (enterpriseName.equals("") || supplierName.equals("") || bossPhone.equals("") || areaText.equals("") || detailedAddress.equals("")){
+                        Toast.makeText(this, "信息不全请填写完整", Toast.LENGTH_SHORT).show();
+                    }else{
+                        runEditerArea(enterpriseName, supplierName, bossPhone, areaText, detailedAddress, ywUserId);
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 finish();
                 break;
         }
+    }
+
+
+    /**
+     * 企业信息修改
+     * post请求后台
+     */
+    private void runEditerArea(final String enterpriseName, final String supplierName, final String bossPhone, final String areaText, final String detailedAddress, final String ywUserId) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("user_supplier_name", enterpriseName);
+                    jsonObject.put("supplier_compellation", supplierName);
+                    jsonObject.put("supplier_phone", bossPhone);
+                    jsonObject.put("user_area", areaText);
+                    jsonObject.put("user_address", detailedAddress);
+                    jsonObject.put("yw_user_id", ywUserId);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.editInfoUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    if ("1".equals(resultFlag)) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                        realm.commitTransaction();
+                        String ywUserId = "";
+                        for (JanePinBean guest : guests) {
+                            ywUserId = guest.ywUserId;
+                        }
+
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.modifyEnterDialog = "1";
+                        janePinBean.ywUserId = ywUserId;
+                        realm.commitTransaction();
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+                        Intent intent = new Intent();
+                        intent.setClass(EditerAreaActivity.this, EnterpriseInformation.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
     }
 }

@@ -21,6 +21,8 @@ public class JanePinBean extends RealmObject {
     public String ConPsw;
     //修改密码弹出dialog  0 不弹出 1弹出
     public String modifyPswDialog;
+    //修改企业信息弹出dialog  0 不弹出 1弹出
+    public String modifyEnterDialog;
     //姓名
     public String yw_user_name;
     //性别

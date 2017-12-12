@@ -51,6 +51,7 @@
             android:textColor="#333333"
             android:padding="15dp"/>
         <TextView
+            android:id="@+id/enterName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="天利食品有限公司"
@@ -78,6 +79,7 @@
             android:textColor="#333333"
             android:padding="15dp"/>
         <TextView
+            android:id="@+id/enterPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="13888887777"
@@ -105,6 +107,7 @@
             android:textColor="#333333"
             android:padding="15dp"/>
         <TextView
+            android:id="@+id/enterAddress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="辽宁省大连市甘井子区七贤岭..."
@@ -132,6 +135,7 @@
             android:textColor="#333333"
             android:padding="15dp"/>
         <TextView
+            android:id="@+id/enterReName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="老十七"
