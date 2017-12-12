@@ -1,5 +1,6 @@
 package com.lianpos.devfoucs.reportform.activity;
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -10,9 +11,19 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
-import com.lianpos.util.CheckInforUtils;
+import com.lianpos.util.CallAPIUtil;
+import com.lianpos.util.WeiboDialogUtils;
+
+import java.net.URLEncoder;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * 修改密码
@@ -21,12 +32,15 @@ import com.lianpos.util.CheckInforUtils;
 
 public class ModifyPassword extends BaseActivity implements View.OnClickListener {
 
-    private ImageView modify_password_back,oldPassword, newPassword, aginNewPassword;
+    private ImageView modify_password_back, oldPassword, newPassword, aginNewPassword;
     // 输入框密码是否是隐藏的，默认为true
     private boolean isHideFirst = true;
     // 显示/隐藏密码
     private EditText old_password_editText, new_password_editText, agin_password_editText;
-
+    private TextView savePassword;
+    private Dialog mWeiboDialog;
+    Realm realm;
+    String ywUserId = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +72,7 @@ public class ModifyPassword extends BaseActivity implements View.OnClickListener
         old_password_editText = (EditText) findViewById(R.id.old_password_editText);
         new_password_editText = (EditText) findViewById(R.id.new_password_editText);
         agin_password_editText = (EditText) findViewById(R.id.agin_password_editText);
+        savePassword = (TextView) findViewById(R.id.savePassword);
     }
 
     /**
@@ -68,6 +83,7 @@ public class ModifyPassword extends BaseActivity implements View.OnClickListener
         oldPassword.setOnClickListener(this);
         newPassword.setOnClickListener(this);
         aginNewPassword.setOnClickListener(this);
+        savePassword.setOnClickListener(this);
     }
 
     /**
@@ -89,7 +105,7 @@ public class ModifyPassword extends BaseActivity implements View.OnClickListener
         switch (v.getId()) {
             case R.id.modify_password_back:
                 finish();
-            break;
+                break;
             case R.id.oldPassword:
                 if (isHideFirst) {
                     oldPassword.setImageResource(R.mipmap.visible);
@@ -144,7 +160,65 @@ public class ModifyPassword extends BaseActivity implements View.OnClickListener
                 int index3 = agin_password_editText.getText().toString().length();
                 agin_password_editText.setSelection(index3);
                 break;
+            case R.id.savePassword:
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                realm.commitTransaction();
+                for (JanePinBean guest : guests) {
+                    ywUserId = guest.ywUserId;
+                }
+                try {
+                    mWeiboDialog = WeiboDialogUtils.createLoadingDialog(ModifyPassword.this, "加载中...");
+                    runSavePassword(old_password_editText.getText().toString(), new_password_editText.getText().toString(), ywUserId);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                break;
         }
+    }
+
+    /**
+     * 密码修改
+     * post请求后台
+     */
+    private void runSavePassword(final String showOldPwd, final String showNewPaw, final String ywUserId) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("old_password", showOldPwd);
+                    jsonObject.put("new_password", showNewPaw);
+                    jsonObject.put("yw_user_id", ywUserId);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.userPassUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    if ("1".equals(resultFlag)) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.modifyPswDialog = "1";
+                        realm.commitTransaction();
+                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+                        finish();
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
     }
 
 }

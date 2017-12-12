@@ -7,21 +7,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
-import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.listviewlinkage.Activity.LinkageActivity;
 import com.lianpos.devfoucs.login.activity.LoginActivity;
-import com.lianpos.devfoucs.login.activity.RegisterActivity;
 import com.lianpos.devfoucs.reportform.activity.EnterpriseInformation;
 import com.lianpos.devfoucs.reportform.activity.ModifyPassword;
 import com.lianpos.devfoucs.reportform.activity.PrinterActivity;
 import com.lianpos.devfoucs.reportform.activity.ReportForm;
 import com.lianpos.devfoucs.shopmanage.ShopManageActivity;
-import com.lianpos.devfoucs.shoppingcart.CommodityManagementActivity;
-import com.lianpos.devfoucs.shoppingcart.MerchantActivity;
+import com.lianpos.devfoucs.view.OneButtonSuccessDialog;
 import com.lianpos.devfoucs.view.TwoButtonLoginoutDialog;
-import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
+import com.lianpos.entity.JanePinBean;
+
+import butterknife.ButterKnife;
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * 个人中心
@@ -35,6 +36,9 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
     View rootView;
     // 两个按钮的dialog
     private TwoButtonLoginoutDialog twoButtonDialog;
+    Realm realm;
+    // 一个按钮的dialog
+    private OneButtonSuccessDialog oneButtonDialog;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -68,6 +72,26 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
         printer_layout.setOnClickListener(this);
         loginout.setOnClickListener(this);
         commodity_management.setOnClickListener(this);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        ButterKnife.bind(getActivity());
+        realm = Realm.getDefaultInstance();
+
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String modifyNumber = "0";
+        for (JanePinBean guest : guests) {
+            modifyNumber = guest.modifyPswDialog;
+        }
+
+        if ("1".equals(modifyNumber)){
+            Toast.makeText(getContext(), "修改成功", Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override
