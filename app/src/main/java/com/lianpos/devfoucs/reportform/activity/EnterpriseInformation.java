@@ -1,5 +1,6 @@
 package com.lianpos.devfoucs.reportform.activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +13,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
 import com.lianpos.common.Common;
 import com.lianpos.entity.JanePinBean;
-import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CallAPIUtil;
 
 import java.net.URLEncoder;
@@ -26,7 +26,7 @@ import io.realm.RealmResults;
  * Created by wangshuai on 2017/11/06 .
  */
 
-public class EnterpriseInformation extends BaseActivity implements View.OnClickListener {
+public class EnterpriseInformation extends Activity implements View.OnClickListener {
 
     private ImageView enterprise_back;
     private TextView enterprise_editer;
@@ -78,7 +78,7 @@ public class EnterpriseInformation extends BaseActivity implements View.OnClickL
         if ("1".equals(modifyNumber)) {
             Toast.makeText(EnterpriseInformation.this, "修改成功", Toast.LENGTH_SHORT).show();
         }
-
+        onCreate(null);
     }
 
     /**

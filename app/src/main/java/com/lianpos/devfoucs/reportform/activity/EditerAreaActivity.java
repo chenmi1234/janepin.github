@@ -273,9 +273,6 @@ public class EditerAreaActivity extends BaseActivity implements View.OnClickList
                         janePinBean.ywUserId = ywUserId;
                         realm.commitTransaction();
                         WeiboDialogUtils.closeDialog(mWeiboDialog);
-                        Intent intent = new Intent();
-                        intent.setClass(EditerAreaActivity.this, EnterpriseInformation.class);
-                        startActivity(intent);
                         finish();
                     }
                 }
