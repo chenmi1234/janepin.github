@@ -50,11 +50,15 @@
                 android:src="@mipmap/fdj" />
 
             <EditText
+                android:id="@+id/seachFriend"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:background="@null"
+                android:maxLength="11"
                 android:hint="搜索好友"
+                android:inputType="number"
+                android:imeOptions="actionSearch"
                 android:paddingRight="5dp"
                 android:singleLine="true"
                 android:textColorHint="#cccccc" />
@@ -78,6 +82,7 @@
     </LinearLayout>
 
     <Button
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -89,6 +94,7 @@
         android:layout_marginRight="15dp"/>
 
     <Button
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -99,6 +105,7 @@
         android:background="@drawable/shape_radius_red_bg"
         android:layout_marginRight="15dp"/>
     <Button
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

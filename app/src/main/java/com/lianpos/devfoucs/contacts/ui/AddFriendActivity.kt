@@ -1,14 +1,13 @@
 package com.lianpos.devfoucs.contacts.ui
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-
 import com.lianpos.activity.R
-import com.lianpos.devfoucs.reportform.activity.EditerAreaActivity
+import com.lianpos.entity.JanePinBean
 import com.lianpos.firebase.BaseActivity
+import io.realm.Realm
 
 /**
  * 添加好友
@@ -18,22 +17,31 @@ import com.lianpos.firebase.BaseActivity
 class AddFriendActivity : BaseActivity(), View.OnClickListener {
 
     private var add_friend_back: ImageView? = null
-    internal var num1: String? = ""
-    internal var request = ""
     private var company_name: TextView? = null
+    internal lateinit var realm: Realm
+    private var addFriendName: TextView? = null
+    private var addFriendPhone: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_friend)
         init()
-        val intert = intent
-        num1 = intert.getStringExtra("page")
-        request = intert.getStringExtra("codedContent")
-        if (num1 != null) {
-            if (num1 == "2") {
-                company_name!!.text = request
-            }
-        }
+        realm = Realm.getDefaultInstance()
+        realm.beginTransaction()
+        var guests = realm.where(JanePinBean::class.java).equalTo("id", 0).findAll()
+        realm.commitTransaction()
+//        var addFriendNameStr = ""
+//        var addFriendPhoneStr = ""
+//        var companyNameStr = ""
+//        for (guest in guests) {
+//            addFriendNameStr = guest.addFriendName
+//            addFriendPhoneStr = guest.addFriendPhone
+//            companyNameStr = guest.addFriendShopName
+//        }
+
+//        addFriendName!!.setText(addFriendNameStr)
+//        addFriendPhone!!.setText(addFriendPhoneStr)
+//        company_name!!.setText(companyNameStr)
     }
 
     private fun init() {
@@ -49,6 +57,8 @@ class AddFriendActivity : BaseActivity(), View.OnClickListener {
     private fun initActivity() {
         add_friend_back = findViewById(R.id.add_friend_back) as ImageView
         company_name = findViewById(R.id.company_name) as TextView
+        addFriendName = findViewById(R.id.addFriendName) as TextView
+        addFriendPhone = findViewById(R.id.addFriendPhone) as TextView
     }
 
     /**

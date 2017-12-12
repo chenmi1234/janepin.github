@@ -2,6 +2,7 @@ package com.lianpos.devfoucs.login.activity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -76,9 +77,9 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         init();
         //启动时判断网络状态
         boolean netConnect = this.isNetConnect();
-        if (netConnect){
+        if (netConnect) {
             wifi_layout.setVisibility(View.GONE);
-        }else {
+        } else {
             wifi_layout.setVisibility(View.VISIBLE);
         }
     }
@@ -158,7 +159,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (password_editText.getText().toString().isEmpty()) {
                     passwordMessage.setVisibility(View.VISIBLE);
-                }else{
+                } else {
                     passwordMessage.setVisibility(View.GONE);
                 }
                 return false;
@@ -189,15 +190,15 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 break;
             case R.id.login_button:
 
-                if (wifi_layout.getVisibility() == View.GONE){
-                    if (phone_edittext.getText().toString().isEmpty() || password_editText.getText().toString().isEmpty()){
+                if (wifi_layout.getVisibility() == View.GONE) {
+                    if (phone_edittext.getText().toString().isEmpty() || password_editText.getText().toString().isEmpty()) {
                         Toast toast = Toast.makeText(getApplicationContext(), "请输入账号或密码", Toast.LENGTH_SHORT);
                         toast.show();
-                    }else{
+                    } else {
                         if (CheckInforUtils.isMobile(phone_edittext.getText().toString())) {
                             try {
                                 mWeiboDialog = WeiboDialogUtils.createLoadingDialog(LoginActivity.this, "加载中...");
-                                runLogin(phone_edittext.getText().toString(),password_editText.getText().toString());
+                                runLogin(phone_edittext.getText().toString(), password_editText.getText().toString());
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
                             }
@@ -206,7 +207,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                             toast.show();
                         }
                     }
-                }else{
+                } else {
                     setWifi4();
                 }
                 break;
@@ -246,12 +247,13 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         Intent wifiSettingsIntent = new Intent("android.settings.WIFI_SETTINGS");
         startActivity(wifiSettingsIntent);
     }
+
     @Override
     public void onNetChange(int netMobile) {
         super.onNetChange(netMobile);        //网络状态变化时的操作
-        if (netMobile== NetUtil.NETWORK_NONE){
+        if (netMobile == NetUtil.NETWORK_NONE) {
             wifi_layout.setVisibility(View.VISIBLE);
-        }else {
+        } else {
             wifi_layout.setVisibility(View.GONE);
         }
     }
@@ -279,11 +281,22 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
                 String result = CallAPIUtil.ObtainFun(json, Common.loginUrl);
 
-                if (!result.isEmpty()){
+                if (!result.isEmpty()) {
                     JSONObject paramJson = JSON.parseObject(result);
                     String resultFlag = paramJson.getString("result_flag");
                     resultId = paramJson.getString("yw_user_id");
                     if ("1".equals(resultFlag)) {
+
+                        // 1.实例化SharedPreferences对象（第一步）
+                        SharedPreferences mySharedPreferences = getSharedPreferences("resultinfo", MODE_PRIVATE);
+                        // 2. 实例化SharedPreferences.Editor对象（第二步）
+                        SharedPreferences.Editor editor = mySharedPreferences.edit();
+                        // 3. 用putString的方法保存数据
+                        editor.putString("result_id", resultId);
+                        // 4. 提交当前数据
+                        editor.commit();
+
+
                         realm = Realm.getDefaultInstance();
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object

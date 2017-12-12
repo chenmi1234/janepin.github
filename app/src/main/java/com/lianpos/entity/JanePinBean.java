@@ -39,6 +39,12 @@ public class JanePinBean extends RealmObject {
     public String user_area;
     //详细区域
     public String user_address;
+    //添加好友 姓名
+    public String addFriendName;
+    //添加好友 电话号
+    public String addFriendPhone;
+    //添加好友 超市名
+    public String addFriendShopName;
     //询价单 商品条码
     public String InquiryShopNumber;
     //询价单 商品名称

@@ -3,19 +3,18 @@ package com.lianpos.devfoucs.contacts.ui
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.graphics.Bitmap
 import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.OnClickListener
 import android.view.ViewGroup.LayoutParams
 import android.widget.PopupWindow
-
 import com.lianpos.activity.R
 import com.lianpos.devfoucs.homepage.activity.MakeMoneyActivity
+import com.lianpos.entity.JanePinBean
 import com.lianpos.zxing.android.CaptureActivity
-
-import android.app.Activity.RESULT_OK
+import io.realm.Realm
+import io.realm.RealmResults
 
 /**
  * 添加好友
@@ -25,6 +24,9 @@ import android.app.Activity.RESULT_OK
  */
 class AddFriendPop(context: Activity) : PopupWindow(), OnClickListener {
     private val conentView: View
+    internal lateinit var realm: Realm
+    var ywUserId = ""
+    internal var guests: RealmResults<JanePinBean>? = null
 
     init {
         val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater

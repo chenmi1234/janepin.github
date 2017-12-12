@@ -107,6 +107,19 @@ public class DynamicFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                realm.commitTransaction();
+                String ywUserId = "";
+                for (JanePinBean guest : guests) {
+                    ywUserId = guest.ywUserId;
+                }
+
+                realm.beginTransaction();
+                JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                janePinBean.ywUserId = ywUserId;
+                realm.commitTransaction();
                 AddFriendPop popWindow = new AddFriendPop(getActivity());
                 popWindow.showPopupWindow(rootView.findViewById(R.id.begin_menu));
             }
