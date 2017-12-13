@@ -5,7 +5,6 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.lianpos.activity.R
-import com.lianpos.entity.JanePinBean
 import com.lianpos.firebase.BaseActivity
 import io.realm.Realm
 
@@ -26,10 +25,10 @@ class AddFriendActivity : BaseActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_friend)
         init()
-        realm = Realm.getDefaultInstance()
-        realm.beginTransaction()
-        var guests = realm.where(JanePinBean::class.java).equalTo("id", 0).findAll()
-        realm.commitTransaction()
+//        realm = Realm.getDefaultInstance()
+//        realm.beginTransaction()
+//        var guests = realm.where(JanePinBean::class.java).equalTo("id", 0).findAll()
+//        realm.commitTransaction()
 //        var addFriendNameStr = ""
 //        var addFriendPhoneStr = ""
 //        var companyNameStr = ""
@@ -39,9 +38,14 @@ class AddFriendActivity : BaseActivity(), View.OnClickListener {
 //            companyNameStr = guest.addFriendShopName
 //        }
 
-//        addFriendName!!.setText(addFriendNameStr)
-//        addFriendPhone!!.setText(addFriendPhoneStr)
-//        company_name!!.setText(companyNameStr)
+        val intent = intent
+        val addFriendNameStr = intent.getStringExtra("resultUserName")
+        val addFriendPhoneStr = intent.getStringExtra("resultUserPhone")
+        val companyNameStr = intent.getStringExtra("resultShopName")
+
+        addFriendName!!.setText(addFriendNameStr)
+        addFriendPhone!!.setText(addFriendPhoneStr)
+        company_name!!.setText(companyNameStr)
     }
 
     private fun init() {

@@ -1,6 +1,5 @@
 package com.lianpos.devfoucs.linkman.ui;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -26,7 +25,6 @@ import com.lianpos.devfoucs.homepage.activity.ViewInventoryActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.StringUtil;
-import com.lianpos.util.WeiboDialogUtils;
 import com.mcxtzhang.indexlib.IndexBar.widget.IndexBar;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 
@@ -59,7 +57,6 @@ public class LinkManActivity extends AppCompatActivity {
     List<String> relationIDData = new ArrayList<String>();
     List<String> userIdData = new ArrayList<String>();
     JSONArray resultSpList = null;
-    private Dialog mWeiboDialog;
 
     /**
      * 右侧边栏导航区域
@@ -87,7 +84,6 @@ public class LinkManActivity extends AppCompatActivity {
             ywUserId = guest.ywUserId;
         }
         try {
-            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(LinkManActivity.this, "加载中...");
             runContacts(ywUserId);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -223,7 +219,6 @@ public class LinkManActivity extends AppCompatActivity {
                     String resultFlag = paramJson.getString("result_flag");
                     resultSpList = paramJson.getJSONArray("sh_list");
                     if ("1".equals(resultFlag)) {
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         if (StringUtil.isNotNull(resultSpList)) {
                             for (int i = 0; i < resultSpList.size(); i++) {
                                 JSONObject info = resultSpList.getJSONObject(i);
@@ -242,7 +237,6 @@ public class LinkManActivity extends AppCompatActivity {
                             }
                         }
                     }else if ("2".equals(resultFlag)){
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                     }
                 }
             }

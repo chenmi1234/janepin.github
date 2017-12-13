@@ -1,7 +1,6 @@
 package com.lianpos.devfoucs.login.activity;
 
 import android.annotation.SuppressLint;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -26,7 +25,6 @@ import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.CheckInforUtils;
-import com.lianpos.util.WeiboDialogUtils;
 import com.lljjcoder.city_20170724.CityPickerView;
 import com.lljjcoder.city_20170724.bean.CityBean;
 import com.lljjcoder.city_20170724.bean.DistrictBean;
@@ -71,7 +69,6 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
     // 用户协议
     private TextView agreement;
     final OkHttpClient client = new OkHttpClient();
-    private Dialog mWeiboDialog;
     String pdStr = "";
     Realm realm;
 
@@ -230,7 +227,6 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                         yw_birthday = guest.yw_birthday;
                     }
                     try {
-                        mWeiboDialog = WeiboDialogUtils.createLoadingDialog(RegisterAreaActivity.this, "加载中...");
                         runRegist(showName, showPaw, yw_user_name, yw_sex, yw_birthday);
                         if ("1".equals(pdStr)){
 //                            Toast.makeText(RegisterAreaActivity.this, "注册成功~", Toast.LENGTH_SHORT).show();
@@ -291,7 +287,6 @@ public class RegisterAreaActivity extends BaseActivity implements View.OnClickLi
                     String resultFlag = paramJson.getString("result_flag");
                     if ("1".equals(resultFlag)) {
                         pdStr = "1";
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                     }
                 }
             }

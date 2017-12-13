@@ -1,6 +1,5 @@
 package com.lianpos.fragment;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -27,7 +26,6 @@ import com.lianpos.devfoucs.view.TwoButtonWarningDialog;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.StringUtil;
-import com.lianpos.util.WeiboDialogUtils;
 import com.mcxtzhang.indexlib.IndexBar.widget.IndexBar;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 
@@ -67,7 +65,6 @@ public class DynamicFragment extends Fragment {
     List<String> relationIDData = new ArrayList<String>();
     List<String> userIdData = new ArrayList<String>();
     JSONArray resultSpList = null;
-    private Dialog mWeiboDialog;
 
     /**
      * 右侧边栏导航区域
@@ -93,7 +90,6 @@ public class DynamicFragment extends Fragment {
             ywUserId = guest.ywUserId;
         }
         try {
-            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(getContext(), "加载中...");
             runContacts(ywUserId);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -140,7 +136,6 @@ public class DynamicFragment extends Fragment {
                     public void onYesClick() {
 
                         try {
-                            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(getContext(), "加载中...");
                             runDelContacts(relationIDData.get(position),position);
                             mAdapter.notifyDataSetChanged();
                             twoButtonDialog.dismiss();
@@ -236,7 +231,6 @@ public class DynamicFragment extends Fragment {
                     String resultFlag = paramJson.getString("result_flag");
                     resultSpList = paramJson.getJSONArray("sh_list");
                     if ("1".equals(resultFlag)) {
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         if (StringUtil.isNotNull(resultSpList)) {
                             for (int i = 0; i < resultSpList.size(); i++) {
                                 JSONObject info = resultSpList.getJSONObject(i);
@@ -255,7 +249,7 @@ public class DynamicFragment extends Fragment {
                             }
                         }
                     }else if ("2".equals(resultFlag)){
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+
                     }
                 }
             }
@@ -291,10 +285,9 @@ public class DynamicFragment extends Fragment {
                     JSONObject paramJson = JSON.parseObject(result);
                     String resultFlag = paramJson.getString("result_flag");
                     if ("1".equals(resultFlag)) {
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         mDatas.remove(position);
                     }else if ("2".equals(resultFlag)){
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
+
                     }
                 }
             }

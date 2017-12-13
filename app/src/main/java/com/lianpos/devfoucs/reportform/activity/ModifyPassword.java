@@ -1,6 +1,5 @@
 package com.lianpos.devfoucs.reportform.activity;
 
-import android.app.Dialog;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -18,7 +17,6 @@ import com.lianpos.common.Common;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CallAPIUtil;
-import com.lianpos.util.WeiboDialogUtils;
 
 import java.net.URLEncoder;
 
@@ -38,7 +36,6 @@ public class ModifyPassword extends BaseActivity implements View.OnClickListener
     // 显示/隐藏密码
     private EditText old_password_editText, new_password_editText, agin_password_editText;
     private TextView savePassword;
-    private Dialog mWeiboDialog;
     Realm realm;
     String ywUserId = "";
     @Override
@@ -169,7 +166,6 @@ public class ModifyPassword extends BaseActivity implements View.OnClickListener
                     ywUserId = guest.ywUserId;
                 }
                 try {
-                    mWeiboDialog = WeiboDialogUtils.createLoadingDialog(ModifyPassword.this, "加载中...");
                     runSavePassword(old_password_editText.getText().toString(), new_password_editText.getText().toString(), ywUserId);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -211,7 +207,6 @@ public class ModifyPassword extends BaseActivity implements View.OnClickListener
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
                         janePinBean.modifyPswDialog = "1";
                         realm.commitTransaction();
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         finish();
                     }
                 }

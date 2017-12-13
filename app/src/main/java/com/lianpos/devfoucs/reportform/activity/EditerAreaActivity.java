@@ -1,7 +1,6 @@
 package com.lianpos.devfoucs.reportform.activity;
 
 import android.annotation.SuppressLint;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -25,7 +24,6 @@ import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.CheckInforUtils;
-import com.lianpos.util.WeiboDialogUtils;
 import com.lljjcoder.city_20170724.CityPickerView;
 import com.lljjcoder.city_20170724.bean.CityBean;
 import com.lljjcoder.city_20170724.bean.DistrictBean;
@@ -64,7 +62,6 @@ public class EditerAreaActivity extends BaseActivity implements View.OnClickList
     private OneButtonSuccessDialog oneButtonDialog;
     Realm realm;
     String ywUserId = "";
-    private Dialog mWeiboDialog;
 
 
     @Override
@@ -203,7 +200,6 @@ public class EditerAreaActivity extends BaseActivity implements View.OnClickList
                 String areaText = area_text.getText().toString();
                 String detailedAddress = detailed_address.getText().toString();
                 try {
-                    mWeiboDialog = WeiboDialogUtils.createLoadingDialog(EditerAreaActivity.this, "加载中...");
                     realm = Realm.getDefaultInstance();
                     realm.beginTransaction();
                     RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
@@ -272,7 +268,6 @@ public class EditerAreaActivity extends BaseActivity implements View.OnClickList
                         janePinBean.modifyEnterDialog = "1";
                         janePinBean.ywUserId = ywUserId;
                         realm.commitTransaction();
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         finish();
                     }
                 }

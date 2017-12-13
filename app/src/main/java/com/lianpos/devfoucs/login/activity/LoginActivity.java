@@ -1,6 +1,5 @@
 package com.lianpos.devfoucs.login.activity;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -27,7 +26,6 @@ import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.CheckInforUtils;
 import com.lianpos.util.JumpUtil;
 import com.lianpos.util.NetUtil;
-import com.lianpos.util.WeiboDialogUtils;
 
 import java.net.URLEncoder;
 
@@ -66,7 +64,6 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private static final int REQUEST_CODE_SCAN = 0x0000;
 
     private RelativeLayout wifi_layout;
-    private Dialog mWeiboDialog;
     Realm realm;
     String resultId = "";
 
@@ -197,7 +194,6 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                     } else {
                         if (CheckInforUtils.isMobile(phone_edittext.getText().toString())) {
                             try {
-                                mWeiboDialog = WeiboDialogUtils.createLoadingDialog(LoginActivity.this, "加载中...");
                                 runLogin(phone_edittext.getText().toString(), password_editText.getText().toString());
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
@@ -305,7 +301,6 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                         Intent intent1 = new Intent();
                         intent1.setClass(LoginActivity.this, MainActivity.class);
                         startActivity(intent1);
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                     }
                 }
             }

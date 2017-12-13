@@ -1,6 +1,5 @@
 package com.lianpos.devfoucs.homepage.activity;
 
-import android.app.Dialog;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -23,7 +22,6 @@ import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.StringUtil;
-import com.lianpos.util.WeiboDialogUtils;
 import com.mcxtzhang.indexlib.suspension.SuspensionDecoration;
 
 import java.net.URLEncoder;
@@ -47,7 +45,6 @@ public class ViewInventoryActivity extends BaseActivity {
     private Set<SwipeListLayout> sets = new HashSet();
     private TextView billing_total;
     JSONArray resultKcList = null;
-    private Dialog mWeiboDialog;
     private SwipeDelMenuAdapter mAdapter;
     private RecyclerView mRv;
     List<String> spNameData = new ArrayList<String>();
@@ -76,7 +73,6 @@ public class ViewInventoryActivity extends BaseActivity {
             shUserId = guest.shUserId;
         }
         try {
-            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(ViewInventoryActivity.this, "加载中...");
             runInventory(shUserId);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -130,7 +126,6 @@ public class ViewInventoryActivity extends BaseActivity {
                     String resultFlag = paramJson.getString("result_flag");
                     resultKcList = paramJson.getJSONArray("kucun_list");
                     if ("1".equals(resultFlag)) {
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                         if (StringUtil.isNotNull(resultKcList)) {
                             for (int i = 0; i < resultKcList.size(); i++) {
                                 JSONObject info = resultKcList.getJSONObject(i);
@@ -151,7 +146,6 @@ public class ViewInventoryActivity extends BaseActivity {
                             }
                         }
                     } else if ("2".equals(resultFlag)) {
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
                     }
                 }
             }

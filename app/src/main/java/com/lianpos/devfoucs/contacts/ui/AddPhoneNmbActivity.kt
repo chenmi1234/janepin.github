@@ -1,7 +1,7 @@
 package com.lianpos.devfoucs.contacts.ui
 
-import android.app.Dialog
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.EditorInfo
@@ -17,7 +17,6 @@ import com.lianpos.entity.JanePinBean
 import com.lianpos.firebase.BaseActivity
 import com.lianpos.util.CallAPIUtil
 import com.lianpos.util.CheckInforUtils
-import com.lianpos.util.WeiboDialogUtils
 import io.realm.Realm
 import io.realm.RealmResults
 import java.net.URLEncoder
@@ -35,7 +34,6 @@ class AddPhoneNmbActivity : BaseActivity(), View.OnClickListener {
     private var add_friend_back: ImageView? = null
     private var seachFriend: EditText? = null;
     internal lateinit var realm: Realm
-    private var mWeiboDialog: Dialog? = null
     internal var guests: RealmResults<JanePinBean>? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,7 +64,6 @@ class AddPhoneNmbActivity : BaseActivity(), View.OnClickListener {
                 if (!seachFriend!!.getText().toString().isEmpty()) {
                     if (CheckInforUtils.isMobile(seachFriend!!.getText().toString())) {
                         try {
-                            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(this@AddPhoneNmbActivity, "加载中...")
                             runAddPhoneNmb(ywUserId, seachFriend!!.getText().toString())
                         } catch (e: InterruptedException) {
                             e.printStackTrace()
@@ -108,19 +105,23 @@ class AddPhoneNmbActivity : BaseActivity(), View.OnClickListener {
             if (!result.isEmpty()) {
                 val paramJson = JSON.parseObject(result)
                 val resultFlag = paramJson.getString("result_flag")
-                val resultUserName = paramJson.getString("USERNAME")
-                val resultUserPhone = paramJson.getString("PHONE")
-                val resultShopName = paramJson.getString("NAME")
+                val resultUserName = paramJson.getString("username")
+                val resultUserPhone = paramJson.getString("phone")
+                val resultShopName = paramJson.getString("name")
                 if ("1" == resultFlag) {
-                    realm = Realm.getDefaultInstance()
-                    realm.beginTransaction()
-                    val janePinBean = realm.createObject(JanePinBean::class.java) // Create a new object
-                    janePinBean.addFriendName = resultUserName
-                    janePinBean.addFriendPhone = resultUserPhone
-                    janePinBean.addFriendShopName = resultShopName
-                    realm.commitTransaction()
-                    intent.setClass(this@AddPhoneNmbActivity, AddFriendActivity::class.java)
-                    startActivity(intent)
+//                    realm = Realm.getDefaultInstance()
+//                    realm.beginTransaction()
+//                    val janePinBean = realm.createObject(JanePinBean::class.java) // Create a new object
+//                    janePinBean.addFriendName = resultUserName
+//                    janePinBean.addFriendPhone = resultUserPhone
+//                    janePinBean.addFriendShopName = resultShopName
+//                    realm.commitTransaction()
+                    val intent1 = Intent()
+                    intent1.setClass(this@AddPhoneNmbActivity, AddFriendActivity::class.java)
+                    intent1.putExtra("resultUserName", resultUserName)
+                    intent1.putExtra("resultUserPhone", resultUserPhone)
+                    intent1.putExtra("resultShopName", resultShopName)
+                    startActivity(intent1)
                 }
             }
         })
