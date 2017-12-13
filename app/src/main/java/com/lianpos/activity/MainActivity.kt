@@ -1,21 +1,13 @@
 package com.lianpos.activity
 
-import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.FragmentActivity
-import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentTransaction
 import android.view.KeyEvent
-import android.view.View
 import android.view.View.OnClickListener
 import android.widget.TextView
 import android.widget.Toast
-
-import com.lianpos.fragment.DynamicFragment
-import com.lianpos.fragment.HomeFragment
-import com.lianpos.fragment.IDCardFragment
-import com.lianpos.fragment.MessageFragment
-import com.lianpos.fragment.PersonFragment
+import com.lianpos.fragment.*
 
 /**
  * 对fragment的切换,底部图标颜色的切换
@@ -94,12 +86,12 @@ class MainActivity : FragmentActivity() {
             }
         } else if (resId == R.id.tv_dynamic) {
             //联系人
-            if (dynamicFragment == null) {
+//            if (dynamicFragment == null) {
                 dynamicFragment = DynamicFragment()
                 transaction.add(R.id.main_container, dynamicFragment)
-            } else {
-                transaction.show(dynamicFragment)
-            }
+//            } else {
+//                transaction.show(dynamicFragment)
+//            }
         } else if (resId == R.id.iv_make) {
             //首页
             if (homeFragment == null) {

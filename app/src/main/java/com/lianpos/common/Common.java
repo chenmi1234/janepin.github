@@ -20,6 +20,8 @@ public class Common {
     public static String userDelYwUrl = LOCALURL + "/app/appUser/delRelation.do";
     //搜索好友和扫一扫添加好友
     public static String querySysUserUrl = LOCALURL + "/app/appUser/querySysUser.do";
+    //添加好友
+    public static String addFriendUserUrl = LOCALURL + "/app/appUser/addRelation.do";
     // 库存API url
     public static String invertoryUrl = LOCALURL + "/app/appGoods/queryGoods.do";
     // 个人资料API url

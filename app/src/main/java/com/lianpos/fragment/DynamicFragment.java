@@ -168,6 +168,12 @@ public class DynamicFragment extends Fragment {
         return rootView;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+
+    }
+
     /**
      * 组织数据源
      *
@@ -231,6 +237,7 @@ public class DynamicFragment extends Fragment {
                     String resultFlag = paramJson.getString("result_flag");
                     resultSpList = paramJson.getJSONArray("sh_list");
                     if ("1".equals(resultFlag)) {
+                        String userID = "";
                         if (StringUtil.isNotNull(resultSpList)) {
                             for (int i = 0; i < resultSpList.size(); i++) {
                                 JSONObject info = resultSpList.getJSONObject(i);
@@ -238,7 +245,7 @@ public class DynamicFragment extends Fragment {
                                 String phone = info.getString("phone");
                                 String name = info.getString("name");
                                 String relation = info.getString("relation_id");
-                                String userID = info.getString("user_id");
+                                userID = info.getString("user_id");
                                 if (StringUtil.isNotNull(userName)) {
                                     userNameData.add(userName);
                                     phoneData.add(phone);

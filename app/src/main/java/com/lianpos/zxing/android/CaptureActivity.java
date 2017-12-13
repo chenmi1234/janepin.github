@@ -1,7 +1,6 @@
 package com.lianpos.zxing.android;
 
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -16,21 +15,28 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.Result;
-import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.devfoucs.contacts.ui.AddFriendActivity;
-import com.lianpos.devfoucs.login.activity.LoginActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
+import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
-import com.lianpos.zxing.view.ViewfinderView;
+import com.lianpos.util.CallAPIUtil;
 import com.lianpos.zxing.camera.CameraManager;
+import com.lianpos.zxing.view.ViewfinderView;
 
 import java.io.IOException;
+import java.net.URLEncoder;
 import java.util.Collection;
 import java.util.Map;
+
+import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * 这个activity打开相机，在后台线程做常规的扫描；它绘制了一个结果view来帮助正确地显示条形码，在扫描的时候显示反馈信息，
@@ -57,6 +63,9 @@ public final class CaptureActivity extends BaseActivity implements
     private BeepManager beepManager;
 
     private ImageButton imageButton_back;
+
+    Realm realm;
+    String ywUserId = "";
 
     public ViewfinderView getViewfinderView() {
         return viewfinderView;
@@ -211,17 +220,73 @@ public final class CaptureActivity extends BaseActivity implements
                     startActivity(intent);
                 }
             }else{
-                intent.setClass(CaptureActivity.this,AddFriendActivity.class);
-                intent.putExtra("codedContent", rawResult.getText());
-                intent.putExtra("codedBitmap", barcode);
-                intent.putExtra("page","2");
-                setResult(RESULT_OK, intent);
-                startActivity(intent);
+                realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+                realm.commitTransaction();
+                for (JanePinBean guest : guests) {
+                    ywUserId = guest.ywUserId;
+                }
+                String userId = rawResult.getText();
+                String addUrl = Common.querySysUserUrl + userId;
+
+                try {
+                    runAddFriend(ywUserId, userId, addUrl);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
             finish();
         }
 
     }
+
+    /**
+     * 二维码添加好友
+     * post请求后台
+     */
+    private void runAddFriend(final String ywUserId, final String userId, final String addUrl) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", ywUserId);
+                    jsonObject.put("user_id", userId);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, addUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    String resultUserName = paramJson.getString("username");
+                    String resultUserPhone = paramJson.getString("phone");
+                    String resultShopName = paramJson.getString("name");
+                    String resultUserId = paramJson.getString("user_id");
+                    if ("1".equals(resultFlag)) {
+                        Intent intent = new Intent();
+                        intent.setClass(CaptureActivity.this,AddFriendActivity.class);
+                        intent.putExtra("resultUserName", resultUserName);
+                        intent.putExtra("resultUserPhone", resultUserPhone);
+                        intent.putExtra("resultShopName", resultShopName);
+                        intent.putExtra("resultUserId", resultUserId);
+                        startActivity(intent);
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
+    }
+
 
     /**
      * 初始化Camera

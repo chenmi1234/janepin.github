@@ -82,7 +82,7 @@ class AddPhoneNmbActivity : BaseActivity(), View.OnClickListener {
     }
 
     /**
-     * 登录方法
+     * 获取添加好友信息
      * post请求后台
      */
     @Throws(InterruptedException::class)
@@ -108,6 +108,7 @@ class AddPhoneNmbActivity : BaseActivity(), View.OnClickListener {
                 val resultUserName = paramJson.getString("username")
                 val resultUserPhone = paramJson.getString("phone")
                 val resultShopName = paramJson.getString("name")
+                val resultUserId = paramJson.getString("user_id")
                 if ("1" == resultFlag) {
 //                    realm = Realm.getDefaultInstance()
 //                    realm.beginTransaction()
@@ -121,6 +122,7 @@ class AddPhoneNmbActivity : BaseActivity(), View.OnClickListener {
                     intent1.putExtra("resultUserName", resultUserName)
                     intent1.putExtra("resultUserPhone", resultUserPhone)
                     intent1.putExtra("resultShopName", resultShopName)
+                    intent1.putExtra("resultUserId", resultUserId)
                     startActivity(intent1)
                 }
             }

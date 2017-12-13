@@ -19,7 +19,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2374132-f1f8-48c6-9041-65f9270aee42" name="Default" comment="">
@@ -33,17 +33,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/lianpos/activity/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/lianpos/activity/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/activity/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/activity/MainActivity.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/ViewInventoryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/ViewInventoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/linkman/ui/LinkManActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/linkman/ui/LinkManActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/EditerAreaActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/EditerAreaActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ModifyPassword.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ModifyPassword.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_friend.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_friend.xml" />
     </list>
     <ignored path="TextViewDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java">
+      <file leaf-file-name="DynamicFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="196" column="44" lean-forward="false" selection-start-line="196" selection-start-column="44" selection-end-line="196" selection-end-column="44" />
+            <state relative-caret-position="108">
+              <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,8 +104,8 @@
       <file leaf-file-name="AddPhoneNmbActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-346">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="120" column="71" lean-forward="false" selection-start-line="120" selection-start-column="71" selection-end-line="120" selection-end-column="71" />
               <folding>
                 <element signature="e#42#708#0" expanded="true" />
               </folding>
@@ -113,33 +113,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterInfoActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterInfoActivity.java">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="149" column="60" lean-forward="false" selection-start-line="149" selection-start-column="48" selection-end-line="149" selection-end-column="60" />
+            <state relative-caret-position="83">
+              <caret line="256" column="4" lean-forward="false" selection-start-line="256" selection-start-column="4" selection-end-line="309" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddFriendPop.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendPop.kt">
+      <file leaf-file-name="AddFriendActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="-1372">
+              <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
               <folding>
-                <element signature="e#42#587#0" expanded="true" />
+                <element signature="e#42#546#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterAreaActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java">
+      <file leaf-file-name="CaptureActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="289" column="21" lean-forward="true" selection-start-line="289" selection-start-column="21" selection-end-line="289" selection-end-column="21" />
+            <state relative-caret-position="591">
+              <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,54 +148,51 @@
       <file leaf-file-name="ModifyPassword.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ModifyPassword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="209" column="33" lean-forward="false" selection-start-line="209" selection-start-column="33" selection-end-line="209" selection-end-column="33" />
+            <state relative-caret-position="183">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="39" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewInventoryActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/ViewInventoryActivity.java">
+      <file leaf-file-name="activity_add_friend.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_friend.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="139">
+              <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkManActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/linkman/ui/LinkManActivity.java">
+      <file leaf-file-name="Common.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="239" column="21" lean-forward="true" selection-start-line="239" selection-start-column="21" selection-end-line="239" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditerAreaActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/EditerAreaActivity.java">
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/activity/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="270" column="33" lean-forward="true" selection-start-line="270" selection-start-column="33" selection-end-line="270" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDCard.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java">
+      <file leaf-file-name="RegisterAreaActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="118" column="31" lean-forward="false" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+            <state relative-caret-position="108">
+              <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -214,28 +211,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>activity_add_fr</find>
-      <find>activity_add_fri</find>
-      <find>T</find>
-      <find>Toa</find>
-      <find>company_name</find>
-      <find>internal lateinit var realm: Realm</find>
-      <find>yw_serId</find>
-      <find>yw_userId</find>
-      <find>yw_userd</find>
-      <find>yw_user_d</find>
-      <find>yw_user_id</find>
-      <find>realm = Realm.getDefaultInstance()                realm.beginTransaction()                var guests = realm.where(JanePinBean::class.java).equalTo(&quot;id&quot;, 0).findAll()                realm.commitTransaction()                var ywUserId = &quot;&quot;                for (guest in (guests as RealmResults&lt;JanePinBean&gt;?)!!) {                    ywUserId = guest.ywUserId                }                realm = Realm.getDefaultInstance()                realm.beginTransaction()                val janePinBean = realm.createObject(JanePinBean::class.java) // Create a new object                janePinBean.ywUserId = ywUserId                realm.commitTransaction()</find>
-      <find>guests</find>
-      <find>RealmResults&lt;JanePinBean&gt;</find>
-      <find>ywUserId</find>
-      <find>for (guest in guests)</find>
-      <find>for (guest in guests</find>
-      <find>for (guest</find>
-      <find>for(guest</find>
-      <find>guest</find>
-      <find>resultShopName</find>
-      <find>p</find>
       <find>pu</find>
       <find>put</find>
       <find>putE</find>
@@ -244,6 +219,28 @@
       <find>createObject</find>
       <find>getIn</find>
       <find>mWeiboDialog</find>
+      <find>“</find>
+      <find>&quot;</find>
+      <find>&quot;&quot;</find>
+      <find>&quot;us&quot;</find>
+      <find>&quot;use&quot;</find>
+      <find>&quot;user&quot;</find>
+      <find>&quot;user_&quot;</find>
+      <find>&quot;user_i&quot;</find>
+      <find>&quot;user_id&quot;</find>
+      <find>T</find>
+      <find>Toas</find>
+      <find>Toast</find>
+      <find>user_id</find>
+      <find>&quot;user_id</find>
+      <find>result_user_id</find>
+      <find>o</find>
+      <find>on</find>
+      <find>onR</find>
+      <find>onRe</find>
+      <find>onRes</find>
+      <find>addFriendUserUrl</find>
+      <find>ywUserId</find>
     </findStrings>
     <replaceStrings>
       <replace>phone</replace>
@@ -4557,8 +4554,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/IWantBillingActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/ShopInformation.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/listviewlinkage/View/AddCommodityDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/scancodeidentify/zbar/ZbarActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/listviewlinkage/View/AddCommodityInventoryDialog.java" />
@@ -4581,7 +4576,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_person_zl.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/model/CityBean.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/adapter/CityAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/HomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/model/InventoryBean.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/adapter/InvertoryAdapter.kt" />
@@ -4596,18 +4590,21 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_dynamic.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_phone_number.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/entity/JanePinBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_friend.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendPop.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ModifyPassword.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/ViewInventoryActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/linkman/ui/LinkManActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/EditerAreaActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_friend.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/activity/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java" />
       </list>
     </option>
   </component>
@@ -5649,7 +5646,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513129750662" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513145056394" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -5697,7 +5694,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513129750663" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513145056394" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -5729,6 +5726,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -5859,7 +5877,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513129750665" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513145056396" />
       </method>
     </configuration>
     <list size="1">
@@ -5935,13 +5953,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498576520404</updated>
-    </task>
-    <task id="LOCAL-00024" summary="二维码扫描">
-      <created>1509702065708</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1509702065708</updated>
     </task>
     <task id="LOCAL-00025" summary="开单盘点联系人">
       <created>1509950698199</created>
@@ -6279,7 +6290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513072079354</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="去掉mWeiboDialog">
+      <created>1513129805389</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1513129805391</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -6287,28 +6305,29 @@
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28895614" sideWeight="0.50653595" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37908497" sideWeight="0.5030257" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37908497" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36928105" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28895614" sideWeight="0.50653595" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37908497" sideWeight="0.5030257" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055976" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37908497" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36928105" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -6321,7 +6340,6 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="StringPreview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055976" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -6375,7 +6393,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="身份卡 里面的品牌" />
     <MESSAGE value="更改添加商品列表" />
     <MESSAGE value="结算之后的页面" />
     <MESSAGE value="二维码扫描网格颜色" />
@@ -6400,20 +6417,21 @@
     <MESSAGE value="修改密码http" />
     <MESSAGE value="企业信息修改 企业信息" />
     <MESSAGE value="添加联系人" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加联系人" />
+    <MESSAGE value="去掉mWeiboDialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉mWeiboDialog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java</url>
-          <line>247</line>
+          <line>312</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java</url>
-          <line>250</line>
+          <line>315</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -6453,6 +6471,18 @@
           <properties />
           <option name="timeStamp" value="265" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java</url>
+          <line>273</line>
+          <properties />
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java</url>
+          <line>229</line>
+          <properties />
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/db/DBRealm.kt</url>
           <line>28</line>
@@ -6467,18 +6497,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt</url>
-          <line>47</line>
+          <line>111</line>
           <properties />
-          <option name="timeStamp" value="278" />
+          <option name="timeStamp" value="282" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt</url>
-          <line>116</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt</url>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="279" />
+          <option name="timeStamp" value="289" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="282" />
+      <option name="time" value="293" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -6507,6 +6537,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6517,6 +6548,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6527,6 +6559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6563,6 +6596,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6580,6 +6614,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#932#933#0" expanded="false" />
+            <element signature="e#2418#2419#0" expanded="false" />
+            <element signature="e#2454#2455#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -6587,6 +6626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="215" column="9" lean-forward="true" selection-start-line="205" selection-start-column="8" selection-end-line="215" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6594,6 +6634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="2206" column="0" lean-forward="false" selection-start-line="2206" selection-start-column="0" selection-end-line="2206" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6642,6 +6683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6693,14 +6735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="218" column="38" lean-forward="false" selection-start-line="213" selection-start-column="16" selection-end-line="218" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/lianpos/activity/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -6724,6 +6758,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6731,6 +6766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="101" column="49" lean-forward="false" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6749,28 +6785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_friend.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1600">
           <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/activity/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -6791,14 +6809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-24/android/app/Instrumentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -6815,42 +6825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="e#42#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="289" column="24" lean-forward="false" selection-start-line="289" selection-start-column="24" selection-end-line="289" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="196" column="44" lean-forward="false" selection-start-line="196" selection-start-column="44" selection-end-line="196" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -6859,46 +6833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendPop.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-          <folding>
-            <element signature="e#42#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="289" column="21" lean-forward="true" selection-start-line="289" selection-start-column="21" selection-end-line="289" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ModifyPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="209" column="33" lean-forward="false" selection-start-line="209" selection-start-column="33" selection-end-line="209" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/ViewInventoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/linkman/ui/LinkManActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="239" column="21" lean-forward="true" selection-start-line="239" selection-start-column="21" selection-end-line="239" selection-end-column="21" />
+          <caret line="239" column="21" lean-forward="false" selection-start-line="239" selection-start-column="21" selection-end-line="239" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -6908,7 +6846,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/EditerAreaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="270" column="33" lean-forward="true" selection-start-line="270" selection-start-column="33" selection-end-line="270" selection-end-column="33" />
+          <caret line="270" column="33" lean-forward="false" selection-start-line="270" selection-start-column="33" selection-end-line="270" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -6917,8 +6855,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/idcard/activity/IDCard.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="121" column="83" lean-forward="true" selection-start-line="121" selection-start-column="83" selection-end-line="121" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/homepage/activity/ViewInventoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="118" column="31" lean-forward="false" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+          <caret line="148" column="21" lean-forward="false" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendPop.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="65" column="56" lean-forward="true" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+          <folding>
+            <element signature="e#42#587#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_friend.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/activity/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/fragment/DynamicFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/RegisterAreaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/login/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="256" column="4" lean-forward="false" selection-start-line="256" selection-start-column="4" selection-end-line="309" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/reportform/activity/ModifyPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddFriendActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1372">
+          <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+          <folding>
+            <element signature="e#42#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/devfoucs/contacts/ui/AddPhoneNmbActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="120" column="71" lean-forward="false" selection-start-line="120" selection-start-column="71" selection-end-line="120" selection-end-column="71" />
+          <folding>
+            <element signature="e#42#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/zxing/android/CaptureActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lianpos/common/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
