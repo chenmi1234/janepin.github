@@ -16,9 +16,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.lianpos.activity.R;
+import com.lianpos.entity.JanePinBean;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import io.realm.Realm;
 
 /**
  * 添加商品选择listview
@@ -32,8 +35,14 @@ public class ChooseListView extends Activity {
     String danwei = null;
     String guige = null;
     String pinpai = null;
+    String kouwei = null;
     private ImageView choose_back;
     private RelativeLayout addChooseItem;
+    List<String> data1 = null;
+    List<String> data2 = null;
+    List<String> data3 = null;
+    List<String> data4 = null;
+    Realm realm;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,25 +52,37 @@ public class ChooseListView extends Activity {
         danwei = intent.getStringExtra("danwei");
         guige = intent.getStringExtra("guige");
         pinpai = intent.getStringExtra("pinpai");
+        kouwei = intent.getStringExtra("kouwei");
         listView = (ListView) findViewById(R.id.choose_list);
         choose_title = (TextView) findViewById(R.id.choose_title);
         choose_back = (ImageView) findViewById(R.id.choose_back);
         addChooseItem = (RelativeLayout) findViewById(R.id.addChooseItem);
 
+        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getData());
+        final ArrayAdapter<String> adapterGuige = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getGuigeData());
+        final ArrayAdapter<String> adapterPinpai = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getPinpaiData());
+        final ArrayAdapter<String> adapterKouwei = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getKouweiData());
+        listView.setAdapter(adapter);
+
         if (danwei != null) {
             if (danwei.equals("1")) {
-                listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getData()));
+                listView.setAdapter(adapter);
                 choose_title.setText("选择基本单位");
             }
         } else if (guige != null) {
             if (guige.equals("2")) {
-                listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getGuigeData()));
+                listView.setAdapter(adapterGuige);
                 choose_title.setText("选择规格");
             }
         } else if (pinpai != null) {
             if (pinpai.equals("3")) {
-                listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getPinpaiData()));
+                listView.setAdapter(adapterPinpai);
                 choose_title.setText("选择品牌");
+            }
+        } else if (kouwei != null) {
+            if (kouwei.equals("4")) {
+                listView.setAdapter(adapterKouwei);
+                choose_title.setText("选择口味");
             }
         }
 
@@ -69,7 +90,40 @@ public class ChooseListView extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String chooseStr = (String) ((TextView) view).getText();
-                choose_title.setText(chooseStr);
+                if (danwei != null) {
+                    if (danwei.equals("1")) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.NewlyAddedUnit = chooseStr;
+                        realm.commitTransaction();
+                    }
+                } else if (guige != null) {
+                    if (guige.equals("2")) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.NewlyAddedSpecifications = chooseStr;
+                        realm.commitTransaction();
+                    }
+                } else if (pinpai != null) {
+                    if (pinpai.equals("3")) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.NewlyAddedBrand = chooseStr;
+                        realm.commitTransaction();
+                    }
+                } else if (kouwei != null) {
+                    if (kouwei.equals("4")) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.NewlyAddedKouwei = chooseStr;
+                        realm.commitTransaction();
+                    }
+                }
+
                 finish();
             }
         });
@@ -96,7 +150,28 @@ public class ChooseListView extends Activity {
                                     @Override
                                     public void onClick(DialogInterface dialog,
                                                         int which) {
-                                        //事件
+                                        if (danwei != null) {
+                                            if (danwei.equals("1")) {
+                                                data1.add(edit.getText().toString());
+                                                adapter.notifyDataSetChanged();
+                                            }
+                                        } else if (guige != null) {
+                                            if (guige.equals("2")) {
+                                                data2.add(edit.getText().toString());
+                                                adapterGuige.notifyDataSetChanged();
+                                            }
+                                        } else if (pinpai != null) {
+                                            if (pinpai.equals("3")) {
+                                                data3.add(edit.getText().toString());
+                                                adapterPinpai.notifyDataSetChanged();
+                                            }
+                                        } else if (kouwei != null) {
+                                            if (kouwei.equals("4")) {
+                                                data4.add(edit.getText().toString());
+                                                adapterKouwei.notifyDataSetChanged();
+                                            }
+                                        }
+
                                     }
                                 }).setNegativeButton("取消", null).create().show();
             }
@@ -106,36 +181,46 @@ public class ChooseListView extends Activity {
 
     private List<String> getData() {
 
-        List<String> data = new ArrayList<String>();
-        data.add("瓶");
-        data.add("箱");
-        data.add("件");
-        data.add("袋");
-        return data;
+        data1 = new ArrayList<String>();
+        data1.add("瓶");
+        data1.add("箱");
+        data1.add("件");
+        data1.add("袋");
+        return data1;
     }
 
     private List<String> getGuigeData() {
 
-        List<String> data = new ArrayList<String>();
-        data.add("500ml");
-        data.add("600ml");
-        data.add("1000ml");
-        data.add("1500ml");
-        data.add("2000ml");
-        data.add("3500ml");
-        return data;
+        data2 = new ArrayList<String>();
+        data2.add("500ml");
+        data2.add("600ml");
+        data2.add("1000ml");
+        data2.add("1500ml");
+        data2.add("2000ml");
+        data2.add("3500ml");
+        return data2;
     }
 
     private List<String> getPinpaiData() {
 
-        List<String> data = new ArrayList<String>();
-        data.add("哇哈哈");
-        data.add("农夫山泉");
-        data.add("康师傅");
-        data.add("雀巢咖啡");
-        data.add("百事可乐");
-        data.add("可口可乐");
-        data.add("天涯");
-        return data;
+        data3 = new ArrayList<String>();
+        data3.add("哇哈哈");
+        data3.add("农夫山泉");
+        data3.add("康师傅");
+        data3.add("雀巢咖啡");
+        data3.add("百事可乐");
+        data3.add("可口可乐");
+        data3.add("天涯");
+        return data3;
+    }
+
+    private List<String> getKouweiData() {
+
+        data4 = new ArrayList<String>();
+        data4.add("酸");
+        data4.add("甜");
+        data4.add("苦");
+        data4.add("辣");
+        return data4;
     }
 }

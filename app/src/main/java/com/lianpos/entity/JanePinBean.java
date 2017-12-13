@@ -107,6 +107,8 @@ public class JanePinBean extends RealmObject {
     public String NewlyAddedSpecifications;
     //新增商品 品牌
     public String NewlyAddedBrand;
+    //新增商品 口味
+    public String NewlyAddedKouwei;
     //新增商品 批发价
     public String NewlyAddedTradePrice;
     //新增商品 建议售价

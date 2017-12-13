@@ -121,6 +121,7 @@
                     android:orientation="horizontal">
 
                     <EditText
+                        android:id="@+id/spNameEditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -164,6 +165,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:id="@+id/danweiTextview"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -212,6 +214,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:id="@+id/guigeTextview"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -257,6 +260,54 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:id="@+id/pinpaiTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="请选择"
+                        android:textColor="#333333"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/many" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#cccccc" />
+
+            <RelativeLayout
+                android:id="@+id/kouweiChoose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/kouweiText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="口味"
+                    android:textColor="#333333"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/kouweiTextview"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -304,6 +355,7 @@
                         android:textSize="18dp" />
 
                     <EditText
+                        android:id="@+id/pifaPriceEditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -355,6 +407,7 @@
                         android:textSize="18dp" />
 
                     <EditText
+                        android:id="@+id/sellingPrice"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -381,11 +434,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
-                    android:text="套餐"
+                    android:text="套餐(选填)"
                     android:textColor="#333333"
                     android:textSize="18dp" />
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -449,6 +503,7 @@
                     android:textSize="16dp" />
 
                 <EditText
+                    android:id="@+id/taocanNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -462,11 +517,13 @@
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
-                <Spinner
+                <TextView
+                    android:id="@+id/taocanItem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:entries="@array/spingarr"></Spinner>
+                    android:textColor="#333333"
+                    android:text="个"/>
 
             </LinearLayout>
 
@@ -491,6 +548,7 @@
                         android:textSize="18dp" />
 
                     <EditText
+                        android:id="@+id/minUnitEditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -530,6 +588,7 @@
                         android:textSize="18dp" />
 
                     <EditText
+                        android:id="@+id/jyPriceEditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -554,11 +613,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
-                    android:text="组装拆分"
+                    android:text="组装拆分(选填)"
                     android:textColor="#333333"
                     android:textSize="18dp" />
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -597,6 +657,7 @@
                 android:orientation="horizontal">
 
                 <EditText
+                    android:id="@+id/zzcfNumberEditText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -611,6 +672,7 @@
                     android:textSize="16dp" />
 
                 <TextView
+                    android:id="@+id/zzcfUnitTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -634,11 +696,11 @@
                     android:textColor="#333333"
                     android:textSize="16dp" />
 
-                <Spinner
+                <TextView
+                    android:id="@+id/zzcfUnitChooseText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:entries="@array/spingarr"></Spinner>
+                    android:layout_gravity="center_vertical"/>
 
             </LinearLayout>
 
@@ -715,6 +777,7 @@
                     android:orientation="horizontal">
 
                     <EditText
+                        android:id="@+id/zzcfShopNameEditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -766,6 +829,7 @@
                         android:textSize="18dp" />
 
                     <EditText
+                        android:id="@+id/zzcfPriceEditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"

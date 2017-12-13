@@ -8,6 +8,7 @@ package com.lianpos.common;
 public class Common {
     // 本地Url
     private static final String LOCALURL = "http://47.100.123.184";
+//    private static final String LOCALURL = "http://192.168.5.100";
     // 登录API url
     public static String loginUrl  = LOCALURL + "/app/appUser/login.do";
     // 注册API url
