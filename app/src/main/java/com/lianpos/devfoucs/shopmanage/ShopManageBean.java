@@ -7,53 +7,84 @@ import java.util.List;
  */
 public class ShopManageBean {
 
-    private String result;
+    private String result_flag;
 
-    private List<AddressEntity> address;
+    private List<AddressEntity> info_list;
 
-    public void setResult(String result) {
-        this.result = result;
+    public String getResult_flag() {
+        return result_flag;
     }
 
-    public void setAddress(List<AddressEntity> address) {
-        this.address = address;
+    public void setResult_flag(String result_flag) {
+        this.result_flag = result_flag;
     }
 
-    public String getResult() {
-        return result;
+    public List<AddressEntity> getInfo_list() {
+        return info_list;
     }
 
-    public List<AddressEntity> getAddress() {
-        return address;
+    public void setInfo_list(List<AddressEntity> info_list) {
+        this.info_list = info_list;
     }
 
     public static class AddressEntity {
-        private String name;
-        private String custId;
-        private List<String> area;
+        private String brand_name;
+        private List<AddressAreaEntity> sp_list;
 
-        public void setName(String name) {
-            this.name = name;
+        public String getBrand_name() {
+            return brand_name;
         }
 
-        public void setCustId(String custId) {
-            this.custId = custId;
+        public void setBrand_name(String brand_name) {
+            this.brand_name = brand_name;
         }
 
-        public void setArea(List<String> area) {
-            this.area = area;
+        public List<AddressAreaEntity> getSp_list() {
+            return sp_list;
         }
 
-        public String getName() {
-            return name;
+        public void setSp_list(List<AddressAreaEntity> sp_list) {
+            this.sp_list = sp_list;
+        }
+    }
+
+
+    public static class AddressAreaEntity {
+        private String sp_id;
+        private String sp_name;
+        private String barcode;
+        private String sp_selling_price;
+
+        public String getSp_id() {
+            return sp_id;
         }
 
-        public String getCustId() {
-            return custId;
+        public void setSp_id(String sp_id) {
+            this.sp_id = sp_id;
         }
 
-        public List<String> getArea() {
-            return area;
+        public String getSp_name() {
+            return sp_name;
+        }
+
+        public void setSp_name(String sp_name) {
+            this.sp_name = sp_name;
+        }
+
+        public String getBarcode() {
+            return barcode;
+        }
+
+        public void setBarcode(String barcode) {
+            this.barcode = barcode;
+        }
+
+        public String getSp_selling_price() {
+            return sp_selling_price;
+        }
+
+        public void setSp_selling_price(String sp_selling_price) {
+            this.sp_selling_price = sp_selling_price;
         }
     }
 }

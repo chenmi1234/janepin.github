@@ -50,7 +50,7 @@ public class LeftAdapter extends BaseAdapter {
         } else {
             holder = (Holder) view.getTag();
         }
-        holder.tvleft.setText(list.get(i).getName().toString());
+        holder.tvleft.setText(list.get(i).getBrand_name().toString());
         return view;
     }
 

@@ -9,7 +9,6 @@ import android.widget.*
 import butterknife.ButterKnife
 import com.alibaba.fastjson.JSON
 import com.alibaba.fastjson.JSONObject
-import com.lianpos.activity.MainActivity
 import com.lianpos.activity.R
 import com.lianpos.common.Common
 import com.lianpos.entity.JanePinBean
@@ -496,9 +495,7 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
                 val paramJson = JSON.parseObject(result)
                 val resultFlag = paramJson.getString("result_flag")
                 if ("1" == resultFlag) {
-                    val intent1 = Intent()
-                    intent1.setClass(this@IncreaseCommodityActivity, MainActivity::class.java)
-                    startActivity(intent1)
+                    finish();
                 }
             }
         })

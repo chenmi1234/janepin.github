@@ -11,8 +11,8 @@ import android.widget.Toast;
 import com.lianpos.activity.R;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 
-import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -20,12 +20,12 @@ import java.util.Set;
  */
 public class RightAdapter extends BaseAdapter {
     private Context context;
-    private ArrayList<String> list;
+    private List<ShopManageBean.AddressAreaEntity> list;
     private View view;
     private Holder holder;
     private Set<SwipeListLayout> sets = new HashSet();
 
-    public RightAdapter(Context context, ArrayList<String> leftlist) {
+    public RightAdapter(Context context, List<ShopManageBean.AddressAreaEntity> leftlist) {
         this.context = context;
         this.list = leftlist;
 
@@ -56,7 +56,7 @@ public class RightAdapter extends BaseAdapter {
         } else {
             holder = (Holder) view.getTag();
         }
-        holder.tv_name.setText(list.get(i).toString());
+        holder.tv_name.setText(list.get(i).getSp_name().toString());
         holder.btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
