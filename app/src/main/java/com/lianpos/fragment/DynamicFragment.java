@@ -1,6 +1,8 @@
 package com.lianpos.fragment;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -81,14 +83,18 @@ public class DynamicFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_dynamic, null);
 
-        realm = Realm.getDefaultInstance();
-        realm.beginTransaction();
-        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
-        realm.commitTransaction();
-        String ywUserId = "";
-        for (JanePinBean guest : guests) {
-            ywUserId = guest.ywUserId;
-        }
+//        realm = Realm.getDefaultInstance();
+//        realm.beginTransaction();
+//        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+//        realm.commitTransaction();
+//        String ywUserId = "";
+//        for (JanePinBean guest : guests) {
+//            ywUserId = guest.ywUserId;
+//        }
+
+        // 从本地缓存中获取城市信息
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+        String ywUserId = sharedPreferences.getString("result_id", "");
         try {
             runContacts(ywUserId);
         } catch (InterruptedException e) {

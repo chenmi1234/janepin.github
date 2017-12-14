@@ -71,6 +71,8 @@ public class JanePinBean extends RealmObject {
     public int AddShopInventoryPostion = 0;
     //添加商品 盘点Dialog条码
     public String AddShopInventoryTiaoma;
+    //添加商品 盘点Dialog名称
+    public String AddShopInventoryName;
     //添加商品 盘点Dialog库存
     public String AddShopInventoryStock;
     //添加商品 盘点Dialog单位
@@ -97,6 +99,8 @@ public class JanePinBean extends RealmObject {
     public String DialogEjectCode = "0";
     //新增商品 商品条码判断  新增商品 1  组装拆分 2  开单 3  盘点 4
     public String NewlyAddedDistinguish;
+    //新增商品 商品ID
+    public String NewlyAddedSpId;
     //新增商品 商品条码
     public String NewlyAddedBarCode;
     //新增商品 商品名称

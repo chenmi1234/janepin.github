@@ -1,6 +1,8 @@
 package com.lianpos.scancodeidentify.zbar;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
@@ -18,11 +20,17 @@ import android.widget.CompoundButton;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.qrcode.QRCodeDecoder;
 import com.lianpos.qrcode.QRCodeView;
+import com.lianpos.util.CallAPIUtil;
+
+import java.net.URLEncoder;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -201,10 +209,14 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
         }
 
         if (billingInventory.equals("1")){
-            realm.beginTransaction();
-            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-            janePinBean.NewlyAddedBarCode = result;
-            realm.commitTransaction();
+            // 从本地缓存中获取城市信息
+            SharedPreferences sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+            String ywUserId = sharedPreferences.getString("result_id", "");
+            try {
+                runZbarData(ywUserId,result);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             finish();
         }else if (billingInventory.equals("2")){
             realm.beginTransaction();
@@ -213,20 +225,24 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
             realm.commitTransaction();
             finish();
         }else if (billingInventory.equals("3")){
-            realm.beginTransaction();
-            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-            janePinBean.DialogEjectCode = "1";
-            janePinBean.NewlyAddedDistinguish = "3";
-            janePinBean.AddShopBillingTiaoma = result;
-            realm.commitTransaction();
+            // 从本地缓存中获取城市信息
+            SharedPreferences sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+            String ywUserId = sharedPreferences.getString("result_id", "");
+            try {
+                runBillManageZbarData(ywUserId,result);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             finish();
         }else if (billingInventory.equals("4")){
-            realm.beginTransaction();
-            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-            janePinBean.DialogEjectCode = "1";
-            janePinBean.AddShopInventoryTiaoma = result;
-            janePinBean.NewlyAddedDistinguish = "4";
-            realm.commitTransaction();
+            // 从本地缓存中获取城市信息
+            SharedPreferences sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+            String ywUserId = sharedPreferences.getString("result_id", "");
+            try {
+                runManageZbarData(ywUserId,result);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             finish();
         }
 
@@ -262,6 +278,176 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
         vibrate();
         mQRCodeView.startSpot();
     }
+
+    /**
+     * 条码库数据查询
+     * post请求后台
+     */
+    private void runZbarData(final String ywUseId, final String resultZbar) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", ywUseId);
+                    jsonObject.put("barcode", resultZbar);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.goodsBySpxUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    String spNameStr = paramJson.getString("name");
+                    String spUnitStr = paramJson.getString("unit");
+                    String spSizeStr = paramJson.getString("size");
+                    String jhPriceStr = paramJson.getString("inPrice");
+                    String pdPriceStr = paramJson.getString("salePrice");
+                    String brandStr = paramJson.getString("brand");
+                    if ("1".equals(resultFlag)) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.NewlyAddedBarCode = resultZbar;
+                        janePinBean.NewlyAddedName = spNameStr;
+                        janePinBean.NewlyAddedUnit = spUnitStr;
+                        janePinBean.NewlyAddedSpecifications = spSizeStr;
+                        janePinBean.NewlyAddedTradePrice = jhPriceStr;
+                        janePinBean.NewlyAddedSuggestedPrice = pdPriceStr;
+                        janePinBean.NewlyAddedBrand = brandStr;
+                        realm.commitTransaction();
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
+    }
+
+
+    /**
+     * 盘点
+     * 商品管理库数据查询（条码）
+     * post请求后台
+     */
+    private void runManageZbarData(final String ywUseId, final String resultZbar) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", ywUseId);
+                    jsonObject.put("barcode", resultZbar);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.importBillUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    //商品名称
+                    String spNameStr = paramJson.getString("sp_name");
+                    if ("1".equals(resultFlag)) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.DialogEjectCode = "1";
+                        janePinBean.AddShopInventoryTiaoma = resultZbar;
+                        janePinBean.NewlyAddedDistinguish = "4";
+                        janePinBean.AddShopInventoryName = spNameStr;
+                        realm.commitTransaction();
+                    }else if ("2".equals(resultFlag)){
+                        Intent intent = new Intent();
+                        intent.setClass(ZbarActivity.this, IncreaseCommodityActivity.class);
+                        startActivity(intent);
+                    }else if ("4".equals(resultFlag)){
+
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
+    }
+
+
+    /**
+     * 开单
+     * 商品管理库数据查询（条码）
+     * post请求后台
+     */
+    private void runBillManageZbarData(final String ywUseId, final String resultZbar) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", ywUseId);
+                    jsonObject.put("barcode", resultZbar);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.importBillUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    //商品名称
+                    String spNameStr = paramJson.getString("sp_name");
+                    //商品ID
+                    String spIdStr = paramJson.getString("sp_id");
+                    //商品单位
+                    String spUnitStr = paramJson.getString("sp_unit");
+                    //商品进价
+                    String spPurchasingStr = paramJson.getString("sp_purchasing_price");
+                    //商品建议售价
+                    String spSellingStr = paramJson.getString("sp_selling_price");
+                    if ("1".equals(resultFlag)) {
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                        janePinBean.DialogEjectCode = "1";
+                        janePinBean.AddShopBillingTiaoma = resultZbar;
+                        janePinBean.NewlyAddedDistinguish = "3";
+                        janePinBean.AddShopBillingName = spNameStr;
+                        janePinBean.AddShopBillingUnit = spUnitStr;
+                        janePinBean.AddShopDBillingPrice = spPurchasingStr;
+                        janePinBean.AddShopDBillingJYPrice = spSellingStr;
+                        realm.commitTransaction();
+                    }else if ("2".equals(resultFlag)){
+                        Intent intent = new Intent();
+                        intent.setClass(ZbarActivity.this, IncreaseCommodityActivity.class);
+                        startActivity(intent);
+                    }else if ("4".equals(resultFlag)){
+
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
+    }
+
 
     @Override
     public void onScanQRCodeOpenCameraError() {

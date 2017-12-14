@@ -1,6 +1,8 @@
 package com.lianpos.devfoucs.linkman.ui;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -75,14 +77,19 @@ public class LinkManActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linkman);
 
-        realm = Realm.getDefaultInstance();
-        realm.beginTransaction();
-        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
-        realm.commitTransaction();
-        String ywUserId = "";
-        for (JanePinBean guest : guests) {
-            ywUserId = guest.ywUserId;
-        }
+//        realm = Realm.getDefaultInstance();
+//        realm.beginTransaction();
+//        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+//        realm.commitTransaction();
+//        String ywUserId = "";
+//        for (JanePinBean guest : guests) {
+//            ywUserId = guest.ywUserId;
+//        }
+
+        // 从本地缓存中获取城市信息
+        SharedPreferences sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+        String ywUserId = sharedPreferences.getString("result_id", "");
+
         try {
             runContacts(ywUserId);
         } catch (InterruptedException e) {

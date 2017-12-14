@@ -85,20 +85,22 @@
                     android:text="单位"
                     android:textSize="18dp" />
 
-                <Spinner
-                    android:id="@+id/spinner2"
+                <TextView
+                    android:id="@+id/billUnitDialog"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:background="@mipmap/frame"
-                    android:entries="@array/spingarr"
                     android:gravity="left"
+                    android:text="个"
+                    android:textColor="#333333"
+                    android:textSize="18dp"
                     android:padding="5dp"
                     android:paddingRight="10dp" />
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

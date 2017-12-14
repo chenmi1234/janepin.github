@@ -2,8 +2,10 @@ package com.lianpos.devfoucs.shoppingcart.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,9 +17,16 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.entity.JanePinBean;
+import com.lianpos.util.CallAPIUtil;
+import com.lianpos.util.StringUtil;
 
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -140,7 +149,7 @@ public class ChooseListView extends Activity {
             public void onClick(View v) {
                 LayoutInflater factory = LayoutInflater.from(ChooseListView.this);//提示框
                 final View view = factory.inflate(R.layout.dialog_choose_add_layout, null);//这里必须是final的
-                final EditText edit=(EditText)view.findViewById(R.id.editText);//获得输入框对象
+                final EditText edit = (EditText) view.findViewById(R.id.editText);//获得输入框对象
 
                 new AlertDialog.Builder(ChooseListView.this)
                         .setTitle("请填写")//提示框标题
@@ -179,48 +188,115 @@ public class ChooseListView extends Activity {
     }
 
 
+    private String initRelam() {
+//        realm = Realm.getDefaultInstance();
+//        realm.beginTransaction();
+//        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+//        realm.commitTransaction();
+//        String ywUserId = "";
+//        for (JanePinBean guest : guests) {
+//            ywUserId = guest.ywUserId;
+//        }
+
+        // 从本地缓存中获取城市信息
+        SharedPreferences sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+        String ywUserId = sharedPreferences.getString("result_id", "");
+        return ywUserId;
+    }
+
+    //单位
     private List<String> getData() {
 
         data1 = new ArrayList<String>();
-        data1.add("瓶");
-        data1.add("箱");
-        data1.add("件");
-        data1.add("袋");
+
+        try {
+            runChooseListView(initRelam(), "1", data1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         return data1;
     }
 
+    //规格
     private List<String> getGuigeData() {
 
         data2 = new ArrayList<String>();
-        data2.add("500ml");
-        data2.add("600ml");
-        data2.add("1000ml");
-        data2.add("1500ml");
-        data2.add("2000ml");
-        data2.add("3500ml");
+        try {
+            runChooseListView(initRelam(), "2", data2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return data2;
     }
 
+    //品牌
     private List<String> getPinpaiData() {
 
         data3 = new ArrayList<String>();
-        data3.add("哇哈哈");
-        data3.add("农夫山泉");
-        data3.add("康师傅");
-        data3.add("雀巢咖啡");
-        data3.add("百事可乐");
-        data3.add("可口可乐");
-        data3.add("天涯");
+        try {
+            runChooseListView(initRelam(), "4", data3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return data3;
     }
 
+    //口味
     private List<String> getKouweiData() {
 
         data4 = new ArrayList<String>();
-        data4.add("酸");
-        data4.add("甜");
-        data4.add("苦");
-        data4.add("辣");
+        try {
+            runChooseListView(initRelam(), "3", data4);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return data4;
     }
+
+    /**
+     * 获取选择数据
+     * post请求后台
+     */
+    private void runChooseListView(final String ywUserId, final String flag, final List<String> data) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", ywUserId);
+                    jsonObject.put("flag", flag);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.queryListUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    JSONArray resultBrandList = paramJson.getJSONArray("name_list");
+                    if ("1".equals(resultFlag)) {
+                        if (StringUtil.isNotNull(resultBrandList)) {
+                            for (int i = 0; i < resultBrandList.size(); i++) {
+                                JSONObject info = resultBrandList.getJSONObject(i);
+                                String spBrand = info.getString("name");
+                                if (StringUtil.isNotNull(spBrand)) {
+                                    data.add(spBrand);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
+    }
+
 }

@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -19,7 +18,6 @@ import android.widget.TextView;
 
 import com.lianpos.activity.MainActivity;
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.homepage.bean.InquirySheetBean;
 import com.lianpos.devfoucs.homepage.bean.WantBillingBean;
 import com.lianpos.devfoucs.homepage.view.SwipeListLayout;
 import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
@@ -27,8 +25,6 @@ import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.scancodeidentify.zbar.ZbarActivity;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -66,7 +62,7 @@ public class IWantBillingActivity extends BaseActivity {
     private ListAdapter listAdapter;
     private TextView billing_message;
     private TextView left_billing_total;
-    Double total = 0.00;
+    Float total = 0f;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -139,13 +135,13 @@ public class IWantBillingActivity extends BaseActivity {
         for (JanePinBean guest : guests) {
             billingInventory = guest.BillingInventoryCode;
         }
-        if (billingInventory.equals("1")) {
-            billing_Inventory_title.setText("盘点单");
-            see_stock.setVisibility(View.GONE);
-        } else {
-            billing_Inventory_title.setText("销售单");
-            see_stock.setVisibility(View.VISIBLE);
-        }
+//        if (billingInventory.equals("1")) {
+//            billing_Inventory_title.setText("盘点单");
+//            see_stock.setVisibility(View.GONE);
+//        } else {
+//            billing_Inventory_title.setText("销售单");
+//            see_stock.setVisibility(View.VISIBLE);
+//        }
 
         see_stock.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -245,42 +241,33 @@ public class IWantBillingActivity extends BaseActivity {
                         addJyPrice = guest.AddShopDBillingJYPrice;
                     }
 
-                    Double aaa = 0.00;
-                    Double bbb = 0.00;
-                    aaa = Double.valueOf(addNumber).doubleValue();
-                    bbb = Double.valueOf(addPrice).doubleValue();
-                    String addJine = Double.toString(aaa * bbb);
+                    Float aaa = 0f;
+                    Float bbb = 0f;
+                    aaa = Float.valueOf(addNumber).floatValue();
+                    bbb = Float.valueOf(addPrice).floatValue();
+                    String addJine = Float.toString((float) (aaa * bbb));
 
                     bean = new WantBillingBean(addName, addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
                     mDatas.add(bean);
                     total = total + aaa * bbb;
-                    left_billing_total.setText(Double.toString(total));
+                    left_billing_total.setText(Float.toString(total));
                     billing_message.setVisibility(View.GONE);
                     listAdapter.notifyDataSetChanged();
                     addCommodityDialog.dismiss();
                 }
             });
             addCommodityDialog.show();
+
+            realm.beginTransaction();
+            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+            janePinBean.DialogEjectCode = "0";
+            realm.commitTransaction();
         }
     }
 
     private void initList() {
 
         mDatas = new ArrayList<WantBillingBean>();
-
-        //将数据装到集合中去
-//        bean = new WantBillingBean("可口可乐", "6911112223000", "1","瓶", "23.22", "40.00","200.00");
-//        mDatas.add(bean);
-//
-//        bean = new WantBillingBean("三只松鼠杏仁", "6911112223999", "2","袋", "23.88", "30.00","200.00");
-//        mDatas.add(bean);
-//
-//        bean = new WantBillingBean("哈尔滨啤酒", "6911112223222", "3","箱", "1.22", "20.00","200.00");
-//        mDatas.add(bean);
-//
-//        bean = new WantBillingBean("香蕉雪糕", "6911112223222", "4","件", "3.00", "10.00","200.00");
-//        mDatas.add(bean);
-
     }
 
     class MyOnSlipStatusListener implements SwipeListLayout.OnSwipeStatusListener {
@@ -370,14 +357,14 @@ public class IWantBillingActivity extends BaseActivity {
                     sll_main.setStatus(SwipeListLayout.Status.Close, true);
                     mDatas.remove(arg0);
 
-                    Double aaa = 0.00;
-                    aaa = Double.valueOf(bean.getShopTotal()).doubleValue();
+                    Float aaa = 0f;
+                    aaa = Float.valueOf(bean.getShopTotal()).floatValue();
                     total = total - aaa;
                     if (mDatas.isEmpty()){
                         billing_message.setVisibility(View.VISIBLE);
-                        total = 0.00;
+                        total = 0f;
                     }
-                    left_billing_total.setText(Double.toString(total));
+                    left_billing_total.setText(Float.toString(total));
                     notifyDataSetChanged();
                 }
             });

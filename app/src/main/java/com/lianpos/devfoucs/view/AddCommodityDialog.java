@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -34,6 +33,7 @@ public class AddCommodityDialog extends Dialog {
     private EditText dialog_unit_price;
     private Realm realm = null;
     private EditText addShopDialogNumber;
+    private TextView billUnitDialog;
     /**
      * 设置确定按钮的显示内容和监听
      *
@@ -165,6 +165,7 @@ public class AddCommodityDialog extends Dialog {
         addShopBtn = (TextView) findViewById(R.id.dialogDanwei);
         dialog_unit_price = (EditText) findViewById(R.id.dialog_unit_price);
         addShopDialogNumber = (EditText) findViewById(R.id.addShopDialogNumber);
+        billUnitDialog = (TextView) findViewById(R.id.billUnitDialog);
     }
 
     /**

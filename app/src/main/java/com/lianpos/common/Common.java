@@ -8,20 +8,19 @@ package com.lianpos.common;
 public class Common {
     // 本地Url
     private static final String LOCALURL = "http://47.100.123.184";
-//    private static final String LOCALURL = "http://192.168.5.100";
     // 登录API url
     public static String loginUrl  = LOCALURL + "/app/appUser/login.do";
     // 注册API url
     public static String registerUrl  =  LOCALURL + "/app/appUser/register.do";
     // 身份卡API url
     public static String idCardUrl = LOCALURL + "/app/appUser/findywView.do";
-    //联系人列表
+    // 联系人列表
     public static String userListByYwUrl = LOCALURL + "/app/appUser/getShUserListByYw.do";
-    //联系人删除
+    // 联系人删除
     public static String userDelYwUrl = LOCALURL + "/app/appUser/delRelation.do";
-    //搜索好友和扫一扫添加好友
+    // 搜索好友和扫一扫添加好友
     public static String querySysUserUrl = LOCALURL + "/app/appUser/querySysUser.do";
-    //添加好友
+    // 添加好友
     public static String addFriendUserUrl = LOCALURL + "/app/appUser/addRelation.do";
     // 库存API url
     public static String invertoryUrl = LOCALURL + "/app/appGoods/queryGoods.do";
@@ -39,5 +38,8 @@ public class Common {
     public static String obtainShopUrl = LOCALURL + "/app/appGoods/getYwGoodsList.do";
     // 商品管理  新增商品
     public static String addShopUrl = LOCALURL + "/app/appGoods/saveYwGoodsInfo.do";
-
+    // 商品管理  查询单位、规格、口味、品牌
+    public static String queryListUrl = LOCALURL + "/app/appGoods/getInfoListByUser.do";
+    // 云码库查询
+    public static String goodsBySpxUrl = LOCALURL + "app/appGoods/getGoodsBySpxx.do";
 }

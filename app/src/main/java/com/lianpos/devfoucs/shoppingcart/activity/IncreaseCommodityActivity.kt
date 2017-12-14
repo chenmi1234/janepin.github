@@ -66,7 +66,23 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
     private var pinpaiTextView: TextView? = null
     private var kouweiTextview: TextView? = null
     private var commodity_baocun: TextView? = null
+    // 条码Str
     var barCode: String? = ""
+    //商品名称
+    var icSpNameStr: String? = ""
+    //单位
+    var icSpUnitStr: String? = ""
+    //规格
+    var icSpSizeStr: String? = ""
+    //品牌
+    var icSpBrandStr: String? = ""
+    //进价
+    var icJPriceStr: String? = ""
+    //建议售价
+    var icJyPriceStr: String? = ""
+    //商品ID
+    var icSpIdStr: String? = ""
+    // 组装拆分条码Str
     var assemBarCode: String? = ""
     var increaseDanwei: String? = ""
     var increaseGuiger: String? = ""
@@ -110,14 +126,19 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
      * 初始化控件
      */
     private fun initActivity() {
+        //返回
         commodity_back = findViewById(R.id.commodity_back) as ImageView
         suitoggle = findViewById(R.id.suitoggle) as MyToggle
+        //套餐
         suitNum = findViewById(R.id.suitNum) as LinearLayout
+        //套餐单位
         suitDanwei = findViewById(R.id.suitDanwei) as RelativeLayout
         splitToggle = findViewById(R.id.splitToggle) as MyToggle
+        //拆分数量
         splitNum = findViewById(R.id.splitNum) as LinearLayout
         splitDanwei = findViewById(R.id.splitDanwei) as RelativeLayout
         scanningBar = findViewById(R.id.scanningBar) as ImageView
+        //商品条码
         shopEdittext = findViewById(R.id.shopEdittext) as EditText
         shopChaifen = findViewById(R.id.shopChaifen) as ImageView
         chaifenEdittext = findViewById(R.id.chaifenEdittext) as EditText
@@ -129,14 +150,18 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
         switch_zzcf = findViewById(R.id.switch_zzcf) as Switch
         addShopName = findViewById(R.id.addShopName) as RelativeLayout
         addShopSuggestedPrice = findViewById(R.id.addShopSuggestedPrice) as RelativeLayout
+        //基本单位
         danweiTextview = findViewById(R.id.danweiTextview) as TextView
         guigeTextview = findViewById(R.id.guigeTextview) as TextView
         pinpaiTextView = findViewById(R.id.pinpaiTextView) as TextView
         kouweiTextview = findViewById(R.id.kouweiTextview) as TextView
         commodity_baocun = findViewById(R.id.commodity_baocun) as TextView
+        //商品名称
         spNameEditText = findViewById(R.id.spNameEditText) as EditText
+        //批发价
         pifaPriceEditText = findViewById(R.id.pifaPriceEditText) as EditText
-        sellingPrice = findViewById(R.id.pifaPriceEditText) as EditText
+        //建议售价
+        sellingPrice = findViewById(R.id.sellingPrice) as EditText
         taocanNumber = findViewById(R.id.taocanNumber) as EditText
         taocanItem = findViewById(R.id.taocanItem) as TextView
         minUnitEditText = findViewById(R.id.minUnitEditText) as EditText
@@ -280,6 +305,13 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
         realm!!.commitTransaction()
         for (guest in guests) {
             barCode = guest.NewlyAddedBarCode
+            icSpNameStr = guest.NewlyAddedName
+            icSpUnitStr = guest.NewlyAddedUnit
+            icSpSizeStr = guest.NewlyAddedSpecifications
+            icSpBrandStr = guest.NewlyAddedBrand
+            icJPriceStr = guest.NewlyAddedTradePrice
+            icJyPriceStr = guest.NewlyAddedSuggestedPrice
+            icSpIdStr = guest.NewlyAddedSpId
             assemBarCode = guest.NewlyAddedAssembleBarCode
             increaseDanwei = guest.NewlyAddedUnit
             increaseGuiger = guest.NewlyAddedSpecifications
@@ -287,25 +319,58 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
             increaseKouwei = guest.NewlyAddedKouwei
         }
         initActivity()
+        //商品条码
         if (barCode != null && !barCode!!.isEmpty()) {
             shopEdittext!!.setText(barCode)
         }
+
+        //商品名称
+        if (icSpNameStr != null && !icSpNameStr!!.isEmpty()) {
+            spNameEditText!!.setText(icSpNameStr)
+        }
+
+        //商品基本单位
+        if (icSpUnitStr != null && !icSpUnitStr!!.isEmpty()) {
+            danweiTextview!!.setText(icSpUnitStr)
+        }
+
+        //商品规格
+        if (icSpSizeStr != null && !icSpSizeStr!!.isEmpty()) {
+            guigeTextview!!.setText(icSpSizeStr)
+        }
+
+        //商品品牌
+        if (icSpBrandStr != null && !icSpBrandStr!!.isEmpty()) {
+            pinpaiTextView!!.setText(icSpBrandStr)
+        }
+
+        //商品批发价
+        if (icJPriceStr != null && !icJPriceStr!!.isEmpty()) {
+            pifaPriceEditText!!.setText(icJPriceStr)
+        }
+
+        //商品批发价
+        if (icJyPriceStr != null && !icJyPriceStr!!.isEmpty()) {
+            sellingPrice!!.setText(icJyPriceStr)
+        }
+
+        //组装拆分条码
         if (assemBarCode != null && !assemBarCode!!.isEmpty()) {
             chaifenEdittext!!.setText(assemBarCode)
         }
-
+        //单位
         if (increaseDanwei != null && !increaseDanwei!!.isEmpty()) {
             danweiTextview!!.setText(increaseDanwei)
         }
-
+        //规格
         if (increaseGuiger != null && !increaseGuiger!!.isEmpty()) {
             guigeTextview!!.setText(increaseGuiger)
         }
-
+        //品牌
         if (increasePinpai != null && !increasePinpai!!.isEmpty()) {
             pinpaiTextView!!.setText(increasePinpai)
         }
-
+        //口味
         if (increaseKouwei != null && !increaseKouwei!!.isEmpty()) {
             kouweiTextview!!.setText(increaseKouwei)
         }
@@ -339,14 +404,6 @@ class IncreaseCommodityActivity : BaseActivity(), View.OnClickListener {
                 startActivity(pinpaiintent)
             }
             R.id.commodity_baocun -> {
-//                realm = Realm.getDefaultInstance()
-//                realm!!.beginTransaction()
-//                val guests = realm!!.where(JanePinBean::class.java).equalTo("id", 0).findAll()
-//                realm!!.commitTransaction()
-//                var ywUserId = ""
-//                for (guest in guests) {
-//                    ywUserId = guest.ywUserId
-//                }
 
                 // 从本地缓存中获取城市信息
                 val sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE)

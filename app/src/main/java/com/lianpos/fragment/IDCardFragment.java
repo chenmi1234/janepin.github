@@ -1,6 +1,8 @@
 package com.lianpos.fragment;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -19,7 +21,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
 import com.lianpos.common.Common;
 import com.lianpos.devfoucs.idcard.activity.IDCard;
-import com.lianpos.entity.JanePinBean;
 import com.lianpos.util.CallAPIUtil;
 import com.lianpos.util.StringUtil;
 
@@ -29,7 +30,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 
 import io.realm.Realm;
-import io.realm.RealmResults;
 
 /**
  * 身份卡
@@ -50,14 +50,19 @@ public class IDCardFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_idcard, null);
 
-        realm = Realm.getDefaultInstance();
-        realm.beginTransaction();
-        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
-        realm.commitTransaction();
-        String ywUserId = "";
-        for (JanePinBean guest : guests) {
-            ywUserId = guest.ywUserId;
-        }
+//        realm = Realm.getDefaultInstance();
+//        realm.beginTransaction();
+//        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+//        realm.commitTransaction();
+//        String ywUserId = "";
+//        for (JanePinBean guest : guests) {
+//            ywUserId = guest.ywUserId;
+//        }
+
+        // 从本地缓存中获取城市信息
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+        String ywUserId = sharedPreferences.getString("result_id", "");
+
         no_brand = (LinearLayout) rootView.findViewById(R.id.no_brand);
         frist_brand = (RelativeLayout) rootView.findViewById(R.id.frist_brand);
         idCardName = (TextView) rootView.findViewById(R.id.idCardName);

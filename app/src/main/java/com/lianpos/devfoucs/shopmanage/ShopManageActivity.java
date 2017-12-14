@@ -5,14 +5,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.lianpos.activity.R;
-import com.lianpos.devfoucs.homepage.activity.BillingFristPageActivity;
-import com.lianpos.devfoucs.homepage.activity.IWantBillingActivity;
 import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 
 import java.util.ArrayList;
@@ -24,6 +23,7 @@ public class ShopManageActivity extends AppCompatActivity {
     private ArrayList<String> rightlist;
     private LeftAdapter leftAdapter;
     private RelativeLayout addShopButton;
+    private ImageView merchant_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,13 @@ public class ShopManageActivity extends AppCompatActivity {
         setContentView(R.layout.shop_manage_main);
         lv_left = (ListView) findViewById(R.id.lv_left);
         lv_right = (ListView) findViewById(R.id.lv_right);
+        merchant_back = (ImageView) findViewById(R.id.merchant_back);
+        merchant_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         addShopButton = (RelativeLayout) findViewById(R.id.addShopButton);
         addShopButton.setOnClickListener(new View.OnClickListener() {
             @Override

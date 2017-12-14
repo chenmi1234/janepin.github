@@ -40,6 +40,7 @@ public class AddCommodityInventoryDialog extends Dialog {
     private TextView dialogTitle;
     private Spinner spinner2;
     private EditText addShopDialogStock, price_inventory;
+    String invenTiaoma = "";
 
     /**
      * 设置确定按钮的显示内容和监听
@@ -80,7 +81,8 @@ public class AddCommodityInventoryDialog extends Dialog {
         realm.commitTransaction();
         String showTitle = "";
         for (JanePinBean guest : guests) {
-            showTitle = guest.AddShopInventoryTiaoma;
+            showTitle = guest.AddShopInventoryName;
+            invenTiaoma = guest.AddShopInventoryTiaoma;
         }
         dialogTitle.setText(showTitle);
 
@@ -110,7 +112,8 @@ public class AddCommodityInventoryDialog extends Dialog {
                         realm = Realm.getDefaultInstance();
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-                        janePinBean.AddShopInventoryTiaoma = dialogTitle.getText().toString();
+                        janePinBean.AddShopInventoryName = dialogTitle.getText().toString();
+                        janePinBean.AddShopInventoryTiaoma = invenTiaoma;
                         janePinBean.AddShopInventoryStock = addShopDialogStock.getText().toString();
                         janePinBean.AddShopInventoryUnit = "箱";
                         janePinBean.AddShopDInventoryPrice = price_inventory.getText().toString();

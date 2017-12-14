@@ -7,7 +7,6 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,7 +37,8 @@ public class AddCommodityDialog extends Dialog {
     private EditText addShopDialogNumber;
     Realm realm;
     private TextView dialogTitle;
-    private Spinner spinner2;
+    private TextView billUnitDialog;
+    String showTiaoma = "";
     /**
      * 设置确定按钮的显示内容和监听
      *
@@ -77,11 +77,20 @@ public class AddCommodityDialog extends Dialog {
         RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
         realm.commitTransaction();
         String showTitle = "";
+        String showUnit = "";
+        String dialogUnitPrice = "";
+        String jianyiPriceEdittext = "";
         for (JanePinBean guest : guests) {
-            showTitle = guest.AddShopBillingTiaoma;
+            showTiaoma = guest.AddShopBillingTiaoma;
+            showTitle = guest.AddShopBillingName;
+            showUnit = guest.AddShopBillingUnit;
+            dialogUnitPrice = guest.AddShopDBillingPrice;
+            jianyiPriceEdittext = guest.AddShopDBillingJYPrice;
         }
         dialogTitle.setText(showTitle);
-
+        billUnitDialog.setText(showUnit);
+        dialog_unit_price.setText(dialogUnitPrice);
+        jianyi_price_edittext.setText(jianyiPriceEdittext);
     }
 
     /**
@@ -108,10 +117,11 @@ public class AddCommodityDialog extends Dialog {
                         realm = Realm.getDefaultInstance();
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
-                        janePinBean.AddShopBillingTiaoma = dialogTitle.getText().toString();
+                        janePinBean.AddShopBillingName = dialogTitle.getText().toString();
+                        janePinBean.AddShopBillingTiaoma = showTiaoma;
                         janePinBean.AddShopBillingStock = addShopDialogNumber.getText().toString();
                         janePinBean.AddShopDBillingPrice = dialog_unit_price.getText().toString();
-                        janePinBean.AddShopBillingUnit = (String) spinner2.getSelectedItem();
+                        janePinBean.AddShopBillingUnit = billUnitDialog.getText().toString();
                         janePinBean.AddShopDBillingJYPrice = jianyi_price_edittext.getText().toString();
                         realm.commitTransaction();
                         noOnclickListener.onNoClick();
@@ -189,7 +199,7 @@ public class AddCommodityDialog extends Dialog {
         jianyi_price_edittext = (EditText) findViewById(R.id.jianyi_price_edittext);
         addShopDialogNumber = (EditText) findViewById(R.id.addShopDialogNumber);
         dialogTitle = (TextView) findViewById(R.id.dialogTitle);
-        spinner2 = (Spinner) findViewById(R.id.spinner2);
+        billUnitDialog = (TextView) findViewById(R.id.billUnitDialog);
     }
 
     /**

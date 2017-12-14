@@ -135,13 +135,6 @@ public class IWantInventoryActivity extends BaseActivity {
         for (JanePinBean guest : guests) {
             billingInventory = guest.BillingInventoryCode;
         }
-        if (billingInventory.equals("1")) {
-            billing_Inventory_title.setText("盘点单");
-            see_stock.setVisibility(View.GONE);
-        } else {
-            billing_Inventory_title.setText("销售单");
-            see_stock.setVisibility(View.VISIBLE);
-        }
 
         see_stock.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -212,6 +205,7 @@ public class IWantInventoryActivity extends BaseActivity {
         String inventoryStock = "";
         String inventoryUnit = "";
         String inventoryPrice = "";
+        String inventoryBrand = "";
         for (JanePinBean guest : guests) {
             ejectNumber = guest.DialogEjectCode;
             inventoryCode = guest.AddShopInventoryCode;
@@ -219,8 +213,10 @@ public class IWantInventoryActivity extends BaseActivity {
             inventoryStock = guest.AddShopInventoryStock;
             inventoryUnit = guest.AddShopInventoryUnit;
             inventoryPrice = guest.AddShopDInventoryPrice;
+            inventoryBrand = guest.AddShopInventoryTiaoma;
         }
         if (inventoryCode.equals("1")) {
+            mDatas.get(listItemNub).setShopTiaoma(inventoryBrand);
             mDatas.get(listItemNub).setShopNumber(inventoryStock);
             mDatas.get(listItemNub).setShopUnit(inventoryUnit);
             mDatas.get(listItemNub).setShopPifajia(inventoryPrice);
@@ -240,21 +236,24 @@ public class IWantInventoryActivity extends BaseActivity {
             addCommodityInventoryDialog.setNoOnclickListener(new AddCommodityInventoryDialog.onNoOnclickListener() {
                 @Override
                 public void onNoClick() {
+
                     realm = Realm.getDefaultInstance();
                     realm.beginTransaction();
                     RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
                     realm.commitTransaction();
+                    String addName = "";
                     String addTiaoma = "";
                     String addNumber = "";
                     String addPrice = "";
                     String addUnit = "";
                     for (JanePinBean guest : guests) {
                         addTiaoma = guest.AddShopInventoryTiaoma;
+                        addName =  guest.AddShopInventoryName;
                         addNumber = guest.AddShopInventoryStock;
                         addUnit = guest.AddShopInventoryUnit;
                         addPrice = guest.AddShopDInventoryPrice;
                     }
-                    bean = new WantInventoryBean("商品名称", addTiaoma, addNumber, addUnit, addPrice);
+                    bean = new WantInventoryBean(addName, addTiaoma, addNumber, addUnit, addPrice);
                     mDatas.add(bean);
                     billing_message.setVisibility(View.GONE);
                     listAdapter.notifyDataSetChanged();
@@ -262,6 +261,10 @@ public class IWantInventoryActivity extends BaseActivity {
                 }
             });
             addCommodityInventoryDialog.show();
+            realm.beginTransaction();
+            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+            janePinBean.DialogEjectCode = "0";
+            realm.commitTransaction();
         }
     }
 
@@ -331,7 +334,7 @@ public class IWantInventoryActivity extends BaseActivity {
                 view = LayoutInflater.from(IWantInventoryActivity.this).inflate(
                         R.layout.slip_list_inventory_item, null);
             }
-            TextView tv_name = (TextView) view.findViewById(R.id.tv_name);
+            final TextView tv_name = (TextView) view.findViewById(R.id.tv_name);
             final TextView tv_number = (TextView) view.findViewById(R.id.billing_tiaoma);
             final TextView tv_num_text = (TextView) view.findViewById(R.id.inventory_stock);
             final TextView tv_unit = (TextView) view.findViewById(R.id.inventory_unit);
@@ -368,6 +371,7 @@ public class IWantInventoryActivity extends BaseActivity {
                     realm.beginTransaction();
                     JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
                     janePinBean.AddShopInventoryPostion = arg0;
+                    janePinBean.AddShopInventoryName = tv_name.getText().toString();
                     janePinBean.AddShopInventoryTiaoma = tv_number.getText().toString();
                     janePinBean.AddShopInventoryStock = tv_num_text.getText().toString();
                     janePinBean.AddShopInventoryUnit = tv_unit.getText().toString();
