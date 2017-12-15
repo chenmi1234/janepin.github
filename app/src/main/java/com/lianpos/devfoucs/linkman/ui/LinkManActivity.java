@@ -180,6 +180,8 @@ public class LinkManActivity extends AppCompatActivity {
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class);
                         janePinBean.shUserId = userIdData.get(position);
+                        janePinBean.BillingShopNameShow = shopNameData.get(position);
+                        janePinBean.BillingShopPhoneShow = phoneData.get(position);
                         realm.commitTransaction();
                         Intent intent = new Intent();
                         intent.setClass(LinkManActivity.this, IWantBillingActivity.class);

@@ -217,6 +217,11 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            realm = Realm.getDefaultInstance();
+            realm.beginTransaction();
+            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+            janePinBean.NewlyAddedBarCode = result;
+            realm.commitTransaction();
             finish();
         }else if (billingInventory.equals("2")){
             realm.beginTransaction();
@@ -363,6 +368,8 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
                     String spNameStr = paramJson.getString("sp_name");
                     //商品ID
                     String spIdStr = paramJson.getString("sp_id");
+                    //商品单位
+                    String spUnitStr = paramJson.getString("sp_unit");
                     if ("1".equals(resultFlag)) {
                         realm = Realm.getDefaultInstance();
                         realm.beginTransaction();
@@ -372,6 +379,7 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
                         janePinBean.AddShopInventoryId = spIdStr;
                         janePinBean.NewlyAddedDistinguish = "4";
                         janePinBean.AddShopInventoryName = spNameStr;
+                        janePinBean.AddShopInventoryUnit = spUnitStr;
                         realm.commitTransaction();
                     }else if ("2".equals(resultFlag)){
                         Intent intent = new Intent();

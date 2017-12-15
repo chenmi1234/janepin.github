@@ -41,6 +41,7 @@ public class AddCommodityInventoryDialog extends Dialog {
     private Spinner spinner2;
     private EditText addShopDialogStock, price_inventory;
     String invenTiaoma = "";
+    private TextView addShopDialogUnit;
 
     /**
      * 设置确定按钮的显示内容和监听
@@ -80,12 +81,14 @@ public class AddCommodityInventoryDialog extends Dialog {
         RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
         realm.commitTransaction();
         String showTitle = "";
+        String showUnit = "";
         for (JanePinBean guest : guests) {
             showTitle = guest.AddShopInventoryName;
             invenTiaoma = guest.AddShopInventoryTiaoma;
+            showUnit = guest.AddShopInventoryUnit;
         }
         dialogTitle.setText(showTitle);
-
+        addShopDialogUnit.setText(showUnit);
     }
 
     /**
@@ -115,7 +118,7 @@ public class AddCommodityInventoryDialog extends Dialog {
                         janePinBean.AddShopInventoryName = dialogTitle.getText().toString();
                         janePinBean.AddShopInventoryTiaoma = invenTiaoma;
                         janePinBean.AddShopInventoryStock = addShopDialogStock.getText().toString();
-                        janePinBean.AddShopInventoryUnit = "箱";
+                        janePinBean.AddShopInventoryUnit = addShopDialogUnit.getText().toString();
                         janePinBean.AddShopDInventoryPrice = price_inventory.getText().toString();
                         realm.commitTransaction();
                         noOnclickListener.onNoClick();
@@ -195,6 +198,7 @@ public class AddCommodityInventoryDialog extends Dialog {
         spinner2 = (Spinner) findViewById(R.id.spinner2);
         addShopDialogStock = (EditText) findViewById(R.id.addShopDialogStock);
         price_inventory = (EditText) findViewById(R.id.price_inventory);
+        addShopDialogUnit = (TextView) findViewById(R.id.addShopDialogUnit);
     }
 
     /**

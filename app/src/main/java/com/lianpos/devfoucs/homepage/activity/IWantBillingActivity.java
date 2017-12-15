@@ -1,7 +1,9 @@
 package com.lianpos.devfoucs.homepage.activity;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,8 +18,10 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.lianpos.activity.MainActivity;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.devfoucs.homepage.bean.WantBillingBean;
 import com.lianpos.devfoucs.homepage.view.SwipeListLayout;
 import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
@@ -25,7 +29,9 @@ import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.scancodeidentify.zbar.ZbarActivity;
+import com.lianpos.util.CallAPIUtil;
 
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -62,7 +68,16 @@ public class IWantBillingActivity extends BaseActivity {
     private ListAdapter listAdapter;
     private TextView billing_message;
     private TextView left_billing_total;
+    private TextView billingShopName,billingShopPhone;
     Float total = 0f;
+    // 超市名
+    String billingShopNameStr = "";
+    // 超市电话
+    String billingShopPhoneStr = "";
+    // 商户id
+    String shUserIdStr = "";
+    //是否弹出关闭dialog
+    Boolean dialogbool = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -134,14 +149,15 @@ public class IWantBillingActivity extends BaseActivity {
         String billingInventory = "";
         for (JanePinBean guest : guests) {
             billingInventory = guest.BillingInventoryCode;
+            billingShopNameStr = guest.BillingShopNameShow;
+            billingShopPhoneStr = guest.BillingShopPhoneShow;
+            shUserIdStr = guest.shUserId;
         }
-//        if (billingInventory.equals("1")) {
-//            billing_Inventory_title.setText("盘点单");
-//            see_stock.setVisibility(View.GONE);
-//        } else {
-//            billing_Inventory_title.setText("销售单");
-//            see_stock.setVisibility(View.VISIBLE);
-//        }
+
+        billingShopName = (TextView) findViewById(R.id.billingShopName);
+        billingShopPhone = (TextView) findViewById(R.id.billingShopPhone);
+        billingShopName.setText(billingShopNameStr);
+        billingShopPhone.setText(billingShopPhoneStr);
 
         see_stock.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -169,23 +185,41 @@ public class IWantBillingActivity extends BaseActivity {
         sureAndSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
-                builder.setTitle("发送成功！");
-                builder.setMessage("2秒后自动关闭！");
-                builder.setCancelable(true);
-                final AlertDialog dlg = builder.create();
-                dlg.show();
-                final Timer t = new Timer();
-                t.schedule(new TimerTask() {
-                    public void run() {
-                        Intent intent1 = new Intent();
-                        intent1.setClass(IWantBillingActivity.this, MainActivity.class);
-                        startActivity(intent1);
-                        finish();
-                        dlg.dismiss();
-                        t.cancel();
-                    }
-                }, 2000);
+
+                // 从本地缓存中获取城市信息
+                SharedPreferences sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+                String ywUserId = sharedPreferences.getString("result_id", "");
+
+                String jhTotalMoneyStr = left_billing_total.getText().toString();
+
+                //确认发送请求服务器
+                try {
+                    runBillingSend(ywUserId,shUserIdStr,mDatas,jhTotalMoneyStr);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                if (dialogbool){
+                    AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+                    builder.setTitle("发送成功！");
+                    builder.setMessage("2秒后自动关闭！");
+                    builder.setCancelable(true);
+                    final AlertDialog dlg = builder.create();
+                    dlg.show();
+                    final Timer t = new Timer();
+                    t.schedule(new TimerTask() {
+                        public void run() {
+                            realm = Realm.getDefaultInstance();
+                            realm.beginTransaction();
+                            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                            janePinBean.InventorySuccess = "1";
+                            realm.commitTransaction();
+                            finish();
+                            dlg.dismiss();
+                            t.cancel();
+                        }
+                    }, 2000);
+                }
             }
         });
         cencelRela.setOnClickListener(new View.OnClickListener() {
@@ -226,6 +260,7 @@ public class IWantBillingActivity extends BaseActivity {
                     realm.beginTransaction();
                     RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
                     realm.commitTransaction();
+                    String addSpId = "";
                     String addName = "";
                     String addTiaoma = "";
                     String addNumber = "";
@@ -233,6 +268,7 @@ public class IWantBillingActivity extends BaseActivity {
                     String addUnit = "";
                     String addJyPrice = "";
                     for (JanePinBean guest : guests) {
+                        addSpId = guest.AddShopBillingId;
                         addName = guest.AddShopBillingName;
                         addTiaoma = guest.AddShopBillingTiaoma;
                         addNumber = guest.AddShopBillingStock;
@@ -247,7 +283,7 @@ public class IWantBillingActivity extends BaseActivity {
                     bbb = Float.valueOf(addPrice).floatValue();
                     String addJine = Float.toString((float) (aaa * bbb));
 
-                    bean = new WantBillingBean(addName, addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
+                    bean = new WantBillingBean(addSpId, addName, addTiaoma, addNumber,addUnit, addPrice, addJyPrice, addJine);
                     mDatas.add(bean);
                     total = total + aaa * bbb;
                     left_billing_total.setText(Float.toString(total));
@@ -338,13 +374,13 @@ public class IWantBillingActivity extends BaseActivity {
             TextView tv_jianyi_price = (TextView) view.findViewById(R.id.billing_jianyi_price);
             TextView tv_total = (TextView) view.findViewById(R.id.billing_total);
             final WantBillingBean bean = mDatas.get(arg0);
-            tv_name.setText(bean.getItemShopName());
-            tv_number.setText(bean.getShopTiaoma());
-            tv_num_text.setText(bean.getShopNumber());
-            tv_unit.setText(bean.getShopUnit());
-            tv_pifa_price.setText(bean.getShopPifajia());
-            tv_jianyi_price.setText(bean.getShopPrice());
-            tv_total.setText(bean.getShopTotal());
+            tv_name.setText(bean.getSp_name());
+            tv_number.setText(bean.getBarcode());
+            tv_num_text.setText(bean.getJh_count());
+            tv_unit.setText(bean.getSp_unit());
+            tv_pifa_price.setText(bean.getJh_purchasing_price());
+            tv_jianyi_price.setText(bean.getPd_selling_price());
+            tv_total.setText(bean.getJh_money());
             final SwipeListLayout sll_main = (SwipeListLayout) view
                     .findViewById(R.id.sll_main);
             TextView tv_delete = (TextView) view.findViewById(R.id.tv_delete);
@@ -358,7 +394,7 @@ public class IWantBillingActivity extends BaseActivity {
                     mDatas.remove(arg0);
 
                     Float aaa = 0f;
-                    aaa = Float.valueOf(bean.getShopTotal()).floatValue();
+                    aaa = Float.valueOf(bean.getJh_money()).floatValue();
                     total = total - aaa;
                     if (mDatas.isEmpty()){
                         billing_message.setVisibility(View.VISIBLE);
@@ -380,6 +416,45 @@ public class IWantBillingActivity extends BaseActivity {
             return view;
         }
 
+    }
+
+
+    /**
+     * 开单发送
+     * post请求后台
+     */
+    private void runBillingSend(final String ywUserId, final String shUserIdStr, final List<WantBillingBean> list, final String jhTotalMoney) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", ywUserId);
+                    jsonObject.put("user_id", shUserIdStr);
+                    jsonObject.put("jh_total_money", jhTotalMoney);
+                    jsonObject.put("jh_list", list);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.saveReceiptUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    if ("1".equals(resultFlag)) {
+                        dialogbool = true;
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
     }
 
 }

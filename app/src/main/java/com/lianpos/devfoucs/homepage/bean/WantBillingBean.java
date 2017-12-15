@@ -6,87 +6,98 @@ package com.lianpos.devfoucs.homepage.bean;
  */
 
 public class WantBillingBean {
+    //商品id
+    private String sp_id;
     //商品名称
-    private String itemShopName;
+    private String sp_name;
     //商品条码
-    private String shopTiaoma;
+    private String barcode;
     //商品数量
-    private String shopNumber;
+    private String jh_count;
     //商品单位
-    private String shopUnit;
+    private String sp_unit;
     //商品批发价
-    private String shopPifajia;
+    private String jh_purchasing_price;
     //商品建议售价
-    private String shopPrice;
+    private String pd_selling_price;
     //商品金额
-    private String shopTotal;
+    private String jh_money;
 
     public WantBillingBean() {
     }
 
-    public WantBillingBean(String itemShopName, String shopTiaoma, String shopNumber, String shopUnit, String shopPifajia, String shopPrice, String shopTotal) {
-        this.itemShopName = itemShopName;
-        this.shopTiaoma = shopTiaoma;
-        this.shopNumber = shopNumber;
-        this.shopUnit = shopUnit;
-        this.shopPifajia = shopPifajia;
-        this.shopPrice = shopPrice;
-        this.shopTotal = shopTotal;
+    public WantBillingBean(String itemShopId, String itemShopName, String shopTiaoma, String shopNumber, String shopUnit, String shopPifajia, String shopPrice, String shopTotal) {
+        this.sp_id = itemShopId;
+        this.sp_name = itemShopName;
+        this.barcode = shopTiaoma;
+        this.jh_count = shopNumber;
+        this.sp_unit = shopUnit;
+        this.jh_purchasing_price = shopPifajia;
+        this.pd_selling_price = shopPrice;
+        this.jh_money = shopTotal;
     }
 
-    public String getItemShopName() {
-        return itemShopName;
+    public String getSp_id() {
+        return sp_id;
     }
 
-    public void setItemShopName(String itemShopName) {
-        this.itemShopName = itemShopName;
+    public void setSp_id(String sp_id) {
+        this.sp_id = sp_id;
     }
 
-    public String getShopTiaoma() {
-        return shopTiaoma;
+    public String getSp_name() {
+        return sp_name;
     }
 
-    public void setShopTiaoma(String shopTiaoma) {
-        this.shopTiaoma = shopTiaoma;
+    public void setSp_name(String sp_name) {
+        this.sp_name = sp_name;
     }
 
-    public String getShopNumber() {
-        return shopNumber;
+    public String getBarcode() {
+        return barcode;
     }
 
-    public void setShopNumber(String shopNumber) {
-        this.shopNumber = shopNumber;
+    public void setBarcode(String barcode) {
+        this.barcode = barcode;
     }
 
-    public String getShopUnit() {
-        return shopUnit;
+    public String getJh_count() {
+        return jh_count;
     }
 
-    public void setShopUnit(String shopUnit) {
-        this.shopUnit = shopUnit;
+    public void setJh_count(String jh_count) {
+        this.jh_count = jh_count;
     }
 
-    public String getShopPifajia() {
-        return shopPifajia;
+    public String getSp_unit() {
+        return sp_unit;
     }
 
-    public void setShopPifajia(String shopPifajia) {
-        this.shopPifajia = shopPifajia;
+    public void setSp_unit(String sp_unit) {
+        this.sp_unit = sp_unit;
     }
 
-    public String getShopPrice() {
-        return shopPrice;
+    public String getJh_purchasing_price() {
+        return jh_purchasing_price;
     }
 
-    public void setShopPrice(String shopPrice) {
-        this.shopPrice = shopPrice;
+    public void setJh_purchasing_price(String jh_purchasing_price) {
+        this.jh_purchasing_price = jh_purchasing_price;
     }
 
-    public String getShopTotal() {
-        return shopTotal;
+    public String getPd_selling_price() {
+        return pd_selling_price;
     }
 
-    public void setShopTotal(String shopTotal) {
-        this.shopTotal = shopTotal;
+    public void setPd_selling_price(String pd_selling_price) {
+        this.pd_selling_price = pd_selling_price;
+    }
+
+    public String getJh_money() {
+        return jh_money;
+    }
+
+    public void setJh_money(String jh_money) {
+        this.jh_money = jh_money;
     }
 }
