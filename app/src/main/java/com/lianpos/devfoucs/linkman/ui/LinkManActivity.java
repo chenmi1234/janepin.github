@@ -34,6 +34,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.ButterKnife;
 import io.realm.Realm;
 import io.realm.RealmResults;
 
@@ -175,10 +176,22 @@ public class LinkManActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     if (finalBillingInventory.equals("0")){
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class);
+                        janePinBean.shUserId = userIdData.get(position);
+                        realm.commitTransaction();
                         Intent intent = new Intent();
                         intent.setClass(LinkManActivity.this, IWantBillingActivity.class);
                         startActivity(intent);
                     }else if (finalBillingInventory.equals("1")){
+                        realm = Realm.getDefaultInstance();
+                        realm.beginTransaction();
+                        JanePinBean janePinBean = realm.createObject(JanePinBean.class);
+                        janePinBean.shUserId = userIdData.get(position);
+                        janePinBean.InquiryShopNameShow = shopNameData.get(position);
+                        janePinBean.InquiryShopPhoneShow = phoneData.get(position);
+                        realm.commitTransaction();
                         Intent intent = new Intent();
                         intent.setClass(LinkManActivity.this, IWantInventoryActivity.class);
                         startActivity(intent);
@@ -285,6 +298,23 @@ public class LinkManActivity extends AppCompatActivity {
                 mDecoration.setmDatas(mDatas);
             }
         }, 1);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        ButterKnife.bind(this);
+        realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
+        realm.commitTransaction();
+        String inventorySccess = "";
+        for (JanePinBean guest : guests) {
+            inventorySccess = guest.InventorySuccess;
+        }
+        if ("1".equals(inventorySccess)){
+            finish();
+        }
     }
 
 }

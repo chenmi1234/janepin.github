@@ -361,12 +361,15 @@ public class ZbarActivity extends AppCompatActivity implements QRCodeView.Delega
                     String resultFlag = paramJson.getString("result_flag");
                     //商品名称
                     String spNameStr = paramJson.getString("sp_name");
+                    //商品ID
+                    String spIdStr = paramJson.getString("sp_id");
                     if ("1".equals(resultFlag)) {
                         realm = Realm.getDefaultInstance();
                         realm.beginTransaction();
                         JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
                         janePinBean.DialogEjectCode = "1";
                         janePinBean.AddShopInventoryTiaoma = resultZbar;
+                        janePinBean.AddShopInventoryId = spIdStr;
                         janePinBean.NewlyAddedDistinguish = "4";
                         janePinBean.AddShopInventoryName = spNameStr;
                         realm.commitTransaction();

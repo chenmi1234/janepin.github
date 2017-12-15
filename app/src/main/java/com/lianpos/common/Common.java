@@ -41,5 +41,7 @@ public class Common {
     // 商品管理  查询单位、规格、口味、品牌
     public static String queryListUrl = LOCALURL + "/app/appGoods/getInfoListByUser.do";
     // 云码库查询
-    public static String goodsBySpxUrl = LOCALURL + "app/appGoods/getGoodsBySpxx.do";
+    public static String goodsBySpxUrl = LOCALURL + "/app/appGoods/getGoodsBySpxx.do";
+    // 盘点单新增
+    public static String saveInventoryUrl = LOCALURL + "/app/appGoods/saveInventory.do";
 }

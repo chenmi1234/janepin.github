@@ -1,7 +1,9 @@
 package com.lianpos.devfoucs.homepage.activity;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,8 +18,10 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.lianpos.activity.MainActivity;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.lianpos.activity.R;
+import com.lianpos.common.Common;
 import com.lianpos.devfoucs.homepage.bean.WantInventoryBean;
 import com.lianpos.devfoucs.homepage.view.SwipeListLayout;
 import com.lianpos.devfoucs.listviewlinkage.View.AddCommodityDialog;
@@ -26,7 +30,9 @@ import com.lianpos.devfoucs.shoppingcart.activity.IncreaseCommodityActivity;
 import com.lianpos.entity.JanePinBean;
 import com.lianpos.firebase.BaseActivity;
 import com.lianpos.scancodeidentify.zbar.ZbarActivity;
+import com.lianpos.util.CallAPIUtil;
 
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -64,7 +70,17 @@ public class IWantInventoryActivity extends BaseActivity {
     private ListAdapter listAdapter;
     private TextView billing_message;
     String billingInventory = "";
+    // 超市名
+    String inventoryShopNameStr = "";
+    // 超市电话
+    String inventoryShopPhoneStr = "";
+    // 商户id
+    String shUserIdStr = "";
+
     ListView lv_main = null;
+    private TextView inventoryNameText,inventoryphoneText;
+    //是否弹出关闭dialog
+    Boolean dialogbool = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -134,7 +150,15 @@ public class IWantInventoryActivity extends BaseActivity {
         realm.commitTransaction();
         for (JanePinBean guest : guests) {
             billingInventory = guest.BillingInventoryCode;
+            inventoryShopNameStr = guest.InquiryShopNameShow;
+            inventoryShopPhoneStr = guest.InquiryShopPhoneShow;
+            shUserIdStr = guest.shUserId;
         }
+
+        inventoryNameText = (TextView) findViewById(R.id.inventoryNameText);
+        inventoryphoneText = (TextView) findViewById(R.id.inventoryphoneText);
+        inventoryNameText.setText(inventoryShopNameStr);
+        inventoryphoneText.setText(inventoryShopPhoneStr);
 
         see_stock.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -162,23 +186,39 @@ public class IWantInventoryActivity extends BaseActivity {
         sureAndSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
-                builder.setTitle("发送成功！");
-                builder.setMessage("2秒后自动关闭！");
-                builder.setCancelable(true);
-                final AlertDialog dlg = builder.create();
-                dlg.show();
-                final Timer t = new Timer();
-                t.schedule(new TimerTask() {
-                    public void run() {
-                        Intent intent1 = new Intent();
-                        intent1.setClass(IWantInventoryActivity.this, MainActivity.class);
-                        startActivity(intent1);
-                        finish();
-                        dlg.dismiss();
-                        t.cancel();
-                    }
-                }, 2000);
+
+                // 从本地缓存中获取城市信息
+                SharedPreferences sharedPreferences = getSharedPreferences("resultinfo", Context.MODE_PRIVATE);
+                String ywUserId = sharedPreferences.getString("result_id", "");
+
+                //确认发送请求服务器
+                try {
+                    runInventorySend(ywUserId,shUserIdStr,mDatas,v);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                if (dialogbool){
+                    AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+                    builder.setTitle("发送成功！");
+                    builder.setMessage("2秒后自动关闭！");
+                    builder.setCancelable(true);
+                    final AlertDialog dlg = builder.create();
+                    dlg.show();
+                    final Timer t = new Timer();
+                    t.schedule(new TimerTask() {
+                        public void run() {
+                            realm = Realm.getDefaultInstance();
+                            realm.beginTransaction();
+                            JanePinBean janePinBean = realm.createObject(JanePinBean.class); // Create a new object
+                            janePinBean.InventorySuccess = "1";
+                            realm.commitTransaction();
+                            finish();
+                            dlg.dismiss();
+                            t.cancel();
+                        }
+                    }, 2000);
+                }
             }
         });
         cencelRela.setOnClickListener(new View.OnClickListener() {
@@ -193,8 +233,6 @@ public class IWantInventoryActivity extends BaseActivity {
     protected void onResume() {
         super.onResume();
         ButterKnife.bind(this);
-        realm = Realm.getDefaultInstance();
-
         realm = Realm.getDefaultInstance();
         realm.beginTransaction();
         RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
@@ -216,10 +254,10 @@ public class IWantInventoryActivity extends BaseActivity {
             inventoryBrand = guest.AddShopInventoryTiaoma;
         }
         if (inventoryCode.equals("1")) {
-            mDatas.get(listItemNub).setShopTiaoma(inventoryBrand);
-            mDatas.get(listItemNub).setShopNumber(inventoryStock);
-            mDatas.get(listItemNub).setShopUnit(inventoryUnit);
-            mDatas.get(listItemNub).setShopPifajia(inventoryPrice);
+            mDatas.get(listItemNub).setBarcode(inventoryBrand);
+            mDatas.get(listItemNub).setPd_inventory_count(inventoryStock);
+            mDatas.get(listItemNub).setSp_unit(inventoryUnit);
+            mDatas.get(listItemNub).setPd_selling_price(inventoryPrice);
         }
 
         listAdapter.notifyDataSetChanged();
@@ -241,19 +279,21 @@ public class IWantInventoryActivity extends BaseActivity {
                     realm.beginTransaction();
                     RealmResults<JanePinBean> guests = realm.where(JanePinBean.class).equalTo("id", 0).findAll();
                     realm.commitTransaction();
+                    String addShopId = "";
                     String addName = "";
                     String addTiaoma = "";
                     String addNumber = "";
                     String addPrice = "";
                     String addUnit = "";
                     for (JanePinBean guest : guests) {
+                        addShopId = guest.AddShopInventoryId;
                         addTiaoma = guest.AddShopInventoryTiaoma;
                         addName =  guest.AddShopInventoryName;
                         addNumber = guest.AddShopInventoryStock;
                         addUnit = guest.AddShopInventoryUnit;
                         addPrice = guest.AddShopDInventoryPrice;
                     }
-                    bean = new WantInventoryBean(addName, addTiaoma, addNumber, addUnit, addPrice);
+                    bean = new WantInventoryBean(addShopId, addName, addTiaoma, addNumber, addUnit, addPrice);
                     mDatas.add(bean);
                     billing_message.setVisibility(View.GONE);
                     listAdapter.notifyDataSetChanged();
@@ -340,11 +380,11 @@ public class IWantInventoryActivity extends BaseActivity {
             final TextView tv_unit = (TextView) view.findViewById(R.id.inventory_unit);
             final TextView tv_pifa_price = (TextView) view.findViewById(R.id.inventory_jianyi_price);
             WantInventoryBean bean = mDatas.get(arg0);
-            tv_name.setText(bean.getItemShopName());
-            tv_number.setText(bean.getShopTiaoma());
-            tv_num_text.setText(bean.getShopNumber());
-            tv_unit.setText(bean.getShopUnit());
-            tv_pifa_price.setText(bean.getShopPifajia());
+            tv_name.setText(bean.getSp_name());
+            tv_number.setText(bean.getBarcode());
+            tv_num_text.setText(bean.getPd_inventory_count());
+            tv_unit.setText(bean.getSp_unit());
+            tv_pifa_price.setText(bean.getPd_selling_price());
             final SwipeListLayout sll_main = (SwipeListLayout) view
                     .findViewById(R.id.sll_main);
             TextView tv_delete = (TextView) view.findViewById(R.id.tv_delete);
@@ -387,5 +427,43 @@ public class IWantInventoryActivity extends BaseActivity {
         }
 
     }
+
+    /**
+     * 库存发送
+     * post请求后台
+     */
+    private void runInventorySend(final String ywUserId, final String shUserIdStr, final List<WantInventoryBean> list, final View v) throws InterruptedException {
+        //处理注册逻辑
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                JSONObject jsonObject = new JSONObject();
+                String json = "";
+                try {
+                    jsonObject.put("yw_user_id", ywUserId);
+                    jsonObject.put("user_id", shUserIdStr);
+                    jsonObject.put("pd_list", list);
+                    json = JSONObject.toJSONString(jsonObject);//参数拼接成的String型json
+                    json = URLEncoder.encode(json, "UTF-8");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                String result = CallAPIUtil.ObtainFun(json, Common.saveInventoryUrl);
+
+                if (!result.isEmpty()) {
+                    JSONObject paramJson = JSON.parseObject(result);
+                    String resultFlag = paramJson.getString("result_flag");
+                    if ("1".equals(resultFlag)) {
+                        dialogbool = true;
+                    }
+                }
+            }
+        });
+        t1.start();
+        t1.join();
+    }
+
 
 }

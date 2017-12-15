@@ -41,10 +41,10 @@ public class JanePinBean extends RealmObject {
     public String user_address;
     //添加好友 姓名
     public String addFriendName;
-    //添加好友 电话号
-    public String addFriendPhone;
-    //添加好友 超市名
-    public String addFriendShopName;
+    //盘点单 电话号
+    public String InquiryShopPhoneShow;
+    //盘点单 超市名
+    public String InquiryShopNameShow;
     //询价单 商品条码
     public String InquiryShopNumber;
     //询价单 商品名称
@@ -69,6 +69,8 @@ public class JanePinBean extends RealmObject {
     public String AddShopInventoryCode = "0";
     //添加商品 盘点Dialog Postion点的list的第几行
     public int AddShopInventoryPostion = 0;
+    //添加商品 盘点Dialog ID
+    public String AddShopInventoryId;
     //添加商品 盘点Dialog条码
     public String AddShopInventoryTiaoma;
     //添加商品 盘点Dialog名称
@@ -79,6 +81,8 @@ public class JanePinBean extends RealmObject {
     public String AddShopInventoryUnit;
     //添加商品 盘点Dialog售价
     public String AddShopDInventoryPrice;
+    //添加商品 盘点成功1 finish  0 不作处理
+    public String InventorySuccess;
     //添加商品 Dialog条码
     public String AddShopDialogTiaoma;
     //添加商品 Dialog数量
